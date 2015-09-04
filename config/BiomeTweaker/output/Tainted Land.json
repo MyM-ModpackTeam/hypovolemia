@@ -6,8 +6,8 @@
   "Color": 7160201,
   "Root Height": 0.1,
   "Height Variation": 0.2,
-  "Top Block": "minecraft:gravel",
-  "Filler Block": "minecraft:gravel",
+  "Top Block": "ExtrabiomesXL:terrain_blocks1",
+  "Filler Block": "ExtrabiomesXL:terrain_blocks1",
   "Actual Filler Block": "minecraft:stone",
   "Liquid Filler Block": "minecraft:water",
   "Grass Color": "Not set. Check in-game.",
@@ -16,7 +16,7 @@
   "Temperature": 0.5,
   "Humidity": 0.5,
   "Water Tint": 16777215,
-  "Enable Rain": true,
+  "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
     "MAGICAL",
@@ -24,10 +24,10 @@
   ],
   "BiomeManager Entries": {
     "WARM Weights": [
-      2
+      0
     ],
     "COOL Weights": [
-      2
+      0
     ]
   },
   "Spawnable Creatures": [],
