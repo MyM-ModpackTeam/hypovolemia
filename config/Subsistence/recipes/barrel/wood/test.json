@@ -1,0 +1,11 @@
+[
+  {
+    "input": {
+      "item": ["sand"],
+      "fluid": {"fluid": "water", "amount": 1000}
+    },
+    "output": {
+      "item": "clay"
+    }
+  }
+]

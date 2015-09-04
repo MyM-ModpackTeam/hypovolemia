@@ -1,0 +1,32 @@
+[
+  {
+    "input": "ore:record",
+    "output": [
+      {
+        "item": {
+          "item": "planks",
+          "damage": 1
+        },
+        "chance": 1
+      }
+    ],
+    "duration": {
+      "block": 50
+    },
+    "type": "block"
+  },
+  {
+    "input": "stone",
+    "output": [
+      {
+        "item": "redstone",
+        "chance": 1
+      }
+    ],
+    "duration": {
+      "block": 50,
+      "hand": 20
+    },
+    "type": "both"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "input": [
+      {
+        "item": "sand",
+        "amount": 8
+      },
+      {
+        "item": "rotten_flesh",
+        "amount": 1
+      }
+    ],
+    "output": {
+      "item": {
+        "item": "netherrack",
+        "amount": 8
+      }
+    },
+    "time": {
+      "heat": {
+        "torch": 20
+      }
+    },
+    "requires_condensate": true
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "input": {
+      "item": ["stone"]
+    },
+    "output": {
+      "fluid": {"fluid": "lava", "amount": 1000}
+    },
+    "heat": {
+      "torch": 10,
+      "fire": 5,
+      "lava": 1
+    }
+  }
+]

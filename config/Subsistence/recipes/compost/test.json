@@ -1,0 +1,22 @@
+[
+  {
+    "input": [
+      {
+        "item": "dirt",
+        "amount": 5
+      }
+    ],
+    "output": {
+      "item": {
+        "item": "sand",
+        "amount": 8
+      }
+    },
+    "time": {
+      "heat": {
+        "torch": 20
+      }
+    },
+    "condensates": true
+  }
+]
