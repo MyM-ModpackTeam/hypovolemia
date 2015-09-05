@@ -8,3 +8,5 @@ recipes.addShaped(<minecraft:sapling>, [[null, <minecraft:bone>, null], [<minecr
 recipes.addShaped(<Quadrum:woodsplinter>, [[<ore:logWood>]]);
 
 recipes.addShaped(<HardcoreQuesting:quest_book>, [[<minecraft:bone>, <minecraft:bone>], [<minecraft:bone>, <minecraft:bone>], [<minecraft:bone>, <minecraft:bone>]]);
+
+recipes.addShaped(<minecraft:redstone_block>, [[<AWWayofTime:bucketLife>, <ore:sand>]]);

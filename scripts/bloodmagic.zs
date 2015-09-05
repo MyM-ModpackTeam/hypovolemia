@@ -10,11 +10,18 @@ recipes.addShaped(<AWWayofTime:Altar>, [[<minecraft:bone:1>, <minecraft:bone:1>,
 
 // Basic resource recipes
 
-recipes.remove(<minecraft:planks>);
+recipes.remove(<minecraft:planks:*>);
 
+mods.bloodmagic.Altar.addRecipe(<minecraft:planks>, <Quadrum:woodsplinter>, 1,100,20,20);
 mods.bloodmagic.Altar.addRecipe(<minecraft:planks>, <minecraft:bone>, 1,100,1,1);
 mods.bloodmagic.Altar.addRecipe(<minecraft:dirt>, <minecraft:skull>, 1,100,1,1);
 mods.bloodmagic.Altar.addRecipe(<minecraft:gravel>, <minecraft:dirt>, 1,200,1,1);
 mods.bloodmagic.Altar.addRecipe(<minecraft:sand>, <minecraft:gravel>, 1,200,1,1);
 mods.bloodmagic.Altar.addRecipe(<minecraft:cobblestone>, <minecraft:sand>, 1,200,1,1);
 mods.bloodmagic.Altar.addRecipe(<minecraft:netherrack>,<minecraft:cobblestone>, 1,400,1,1);
+
+
+// Sanguimancy changes
+
+mods.bloodmagic.Altar.removeRecipe(<Sanguimancy:BlockAltarDiviner>);
+mods.bloodmagic.Altar.addRecipe(<Sanguimancy:BlockAltarDiviner>,<AWWayofTime:Altar>, 1,5000,5,5);
