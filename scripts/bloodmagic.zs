@@ -28,3 +28,7 @@ mods.bloodmagic.Altar.addRecipe(<minecraft:apple>,<minecraft:sapling>, 1,20,20,2
 
 mods.bloodmagic.Altar.removeRecipe(<Sanguimancy:BlockAltarDiviner>);
 mods.bloodmagic.Altar.addRecipe(<Sanguimancy:BlockAltarDiviner>,<AWWayofTime:Altar>, 1,5000,5,5);
+
+
+/Orbs
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:weakBloodOrb>,<minecraft:redstone_block> * 1 , 1,10000,5,5);

@@ -25,8 +25,13 @@ after Altar diviner
 
 show how to make bucket of blood - std rewards, then show how to make redstone with it - std. rewards
 
+hand in a block of redstone for one portable tank and one configurator (filled)
 
-#####tier 2 altar
+show sapling to apple 
+
+show lava and water generation
+
+#####tier 2 altar (make a BM questline, the 8 blood runes first ..., tier 2 altar gives alchemical set)
 
 first power with blood dynamo
 
