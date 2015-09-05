@@ -76,6 +76,12 @@
       "Weight": 1,
       "Min Group Count": 1,
       "Max Group Count": 1
+    },
+    {
+      "Entity Class": "exter.foundry.entity.EntitySkeletonGun",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     }
   ],
   "Spawnable Water Creatures": [],

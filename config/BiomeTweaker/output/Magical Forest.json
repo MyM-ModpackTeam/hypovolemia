@@ -99,6 +99,12 @@
       "Max Group Count": 2
     },
     {
+      "Entity Class": "exter.foundry.entity.EntitySkeletonGun",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
       "Entity Class": "thaumcraft.common.entities.monster.EntityPech",
       "Weight": 10,
       "Min Group Count": 1,

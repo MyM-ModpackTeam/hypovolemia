@@ -73,6 +73,12 @@
       "Max Group Count": 1
     },
     {
+      "Entity Class": "exter.foundry.entity.EntitySkeletonGun",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
       "Entity Class": "mekanism.common.entity.EntityBabySkeleton",
       "Weight": 40,
       "Min Group Count": 1,
