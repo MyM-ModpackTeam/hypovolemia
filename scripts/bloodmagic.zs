@@ -1,9 +1,19 @@
-// CG Removes 
+// CG Removes General
 
 recipes.remove(<AWWayofTime:sacrificialKnife>);
 recipes.remove(<AWWayofTime:Altar>);
-// CG Adds
+
+// CG Adds General
 
 recipes.addShaped(<AWWayofTime:sacrificialKnife>, [[null, null, <minecraft:skull>], [null, <minecraft:bone:1>, null], [<minecraft:bone:1>, null, null]]);
 recipes.addShaped(<AWWayofTime:Altar>, [[<minecraft:bone:1>, <minecraft:bone:1>, <minecraft:bone:1>], [<minecraft:bone:1>, <minecraft:skull>, <minecraft:bone:1>], [<minecraft:bone:1>, <minecraft:bone:1>, <minecraft:bone:1>]]);
 
+// Basic resource recipes
+
+mods.bloodmagic.Altar.addRecipe(<minecraft:bone>, <minecraft:stick>, 0,20);
+mods.bloodmagic.Altar.addRecipe(<minecraft:stick>, <minecraft:planks>, 0,30);
+mods.bloodmagic.Altar.addRecipe(<minecraft:skull>, <minecraft:dirt>, 0,50);
+mods.bloodmagic.Altar.addRecipe(<minecraft:dirt>, <minecraft:gravel>, 0,100);
+mods.bloodmagic.Altar.addRecipe(<minecraft:gravel>, <minecraft:sand>, 0,100);
+mods.bloodmagic.Altar.addRecipe(<minecraft:sand>, <minecraft:cobblestone>, 0,100);
+mods.bloodmagic.Altar.addRecipe(<minecraft:cobblestone>,<minecraft:netherrack>, 0,200);
