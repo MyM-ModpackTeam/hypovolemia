@@ -1,0 +1,2 @@
+minecraft:apple, 20
+HardcoreQuesting:quest_book, 3
