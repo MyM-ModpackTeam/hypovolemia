@@ -10,10 +10,11 @@ recipes.addShaped(<AWWayofTime:Altar>, [[<minecraft:bone:1>, <minecraft:bone:1>,
 
 // Basic resource recipes
 
-mods.bloodmagic.Altar.addRecipe(<minecraft:bone>, <minecraft:stick>, 0,20,20,20);
-mods.bloodmagic.Altar.addRecipe(<minecraft:stick>, <minecraft:planks>, 0,30,20,20);
-mods.bloodmagic.Altar.addRecipe(<minecraft:skull>, <minecraft:dirt>, 0,50,20,20);
-mods.bloodmagic.Altar.addRecipe(<minecraft:dirt>, <minecraft:gravel>, 0,100,20,20);
-mods.bloodmagic.Altar.addRecipe(<minecraft:gravel>, <minecraft:sand>, 0,100,20,20);
-mods.bloodmagic.Altar.addRecipe(<minecraft:sand>, <minecraft:cobblestone>, 0,100,20,20);
-mods.bloodmagic.Altar.addRecipe(<minecraft:cobblestone>,<minecraft:netherrack>, 0,200,20,20);
+recipes.remove(<minecraft:planks>);
+
+mods.bloodmagic.Altar.addRecipe(<minecraft:planks>, <minecraft:bone>, 1,100,1,1);
+mods.bloodmagic.Altar.addRecipe(<minecraft:dirt>, <minecraft:skull>, 1,100,1,1);
+mods.bloodmagic.Altar.addRecipe(<minecraft:gravel>, <minecraft:dirt>, 1,200,1,1);
+mods.bloodmagic.Altar.addRecipe(<minecraft:sand>, <minecraft:gravel>, 1,200,1,1);
+mods.bloodmagic.Altar.addRecipe(<minecraft:cobblestone>, <minecraft:sand>, 1,200,1,1);
+mods.bloodmagic.Altar.addRecipe(<minecraft:netherrack>,<minecraft:cobblestone>, 1,400,1,1);
