@@ -7,7 +7,7 @@ recipes.addShaped(<minecraft:crafting_table>, [[<minecraft:bone:1>, <minecraft:b
 recipes.addShaped(<minecraft:sapling>, [[null, <minecraft:bone>, null], [<minecraft:bone>, <minecraft:skull>, <minecraft:bone>], [null, <minecraft:skull>, null]]);
 
 
-recipes.addShaped(<Quadrum:woodsplinter>, [[<ore:logWood>]]);
+recipes.addShaped(<Quadrum:woodsplinter>*4, [[<ore:logWood>]]);
 
 recipes.addShaped(<HardcoreQuesting:quest_book>, [[<minecraft:bone>, <minecraft:bone>], [<minecraft:bone>, <minecraft:bone>], [<minecraft:bone>, <minecraft:bone>]]);
 
