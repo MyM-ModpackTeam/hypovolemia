@@ -10,10 +10,12 @@ recipes.addShaped(<AWWayofTime:Altar>, [[<minecraft:bone:1>, <minecraft:bone:1>,
 
 // Basic resource recipes
 
+
 recipes.remove(<minecraft:planks:*>);
 mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:weakBloodOrb>);
 mods.bloodmagic.Altar.addRecipe(<minecraft:planks>, <Quadrum:woodsplinter>, 1,100,20,20);
 mods.bloodmagic.Altar.addRecipe(<minecraft:planks>, <minecraft:bone>, 1,100,1,1);
+mods.bloodmagic.Altar.addRecipe(<minecraft:planks>, <minecraft:bone:1>, 1,100,1,1);
 mods.bloodmagic.Altar.addRecipe(<minecraft:dirt>, <minecraft:skull>, 1,100,1,1);
 mods.bloodmagic.Altar.addRecipe(<minecraft:gravel>, <minecraft:dirt>, 1,200,1,1);
 mods.bloodmagic.Altar.addRecipe(<minecraft:sand>, <minecraft:gravel>, 1,200,1,1);
