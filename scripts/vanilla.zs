@@ -5,7 +5,7 @@ recipes.removeShaped(<minecraft:clay_ball>, [[<ExtrabiomesXL:terrain_blocks1:1>,
 recipes.addShaped(<minecraft:crafting_table>, [[<minecraft:bone:1>, <minecraft:bone:1>], [<minecraft:bone:1>, <minecraft:bone:1>]]);
 
 recipes.addShaped(<minecraft:sapling>, [[null, <minecraft:bone>, null], [<minecraft:bone>, <minecraft:skull>, <minecraft:bone>], [null, <minecraft:skull>, null]]);
-
+recipes.addShaped(<minecraft:dye:15>*3, [[<minecraft:bone:1>]]);
 
 recipes.addShaped(<Quadrum:woodsplinter>*4, [[<ore:logWood>]]);
 
