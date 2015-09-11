@@ -2,3 +2,8 @@
 #You can get these values from NEI
 #Whitelisting a block as a fertile soil means you can plant crops on them
 #For example: minecraft:sand:0
+MineFactoryReloaded:farmland:3
+magicalcrops:magicalcrops_ZivicioFarmland:0
+magicalcrops:magicalcrops_ImperioFarmland:0
+magicalcrops:magicalcrops_CrucioFarmland:0
+magicalcrops:magicalcrops_AccioFarmland:0
