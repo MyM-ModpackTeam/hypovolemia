@@ -1,0 +1,18 @@
+{
+    "page": 1,
+    "title": "Tutorials are fun!",
+    "body":"Greetings Minecrafter!
+    This appears to be your first time using the Lore Expansion mod and have turned to the tutorial package for some guidance. You came to the right place. Seeing as you have made it this far, you aren’t completely incompetent. Let’s get started shall we?
+First, let me explain what Lore Expansion is and what it is meant to do for you. This mod was designed to help adventure map makers with the addition of a narrative. It also works quite well alongside the Hardcore Questing Mode mod. Players can be awarded or given lore pages that will be automatically added to their journals. The journal can be accessed by right clicking the book in hand or pressing the configurable hotkey (default L) to bring up the GUI.
+The boxes shown on the left will highlight how many pages there are to be found. As pages are collected they will fill their numerical slots; for example, if the player find the first few pages but happens to miss a page in between, there will be an empty box to show that a page was missed.
+Click the lore icon on the left page and you will see the text appear on the right. You can use your mouse wheel or the up and down arrows to scroll through the text. Lore audio can be played or replayed at any time by clicking the play button. You are free to close the journal and roam about, the audio will continue to play. Give it a try now. (Wait 3 seconds)
+See! Look at you! Listening to me while free of GUI elements. But that’s enough… come back. (Wait 5)
+If you need to take a break at any point, click the play button again to pause the audio playback. Click it once more to resume. To stop the audio, you can simply click the stop button but let’s not do that just yet otherwise you will be forced to listen to me all over again. Not that it would be a bad thing necessarily.
+Creating your own lore is easy and made fully customizable through the use of JSON files. Players can have complete control over how their story progresses. Change everything from the title and body text to page numbers and even dimensional specificity. After writing the lore, make sure to record your audio and place the .ogg file in the audio folder. Double check to make sure your listed the filename (without the extension) under the sound variable in the lore JSON file.
+Players can also specify the optional dimension specific tags to fit within their theme; leaving out the tag will label the lore as global and can be received by all players in all dimensions. To make your lives easier we have added a command that will allow you to reload lore while the game is running. Type the “/lore reload” command in the game chat to reload and update changes. This won’t work for audio files.
+There is also a command to clear all your lore. Type “/lore clear” to erase all your work but be careful… this cannot be undone.
+If you run into trouble, be sure take a look at these tutorial files in the config folder to see how everything is set up.
+Good luck and have fun creating your own immersive narrative!",
+"sound": "tutorial",
+"autoplay": true
+}
