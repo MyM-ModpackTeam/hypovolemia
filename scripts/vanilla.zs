@@ -11,7 +11,7 @@ recipes.addShaped(<Quadrum:woodsplinter>*4, [[<ore:logWood>]]);
 
 recipes.addShaped(<HardcoreQuesting:quest_book>, [[<minecraft:bone>, <minecraft:bone>], [<minecraft:bone>, <minecraft:bone>], [<minecraft:bone>, <minecraft:bone>]]);
 
-recipes.addShaped(<minecraft:redstone_block>, [[<AWWayofTime:bucketLife>, <ore:sand>]]);
+recipes.addShaped(<minecraft:redstone_block>, [[<minecraft:lava_bucket>, <ore:sand>]]);
 
 recipes.addShaped(<technom:bloodDynamo>, [[<ore:blockRedstone>, <ore:blockRedstone>, <ore:blockRedstone>], [<ore:blockRedstone>, <AWWayofTime:Altar>, <ore:blockRedstone>], [<ore:blockRedstone>, <ore:blockRedstone>, <ore:blockRedstone>]]);
 
@@ -49,3 +49,7 @@ recipes.removeShaped(<Mekanism:BasicBlock:8>, [[<ore:gearIron>, <ore:ingotSteel>
 recipes.remove(<Mekanism:MachineBlock2:5>);
 recipes.addShaped(<Mekanism:BasicBlock:8>, [[<ore:gearIron>, <ore:ingotSteel>, <ore:gearIron>], [<ore:ingotSteel>, <ore:gearIron>, <ore:ingotSteel>], [<ore:gearIron>, <ore:ingotSteel>, <thaumicenergistics:material:2>]]);
 recipes.remove(<Mekanism:ScubaTank:100>);
+
+//bm
+recipes.remove(<AWWayofTime:growthSigil>);
+recipes.addShaped(<AWWayofTime:growthSigil>, [[null, <minecraft:end_stone>, null], [<minecraft:end_stone>, <AWWayofTime:blankSlate>, <minecraft:end_stone>], [null, <minecraft:end_stone>, null]]);
