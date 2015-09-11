@@ -53,3 +53,6 @@ recipes.remove(<Mekanism:ScubaTank:100>);
 //bm
 recipes.remove(<AWWayofTime:growthSigil>);
 recipes.addShaped(<AWWayofTime:growthSigil>, [[null, <minecraft:end_stone>, null], [<minecraft:end_stone>, <AWWayofTime:blankSlate>, <minecraft:end_stone>], [null, <minecraft:end_stone>, null]]);
+
+//DE
+recipes.remove(<DraconicEvolution:generator:3>);

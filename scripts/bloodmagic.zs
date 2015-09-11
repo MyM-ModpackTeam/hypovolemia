@@ -31,7 +31,7 @@ mods.bloodmagic.Altar.addRecipe(<minecraft:coal>,<minecraft:coal:1>, 1,20,1,1);
 mods.bloodmagic.Altar.addRecipe(<Mekanism:Ingot:1>,<Mekanism:Ingot:4>,2,1500,5,5);
 //mods.bloodmagic.Altar.addRecipe(<minecraft:diamond>,<Mekanism:ControlCircuit>,2,5000,5,5);
 mods.bloodmagic.Alchemy.addRecipe(<minecraft:diamond>,[<minecraft:coal_block>,<minecraft:coal_block>,<minecraft:coal_block>,<minecraft:coal_block>,<minecraft:coal_block>],2,1000);
-mods.bloodmagic.Altar.addRecipe(<minecraft:emerald>,<minecraft:diamond>,3,10000,5,5);
+mods.bloodmagic.Altar.addRecipe(<minecraft:emerald>,<minecraft:diamond>,2,10000,5,5);
 mods.bloodmagic.Altar.addRecipe(<minecraft:wheat_seeds>, <magicalcrops:essence_storage>, 1,200,1,1);
 mods.bloodmagic.Alchemy.addRecipe(<minecraft:quartz>*4,[<minecraft:obsidian>,<minecraft:diamond>],3,5000);
 mods.bloodmagic.Altar.addRecipe(<minecraft:ender_pearl>,<minecraft:emerald>,2,3000,5,5);
@@ -50,7 +50,7 @@ mods.bloodmagic.Altar.addRecipe(<AWWayofTime:weakBloodOrb>,<minecraft:redstone_b
 mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:apprenticeBloodOrb>);
 mods.bloodmagic.Altar.addRecipe(<AWWayofTime:apprenticeBloodOrb>,<AWWayofTime:weakBloodOrb>,2,5000,5,5);
 //Magic crops
-mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_MagicalFertilizer>,<ExtrabiomesXL:terrain_blocks1:1>,2,1000,5,5);
+mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_MagicalFertilizer>,<minecraft:end_stone>,2,5000,5,5);
 mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_1MinicioEssence>,<ExtrabiomesXL:terrain_blocks1>, 2,1000,5,5);
 //mods.bloodmagic.Altar.addRecipe(,, 2,1000,5,5);
 
