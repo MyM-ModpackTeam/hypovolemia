@@ -98,3 +98,6 @@ mods.bloodmagic.Altar.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:23>,
 mods.bloodmagic.Altar.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:24>,<appliedenergistics2:item.ItemMultiMaterial:17>,3,3000,5,5);
 mods.bloodmagic.Altar.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:22>,<appliedenergistics2:item.ItemMultiMaterial:18>,3,3000,5,5);
 mods.bloodmagic.Altar.addRecipe(<appliedenergistics2:tile.BlockSkyStone>,<minecraft:diamond_block>, 4,1000,5,5);
+//blood shards
+recipes.remove(<AWWayofTime:weakBloodShard>);
+mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:weakBloodShard>*2, [<AWWayofTime:imbuedSlate>,<AWWayofTime:weakBloodShard>], 3, 10000);
