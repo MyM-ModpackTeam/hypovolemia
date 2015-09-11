@@ -48,7 +48,7 @@ mods.bloodmagic.Altar.addRecipe(<Sanguimancy:BlockAltarDiviner>,<AWWayofTime:Alt
 //Orbs
 mods.bloodmagic.Altar.addRecipe(<AWWayofTime:weakBloodOrb>,<minecraft:redstone_block>, 1,10000,5,5);
 mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:apprenticeBloodOrb>);
-mods.bloodmagic.Altar.addRecipe(<AWWayofTime:apprenticeBloodOrb>,<AWWayofTime:weakBloodOrb>,2,5000,5,5);
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:apprenticeBloodOrb>,<minecraft:iron_block>,2,12000,5,5);
 //Magic crops
 mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_MagicalFertilizer>,<minecraft:end_stone>,2,5000,5,5);
 mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_1MinicioEssence>,<ExtrabiomesXL:terrain_blocks1>, 2,1000,5,5);
