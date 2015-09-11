@@ -1,0 +1,28 @@
+{
+    "page": 4,
+    "title": "Bloodmagic",
+    "body":"
+	This modpack heavily relies on bloodmagic.
+	
+	Here a few hints to get you started :
+	
+	The Altar must be filled with blood. You can use the sacrificial knife to convert your lifepoints into blood.
+	Later on you will find better ways to fill the altar, but this is how it starts out.
+	
+	You can then put items into the altar with a right click. Doing this manually restricts you to one item at a time in the altar.
+	
+	The altar will show some bubbles to show it is working.
+	
+	If you dont have enough blood for the conversion, the altar will simply use up all the blood and you will get nothing (well the original item back).
+	
+	So allways have enough blood or be ready to add some while the altar is working.
+	
+	Later on you can insert multiple items with a hopper e.g.. Of course this makes it even harder to have enough blood avaible.
+	
+	Even later you will be able to craft items that will aid you in this. Like the altar diviner that will only put in as many items as the altar can handle with its blood level.
+	
+	There are items that convert into items that can be converted too. (Convertception). Its important to either automate the altar correctly or have an eye on it to take the item out when it converted to the item you want to have actually.
+	",
+"sound": "",
+"autoplay": false
+}
