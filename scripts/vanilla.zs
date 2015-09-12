@@ -56,3 +56,5 @@ recipes.addShaped(<AWWayofTime:growthSigil>, [[null, <minecraft:end_stone>, null
 
 //DE
 recipes.remove(<DraconicEvolution:generator:3>);
+recipes.remove(<DraconicEvolution:sunDial>);
+recipes.remove(<DraconicEvolution:weatherController>);
