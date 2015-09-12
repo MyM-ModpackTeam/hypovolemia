@@ -1,0 +1,19 @@
+{
+    "page": 7,
+    "title": "Spells!",
+    "body":"What would a magic world be without spells?
+	
+	Spells in Bloodmagic can be quite complex and have many different effects.
+	
+	There are basic spells and complex spells.
+	
+	Basic spells can be made by putting a Spell Foci in a blood altar. Then you place a spell table next to it.
+	On the spell table, you place a mob head. Finally you need to click the spell table with an unbound crystal.
+	
+	This binds the crystal to the spelltable and altar. You cant alter the setup without loosing the spell power.
+	
+	An exmaple : Zombie head and glowstone will create a spell that creates random lightning around you. Now, isnt that usefull?
+	",
+"sound": "",
+"autoplay": false
+}

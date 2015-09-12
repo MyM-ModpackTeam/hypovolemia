@@ -1,0 +1,22 @@
+{
+    "page": 8,
+    "title": "Complex spells",
+    "body":"Complex spells are ... more complex.
+	
+	We now need to create paradigms, effects, modifiers and enhancements.
+	
+	This time we will try something more usefull. 
+	
+	The spell will pull blocks from under you when you use it on the ground. This can be pretty usefull for a quick ascend.
+	
+	To form the spell, we drop down a Self Augmentator. Then connect it to an earth former and this one to a default modifier.
+	
+	Then we bind a complex spell crystal to it.
+	
+	Oh did we forget about the enhancements? 
+	
+	When you use the spell now you pull a single block. When you add a reinforced spell empowerer to your spell structure, it will drag a 3*3 of blocks.
+	",
+"sound": "",
+"autoplay": false
+}
