@@ -107,3 +107,8 @@ mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:weakBloodShard>*2, [<AWWayofTime:
 
 //DE
 mods.bloodmagic.Altar.addRecipe(<DraconicEvolution:draconiumOre>,<minecraft:emerald_block>, 6,100000,500,500);
+//botania
+mods.bloodmagic.Alchemy.addRecipe(<Botania:manaResource:20>,[<AWWayofTime:weakBloodShard>,<minecraft:sapling>],2,1000);
+recipes.remove(<Botania:fertilizer>);
+mods.bloodmagic.Alchemy.addRecipe(<Botania:fertilizer>,[<Botania:manaResource:20>,<minecraft:dye:15>],2,1000);
+mods.bloodmagic.Alchemy.addRecipe(<minecraft:dye:15>,[<witchery:ingredient:18>,<witchery:ingredient:18>,<witchery:ingredient:18>,<witchery:ingredient:18>,<witchery:ingredient:18> * 1],2,1000);

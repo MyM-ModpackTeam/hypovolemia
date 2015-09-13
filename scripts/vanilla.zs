@@ -53,8 +53,18 @@ recipes.remove(<Mekanism:ScubaTank:100>);
 //bm
 recipes.remove(<AWWayofTime:growthSigil>);
 recipes.addShaped(<AWWayofTime:growthSigil>, [[null, <minecraft:end_stone>, null], [<minecraft:end_stone>, <AWWayofTime:blankSlate>, <minecraft:end_stone>], [null, <minecraft:end_stone>, null]]);
-
+mods.avaritia.ExtremeCrafting.addShaped(<AWWayofTime:blockCrystal>, [[<minecraft:diamond_block>,<minecraft:diamond_block>,<minecraft:diamond_block>,<minecraft:diamond_block>,<minecraft:diamond_block>,<minecraft:diamond_block>,<minecraft:diamond_block>,<minecraft:diamond_block>,<minecraft:diamond_block>],
+[<minecraft:emerald_block>,<appliedenergistics2:tile.BlockFluix>,<witchery:ingredient:10>,<AWWayofTime:bloodMagicBaseItems:27>,<AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:3>,<AWWayofTime:bloodMagicBaseItems:27>,<witchery:ingredient:10>,<appliedenergistics2:tile.BlockFluix> ,<minecraft:emerald_block>],
+[<minecraft:diamond_block>,<minecraft:diamond_block>,<minecraft:diamond_block>,<minecraft:diamond_block>,<minecraft:diamond_block>,<minecraft:diamond_block>,<minecraft:diamond_block>,<minecraft:diamond_block>,<minecraft:diamond_block>],
+[<minecraft:emerald_block>,<appliedenergistics2:tile.BlockFluix>,<witchery:ingredient:10>,<AWWayofTime:bloodMagicBaseItems:27>,<AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:3>,<AWWayofTime:bloodMagicBaseItems:27>,<witchery:ingredient:10>,<appliedenergistics2:tile.BlockFluix> ,<minecraft:emerald_block>],
+[<Botania:storage>,<Botania:storage>,<Botania:storage>,<Botania:storage:1>,<Botania:storage:1>,<Botania:storage:1>,<Botania:storage>,<Botania:storage>,<Botania:storage>],
+[<minecraft:emerald_block>,<appliedenergistics2:tile.BlockFluix>,<witchery:ingredient:10>,<AWWayofTime:bloodMagicBaseItems:27>,<AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:3>,<AWWayofTime:bloodMagicBaseItems:27>,<witchery:ingredient:10>,<appliedenergistics2:tile.BlockFluix> ,<minecraft:emerald_block>],
+[<minecraft:diamond_block>,<minecraft:diamond_block>,<minecraft:diamond_block>,<minecraft:diamond_block>,<minecraft:diamond_block>,<minecraft:diamond_block>,<minecraft:diamond_block>,<minecraft:diamond_block>,<minecraft:diamond_block>],
+[<minecraft:emerald_block>,<appliedenergistics2:tile.BlockFluix>,<witchery:ingredient:10>,<AWWayofTime:bloodMagicBaseItems:27>,<AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement:3>,<AWWayofTime:bloodMagicBaseItems:27>,<witchery:ingredient:10>,<appliedenergistics2:tile.BlockFluix> ,<minecraft:emerald_block>],
+[<minecraft:diamond_block>,<minecraft:diamond_block>,<minecraft:diamond_block>,<minecraft:diamond_block>,<minecraft:diamond_block>,<minecraft:diamond_block>,<minecraft:diamond_block>,<minecraft:diamond_block>,<minecraft:diamond_block>]
+]);
 //DE
 recipes.remove(<DraconicEvolution:generator:3>);
 recipes.remove(<DraconicEvolution:sunDial>);
 recipes.remove(<DraconicEvolution:weatherController>);
+//botania
