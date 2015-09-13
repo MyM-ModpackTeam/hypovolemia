@@ -4,3 +4,47 @@ Hypovolemia
 - `Dynamic Lights <http://atomicstryker.net/dynamiclights.php>`_, atomicstryker
 - `Mouse Tweaks <http://minecraft.curseforge.com/mc-mods/60089-mouse-tweaks>`_, YaLTeR
 - `AgriCraft <https://github.com/InfinityRaider/AgriCraft>`_, InfinityRaider
+- `MineTweaker <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1290366-1-6-4-1-7-x-minetweaker-3-customize-your>`_, StanH
+- `ModTweaker <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2093121-1-7-x-modtweaker-0-5d-minetweaker-addon>`_, joshie
+- `NotEnoughItems <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1279956-chickenbones-mods>`_, Chickenbones
+- `NEI Addons <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1289113-nei-addons-v1-12-2-now-supports-botany-flower>`_, bdew
+- `IronChests <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1280827-1-5-and-up-forge-universal-ironchests-5-0>`_, cpw
+- `InventoryTweaks <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1288184-inventory-tweaks-1-59-march-31>`_, Kobata
+- `HQM <http://minecraft.curseforge.com/mc-mods/77027-hardcore-questing-mode>`_, lorddusk
+- `Blood Magic <https://github.com/WayofTime/BloodMagic>`_, WayofTime
+- `Carpenter's Blocks <http://www.carpentersblocks.com/>`_, Mineshopper
+- `WAILA <http://minecraft.curseforge.com/members/ProfMobius/projects>`_, ProfMobius
+- `Ztones <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2221070-ztones-v-2-2-1-decorative-blocks-16x>`_, riciJak
+- `Witchery <https://sites.google.com/site/witcherymod/>`_, Emoniph
+- `Thaumcraft <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1292130-thaumcraft-4-2-3-5-updated-2015-2-17>`_, Azanor
+- `Thaumic Energistics <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2150151-1-7-10-tc4-ae2-thaumic-energistics>`_, Nividica
+- `Technomancy <http://forum.feed-the-beast.com/threads/0-12-0-1-7-10-technomancy-discussion-thread.47481/>`_, theflogat
+- `Tinkers Construct <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1287648-tinkers-construct>`_, mDiyo
+- `Translocators <http://minecraft.curseforge.com/mc-mods/229318-translocators>`_, chicken_bones
+- `Applied Energistics 2 <http://ae-mod.info/>`_, AlgorithmX2
+- `Draconic Evolution <http://www.tolkiencraft.com/draconic-evolution/>`_, brandon3055
+- `Chisel 2 <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2254671-chisel-2-2-5-0>`_, TheCricket26
+- `Ender Storage <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1279956-chickenbones-mods>`_, chicken_bones
+- `ExtrabiomesXL <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1282126-extrabiomesxl-universal-3-16-2-for-mc-1-7-10>`_, Annysia
+- `StartingInv <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1281180-daftpvfs-mods-treecapitator-crystalwing>`_, bspkrs
+- `BiomeTweaker <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2391123-biometweaker-customize-your-biomes>`_, superckl
+- `Enchiridion 2 <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2346024-enchiridion-2-2-0-2a-updated-14-06-2015>`_, joshie
+- `ExtraCells 2 <http://minecraft.curseforge.com/mc-mods/229218-extracells2>`_, DrummerMC, Pwnie2012
+- `Forbidden Magic <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/1445828-tc4-addon-forbidden-magic-v0-57>`_, SpitefulFox
+- `Foundry <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1292684-foundry-melt-ores-and-metals-into-liquid-cast-them>`_, EXTER7
+- `Guide-API <http://minecraft.curseforge.com/mc-mods/228832-guide-api>`_, TheNut
+- `Hardcore Darkness <http://minecraft.curseforge.com/mc-mods/225957-hardcore-darkness>`_, Lumien
+- `HoloInventory <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1292641-v1-9-holoinventory-v1-9-double-chests-now-work>`_, dries007
+- `JourneyMap <http://journeymap.techbrew.net/>`_, techbrew
+- `Lore Expansion <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2091967-lore-expansion-1-7-x>`_, CyanideX
+- `Magical Crops <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1287451-magical-crops-farm-your-resources-3-2-0-who-stole>`_, Mark719
+- `Mekanism <http://aidancbrady.com/mekanism/>`_, aidancbrady
+- `Magical Crops Compat - Minefactory Reloaded <http://www.curse.com/mc-mods/minecraft/226797-magical-crops-compat-minefactory-reloaded>`_, Streuner91
+- `MineFactoryReloaded <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1292152-powercrystals-mods-minefactoryreloaded>`_, PowerCrystal, skyboy026
+- `MineTweaker RecipeMaker <http://minecraft.curseforge.com/mc-mods/226294-minetweaker-recipemaker>`_, DoubleDoorDevelopment, Claycorp, dries007
+- `Quadrum <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2195692-forge-quadrum-v1-2-0-simplified-block-item>`_, dmillerw
+- `Sanguimancy <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2194354-blood-magic-addon-sanguimancy>`_, Tombenpotter
+- `Storage Drawers <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2198533-storage-drawers-v1-6-1-v2-1-9-updated-sep-12-15>`_, jaquadro
+- `Subsistence <http://minecraft.curseforge.com/mc-mods/229441-subsistence>`_, CyanideX
+- `Waila Harvestability <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1295067-waila-harvestability-how-can-i-harvest-what-im>`_, squeek502
+- `WAILA Plugins <http://www.curse.com/mc-mods/minecraft/226119-waila-plugins>`_, tterrag1098
