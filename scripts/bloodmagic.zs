@@ -1,3 +1,6 @@
+//general removes
+recipes.remove(<magicalcrops:magicalcrops_1MinicioEssence>);
+
 // CG Removes General
 
 recipes.remove(<AWWayofTime:sacrificialKnife>);
@@ -101,3 +104,6 @@ mods.bloodmagic.Altar.addRecipe(<appliedenergistics2:tile.BlockSkyStone>,<minecr
 //blood shards
 recipes.remove(<AWWayofTime:weakBloodShard>);
 mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:weakBloodShard>*2, [<AWWayofTime:imbuedSlate>,<AWWayofTime:weakBloodShard>], 3, 10000);
+
+//DE
+mods.bloodmagic.Altar.addRecipe(<DraconicEvolution:draconiumOre>,<minecraft:emerald_block>, 6,100000,500,500);
