@@ -1,0 +1,21 @@
+{
+    "page": 10,
+    "title": "Ore generation with MFR",
+    "body":"If you have alot of power to spare, theres a solution to turn it into ores.
+	
+	First you need a slaughterhouse. Put two tanks next to it and let it kill mobs or animals. One tank will fill with liquid meat, which is rather uninteresting.
+	
+	But the other one fills with pink slime. When you have 1000mb of it, you can use a bucket to retrieve it and place it somewhere in the world.
+	
+	It should turn into a pink slime, which you should catch with a safari net. You need alot of their drops to make the mining solution, so autospawn them.
+	
+	Then create a laser drill and 1-4 laser drill prechargers. The laser drill must be placed that it has clear view down to the bedrock. Dont touch its beam!
+	
+	The prechargers aim at the Laser drill and need to be powered.
+	
+	The drill will now generate random ores. There are lenses you can make and insert into the laser drill to change the chances into the direction you want. (Lists for it are on the wikis or google for them)
+	
+	The higher the drill is on the y coordinates, the less power is uses to create an ore. This goes up to approximatly y140.",
+"sound": "",
+"autoplay": false
+}

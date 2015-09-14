@@ -1,0 +1,18 @@
+{
+    "page": 9,
+    "title": "MFR mobfarms",
+    "body":"MFR (Minefactory reloaded) has a nice way fo creating mob farms.
+	
+	First there is the grinders. They kill stuff in a 5*5 area in front of them. They need power and when they kill a mob, output the drops of it and a bit of mob essence.
+	
+	You should gather the essence since it will enable you to use an auto spawner to spawn the mobs you want. Therefor you need the auto spawner, power, mob essence, and a safari net (often called pokeball) in which you have
+	entrapped the type of mob you want to spawn by simply rightclicking it with the net.
+	
+	If you want to spawn wither skeletons, you need to turn on precise mode in the spawner, but keep in mind, this increases the essence use by a lot.
+	
+	There are quite some concepts on how you can build the ideal mobfarm. One of the is to make a 9*9 room, adding 4 grinders slight cornered for creation of mob essence. Then you can place another 9*9 room above or below for the same setup, this time with an auto spawner in the middle of the room (it uses 9*9 as spawning range).
+
+    Remember enderman need 3 blocks high to spawn, ghasts need even more space.	",
+"sound": "",
+"autoplay": false
+}
