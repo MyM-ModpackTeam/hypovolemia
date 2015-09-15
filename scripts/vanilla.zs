@@ -66,6 +66,13 @@ recipes.remove(<appliedenergistics2:item.ToolNetherQuartzSpade>);
 recipes.remove(<appliedenergistics2:item.ToolNetherQuartzPickaxe>);
 recipes.remove(<appliedenergistics2:item.ToolNetherQuartzSword>);
 
+//MC zivico balancing
+recipes.remove(<magicalcrops:magicalcrops_ZivicioSword>);
+recipes.remove(<magicalcrops:magicalcrops_ZivicioArmourHelmet>);
+recipes.remove(<magicalcrops:magicalcrops_ZivicioArmourChestplate>);
+recipes.remove(<magicalcrops:magicalcrops_ZivicioArmourLeggings>);
+recipes.remove(<magicalcrops:magicalcrops_ZivicioArmourBoots>);
+
 //mfr
 recipes.remove(<MineFactoryReloaded:machineblock>);
 recipes.remove(<MineFactoryReloaded:machine.0:1>);
