@@ -24,12 +24,47 @@ recipes.addShaped(<foundry:foundryComponent:1>, [[<ore:dustRedstone>, <ore:ingot
 
 recipes.addShaped(<thaumicenergistics:material:2>, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<ore:ingotIron>, <ore:gearStone>, <ore:ingotIron>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
 
-// vanilla iron tools
+// vanilla iron tools and armor
 recipes.remove(<minecraft:iron_shovel>);
 recipes.remove(<minecraft:iron_pickaxe>);
 recipes.remove(<minecraft:iron_axe>);
 recipes.remove(<minecraft:iron_sword>);
 recipes.remove(<minecraft:iron_hoe>);
+recipes.remove(<minecraft:iron_helmet>);
+recipes.remove(<minecraft:iron_chestplate>);
+recipes.remove(<minecraft:iron_boots>);
+recipes.remove(<minecraft:iron_leggings>);
+
+recipes.remove(<minecraft:diamond_shovel>);
+recipes.remove(<minecraft:diamond_pickaxe>);
+recipes.remove(<minecraft:diamond_axe>);
+recipes.remove(<minecraft:diamond_sword>);
+recipes.remove(<minecraft:diamond_hoe>);
+recipes.remove(<minecraft:diamond_helmet>);
+recipes.remove(<minecraft:diamond_chestplate>);
+recipes.remove(<minecraft:diamond_boots>);
+recipes.remove(<minecraft:diamond_leggings>);
+
+recipes.remove(<minecraft:golden_shovel>);
+recipes.remove(<minecraft:golden_pickaxe>);
+recipes.remove(<minecraft:golden_axe>);
+recipes.remove(<minecraft:golden_sword>);
+recipes.remove(<minecraft:golden_hoe>);
+recipes.remove(<minecraft:golden_helmet>);
+recipes.remove(<minecraft:golden_chestplate>);
+recipes.remove(<minecraft:golden_boots>);
+recipes.remove(<minecraft:golden_leggings>);
+
+recipes.remove(<appliedenergistics2:item.ToolCertusQuartzHoe>);
+recipes.remove(<appliedenergistics2:item.ToolCertusQuartzAxe>);
+recipes.remove(<appliedenergistics2:item.ToolCertusQuartzSpade>);
+recipes.remove(<appliedenergistics2:item.ToolCertusQuartzPickaxe>);
+recipes.remove(<appliedenergistics2:item.ToolCertusQuartzSword>);
+recipes.remove(<appliedenergistics2:item.ToolNetherQuartzAxe>);
+recipes.remove(<appliedenergistics2:item.ToolNetherQuartzHoe>);
+recipes.remove(<appliedenergistics2:item.ToolNetherQuartzSpade>);
+recipes.remove(<appliedenergistics2:item.ToolNetherQuartzPickaxe>);
+recipes.remove(<appliedenergistics2:item.ToolNetherQuartzSword>);
 
 //mfr
 recipes.remove(<MineFactoryReloaded:machineblock>);
