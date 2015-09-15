@@ -96,6 +96,8 @@ recipes.addShaped(<Mekanism:BasicBlock:8>, [[<ore:gearIron>, <ore:ingotSteel>, <
 recipes.remove(<Mekanism:ScubaTank:100>);
 
 //bm
+recipes.remove(<AWWayofTime:bloodMagicIncenseItem>);
+recipes.addShaped(<AWWayofTime:bloodMagicIncenseItem>, [[<minecraft:gold_ingot>, <minecraft:gold_ingot>, <ore:ingotGold>], [<ore:ingotGold>, <witchery:ingredient:18>, <ore:ingotGold>], [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]]);
 recipes.remove(<AWWayofTime:growthSigil>);
 recipes.addShaped(<AWWayofTime:growthSigil>, [[null, <minecraft:end_stone>, null], [<minecraft:end_stone>, <AWWayofTime:blankSlate>, <minecraft:end_stone>], [null, <minecraft:end_stone>, null]]);
 mods.avaritia.ExtremeCrafting.addShaped(<AWWayofTime:blockCrystal>, [[<minecraft:diamond_block>,<minecraft:diamond_block>,<minecraft:diamond_block>,<minecraft:diamond_block>,<minecraft:diamond_block>,<minecraft:diamond_block>,<minecraft:diamond_block>,<minecraft:diamond_block>,<minecraft:diamond_block>],
