@@ -25,6 +25,6 @@
 	
 	The different tiers of the altar structure are hard to explain. We suggest you check the FTB Wiki for it. http://ftbwiki.org/Blood_Altar
 	",
-"sound": "",
-"autoplay": false
+"sound": "4 Bloodmagic",
+"autoplay": true
 }

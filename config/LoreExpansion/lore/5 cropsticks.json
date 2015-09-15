@@ -8,6 +8,6 @@
 	Place cropsticks 2 times to make them cross. This is used to mutate the seeds adjacent to the cross.
 	
 	Mutations, soils and products can be found in nei.",
-"sound": "",
-"autoplay": false
+"sound": "5 Cropsticks",
+"autoplay": true
 }
