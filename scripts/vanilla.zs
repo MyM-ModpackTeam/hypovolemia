@@ -73,6 +73,9 @@ recipes.remove(<magicalcrops:magicalcrops_ZivicioArmourChestplate>);
 recipes.remove(<magicalcrops:magicalcrops_ZivicioArmourLeggings>);
 recipes.remove(<magicalcrops:magicalcrops_ZivicioArmourBoots>);
 
+//ticon
+recipes.remove(<TConstruct:blankPattern>);
+
 //mfr
 recipes.remove(<MineFactoryReloaded:machineblock>);
 recipes.remove(<MineFactoryReloaded:machine.0:1>);
