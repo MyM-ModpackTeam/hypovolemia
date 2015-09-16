@@ -16,6 +16,6 @@
 	The drill will now generate random ores. There are lenses you can make and insert into the laser drill to change the chances into the direction you want. (Lists for it are on the wikis or google for them)
 	
 	The higher the drill is on the y coordinates, the less power is uses to create an ore. This goes up to approximatly y140.",
-"sound": "",
-"autoplay": false
+"sound": "10 MFR Laser Drill",
+"autoplay": true
 }
