@@ -13,7 +13,7 @@ recipes.addShaped(<AWWayofTime:Altar>, [[<minecraft:bone:1>, <minecraft:bone:1>,
 
 // Basic resource recipes
 
-
+mods.bloodmagic.Alchemy.addRecipe(<minecraft:grass>,[<minecraft:dirt>,<minecraft:dirt>,<Botania:fertilizer>,<Botania:fertilizer>,<Botania:fertilizer>],2,1000);
 recipes.remove(<minecraft:planks:*>);
 mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:weakBloodOrb>);
 mods.bloodmagic.Altar.addRecipe(<minecraft:planks>, <Quadrum:woodsplinter>, 1,100,20,20);
@@ -93,7 +93,7 @@ mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_RedstoneSeeds> ,<magi
 
 
 //ae2
-mods.bloodmagic.Altar.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:1> ,<appliedenergistics2:item.ItemMultiMaterial>,3,3000,5,5);
+mods.bloodmagic.Altar.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:1> ,<appliedenergistics2:item.ItemMultiMaterial:10>,3,3000,5,5);
 mods.bloodmagic.Altar.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:12>,<appliedenergistics2:item.ItemMultiMaterial:7>,3,3000,5,5);
 //mods.bloodmagic.Altar.addRecipe(,,3,3000,5,5);
 mods.bloodmagic.Altar.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:10>,<appliedenergistics2:item.ItemMultiMaterial>,3,3000,5,5);

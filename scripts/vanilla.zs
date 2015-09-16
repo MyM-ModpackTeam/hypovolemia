@@ -94,6 +94,8 @@ recipes.removeShaped(<Mekanism:BasicBlock:8>, [[<ore:gearIron>, <ore:ingotSteel>
 recipes.remove(<Mekanism:MachineBlock2:5>);
 recipes.addShaped(<Mekanism:BasicBlock:8>, [[<ore:gearIron>, <ore:ingotSteel>, <ore:gearIron>], [<ore:ingotSteel>, <ore:gearIron>, <ore:ingotSteel>], [<ore:gearIron>, <ore:ingotSteel>, <thaumicenergistics:material:2>]]);
 recipes.remove(<Mekanism:ScubaTank:100>);
+recipes.addShaped(<Mekanism:CardboardBox>, [[<minecraft:paper>, <minecraft:paper>], [<minecraft:paper>, <minecraft:paper>]]);
+
 
 //bm
 recipes.remove(<AWWayofTime:bloodMagicIncenseItem>);
