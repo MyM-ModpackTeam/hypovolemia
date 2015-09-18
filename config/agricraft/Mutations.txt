@@ -1,0 +1,25 @@
+#ONLY MODIFY THIS CONFIG IF YOU DO NOT WANT TO USE MINETWEAKER, IF YOU WANT TO MODIFY MUTATIONS USE MINETWEAKER, THIS CONFIG IS ONLY FOR PEOPLE WHO DON'T USE MINETWEAKER
+#Define mutations here: <mutation>=<parent1>+<parent2>
+#To specify a crop, write <mod>:<cropname>:<meta>, all in lowercase (meta is optional)
+#You can get these values from NEI (example: minecraft:wheat_seeds is the vanilla seeds)
+
+AgriCraft:seedSugarcane=minecraft:wheat_seeds+AgriCraft:seedCarrot
+AgriCraft:seedCactus=AgriCraft:seedSugarcane+AgriCraft:seedPoppy
+minecraft:pumpkin_seeds=AgriCraft:seedPotato+AgriCraft:seedCarrot
+minecraft:melon_seeds=AgriCraft:seedCarrot+minecraft:pumpkin_seeds
+AgriCraft:seedPoppy=AgriCraft:seedSugarcane+minecraft:pumpkin_seeds
+AgriCraft:seedDandelion=AgriCraft:seedSugarcane+minecraft:melon_seeds
+AgriCraft:seedOrchid=AgriCraft:seedPoppy+AgriCraft:seedDandelion
+AgriCraft:seedAllium=AgriCraft:seedPoppy+AgriCraft:seedOrchid
+AgriCraft:seedTulipRed=AgriCraft:seedPoppy+AgriCraft:seedAllium
+AgriCraft:seedTulipOrange=AgriCraft:seedDaisy+AgriCraft:seedOrchid
+AgriCraft:seedTulipWhite=AgriCraft:seedDaisy+AgriCraft:seedDandelion
+AgriCraft:seedTulipPink=AgriCraft:seedAllium+AgriCraft:seedDandelion
+AgriCraft:seedDaisy=AgriCraft:seedDandelion+AgriCraft:seedOrchid
+AgriCraft:seedShroomRed=minecraft:nether_wart+AgriCraft:seedPoppy
+AgriCraft:seedShroomBrown=minecraft:nether_wart+AgriCraft:seedPotato
+
+AgriCraft:seedCinderpearl=AgriCraft:seedCactus+AgriCraft:seedTulipRed
+AgriCraft:seedShimmerleaf=AgriCraft:seedTulipWhite+AgriCraft:seedCinderpearl
+AgriCraft:seedVishroom=AgriCraft:seedShroomBrown+AgriCraft:seedShimmerleaf
+AgriCraft:seedTaintedRoot=AgriCraft:seedVishroom+minecraft:nether_wart
