@@ -3,6 +3,7 @@ furnace.remove(<*>, <TConstruct:oreBerries:1>);
 furnace.remove(<*>, <TConstruct:oreBerries:2>);
 furnace.remove(<*>, <TConstruct:oreBerries:3>);
 furnace.remove(<*>, <TConstruct:oreBerries:4>);
+furnace.remove(<minecraft:glass>);
 furnace.addRecipe(<minecraft:iron_ingot>*3, <TConstruct:oreBerries>);
 furnace.addRecipe(<minecraft:gold_ingot>*2, <TConstruct:oreBerries:1>);
 furnace.addRecipe(<TConstruct:materials:9>*2, <TConstruct:oreBerries:2>);
