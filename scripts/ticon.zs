@@ -20,4 +20,5 @@ recipes.remove(<TConstruct:SearedBlock:1>);
 recipes.remove(<AWWayofTime:bloodMagicIncenseItem>);
 recipes.remove(<TConstruct:SearedBlock>);
 recipes.remove(<TConstruct:materials:2>);
+recipes.remove(<TConstruct:CraftedSoil:1>);
 
