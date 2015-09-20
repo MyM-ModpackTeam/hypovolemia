@@ -18,3 +18,6 @@ recipes.remove(<TConstruct:Smeltery:5>);
 recipes.remove(<TConstruct:CastingChannel>);
 recipes.remove(<TConstruct:SearedBlock:1>);
 recipes.remove(<AWWayofTime:bloodMagicIncenseItem>);
+recipes.remove(<TConstruct:SearedBlock>);
+recipes.remove(<TConstruct:materials:2>);
+

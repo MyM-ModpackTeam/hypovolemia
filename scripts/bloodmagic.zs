@@ -119,3 +119,9 @@ mods.bloodmagic.Alchemy.addRecipe(<Botania:manaResource:20>,[<AWWayofTime:weakBl
 recipes.remove(<Botania:fertilizer>);
 mods.bloodmagic.Alchemy.addRecipe(<Botania:fertilizer>,[<Botania:manaResource:20>,<minecraft:dye:15>],2,1000);
 mods.bloodmagic.Alchemy.addRecipe(<minecraft:dye:15>,[<witchery:ingredient:18>,<witchery:ingredient:18>,<witchery:ingredient:18>,<witchery:ingredient:18>,<witchery:ingredient:18> * 1],2,1000);
+//ticon patterns
+mods.bloodmagic.Alchemy.addRecipe(<TConstruct:metalPattern:1>,[<TConstruct:blankPattern:2>,<minecraft:stick>],2,1000);
+mods.bloodmagic.Alchemy.addRecipe(<TConstruct:metalPattern:2>,[<TConstruct:blankPattern:2>,<minecraft:iron_pickaxe>],2,1000);
+mods.bloodmagic.Alchemy.addRecipe(<TConstruct:metalPattern:4>,[<TConstruct:blankPattern:2>,<minecraft:iron_axe>],2,1000);
+mods.bloodmagic.Alchemy.addRecipe(<TConstruct:metalPattern:3>,[<TConstruct:blankPattern:2>,<minecraft:iron_shovel>],2,1000);
+//mods.bloodmagic.Alchemy.addRecipe(,[<TConstruct:blankPattern:2>,],2,1000);
