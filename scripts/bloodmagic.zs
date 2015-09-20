@@ -124,4 +124,12 @@ mods.bloodmagic.Alchemy.addRecipe(<TConstruct:metalPattern:1>,[<TConstruct:blank
 mods.bloodmagic.Alchemy.addRecipe(<TConstruct:metalPattern:2>,[<TConstruct:blankPattern:2>,<minecraft:iron_pickaxe>],2,1000);
 mods.bloodmagic.Alchemy.addRecipe(<TConstruct:metalPattern:4>,[<TConstruct:blankPattern:2>,<minecraft:iron_axe>],2,1000);
 mods.bloodmagic.Alchemy.addRecipe(<TConstruct:metalPattern:3>,[<TConstruct:blankPattern:2>,<minecraft:iron_shovel>],2,1000);
-//mods.bloodmagic.Alchemy.addRecipe(,[<TConstruct:blankPattern:2>,],2,1000);
+mods.bloodmagic.Alchemy.addRecipe(<TConstruct:metalPattern:14>,[<TConstruct:blankPattern:2>,<Mekanism:Polyethene:3>],2,1000);
+mods.bloodmagic.Alchemy.addRecipe(<TConstruct:metalPattern:17>,[<TConstruct:blankPattern:2>,<minecraft:iron_axe>,<minecraft:iron_axe>,<minecraft:iron_axe>],3,5000);
+mods.bloodmagic.Alchemy.addRecipe(<TConstruct:metalPattern:9>,[<TConstruct:blankPattern:2>,<TConstruct:toughRod:2>,<TConstruct:toughRod:2>],2,1000);
+mods.bloodmagic.Alchemy.addRecipe(<TConstruct:metalPattern:15>,[<TConstruct:blankPattern:2>,<TConstruct:toughRod:16>,<TConstruct:toughRod:16>],3,5000);
+mods.bloodmagic.Alchemy.addRecipe(<TConstruct:metalPattern:19>,[<TConstruct:blankPattern:2>,<minecraft:iron_shovel>,<minecraft:iron_shovel>,<minecraft:iron_shovel>],3,5000);
+mods.bloodmagic.Alchemy.addRecipe(<TConstruct:metalPattern:21>,[<TConstruct:blankPattern:2>,<minecraft:iron_pickaxe>,<minecraft:iron_pickaxe>,<minecraft:iron_pickaxe>],3,5000);
+mods.bloodmagic.Alchemy.addRecipe(<TConstruct:metalPattern:16>,[<TConstruct:blankPattern:2>,<minecraft:iron_block>,<minecraft:iron_block>],3,5000);
+
+
