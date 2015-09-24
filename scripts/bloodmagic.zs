@@ -134,3 +134,4 @@ mods.bloodmagic.Alchemy.addRecipe(<TConstruct:metalPattern:16>,[<TConstruct:blan
 
 //witchery
 mods.bloodmagic.Alchemy.addRecipe(<runicdungeons:item.magicchalk>,[<witchery:chalkritual> ,<witchery:chalkritual>],3,5000);
+mods.bloodmagic.Altar.addRecipe(<minecraft:mob_spawner:90>,<witchery:ingredient:103>, 6,50000,5,5);
