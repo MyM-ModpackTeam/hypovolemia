@@ -6,8 +6,8 @@
     "type": "block",
 	"drops-self": "false",
 	"drops": [
-		{"item": "minecraft:bone", "amount": "3-4", "damage": "1"},
-        {"item": "minecraft:skull", "amount": "0-1"}],
+		{"item": "minecraft:bone", "amount": "4-5", "damage": "1"},
+        {"item": "minecraft:skull", "amount": "1-2"}],
 	"flammable": "false",
     "requires-tool": "false"
 }
