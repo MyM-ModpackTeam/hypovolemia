@@ -80,6 +80,24 @@ recipes.remove(<magicalcrops:magicalcrops_ZivicioArmourBoots>);
 
 //ticon
 recipes.remove(<TConstruct:blankPattern>);
+recipes.remove(<TConstruct:ToolForgeBlock>);
+recipes.remove(<TConstruct:ToolForgeBlock:1>);
+recipes.remove(<TConstruct:ToolForgeBlock:2>);
+recipes.remove(<TConstruct:ToolForgeBlock:3>);
+recipes.remove(<TConstruct:ToolForgeBlock:4>);
+recipes.remove(<TConstruct:ToolForgeBlock:5>);
+recipes.remove(<TConstruct:ToolForgeBlock:6>);
+recipes.remove(<TConstruct:ToolForgeBlock:7>);
+recipes.remove(<TConstruct:ToolForgeBlock:8>);
+recipes.remove(<TConstruct:ToolForgeBlock:9>);
+recipes.remove(<TConstruct:ToolForgeBlock:10>);
+recipes.remove(<TConstruct:ToolForgeBlock:11>);
+recipes.remove(<TConstruct:ToolForgeBlock:12>);
+recipes.remove(<TConstruct:ToolForgeBlock:13>);
+recipes.remove(<TConstruct:blankPattern:1>);
+recipes.addShaped(<TConstruct:blankPattern:1>, [[<foundry:foundryComponent:4>, <ore:MainInfusionMaterial>]]);
+recipes.addShaped(<TConstruct:ToolForgeBlock>, [[<ore:logWood>, <ore:logWood>, <ore:logWood>], [<ore:blockIron>, <TConstruct:CraftingStation>, <minecraft:iron_block>], [<minecraft:iron_block>, null, <ore:blockIron>]]);
+
 
 //mfr
 recipes.remove(<MineFactoryReloaded:machineblock>);
@@ -100,7 +118,7 @@ recipes.removeShaped(<Mekanism:BasicBlock:8>, [[<ore:gearIron>, <ore:ingotSteel>
 recipes.remove(<Mekanism:MachineBlock2:5>);
 recipes.addShaped(<Mekanism:BasicBlock:8>, [[<ore:gearIron>, <ore:ingotSteel>, <ore:gearIron>], [<ore:ingotSteel>, <ore:gearIron>, <ore:ingotSteel>], [<ore:gearIron>, <ore:ingotSteel>, <thaumicenergistics:material:2>]]);
 recipes.remove(<Mekanism:ScubaTank:100>);
-recipes.addShaped(<Mekanism:CardboardBox>, [[<minecraft:paper>, <minecraft:paper>], [<minecraft:paper>, <minecraft:paper>]]);
+recipes.addShaped(<Mekanism:CardboardBox>, [[<minecraft:paper>,<minecraft:paper>, <minecraft:paper>], [<minecraft:paper>, <minecraft:paper>]]);
 
 
 //bm

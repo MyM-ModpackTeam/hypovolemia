@@ -23,6 +23,7 @@ mods.bloodmagic.Altar.addRecipe(<minecraft:dirt>, <minecraft:skull>, 1,100,1,1);
 mods.bloodmagic.Altar.addRecipe(<minecraft:gravel>, <minecraft:dirt>, 1,200,1,1);
 mods.bloodmagic.Altar.addRecipe(<minecraft:sand>, <minecraft:gravel>, 1,200,1,1);
 mods.bloodmagic.Altar.addRecipe(<minecraft:cobblestone>, <minecraft:sand>, 1,200,1,1);
+mods.bloodmagic.Altar.addRecipe(<minecraft:diamond_sword>, <minecraft:iron_sword>, 3,20000,3,3);
 mods.bloodmagic.Altar.addRecipe(<minecraft:netherrack>,<minecraft:cobblestone>, 1,400,1,1);
 recipes.remove(<minecraft:end_stone>);
 mods.bloodmagic.Altar.addRecipe(<minecraft:end_stone>,<minecraft:netherrack>, 1,500,1,1);
@@ -79,24 +80,24 @@ mods.bloodmagic.Alchemy.addRecipe(<magicalcrops:magicalcrops_1MinicioEssence>*9,
 
 //Magic crops seeds
 //t1
-mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_CoalSeeds> ,<magicalcrops:magicalcrops_AirSeeds>,2,1000,5,5);
-mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_DyeSeeds> ,<magicalcrops:magicalcrops_CoalSeeds> ,2,1000,5,5);
-mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_EarthSeeds> ,<magicalcrops:magicalcrops_DyeSeeds> ,2,1000,5,5);
-mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_FireSeeds> ,<magicalcrops:magicalcrops_EarthSeeds> ,2,1000,5,5);
-mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_NatureSeeds> ,<magicalcrops:magicalcrops_FireSeeds> ,2,1000,5,5);
-mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_WaterSeeds> ,<magicalcrops:magicalcrops_NatureSeeds> ,2,1000,5,5);
-mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_RubberSeeds> ,<magicalcrops:magicalcrops_WaterSeeds> ,2,1000,5,5);
-mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_AirSeeds>,<magicalcrops:magicalcrops_RubberSeeds> ,2,1000,5,5);
+mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_CoalSeeds> ,<magicalcrops:magicalcrops_AirSeeds>,2,50000);
+mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_DyeSeeds> ,<magicalcrops:magicalcrops_CoalSeeds> ,2,50000);
+mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_EarthSeeds> ,<magicalcrops:magicalcrops_DyeSeeds> ,2,50000);
+mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_FireSeeds> ,<magicalcrops:magicalcrops_EarthSeeds> ,2,50000);
+mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_NatureSeeds> ,<magicalcrops:magicalcrops_FireSeeds> ,2,50000);
+mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_WaterSeeds> ,<magicalcrops:magicalcrops_NatureSeeds> ,2,50000);
+mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_RubberSeeds> ,<magicalcrops:magicalcrops_WaterSeeds> ,2,50000);
+mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_AirSeeds>,<magicalcrops:magicalcrops_RubberSeeds> ,2,50000);
 //t2
-mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_GlowstoneSeeds> ,<magicalcrops:magicalcrops_RedstoneSeeds> ,3,3000,5,5);
-mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_ObsidianSeeds> ,<magicalcrops:magicalcrops_GlowstoneSeeds> ,3,3000,5,5);
-mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_NetherSeeds> ,<magicalcrops:magicalcrops_ObsidianSeeds> ,3,3000,5,5);
-mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_RedstoneSeeds> ,<magicalcrops:magicalcrops_NetherSeeds> ,3,3000,5,5);
+mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_GlowstoneSeeds> ,<magicalcrops:magicalcrops_RedstoneSeeds> 3,100000);
+mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_ObsidianSeeds> ,<magicalcrops:magicalcrops_GlowstoneSeeds> 3,100000);
+mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_NetherSeeds> ,<magicalcrops:magicalcrops_ObsidianSeeds> ,3,100000);
+mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_RedstoneSeeds> ,<magicalcrops:magicalcrops_NetherSeeds> ,3,100000);
 //t3
-mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_SheepSeeds>  ,<minecraft:string>,3,3000,5,5);
-mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_PigSeeds>  ,<minecraft:rotten_flesh>,3,3000,5,5);
-mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_CowSeeds>  ,<TConstruct:jerky:5>  ,3,3000,5,5);
-mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_ChickenSeeds>  ,<TConstruct:jerky:4>  ,3,3000,5,5);
+mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_SheepSeeds>  ,<minecraft:string>,3,100000);
+mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_PigSeeds>  ,<minecraft:rotten_flesh>,3,100000);
+mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_CowSeeds>  ,<TConstruct:jerky:5>  ,3,100000);
+mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_ChickenSeeds>  ,<TConstruct:jerky:4>  ,3,100000);
 
 
 //ae2
