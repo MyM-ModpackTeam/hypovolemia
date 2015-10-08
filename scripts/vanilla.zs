@@ -35,15 +35,7 @@ recipes.remove(<minecraft:iron_chestplate>);
 recipes.remove(<minecraft:iron_boots>);
 recipes.remove(<minecraft:iron_leggings>);
 
-recipes.remove(<minecraft:diamond_shovel>);
-recipes.remove(<minecraft:diamond_pickaxe>);
-recipes.remove(<minecraft:diamond_axe>);
-recipes.remove(<minecraft:diamond_sword>);
-recipes.remove(<minecraft:diamond_hoe>);
-recipes.remove(<minecraft:diamond_helmet>);
-recipes.remove(<minecraft:diamond_chestplate>);
-recipes.remove(<minecraft:diamond_boots>);
-recipes.remove(<minecraft:diamond_leggings>);
+
 
 recipes.remove(<minecraft:golden_shovel>);
 recipes.remove(<minecraft:golden_pickaxe>);
