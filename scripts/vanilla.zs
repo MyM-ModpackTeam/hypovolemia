@@ -5,13 +5,13 @@ recipes.removeShaped(<minecraft:clay_ball>, [[<ExtrabiomesXL:terrain_blocks1:1>,
 recipes.addShaped(<minecraft:crafting_table>, [[<minecraft:bone:1>, <minecraft:bone:1>], [<minecraft:bone:1>, <minecraft:bone:1>]]);
 
 recipes.addShaped(<minecraft:sapling>, [[null, <minecraft:bone>, null], [<minecraft:bone>, <minecraft:skull>, <minecraft:bone>], [null, <minecraft:skull>, null]]);
-recipes.addShaped(<minecraft:dye:15>*3, [[<minecraft:bone:1>]]);
+recipes.addShapeless(<minecraft:dye:15>*3, [[<minecraft:bone:1>]]);
 
-recipes.addShaped(<Quadrum:woodsplinter>*4, [[<ore:logWood>]]);
+recipes.addShapeless(<Quadrum:woodsplinter>*4, [[<ore:logWood>]]);
 
 recipes.addShaped(<HardcoreQuesting:quest_book>, [[<minecraft:bone>, <minecraft:bone>], [<minecraft:bone>, <minecraft:bone>], [<minecraft:bone>, <minecraft:bone>]]);
 
-recipes.addShaped(<minecraft:redstone_block>, [[<minecraft:lava_bucket>, <ore:sand>]]);
+recipes.addShapeless(<minecraft:redstone_block>, [[<minecraft:lava_bucket>, <ore:sand>]]);
 
 recipes.addShaped(<technom:bloodDynamo>, [[<ore:blockRedstone>, <ore:blockRedstone>, <ore:blockRedstone>], [<ore:blockRedstone>, <AWWayofTime:Altar>, <ore:blockRedstone>], [<ore:blockRedstone>, <ore:blockRedstone>, <ore:blockRedstone>]]);
 
