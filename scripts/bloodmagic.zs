@@ -1,5 +1,8 @@
 //general removes
 recipes.remove(<magicalcrops:magicalcrops_1MinicioEssence>);
+recipes.remove(<witchery:ingredient:153>);
+recipes.remove(<witchery:witchesovenidle>);
+recipes.remove(<witchery:ingredient:16>);
 
 // CG Removes General
 
@@ -133,7 +136,5 @@ mods.bloodmagic.Alchemy.addRecipe(<TConstruct:metalPattern:19>,[<TConstruct:blan
 mods.bloodmagic.Alchemy.addRecipe(<TConstruct:metalPattern:21>,[<TConstruct:blankPattern:2>,<minecraft:iron_pickaxe>,<minecraft:iron_pickaxe>,<minecraft:iron_pickaxe>],3,5000);
 mods.bloodmagic.Alchemy.addRecipe(<TConstruct:metalPattern:16>,[<TConstruct:blankPattern:2>,<minecraft:iron_block>,<minecraft:iron_block>],3,5000);
 
-//witchery
-mods.bloodmagic.Altar.addRecipe(<minecraft:mob_spawner:90>,<witchery:ingredient:103>, 6,50000,5,5);
-recipes.remove(<witchery:ingredient:16>);
-mods.bloodmagic.Altar.addRecipe(<witchery:ingredient:16>,<witchery:ingredient:18>, 1,500,5,5);
+//keep at bottom
+print("Bloodmagic script loaded!");
