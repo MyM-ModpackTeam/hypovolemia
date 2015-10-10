@@ -93,6 +93,7 @@ recipes.addShaped(<TConstruct:ToolForgeBlock>, [[<ore:logWood>, <ore:logWood>, <
 
 //mfr
 recipes.remove(<MineFactoryReloaded:machineblock>);
+recipes.remove(<MineFactoryReloaded:machine.0:7>);
 recipes.remove(<MineFactoryReloaded:machine.0:1>);
 recipes.addShaped(<MineFactoryReloaded:machineblock>, [[<ore:sheetPlastic>, <ore:sheetPlastic>, <ore:sheetPlastic>], [<ore:gearIron>, <ore:gearIron>, <ore:gearIron>], [<ore:sheetPlastic>, <MineFactoryReloaded:plastic.sheet>, <MineFactoryReloaded:plastic.sheet>]]);
 
