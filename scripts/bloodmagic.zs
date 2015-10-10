@@ -150,7 +150,7 @@ recipes.remove(<minecraft:diamond_helmet>);
 
 
 mods.bloodmagic.Altar.addRecipe(<minecraft:diamond_shovel>, <minecraft:iron_shovel>, 3,20000,3,3);
-mods.bloodmagic.Altar.addRecipe(<minecraft:diamond_sword>, <minecraft:iron_sword>, 3,20000,3,3);
+mods.bloodmagic.Altar.addRecipe(<minecraft:diamond_sword>, <minecraft:wooden_sword>, 3,20000,3,3);
 mods.bloodmagic.Altar.addRecipe(<minecraft:diamond_pickaxe>, <minecraft:iron_pickaxe>, 3,20000,3,3);
 mods.bloodmagic.Altar.addRecipe(<minecraft:diamond_axe>, <minecraft:iron_axe>, 3,20000,3,3);
 mods.bloodmagic.Altar.addRecipe(<minecraft:diamond_chestplate>, <minecraft:iron_chestplate>, 3,20000,3,3);
