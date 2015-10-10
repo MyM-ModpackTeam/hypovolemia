@@ -1,8 +1,5 @@
 //general removes
 recipes.remove(<magicalcrops:magicalcrops_1MinicioEssence>);
-recipes.remove(<witchery:ingredient:153>);
-recipes.remove(<witchery:witchesovenidle>);
-recipes.remove(<witchery:ingredient:16>);
 
 // CG Removes General
 
@@ -26,7 +23,6 @@ mods.bloodmagic.Altar.addRecipe(<minecraft:dirt>, <minecraft:skull>, 1,100,1,1);
 mods.bloodmagic.Altar.addRecipe(<minecraft:gravel>, <minecraft:dirt>, 1,200,1,1);
 mods.bloodmagic.Altar.addRecipe(<minecraft:sand>, <minecraft:gravel>, 1,200,1,1);
 mods.bloodmagic.Altar.addRecipe(<minecraft:cobblestone>, <minecraft:sand>, 1,200,1,1);
-mods.bloodmagic.Altar.addRecipe(<minecraft:diamond_sword>, <minecraft:iron_sword>, 3,20000,3,3);
 mods.bloodmagic.Altar.addRecipe(<minecraft:netherrack>,<minecraft:cobblestone>, 1,400,1,1);
 recipes.remove(<minecraft:end_stone>);
 mods.bloodmagic.Altar.addRecipe(<minecraft:end_stone>,<minecraft:netherrack>, 1,500,1,1);
@@ -136,5 +132,29 @@ mods.bloodmagic.Alchemy.addRecipe(<TConstruct:metalPattern:19>,[<TConstruct:blan
 mods.bloodmagic.Alchemy.addRecipe(<TConstruct:metalPattern:21>,[<TConstruct:blankPattern:2>,<minecraft:iron_pickaxe>,<minecraft:iron_pickaxe>,<minecraft:iron_pickaxe>],3,5000);
 mods.bloodmagic.Alchemy.addRecipe(<TConstruct:metalPattern:16>,[<TConstruct:blankPattern:2>,<minecraft:iron_block>,<minecraft:iron_block>],3,5000);
 
-//keep at bottom
-print("Bloodmagic script loaded!");
+//witchery
+mods.bloodmagic.Altar.addRecipe(<minecraft:mob_spawner:90>,<witchery:ingredient:103>, 6,50000,5,5);
+recipes.remove(<witchery:ingredient:16>);
+mods.bloodmagic.Altar.addRecipe(<witchery:ingredient:16>,<witchery:ingredient:18>, 1,500,5,5);
+
+//vanilla diamond stuff
+recipes.remove(<minecraft:diamond_sword>);
+recipes.remove(<minecraft:diamond_shovel>);
+recipes.remove(<minecraft:diamond_pickaxe>);
+recipes.remove(<minecraft:diamond_axe>);
+recipes.remove(<minecraft:diamond_hoe>);
+recipes.remove(<minecraft:diamond_chestplate>);
+recipes.remove(<minecraft:diamond_leggings>);
+recipes.remove(<minecraft:diamond_boots>);
+recipes.remove(<minecraft:diamond_helmet>);
+
+
+mods.bloodmagic.Altar.addRecipe(<minecraft:diamond_shovel>, <minecraft:iron_shovel>, 3,20000,3,3);
+mods.bloodmagic.Altar.addRecipe(<minecraft:diamond_sword>, <minecraft:iron_sword>, 3,20000,3,3);
+mods.bloodmagic.Altar.addRecipe(<minecraft:diamond_pickaxe>, <minecraft:iron_pickaxe>, 3,20000,3,3);
+mods.bloodmagic.Altar.addRecipe(<minecraft:diamond_axe>, <minecraft:iron_axe>, 3,20000,3,3);
+mods.bloodmagic.Altar.addRecipe(<minecraft:diamond_chestplate>, <minecraft:iron_chestplate>, 3,20000,3,3);
+mods.bloodmagic.Altar.addRecipe(<minecraft:diamond_leggings>, <minecraft:iron_leggings>, 3,20000,3,3);
+mods.bloodmagic.Altar.addRecipe(<minecraft:diamond_boots>, <minecraft:iron_boots>, 3,20000,3,3);
+mods.bloodmagic.Altar.addRecipe(<minecraft:diamond_helmet>, <minecraft:iron_helmet>, 3,20000,3,3);
+mods.bloodmagic.Altar.addRecipe(<minecraft:diamond_hoe>, <minecraft:iron_hoe>, 3,20000,3,3);
