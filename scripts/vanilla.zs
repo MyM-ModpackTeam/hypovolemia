@@ -59,6 +59,11 @@ recipes.remove(<magicalcrops:magicalcrops_ZivicioArmourHelmet>);
 recipes.remove(<magicalcrops:magicalcrops_ZivicioArmourChestplate>);
 recipes.remove(<magicalcrops:magicalcrops_ZivicioArmourLeggings>);
 recipes.remove(<magicalcrops:magicalcrops_ZivicioArmourBoots>);
+recipes.remove(<magicalcrops:magicalcrops_AccioArmourHelmet>);
+recipes.remove(<magicalcrops:magicalcrops_AccioArmourChestplate>);
+recipes.remove(<magicalcrops:magicalcrops_AccioArmourLeggings>);
+recipes.remove(<magicalcrops:magicalcrops_AccioArmourBoots>);
+recipes.remove(<magicalcrops:magicalcrops_AccioSword>);
 
 //ticon
 recipes.remove(<TConstruct:SearedBlock:2>);
