@@ -1,6 +1,8 @@
 ===========
 Hypovolemia
 ===========
+- `Simple labels <http://minecraft.curseforge.com/projects/simplelabels>`_, insaneau
+- `Chicken Chunks <http://www.curse.com/mc-mods/minecraft/229316-chickenchunks#t1:description>`_, chicken_bones
 - `Fast leaf decay <http://www.curse.com/mc-mods/minecraft/230976-fastleafdecay>`_, Olafskii
 - `Dynamic Lights <http://atomicstryker.net/dynamiclights.php>`_, atomicstryker
 - `Mouse Tweaks <http://minecraft.curseforge.com/mc-mods/60089-mouse-tweaks>`_, YaLTeR
