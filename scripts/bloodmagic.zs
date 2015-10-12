@@ -160,7 +160,6 @@ mods.bloodmagic.Altar.addRecipe(<minecraft:diamond_helmet>, <minecraft:iron_helm
 mods.bloodmagic.Altar.addRecipe(<minecraft:diamond_hoe>, <minecraft:iron_hoe>, 3,20000,3,3);
 
 //Thaumcraft Stuff
-recipes.remove(<Thaumcraft:WandCasting>);
 recipes.remove(<Thaumcraft:blockTable>);
 recipes.remove(<technom:pen>);
 recipes.remove(<Thaumcraft:ItemInkwell>);
