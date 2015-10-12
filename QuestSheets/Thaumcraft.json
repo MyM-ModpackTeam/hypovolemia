@@ -1,0 +1,932 @@
+{
+  "name": "Thaumcraft",
+  "description": "Waving Wands to make life easier.",
+  "quests": [
+    {
+      "name": "Thaumcraft",
+      "description": "The gods have shown me the ability to have another form of magic in this world, Its like I remember but slightly different.",
+      "x": 16,
+      "y": 10,
+      "icon": {
+        "id": "technom:itemScepter"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Magic works differently here, The wand seems to have no power to it, I might as well just wave a stick around...",
+          "items": [
+            {
+              "item": {
+                "id": "Quadrum:WoodWand"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "longDescription": "Why would you dip your stick in your blood? Thats just wron... Oh would you look at that your blood gave your stick magic powers again.",
+          "items": [
+            {
+              "item": {
+                "id": "technom:itemScepter"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The \"Normal\" Way",
+      "description": "[ONCE YOU PICK AN OPTION YOU CAN NOT CHANGE IT]                      Here I can take the normal way, No gods will mess with me untill I advance further into thaumcraft if I take this route.",
+      "x": 26,
+      "y": 48,
+      "icon": {
+        "id": "Thaumcraft:ItemThaumonomicon"
+      },
+      "requirements": [
+        0
+      ],
+      "options": [
+        2,
+        3
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemThaumonomicon"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemThaumonomicon"
+        },
+        {
+          "id": "Thaumcraft:blockAiry",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "The \"Simple\" Way",
+      "description": "[ONCE YOU PICK AN OPTION YOU CAN NOT CHANGE IT]                      Here I can take the simple way, No gods will mess with me untill I advance further into thaumcraft if I take this route. I will be provided with a simple way to gain \"Aspects\"",
+      "x": 38,
+      "y": 29,
+      "icon": {
+        "id": "technom:advDeconTable",
+        "nbt": "{breakspeed:80,x:0,y:0,z:0,Items:[],id:\"techno:TileAdvDeconTable\"}"
+      },
+      "requirements": [
+        0
+      ],
+      "options": [
+        3
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemThaumonomicon"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemThaumonomicon"
+        },
+        {
+          "id": "Thaumcraft:blockAiry",
+          "amount": 5
+        },
+        {
+          "id": "technom:advDeconTable",
+          "nbt": "{breakspeed:80,x:0,y:0,z:0,Items:[],id:\"techno:TileAdvDeconTable\"}"
+        }
+      ]
+    },
+    {
+      "name": "The \"Cheaty\" Way",
+      "description": "[ONCE YOU PICK AN OPTION YOU CAN NOT CHANGE IT]                      Here I can take the cheaty route, Which will anger the gods. Doing so comes at its price. I shall be cast with a infection called warp. This will have many negative effects on me.",
+      "x": 50,
+      "y": 10,
+      "icon": {
+        "id": "Thaumcraft:ItemThaumonomicon",
+        "damage": 42
+      },
+      "requirements": [
+        0
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemThaumonomicon"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemThaumonomicon",
+          "damage": 42
+        },
+        {
+          "id": "Thaumcraft:blockAiry",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Works of the Arcane",
+      "description": "This magic, Its different from before. Everything seems less powerful, I cant seem to get things to have there magic properties unless they are dipped in blood.",
+      "x": 79,
+      "y": 48,
+      "icon": {
+        "id": "Thaumcraft:blockTable",
+        "damage": 15
+      },
+      "requirements": [
+        1,
+        2,
+        3
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "parentRequirement": 1,
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "The power of the arcane requires compressed crafting skills. For that im going to need a table.",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockTable"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "longDescription": "Now this table. I need to do something to it. Preferably add some magic to it. What about hitting it with my wand?",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockTable",
+                "damage": 15
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:blockAiry"
+        }
+      ],
+      "rewardChoice": [
+        {
+          "id": "minecraft:golden_apple"
+        },
+        {
+          "id": "TConstruct:diamondApple"
+        }
+      ]
+    },
+    {
+      "name": "Research",
+      "description": "This magic it seems different. The reserch.. I cant seem to remember it.",
+      "x": 67,
+      "y": 68,
+      "icon": {
+        "id": "Thaumcraft:ItemInkwell",
+        "damage": 100
+      },
+      "requirements": [
+        1,
+        2
+      ],
+      "parentRequirement": 1,
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Before I start making any notes, Im going to need something to write with, Maybe a pen, No. they wont work here. Maybe I could do something with the Pen core though...                        [Unfortuantly the only way I could get this to work was to give you a set of unusable scribing tools that you could use to make a table. Use the empty scribing tool then right click on a double table. This will create what you need for reserching items in thaumcraft]",
+          "items": [
+            {
+              "item": {
+                "id": "ForbiddenMagic:Bloodwell"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemInkwell",
+          "damage": 100
+        }
+      ]
+    },
+    {
+      "name": "Shards!",
+      "description": "The gods told me about magical shards. They told me that certain elements combined with Iron and blood would create them for me.",
+      "x": 264,
+      "y": 31,
+      "icon": {
+        "id": "ForbiddenMagic:NetherShard",
+        "damage": 3
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "AWWayofTime:blockWritingTable"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_ingot"
+              },
+              "required": 12
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemLootBag",
+          "damage": 2,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "AIR",
+      "description": "Each of the 4 Elements have its own shard, I can only assume I make Air with Air....",
+      "x": 243,
+      "y": 31,
+      "icon": {
+        "id": "Thaumcraft:ItemShard"
+      },
+      "requirements": [
+        6
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "magicalcrops:magicalcrops_AirEssence"
+              },
+              "required": 3
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemShard"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemShard",
+          "amount": 5
+        }
+      ],
+      "rewardChoice": [
+        {
+          "id": "chisel:cloud",
+          "amount": 10
+        },
+        {
+          "id": "TConstruct:slime.gel",
+          "damage": 2,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "EARTH",
+      "description": "Each of the 4 Elements have its own shard, I can only assume I make Earth with Earth....",
+      "x": 287,
+      "y": 32,
+      "icon": {
+        "id": "Thaumcraft:ItemShard",
+        "damage": 3
+      },
+      "requirements": [
+        6
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "magicalcrops:magicalcrops_EarthEssence"
+              },
+              "required": 3
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemShard",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemShard",
+          "damage": 3,
+          "amount": 5
+        }
+      ],
+      "rewardChoice": [
+        {
+          "id": "minecraft:dirt",
+          "amount": 32
+        },
+        {
+          "id": "Thaumcraft:blockWoodenDevice",
+          "damage": 8
+        }
+      ]
+    },
+    {
+      "name": "WATER!",
+      "description": "Each of the 4 Elements have its own shard, I can only assume I make Water with Water....",
+      "x": 275,
+      "y": 13,
+      "icon": {
+        "id": "Thaumcraft:ItemShard",
+        "damage": 2
+      },
+      "requirements": [
+        6
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "magicalcrops:magicalcrops_WaterEssence"
+              },
+              "required": 3
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemShard",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemShard",
+          "damage": 2,
+          "amount": 5
+        }
+      ],
+      "rewardChoice": [
+        {
+          "id": "minecraft:potion",
+          "damage": 16429
+        },
+        {
+          "id": "Thaumcraft:ItemResource",
+          "damage": 9
+        }
+      ]
+    },
+    {
+      "name": "Order",
+      "description": "Well, A magical shard that is not an element. I guess it needs to be something orgnanised and maybe magic? ",
+      "x": 274,
+      "y": 50,
+      "icon": {
+        "id": "Thaumcraft:ItemShard",
+        "damage": 4
+      },
+      "requirements": [
+        6
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "magicalcrops:magicalcrops_2AccioEssence"
+              },
+              "required": 3
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemShard",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemShard",
+          "damage": 4,
+          "amount": 5
+        }
+      ],
+      "rewardChoice": [
+        {
+          "id": "minecraft:leather",
+          "amount": 2
+        },
+        {
+          "id": "minecraft:gold_ingot",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "FIRE",
+      "description": "Each of the 4 Elements have its own shard, I can only assume I make Fire with Fire....",
+      "x": 253,
+      "y": 11,
+      "icon": {
+        "id": "Thaumcraft:ItemShard",
+        "damage": 1
+      },
+      "requirements": [
+        6
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "magicalcrops:magicalcrops_FireEssence"
+              },
+              "required": 3
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemShard",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemShard",
+          "damage": 1,
+          "amount": 5
+        }
+      ],
+      "rewardChoice": [
+        {
+          "id": "Thaumcraft:ItemLootBag",
+          "damage": 2,
+          "amount": 2
+        },
+        {
+          "id": "magicalcrops:magicalcrops_2AccioEssence",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Entropy",
+      "description": "Destruction and Chaos. It never took me long to find what could create this shard. Explosives. They cause Destuction and Chaos.",
+      "x": 253,
+      "y": 50,
+      "icon": {
+        "id": "Thaumcraft:ItemShard",
+        "damage": 5
+      },
+      "requirements": [
+        6
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:tnt"
+              },
+              "required": 3
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemShard",
+                "damage": 5
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemShard",
+          "damage": 5,
+          "amount": 5
+        }
+      ],
+      "rewardChoice": [
+        {
+          "id": "minecraft:leather",
+          "amount": 2
+        },
+        {
+          "id": "minecraft:gold_ingot",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Goggles of seeing",
+      "description": "Magic is hidden in most things. Finding it with the bare eye is hard. Maybe I should make some Goggles to see this magic easier.",
+      "x": 90,
+      "y": 29,
+      "icon": {
+        "id": "Thaumcraft:ItemGoggles"
+      },
+      "requirements": [
+        4,
+        14
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemGoggles"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemResource",
+          "damage": 2,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Through the looking glass.",
+      "description": "Finding magic requires special infused glass, Its about time I created something to see this Magic.",
+      "x": 233,
+      "y": 11,
+      "icon": {
+        "id": "Thaumcraft:ItemThaumometer"
+      },
+      "requirements": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "parentRequirement": 1,
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemThaumometer"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemLootBag",
+          "damage": 2
+        }
+      ],
+      "rewardChoice": [
+        {
+          "id": "minecraft:leather",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:gold_ingot",
+          "amount": 4
+        },
+        {
+          "id": "TConstruct:ore.berries.one",
+          "damage": 8,
+          "amount": 2
+        },
+        {
+          "id": "TConstruct:ore.berries.one",
+          "damage": 9,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Aspect Generator",
+      "description": "Aspects are Hidden in most items. Its just how do I get them out. Perhaps grinding an item up so much it will give an aspect to me. Maybe I should try a crafting table.",
+      "x": 101,
+      "y": 48,
+      "icon": {
+        "id": "Thaumcraft:blockTable",
+        "damage": 14
+      },
+      "requirements": [
+        4,
+        14
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockTable",
+                "damage": 14
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:crafting_table",
+          "amount": 10
+        }
+      ],
+      "rewardChoice": [
+        {
+          "id": "minecraft:crafting_table",
+          "amount": 20
+        },
+        {
+          "id": "Thaumcraft:ItemResource",
+          "damage": 9,
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "Foci",
+      "description": "Apparently, I can add a special magic cap to the top of my normal cap. It seems to give my wand abilities other then the ability to create other magical items.",
+      "x": 90,
+      "y": 67,
+      "icon": {
+        "id": "Thaumcraft:FocusFire"
+      },
+      "requirements": [
+        4
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:FocusFire"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemShard",
+          "damage": 1,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Shocking",
+      "description": "I found a way to turn Vis into Electricity, Using this I have the power to electricute anything I want. Better be careful around creepers. ",
+      "x": 78,
+      "y": 87,
+      "icon": {
+        "id": "Thaumcraft:FocusShock"
+      },
+      "requirements": [
+        16
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:FocusShock"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Diggy Diggy Hole",
+      "description": "With this magic, I have the ability to destroy blocks with magic, The need for tools has gone!",
+      "x": 100,
+      "y": 86,
+      "icon": {
+        "id": "Thaumcraft:FocusExcavation"
+      },
+      "requirements": [
+        16
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:FocusExcavation"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Builders Friend",
+      "description": "With the equal trade. I have the ability to change blocks without mining them! Brilliant for building. It can change multiple blocks at once!",
+      "x": 112,
+      "y": 67,
+      "icon": {
+        "id": "Thaumcraft:FocusTrade"
+      },
+      "requirements": [
+        16
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:FocusTrade"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Let it goooooo,",
+      "description": "Let it go, let it go!                  Turn away and slam the door.         I don\u0027t care what they\u0027re going to say.                                     Let the storm rage on.                 The cold never bothered me anyway.                                     Im here, In a bloody wasteland. And the first thought of being able to freeze things. I get a freaking Frozen reference in my head. Gods get me out of here.",
+      "x": 89,
+      "y": 105,
+      "icon": {
+        "id": "Thaumcraft:FocusFrost"
+      },
+      "requirements": [
+        16
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:FocusFrost"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bagging your Foci",
+      "description": "It comes to the point where you need a simple way to carry all your Foci round. They are starting to fill your Inventory up.",
+      "x": 122,
+      "y": 86,
+      "icon": {
+        "id": "Thaumcraft:FocusPouch"
+      },
+      "requirements": [
+        16
+      ],
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:FocusPouch"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 56,
+      "y": 88,
+      "icon": {
+        "id": "Thaumcraft:WandCap",
+        "damage": 1
+      },
+      "requirements": [
+        4
+      ],
+      "tasks": []
+    },
+    {
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 45,
+      "y": 69,
+      "icon": {
+        "id": "Thaumcraft:WandCap",
+        "damage": 3
+      },
+      "requirements": [
+        4
+      ],
+      "tasks": []
+    }
+  ]
+}

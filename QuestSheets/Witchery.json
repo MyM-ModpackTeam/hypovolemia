@@ -1,0 +1,520 @@
+{
+  "name": "Witchery",
+  "description": "The time has come for you to delve into the world of witches, vampires and werewolves!",
+  "quests": [
+    {
+      "name": "Mutating into a Witch!",
+      "description": "To start Witchery you will need seeds, but with the world being a bloody wasteland you can\u0027t obtain them naturally. Your way to obtain them will be seed mutation. Mutate Wheat seeds with Water seeds to create Belladonna seeds and use them on the next quest!",
+      "x": 153,
+      "y": 87,
+      "bigIcon": true,
+      "icon": {
+        "id": "witchery:seedsmandrake"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:seedsbelladonna"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "AgriCraft:cropsItem",
+          "amount": 16
+        },
+        {
+          "id": "LoreExp:page",
+          "nbt": "{page:12,dimension:2147483647}"
+        }
+      ],
+      "rewardChoice": [
+        {
+          "id": "AgriCraft:cropsItem",
+          "amount": 4
+        },
+        {
+          "id": "witchery:seedsmandrake"
+        },
+        {
+          "id": "witchery:seedssnowbell"
+        }
+      ]
+    },
+    {
+      "name": "Burning Time!",
+      "description": "Now that you have obtained all the seeds, its time to make a witches oven.",
+      "x": 135,
+      "y": 71,
+      "icon": {
+        "id": "witchery:witchesovenidle"
+      },
+      "requirements": [
+        0
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:witchesovenidle"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "witchery:ingredient",
+          "damage": 18,
+          "amount": 16
+        }
+      ],
+      "rewardChoice": [
+        {
+          "id": "witchery:witchsapling"
+        },
+        {
+          "id": "witchery:witchsapling",
+          "damage": 2
+        },
+        {
+          "id": "witchery:witchsapling",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Sapling smelting!",
+      "description": "Now that you have obtained yourself a witches oven its time to start throwing any spare sapling and logs into the oven. Doing this will give you multiple outputs depending on the sapling or wood type! Use nei to see the sapling needed for this quest.",
+      "x": 121,
+      "y": 92,
+      "icon": {
+        "id": "witchery:ingredient",
+        "damage": 31
+      },
+      "requirements": [
+        1
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 31
+              }
+            },
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 18
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "witchery:fumefunnel"
+        }
+      ],
+      "rewardChoice": [
+        {
+          "id": "witchery:filteredfumefunnel"
+        },
+        {
+          "id": "witchery:fumefunnel"
+        }
+      ]
+    },
+    {
+      "name": "Stirring the cauldron!",
+      "description": "The time has come to start brewing evel conjurations in your witches cauldron!",
+      "x": 96,
+      "y": 88,
+      "icon": {
+        "id": "witchery:cauldron"
+      },
+      "requirements": [
+        2
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:cauldron"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "witchery:ingredient",
+          "damage": 14,
+          "amount": 8
+        }
+      ],
+      "rewardChoice": [
+        {
+          "id": "witchery:ingredient",
+          "damage": 14,
+          "amount": 8
+        },
+        {
+          "id": "minecraft:egg",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "Tree harvesting",
+      "description": "Your next mission is to use the mutandis obtained in the last quest on a piece of grass. Make sure to bring shears as some items you can obtain using this method need to be sheared to obtain!",
+      "x": 71,
+      "y": 88,
+      "icon": {
+        "id": "witchery:witchsapling"
+      },
+      "requirements": [
+        3
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:witchsapling",
+                "damage": 2
+              }
+            },
+            {
+              "item": {
+                "id": "witchery:witchsapling"
+              }
+            },
+            {
+              "item": {
+                "id": "witchery:witchsapling",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "witchery:witchsapling",
+          "damage": 2,
+          "amount": 2
+        },
+        {
+          "id": "witchery:witchsapling",
+          "damage": 1,
+          "amount": 2
+        },
+        {
+          "id": "witchery:witchsapling",
+          "amount": 2
+        }
+      ],
+      "rewardChoice": [
+        {
+          "id": "minecraft:sapling",
+          "damage": 2,
+          "amount": 2
+        },
+        {
+          "id": "minecraft:sapling",
+          "damage": 3,
+          "amount": 2
+        },
+        {
+          "id": "minecraft:sapling",
+          "damage": 1,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Ritual Power",
+      "description": "Now is the time to make your first witchery altar that will power all of your evil spells....                    You can use the rewards provided to also boost the range and power your altar provides !",
+      "x": 45,
+      "y": 88,
+      "icon": {
+        "id": "witchery:altar"
+      },
+      "requirements": [
+        4
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:altar"
+              },
+              "required": 6
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:skull",
+          "damage": 3,
+          "nbt": "{SkullOwner:{Id:\"a97174eb-9e37-4035-b751-f7601488528d\",Properties:{textures:[0:{Signature:\"PixUPoD1E9hZF191kjqg5hBUlYq3e54cL6JcEyS1iavP/45A1teQ3lA2xVOTl8w11JrksjJPY7zcJH//XFYI+CKKKcG3jMwMRrgprA4fdcou/5KAM+Ju3MoONVNSerRmZcXHp8vQu8BqsXPPtOisN9T0Mw+87SvpINqZi1HfPm2rh9sZj2zTg8bUPWg76LJisMr6q+FUdaJjD059XYc3IaPtsrXp33NoiPZi11NnaJ83dMUYOoCRGvhJ1RAQNSjPxVtsaDywI10j9xEYvImFwOYxQxKzNYKzH0LOU0jK8yoY7wULBBBhsjW+9aBnRVviUWLTd4NzNH7qoJVPrQN2HBJsUWahbpXlywdCEzspIVKoPKxv+4i4l1LKs88ygyEt4XzggMYNyPU1w67ucatTDNGkDAYgC0OCcyKFlkJhvA39zDLADbeNj87rt4l7qc3+a81SdExFWtVQNRsCe7+TeAUQ7NDzcpP6xhbYb/SlDg47248lqP98Se4ZTD4wT+gF8EAwlhmR98PWS1nSUz4VnXchhCkHRlY95HvSRGgI4uzNNC5Zptb7YdjaFwwjgbRGK0io+QU8AlZSVhk179JgGxgmtnf+oPobti68kAbb8xd4sq+FVGJLLxhjJ2ZGy7TT3tmhWT7CacJM4ha/Cx2JGtfHMIdeb2nvwXeUt2EFQeE\u003d\",Value:\"eyJ0aW1lc3RhbXAiOjE0NDQ0MDUwMjg4MDYsInByb2ZpbGVJZCI6ImE5NzE3NGViOWUzNzQwMzViNzUxZjc2MDE0ODg1MjhkIiwicHJvZmlsZU5hbWUiOiJCZW5ueWJveTE2OTUiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NjZTQ0ZTdkNDYyYjE3OWU1MTg4NzZhNzI1MmI2ZmUwNDg1NDU0ZWNmNWY0MzM1ZmRkNWZhN2E2N2MwZTA5ZiJ9fX0\u003d\"}]},Name:\"Bennyboy1695\"}}"
+        }
+      ],
+      "rewardChoice": [
+        {
+          "id": "witchery:arthana"
+        },
+        {
+          "id": "witchery:ingredient",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Circle Magic",
+      "description": "I see you have chosen to delve into the circle magic side of witchery. Well you have made a great choice! To get started with circle magic you will need to make some ritual chalk.",
+      "x": 19,
+      "y": 57,
+      "icon": {
+        "id": "witchery:chalkheart"
+      },
+      "requirements": [
+        7
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:chalkritual"
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "witchery:ingredient",
+          "damage": 17,
+          "amount": 6
+        }
+      ],
+      "rewardChoice": [
+        {
+          "id": "witchery:chalkritual"
+        },
+        {
+          "id": "witchery:chalkotherwhere"
+        },
+        {
+          "id": "witchery:chalkinfernal"
+        },
+        {
+          "id": "witchery:chalkheart"
+        }
+      ]
+    },
+    {
+      "name": "Books, books, books....",
+      "description": "Before we go any further its time for you to get reading, create the witchery books and then bring them to me!",
+      "x": 18,
+      "y": 88,
+      "icon": {
+        "id": "Enchiridion:items",
+        "damage": 1
+      },
+      "requirements": [
+        5
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Witchcraft: Circle Magic",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 48
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Witchcraft: Distilling",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 47
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Witcraft: Herbology",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 81
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Witchcraft: Symbology",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 107
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Witchcraft: Brews \u0026 Infusions",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 49
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Witchcraft: Conjuration",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 127
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Book Of Biomes",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 106
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Witchcraft: Collecting Fumes",
+          "items": [
+            {
+              "item": {
+                "id": "witchery:ingredient",
+                "damage": 46
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "witchery:cauldronbook"
+        },
+        {
+          "id": "witchery:bookbiomes2"
+        },
+        {
+          "id": "Enchiridion:items",
+          "damage": 1
+        }
+      ],
+      "rewardChoice": [
+        {
+          "id": "witchery:vampirebook",
+          "damage": 9,
+          "nbt": "{pageStack:[0:\"ritual1\",1:\"ritual2\",2:\"ritual3\",3:\"ritual4\",4:\"ritual5\",5:\"transfix\",6:\"knockback\",7:\"speed\",8:\"resistsun\",9:\"smashstone\",10:\"bats\",11:\"mesmerize\",12:\"maker\",13:\"maker2\",14:\"finalpowers\"]}"
+        }
+      ]
+    },
+    {
+      "name": "Turn the kettle off dear.",
+      "description": "A lot of the circle magic items require brews that get made in the kettle, while the kettle is how it is meant to be done we prefer it to be done the Bloodmagic way in this pack ;)",
+      "x": 19,
+      "y": 28,
+      "requirements": [
+        6
+      ],
+      "tasks": []
+    },
+    {
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 211,
+      "y": 18,
+      "tasks": []
+    },
+    {
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 226,
+      "y": 17,
+      "tasks": []
+    },
+    {
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 249,
+      "y": 17,
+      "tasks": []
+    },
+    {
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 274,
+      "y": 17,
+      "tasks": []
+    },
+    {
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 295,
+      "y": 17,
+      "tasks": []
+    },
+    {
+      "name": "Unnamed",
+      "description": "Unnamed quest",
+      "x": 307,
+      "y": 17,
+      "tasks": []
+    }
+  ]
+}
