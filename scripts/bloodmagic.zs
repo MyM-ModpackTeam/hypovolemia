@@ -162,16 +162,24 @@ mods.bloodmagic.Altar.addRecipe(<minecraft:diamond_helmet>, <minecraft:iron_helm
 mods.bloodmagic.Altar.addRecipe(<minecraft:diamond_hoe>, <minecraft:iron_hoe>, 3,20000,3,3);
 
 //Thaumcraft Stuff
-recipes.remove(<Thaumcraft:WandCasting>);
-recipes.remove(<Thaumcraft:blockTable>);
-recipes.remove(<technom:pen>);
-recipes.remove(<Thaumcraft:ItemInkwell>);
-mods.bloodmagic.Altar.addRecipe(<Thaumcraft:WandCasting>, <Quadrum:WoodWand>, 2,5000,5,5);
-mods.bloodmagic.Altar.addRecipe(<Thaumcraft:blockTable>, <Avaritia:Triple_Craft>, 2,10000,5,5);
-mods.bloodmagic.Altar.addRecipe(<ForbiddenMagic:Boundwell>, <technom:itemMaterial:3>, 3,10000,5,5);
+
+//recipes.remove(<Thaumcraft:blockTable>);
+//recipes.remove(<technom:pen>);
+//recipes.remove(<Thaumcraft:ItemInkwell>);
+//mods.bloodmagic.Altar.addRecipe(<Thaumcraft:WandCasting>, <Quadrum:WoodWand>, 2,5000,5,5);
+//mods.bloodmagic.Altar.addRecipe(<Thaumcraft:blockTable>, <Avaritia:Triple_Craft>, 2,10000,5,5);
+//mods.bloodmagic.Altar.addRecipe(<ForbiddenMagic:Boundwell>, <technom:itemMaterial:3>, 3,10000,5,5);
 mods.bloodmagic.Alchemy.addRecipe(<Thaumcraft:ItemShard>,[<magicalcrops:magicalcrops_AirEssence>,<magicalcrops:magicalcrops_AirEssence>,<magicalcrops:magicalcrops_AirEssence>,<minecraft:iron_ingot>,<minecraft:iron_ingot>],2,5000);
 mods.bloodmagic.Alchemy.addRecipe(<Thaumcraft:ItemShard:1>,[<magicalcrops:magicalcrops_FireEssence>,<magicalcrops:magicalcrops_FireEssence>,<magicalcrops:magicalcrops_FireEssence>,<minecraft:iron_ingot>,<minecraft:iron_ingot>],2,5000);
 mods.bloodmagic.Alchemy.addRecipe(<Thaumcraft:ItemShard:2>,[<magicalcrops:magicalcrops_WaterEssence>,<magicalcrops:magicalcrops_WaterEssence>,<magicalcrops:magicalcrops_WaterEssence>,<minecraft:iron_ingot>,<minecraft:iron_ingot>],2,5000);
 mods.bloodmagic.Alchemy.addRecipe(<Thaumcraft:ItemShard:3>,[<magicalcrops:magicalcrops_EarthEssence>,<magicalcrops:magicalcrops_EarthEssence>,<magicalcrops:magicalcrops_EarthEssence>,<minecraft:iron_ingot>,<minecraft:iron_ingot>],2,5000);
 mods.bloodmagic.Alchemy.addRecipe(<Thaumcraft:ItemShard:4>,[<magicalcrops:magicalcrops_2AccioEssence>,<magicalcrops:magicalcrops_2AccioEssence>,<magicalcrops:magicalcrops_2AccioEssence>,<minecraft:iron_ingot>,<minecraft:iron_ingot>],2,5000);
 mods.bloodmagic.Alchemy.addRecipe(<Thaumcraft:ItemShard:5>,[<minecraft:tnt>,<minecraft:tnt>,<minecraft:tnt>,<minecraft:iron_ingot>,<minecraft:iron_ingot>],2,5000);
+
+//tc new
+recipes.remove(<Thaumcraft:WandCap>);
+
+mods.bloodmagic.Altar.addRecipe(<Thaumcraft:ItemResource:3>,<foundry:blockFoundryMetal:8>,3,30000,5,5);
+mods.bloodmagic.Altar.addRecipe(<Thaumcraft:ItemThaumonomicon>,<minecraft:writable_book>,3,30000,5,5);
+mods.bloodmagic.Altar.addRecipe(<Thaumcraft:blockTube>,<Mekanism:PartTransmitter:4> ,3,3000,5,5);
+mods.bloodmagic.Alchemy.addRecipe(<Thaumcraft:WandCap>,[<TConstruct:oreBerries>,<TConstruct:oreBerries>,<TConstruct:oreBerries>,<TConstruct:oreBerries>,<TConstruct:oreBerries> * 1],3,10000);
