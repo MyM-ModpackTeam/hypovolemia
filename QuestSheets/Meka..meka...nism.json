@@ -1,0 +1,794 @@
+{
+  "name": "Meka..meka...nism",
+  "description": "Machines to aid.",
+  "quests": [
+    {
+      "name": "Without the gods",
+      "description": "I feel proficient by now that technology is as good as the gods goodwill. This machine will help me get more out of my plants.",
+      "x": 26,
+      "y": 180,
+      "icon": {
+        "id": "Mekanism:MachineBlock"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Mekanism:PartTransmitter",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "Triple it",
+      "description": "With two more machines i can get even more out of the ores. First ill put them into a purification chamber.",
+      "x": 50,
+      "y": 180,
+      "icon": {
+        "id": "Mekanism:MachineBlock",
+        "damage": 5,
+        "nbt": "{recipeType:5}"
+      },
+      "requirements": [
+        0
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock",
+                "damage": 9
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Mekanism:PartTransmitter",
+          "damage": 4,
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "Crush of clumps",
+      "description": "The clumps from the purification need to be crushed. After crushing, i can use my old enrichment chamber for the dusts.",
+      "x": 75,
+      "y": 181,
+      "icon": {
+        "id": "Mekanism:MachineBlock",
+        "damage": 3
+      },
+      "requirements": [
+        1
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock",
+                "damage": 3
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Mekanism:PartTransmitter",
+          "damage": 12,
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "Factories",
+      "description": "All these machines can be improved to handle multiple items at a time. There are several tiers to each. Lets start with the crusher.",
+      "x": 87,
+      "y": 160,
+      "icon": {
+        "id": "Mekanism:MachineBlock",
+        "damage": 5,
+        "nbt": "{recipeType:2}"
+      },
+      "requirements": [
+        2
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock",
+                "damage": 5,
+                "nbt": "{recipeType:2}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Mekanism:EnrichedAlloy",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Advanced factory",
+      "description": "Even more items at a time.",
+      "x": 100,
+      "y": 139,
+      "icon": {
+        "id": "Mekanism:MachineBlock",
+        "damage": 6,
+        "nbt": "{recipeType:2}"
+      },
+      "requirements": [
+        3
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock",
+                "damage": 6,
+                "nbt": "{recipeType:2}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Mekanism:ReinforcedAlloy",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Elite factory",
+      "description": "Quite expensive but worth it.",
+      "x": 113,
+      "y": 117,
+      "icon": {
+        "id": "Mekanism:MachineBlock",
+        "damage": 7,
+        "nbt": "{recipeType:2}"
+      },
+      "requirements": [
+        4
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock",
+                "damage": 7,
+                "nbt": "{recipeType:2}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Mekanism:EnrichedAlloy",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Efficiency",
+      "description": "Another way to improve the machines are upgrades. This one lowers the energy needs.",
+      "x": 88,
+      "y": 118,
+      "icon": {
+        "id": "Mekanism:EnergyUpgrade"
+      },
+      "requirements": [
+        4
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:EnergyUpgrade"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Mekanism:EnergyUpgrade"
+        }
+      ]
+    },
+    {
+      "name": "Speed",
+      "description": "This upgrades enhances the speed of the machines ... for a cost.",
+      "x": 76,
+      "y": 139,
+      "icon": {
+        "id": "Mekanism:SpeedUpgrade"
+      },
+      "requirements": [
+        4
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:SpeedUpgrade"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Mekanism:SpeedUpgrade"
+        }
+      ]
+    },
+    {
+      "name": "No end in sight",
+      "description": "I can get even more, when i put the ore into a chemical injection chamber first. Things start to get complicated though.",
+      "x": 100,
+      "y": 181,
+      "icon": {
+        "id": "Mekanism:MachineBlock2",
+        "damage": 3
+      },
+      "requirements": [
+        2
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock2",
+                "damage": 3
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Mekanism:GasTank",
+          "damage": 100
+        }
+      ]
+    },
+    {
+      "name": "Hydrogen chloride",
+      "description": "The chamber needs some chemical. I will start with some Brine.",
+      "x": 113,
+      "y": 159,
+      "icon": {
+        "id": "Mekanism:MachineBlock2",
+        "damage": 11,
+        "nbt": "{prevScale:1.0f,fluidTank:{FluidName:\"brine\",Amount:14000}}"
+      },
+      "requirements": [
+        8
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:Salt"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:BrineBucket"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Mekanism:BasicBlock",
+          "damage": 9,
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "A big tank",
+      "description": "Chores again! I really need a way to automatically fill and empty all those buckets. Perhaps i should build a bigger tank.",
+      "x": 138,
+      "y": 158,
+      "icon": {
+        "id": "Mekanism:BasicBlock",
+        "damage": 9
+      },
+      "requirements": [
+        9
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:BasicBlock",
+                "damage": 9
+              },
+              "required": 26
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Mekanism:MachineBlock",
+          "damage": 12
+        }
+      ]
+    },
+    {
+      "name": "Split it up",
+      "description": "This machine can be used to seperate water and brine.",
+      "x": 126,
+      "y": 138,
+      "icon": {
+        "id": "Mekanism:MachineBlock2",
+        "damage": 4
+      },
+      "requirements": [
+        9
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock2",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "rewardChoice": [
+        {
+          "id": "Mekanism:MachineBlock2",
+          "damage": 4
+        },
+        {
+          "id": "Mekanism:PartTransmitter",
+          "damage": 8,
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "Now combine it",
+      "description": "Hydrogen and chlorine ... i need to combine them.",
+      "x": 139,
+      "y": 117,
+      "icon": {
+        "id": "Mekanism:MachineBlock2",
+        "damage": 2
+      },
+      "requirements": [
+        11
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock2",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Mekanism:PartTransmitter",
+          "damage": 8,
+          "amount": 10
+        },
+        {
+          "id": "Mekanism:GasTank",
+          "damage": 100
+        }
+      ]
+    },
+    {
+      "name": "Headache",
+      "description": "I thought that was complex. But now theres even another tier to it. This machine will make crystals i can use in the previous setup line.",
+      "x": 280,
+      "y": 183,
+      "icon": {
+        "id": "Mekanism:MachineBlock2",
+        "damage": 8
+      },
+      "requirements": [
+        8
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock2",
+                "damage": 8
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Mekanism:GasTank",
+          "damage": 100
+        }
+      ]
+    },
+    {
+      "name": "Clean and proper",
+      "description": "The crystalzer needs clean ore slurry. So i need to wash slurry.",
+      "x": 294,
+      "y": 154,
+      "icon": {
+        "id": "Mekanism:MachineBlock2",
+        "damage": 7
+      },
+      "requirements": [
+        13
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock2",
+                "damage": 7
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Mekanism:PartTransmitter",
+          "damage": 8,
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "Dissolution",
+      "description": "To liquify the ores, i need a dissolution chamber.",
+      "x": 274,
+      "y": 132,
+      "icon": {
+        "id": "Mekanism:MachineBlock2",
+        "damage": 6
+      },
+      "requirements": [
+        14
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock2",
+                "damage": 6
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Mekanism:PartTransmitter",
+          "damage": 4,
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "Dissolution acid",
+      "description": "I need some form of acid to use the dissolution chamber. Lets start with making some sulfur. Gunpowder and hydrogen chloride in a chemical injection chamber should do the job.",
+      "x": 295,
+      "y": 109,
+      "icon": {
+        "id": "Mekanism:OtherDust",
+        "damage": 3
+      },
+      "requirements": [
+        15
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:OtherDust",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Mekanism:OtherDust",
+          "damage": 3,
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "Oxidizing sulfur",
+      "description": "Another machine will turn sulfur into Sulfur Dioxide.",
+      "x": 274,
+      "y": 86,
+      "icon": {
+        "id": "Mekanism:MachineBlock2",
+        "damage": 1
+      },
+      "requirements": [
+        16
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock2",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Mekanism:MachineBlock2",
+          "damage": 11,
+          "nbt": "{prevScale:1.0f,fluidTank:{FluidName:\"sulfurdioxidegas\",Amount:14000}}"
+        }
+      ]
+    },
+    {
+      "name": "Condense",
+      "description": "Sulfur Dioxide and Oxygen in a cehmical infuser will give me Sulfur trioxide. I need to create water vapor to advance. With water vapor and sulfur trioxide in another chemical infuser i will finally get the sulfuric acid for the dissolution.",
+      "x": 295,
+      "y": 61,
+      "icon": {
+        "id": "Mekanism:MachineBlock2"
+      },
+      "requirements": [
+        17
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock2"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Mekanism:GasTank",
+          "damage": 100
+        },
+        {
+          "id": "Mekanism:MachineBlock2",
+          "damage": 11,
+          "nbt": "{prevScale:1.0f,fluidTank:{FluidName:\"sulfuricacid\",Amount:14000}}"
+        },
+        {
+          "id": "TConstruct:heartCanister",
+          "damage": 6
+        }
+      ]
+    },
+    {
+      "name": "Storing Energy",
+      "description": "I can use those cubes to store energy, they come in 4 tiers.",
+      "x": 25,
+      "y": 59,
+      "icon": {
+        "id": "Mekanism:EnergyCube",
+        "damage": 100,
+        "nbt": "{tier:\"Basic\"}"
+      },
+      "requirements": [
+        0
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:EnergyCube",
+                "damage": 100,
+                "nbt": "{tier:\"Basic\"}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:EnergyCube",
+                "damage": 100,
+                "nbt": "{tier:\"Advanced\"}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:EnergyCube",
+                "damage": 100,
+                "nbt": "{tier:\"Elite\"}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:EnergyCube",
+                "damage": 100,
+                "nbt": "{tier:\"Ultimate\"}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Mekanism:PartTransmitter",
+          "damage": 3,
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "Yihaaaaa",
+      "description": "There seems to be another practical use to the gas i can make now.",
+      "x": 193,
+      "y": 138,
+      "icon": {
+        "id": "Mekanism:Jetpack",
+        "damage": 100
+      },
+      "requirements": [
+        11
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:Jetpack",
+                "damage": 100
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Mekanism:GasTank",
+          "damage": 1,
+          "nbt": "{stored:{amount:96000,gasName:\"hydrogen\"}}"
+        }
+      ]
+    },
+    {
+      "name": "Atoms disassemble!",
+      "description": "Quite a handy tool it seems.",
+      "x": 53,
+      "y": 59,
+      "icon": {
+        "id": "Mekanism:AtomicDisassembler",
+        "damage": 100
+      },
+      "requirements": [
+        0
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:AtomicDisassembler",
+                "damage": 100
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Mekanism:PartTransmitter",
+          "damage": 3,
+          "amount": 10
+        }
+      ]
+    }
+  ]
+}
