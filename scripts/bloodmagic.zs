@@ -26,6 +26,8 @@ mods.bloodmagic.Altar.addRecipe(<minecraft:cobblestone>, <minecraft:sand>, 1,200
 mods.bloodmagic.Altar.addRecipe(<minecraft:netherrack>,<minecraft:cobblestone>, 1,400,1,1);
 recipes.remove(<minecraft:end_stone>);
 mods.bloodmagic.Altar.addRecipe(<minecraft:end_stone>,<minecraft:netherrack>, 1,500,1,1);
+mods.bloodmagic.Altar.addRecipe(<minecraft:glass>,<minecraft:sand>, 3,1000,20,20);
+mods.bloodmagic.Alchemy.addRecipe(<minecraft:glass>*20,[<minecraft:sandstone>,<minecraft:sandstone>,<minecraft:sandstone>,<minecraft:sandstone>],3,20000);
 mods.bloodmagic.Altar.addRecipe(<minecraft:string>,<minecraft:leaves>, 1,500,1,1);
 mods.bloodmagic.Altar.addRecipe(<minecraft:lava_bucket>,<AWWayofTime:bucketLife>, 1,1500,5,5);
 mods.bloodmagic.Altar.addRecipe(<minecraft:water_bucket>,<minecraft:lava_bucket>, 1,1500,5,5);
@@ -160,6 +162,7 @@ mods.bloodmagic.Altar.addRecipe(<minecraft:diamond_helmet>, <minecraft:iron_helm
 mods.bloodmagic.Altar.addRecipe(<minecraft:diamond_hoe>, <minecraft:iron_hoe>, 3,20000,3,3);
 
 //Thaumcraft Stuff
+recipes.remove(<Thaumcraft:WandCasting>);
 recipes.remove(<Thaumcraft:blockTable>);
 recipes.remove(<technom:pen>);
 recipes.remove(<Thaumcraft:ItemInkwell>);
