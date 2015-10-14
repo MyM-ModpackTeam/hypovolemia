@@ -173,12 +173,13 @@ mods.bloodmagic.Alchemy.addRecipe(<Thaumcraft:ItemShard>,[<magicalcrops:magicalc
 mods.bloodmagic.Alchemy.addRecipe(<Thaumcraft:ItemShard:1>,[<magicalcrops:magicalcrops_FireEssence>,<magicalcrops:magicalcrops_FireEssence>,<magicalcrops:magicalcrops_FireEssence>,<minecraft:iron_ingot>,<minecraft:iron_ingot>],2,5000);
 mods.bloodmagic.Alchemy.addRecipe(<Thaumcraft:ItemShard:2>,[<magicalcrops:magicalcrops_WaterEssence>,<magicalcrops:magicalcrops_WaterEssence>,<magicalcrops:magicalcrops_WaterEssence>,<minecraft:iron_ingot>,<minecraft:iron_ingot>],2,5000);
 mods.bloodmagic.Alchemy.addRecipe(<Thaumcraft:ItemShard:3>,[<magicalcrops:magicalcrops_EarthEssence>,<magicalcrops:magicalcrops_EarthEssence>,<magicalcrops:magicalcrops_EarthEssence>,<minecraft:iron_ingot>,<minecraft:iron_ingot>],2,5000);
-mods.bloodmagic.Alchemy.addRecipe(<Thaumcraft:ItemShard:4>,[<magicalcrops:magicalcrops_2AccioEssence>,<magicalcrops:magicalcrops_2AccioEssence>,<magicalcrops:magicalcrops_2AccioEssence>,<minecraft:iron_ingot>,<minecraft:iron_ingot>],2,5000);
-mods.bloodmagic.Alchemy.addRecipe(<Thaumcraft:ItemShard:5>,[<minecraft:tnt>,<minecraft:tnt>,<minecraft:tnt>,<minecraft:iron_ingot>,<minecraft:iron_ingot>],2,5000);
+mods.bloodmagic.Alchemy.addRecipe(<Thaumcraft:ItemShard:4>*5,[<magicalcrops:magicalcrops_2AccioEssence>,<magicalcrops:magicalcrops_2AccioEssence>,<magicalcrops:magicalcrops_2AccioEssence>,<minecraft:iron_ingot>,<minecraft:iron_ingot>],2,5000);
+mods.bloodmagic.Alchemy.addRecipe(<Thaumcraft:ItemShard:5>*5,[<minecraft:tnt>,<minecraft:tnt>,<minecraft:tnt>,<minecraft:iron_ingot>,<minecraft:iron_ingot>],2,5000);
 
 //tc new
 recipes.remove(<Thaumcraft:WandCap>);
-
+mods.bloodmagic.Alchemy.addRecipe(<magicalcrops:magicalcrops_TaintedEssence>,[<minecraft:poisonous_potato> * 1,<minecraft:rotten_flesh> * 1,<minecraft:rotten_flesh> * 1,<minecraft:rotten_flesh> * 1,<minecraft:rotten_flesh> * 1],2,5000);
+mods.bloodmagic.Alchemy.addRecipe(<Thaumcraft:ItemBottleTaint>,[<magicalcrops:magicalcrops_TaintedEssence> * 1,<magicalcrops:magicalcrops_TaintedEssence> * 1,<magicalcrops:magicalcrops_TaintedEssence> * 1,<minecraft:glass_bottle> * 1,<minecraft:glass_bottle> * 1],2,5000);
 mods.bloodmagic.Altar.addRecipe(<Thaumcraft:ItemEldritchObject:3> ,<DraconicEvolution:dragonHeart> ,6,3000000,500,500);
 mods.bloodmagic.Altar.addRecipe(<Thaumcraft:ItemResource:3>,<foundry:blockFoundryMetal:8>,3,30000,5,5);
 mods.bloodmagic.Altar.addRecipe(<Thaumcraft:ItemThaumonomicon>,<minecraft:writable_book>,3,30000,5,5);
