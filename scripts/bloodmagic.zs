@@ -179,6 +179,7 @@ mods.bloodmagic.Alchemy.addRecipe(<Thaumcraft:ItemShard:5>,[<minecraft:tnt>,<min
 //tc new
 recipes.remove(<Thaumcraft:WandCap>);
 
+mods.bloodmagic.Altar.addRecipe(<Thaumcraft:ItemEldritchObject:3> ,<DraconicEvolution:dragonHeart> ,6,3000000,500,500);
 mods.bloodmagic.Altar.addRecipe(<Thaumcraft:ItemResource:3>,<foundry:blockFoundryMetal:8>,3,30000,5,5);
 mods.bloodmagic.Altar.addRecipe(<Thaumcraft:ItemThaumonomicon>,<minecraft:writable_book>,3,30000,5,5);
 mods.bloodmagic.Altar.addRecipe(<Thaumcraft:blockTube>,<Mekanism:PartTransmitter:4> ,3,3000,5,5);
