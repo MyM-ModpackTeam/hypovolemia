@@ -8,8 +8,8 @@ recipes.addShapeless(<Quadrum:woodsplinter> * 4, [<ore:logWood>]);
 recipes.addShaped(<HardcoreQuesting:quest_book>, [[<minecraft:bone>, <minecraft:bone>], [<minecraft:bone>, <minecraft:bone>], [<minecraft:bone>, <minecraft:bone>]]);
 recipes.addShapeless(<minecraft:redstone_block>, [<minecraft:lava_bucket>, <ore:sand>]);
 recipes.addShaped(<technom:bloodDynamo>, [[<ore:blockRedstone>, <ore:blockRedstone>, <ore:blockRedstone>], [<ore:blockRedstone>, <AWWayofTime:Altar>, <ore:blockRedstone>], [<ore:blockRedstone>, <ore:blockRedstone>, <ore:blockRedstone>]]);
-recipes.remove()<MineFactoryReloaded:machine.1:8>);
-recipes.remove()<Mekanism:MachineBlock3:3>);
+recipes.remove(<MineFactoryReloaded:machine.1:8>);
+recipes.remove(<Mekanism:MachineBlock3:3>);
 //foundry
 recipes.remove(<foundry:foundryComponent:1>);
 recipes.addShaped(<foundry:foundryComponent:1>, [[<ore:dustRedstone>, <ore:ingotCopper>, <ore:dustRedstone>], [<ore:ingotCopper>, <ore:nuggetGold>, <ore:ingotCopper>], [<ore:dustRedstone>, <ore:ingotCopper>, <ore:dustRedstone>]]);
