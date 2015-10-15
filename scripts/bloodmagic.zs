@@ -177,9 +177,8 @@ mods.bloodmagic.Alchemy.addRecipe(<Thaumcraft:ItemShard>,[<magicalcrops:magicalc
 mods.bloodmagic.Alchemy.addRecipe(<Thaumcraft:ItemShard:1>,[<magicalcrops:magicalcrops_FireEssence>,<magicalcrops:magicalcrops_FireEssence>,<magicalcrops:magicalcrops_FireEssence>,<minecraft:iron_ingot>,<minecraft:iron_ingot>],2,5000);
 mods.bloodmagic.Alchemy.addRecipe(<Thaumcraft:ItemShard:2>,[<magicalcrops:magicalcrops_WaterEssence>,<magicalcrops:magicalcrops_WaterEssence>,<magicalcrops:magicalcrops_WaterEssence>,<minecraft:iron_ingot>,<minecraft:iron_ingot>],2,5000);
 mods.bloodmagic.Alchemy.addRecipe(<Thaumcraft:ItemShard:3>,[<magicalcrops:magicalcrops_EarthEssence>,<magicalcrops:magicalcrops_EarthEssence>,<magicalcrops:magicalcrops_EarthEssence>,<minecraft:iron_ingot>,<minecraft:iron_ingot>],2,5000);
-mods.bloodmagic.Alchemy.addRecipe(<Thaumcraft:ItemShard:4>*5,[<minecraft:bone>,<magicalcrops:magicalcrops_EssenceFertilizer:0>,<minecraft:bone>,<minecraft:iron_ingot>,<minecraft:iron_ingot>],2,5000);
+mods.bloodmagic.Alchemy.addRecipe(<Thaumcraft:ItemShard:4>*5,[<minecraft:bone>,<magicalcrops:magicalcrops_MagicalFertilizer>,<minecraft:bone>,<minecraft:iron_ingot>,<minecraft:iron_ingot>],2,5000);
 mods.bloodmagic.Alchemy.addRecipe(<Thaumcraft:ItemShard:5>*5,[<minecraft:tnt>,<minecraft:tnt>,<minecraft:tnt>,<minecraft:iron_ingot>,<minecraft:iron_ingot>],2,5000);
-mods.bloodmagic.Alchemy.addRecipe(<magicalcrops:magicalcrops_EssenceFertilizer:0>*5,[<magicalcrops:magicalcrops_SeedBagAccio>,<magicalcrops:magicalcrops_MagicalFertilizer>],2,5000);
 
 //tc new
 recipes.remove(<Thaumcraft:WandCap>);
