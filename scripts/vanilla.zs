@@ -133,5 +133,3 @@ recipes.remove(<DraconicEvolution:sunDial>);
 recipes.remove(<DraconicEvolution:weatherController>);
 //botania
 //Thaumcraft
-recipes.remove(<Thaumcraft:WandCasting>);
-recipes.addShaped(<Quadrum:WoodWand>, [[null, null, <Thaumcraft:WandCap>], [null, <minecraft:stick>, null], [<Thaumcraft:WandCap>, null, null]]);
