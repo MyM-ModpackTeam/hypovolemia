@@ -39,7 +39,7 @@
 		"material": ["minecraft:lava"],
 		"chunkChance": 1,
         "clusterSize": 1,
-        "numClusters": 20000,
+        "numClusters": 40000,
 		"minHeight": 1,
 		"maxHeight": 200,
         "retrogen": "true",
