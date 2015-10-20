@@ -132,3 +132,14 @@ recipes.remove(<DraconicEvolution:sunDial>);
 recipes.remove(<DraconicEvolution:weatherController>);
 //botania
 //Thaumcraft
+
+//technomancy
+recipes.remove(<technom:existenceGem:100>);
+recipes.remove(<technom:existenceUser:1>);
+recipes.remove(<technom:existenceUser>);
+recipes.remove(<technom:existencePylon:2>);
+recipes.remove(<technom:existencePylon:1>);
+recipes.remove(<technom:existencePylon>);
+recipes.remove(<technom:existenceBurner:1>);
+recipes.remove(<technom:existenceBurner>);
+recipes.remove(<technom:existenceFountain>);
