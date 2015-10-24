@@ -26,7 +26,7 @@ mods.bloodmagic.Altar.addRecipe(<minecraft:cobblestone>, <minecraft:sand>, 1,200
 mods.bloodmagic.Altar.addRecipe(<minecraft:netherrack>,<minecraft:cobblestone>, 1,400,1,1);
 recipes.remove(<minecraft:end_stone>);
 mods.bloodmagic.Altar.addRecipe(<minecraft:end_stone>,<minecraft:netherrack>, 1,500,1,1);
-mods.bloodmagic.Altar.addRecipe(<minecraft:glass>*4,<minecraft:sandstone>, 3,1000,20,20);
+mods.bloodmagic.Altar.addRecipe(<minecraft:glass>*4,<minecraft:sandstone>, 1,1000,20,20);
 mods.bloodmagic.Alchemy.addRecipe(<minecraft:glass>*20,[<minecraft:sandstone>,<minecraft:sandstone>,<minecraft:sandstone>,<minecraft:sandstone>],3,20000);
 mods.bloodmagic.Altar.addRecipe(<minecraft:string>,<minecraft:leaves>, 1,500,1,1);
 mods.bloodmagic.Altar.addRecipe(<minecraft:lava_bucket>,<AWWayofTime:bucketLife>, 1,1500,5,5);
