@@ -62,7 +62,7 @@ mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:apprenticeBloodOrb>);
 mods.bloodmagic.Altar.addRecipe(<AWWayofTime:apprenticeBloodOrb>,<minecraft:iron_block>,2,12000,5,5);
 //Magic crops
 // magic fert removal mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_MagicalFertilizer>,<minecraft:end_stone>,2,5000,5,5);
-recipes.remove()<magicalcrops:magicalcrops_MagicalFertilizer>);
+recipes.remove(<magicalcrops:magicalcrops_MagicalFertilizer>);
 mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_1MinicioEssence>,<ExtrabiomesXL:terrain_blocks1>, 2,1000,5,5);
 //mods.bloodmagic.Altar.addRecipe(,, 2,1000,5,5);
 
