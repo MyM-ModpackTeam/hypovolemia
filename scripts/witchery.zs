@@ -12,6 +12,7 @@ mods.bloodmagic.Altar.addRecipe(<minecraft:mob_spawner:90>,<witchery:ingredient:
 mods.bloodmagic.Altar.addRecipe(<witchery:ingredient:16>,<witchery:ingredient:18>, 1,500,5,5);
 mods.bloodmagic.Altar.addRecipe(<witchery:witchesovenidle>,<foundry:alloyFurnace>, 2,5000,50,50);
 mods.bloodmagic.Altar.addRecipe(<witchery:cauldron>,<minecraft:cauldron>, 2,7500,50,50);
+mods.bloodmagic.Altar.addRecipe(<minecraft:spawn_egg:6404>,<minecraft:spawn_egg:120>, 4,15000,100,100);
 mods.bloodmagic.Alchemy.addRecipe(<witchery:witchwood:0> *2, [<Quadrum:woodsplinter> *2,<witchery:ingredient:63>] ,1,200);
 mods.bloodmagic.Alchemy.addRecipe(<witchery:witchwood:1> *2, [<Quadrum:woodsplinter> *2,<witchery:ingredient:14>] ,1,200);
 mods.bloodmagic.Alchemy.addRecipe(<witchery:witchwood:2> *2, [<Quadrum:woodsplinter> *2,<witchery:ingredient:18>] ,1,200);
@@ -32,7 +33,7 @@ mods.bloodmagic.Alchemy.addRecipe(<witchery:ingredient:76>*3, [<witchery:ingredi
 mods.bloodmagic.Alchemy.addRecipe(<witchery:ingredient:77>*3, [<witchery:ingredient:22>,<witchery:ingredient:37>,<witchery:ingredient:69>,<witchery:ingredient:36>,<minecraft:waterlily>], 3,5000);
 mods.bloodmagic.Alchemy.addRecipe(<witchery:ingredient:88>*3, [<witchery:ingredient:90>,<witchery:ingredient:21>,<witchery:ingredient:74>,<witchery:ingredient:91>,<witchery:ingredient:14>], 3,5000);
 mods.bloodmagic.Alchemy.addRecipe(<witchery:ingredient:96>*3, [<witchery:ingredient:100>,<witchery:spanishmoss>,<witchery:glintweed>,<witchery:ingredient:22>,<witchery:ingredient:24>], 3,5000);
-mods.bloodmagic.Alchemy.addRecipe(<witchery:ingredient:97>*3, [<witchery:ingredient:103>,<witchery:embermoss,<witchery:ingredient:21>,<minecraft:spider_eye>,<minecraft:poisonous_potato>], 3,5000);
+mods.bloodmagic.Alchemy.addRecipe(<witchery:ingredient:97>*3, [<witchery:ingredient:103>,<witchery:embermoss>,<witchery:ingredient:21>,<minecraft:spider_eye>,<minecraft:poisonous_potato>], 3,5000);
 mods.bloodmagic.Alchemy.addRecipe(<witchery:ingredient:109>*3, [<witchery:ingredient:108>,<witchery:ingredient:24>,<minecraft:sugar>,<minecraft:apple>,<minecraft:gunpowder>], 3,5000);
 mods.bloodmagic.Alchemy.addRecipe(<witchery:ingredient:125>*3, [<witchery:ingredient:67>,<witchery:ingredient:67>,<witchery:ingredient:15>,<minecraft:egg>,<minecraft:magma_cream>], 3,5000);
 mods.bloodmagic.Alchemy.addRecipe(<witchery:ingredient:124>*3, [<witchery:ingredient:36>,<minecraft:potion:8198>,<minecraft:carrot>,<minecraft:brown_mushroom>,<minecraft:spider_eye>], 3,5000);
