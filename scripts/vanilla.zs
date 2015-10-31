@@ -66,11 +66,9 @@ recipes.remove(<magicalcrops:magicalcrops_AccioArmourLeggings>);
 recipes.remove(<magicalcrops:magicalcrops_AccioArmourBoots>);
 recipes.remove(<magicalcrops:magicalcrops_AccioSword>);
 
-//MC remove of seedbags
-recipes.remove(<magicalcrops:magicalcrops_SeedBagImperio>);
-recipes.remove(<magicalcrops:magicalcrops_SeedBagCrucio>);
-recipes.remove(<magicalcrops:magicalcrops_SeedBagAccio>);
-recipes.remove(<magicalcrops:magicalcrops_SeedBagZivicio>);
+//mc wool fix
+recipes.removeShaped(<minecraft:wool>, [[<ore:crucioMaterial>, <magicalcrops:magicalcrops_SheepEssence>, <ore:crucioMaterial>], [<ore:crucioMaterial>, <ore:crucioMaterial>, <ore:crucioMaterial>], [<magicalcrops:magicalcrops_SheepEssence>, <ore:crucioMaterial>, <ore:crucioMaterial>]]);
+recipes.addShapeless(<minecraft:wool>, [<ore:crucioMaterial>, <magicalcrops:magicalcrops_SheepEssence>, <ore:crucioMaterial>, <ore:crucioMaterial>, <ore:crucioMaterial>, <ore:crucioMaterial>, <magicalcrops:magicalcrops_SheepEssence>, <ore:crucioMaterial>, <ore:crucioMaterial>]);
 
 //ticon
 recipes.remove(<TConstruct:SearedBlock:2>);
@@ -91,7 +89,7 @@ recipes.remove(<TConstruct:ToolForgeBlock:11>);
 recipes.remove(<TConstruct:ToolForgeBlock:12>);
 recipes.remove(<TConstruct:ToolForgeBlock:13>);
 recipes.remove(<TConstruct:blankPattern:2>);
-recipes.addShaped(<TConstruct:blankPattern:2>, [[<foundry:foundryComponent:4>, <minecraft:diamond>]]);
+recipes.addShaped(<TConstruct:blankPattern:2>, [[<foundry:foundryComponent:4>, <ore:MainInfusionMaterial>]]);
 recipes.addShaped(<TConstruct:ToolForgeBlock>, [[<ore:logWood>, <ore:logWood>, <ore:logWood>], [<ore:blockIron>, <TConstruct:CraftingStation>, <minecraft:iron_block>], [<minecraft:iron_block>, null, <ore:blockIron>]]);
 
 
