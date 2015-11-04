@@ -100,6 +100,7 @@ recipes.addShaped(<MineFactoryReloaded:machineblock>, [[<ore:sheetPlastic>, <ore
 
 //ae2
 recipes.remove(<appliedenergistics2:item.ItemCrystalSeed:1200>);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:46>*3, [[<ore:pearlEnder>]]);
 recipes.remove(<appliedenergistics2:item.ItemCrystalSeed:600>);
 recipes.remove(<appliedenergistics2:item.ItemCrystalSeed>);
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:18>, [[<minecraft:gold_ingot>, <ore:circuitBasic>]]);
