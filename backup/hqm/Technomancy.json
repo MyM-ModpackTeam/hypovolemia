@@ -1,0 +1,781 @@
+{
+  "name": "Technomancy",
+  "quests": [
+    {
+      "name": "Advanced magic",
+      "description": "Technomancy is improving the arts of magic i used so far. Theres some sort of guidance avaible for it.",
+      "x": 229,
+      "y": 95,
+      "icon": {
+        "id": "technom:ritualTome"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "technom:ritualTome"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:dye",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "Of course more rituals",
+      "description": "There are some rituals described in the book. Some of them seem usefull. I should try one.",
+      "x": 242,
+      "y": 13,
+      "icon": {
+        "id": "technom:crystalBlock",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Advanced magic"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "technom:catalyst",
+                "damage": 4
+              }
+            },
+            {
+              "item": {
+                "id": "technom:crystalBlock",
+                "damage": 4
+              },
+              "required": 12
+            },
+            {
+              "item": {
+                "id": "minecraft:lever"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:anvil"
+        }
+      ]
+    },
+    {
+      "name": "Pure metals #1",
+      "description": "This machine can purify ores. You can get up to 7 ingots from each ore. This one uses LP from your blood network.",
+      "x": 171,
+      "y": 23,
+      "icon": {
+        "id": "technom:processorBM",
+        "nbt": "{Active:0b,Owner:\"\",ItemsTile:[],x:0,y:0,z:0,Time:0,id:\"TileProcessorBM\"}"
+      },
+      "prerequisites": [
+        "Advanced magic"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "technom:processorBM",
+                "nbt": "{Active:0b,Owner:\"\",ItemsTile:[],x:0,y:0,z:0,Time:0,id:\"TileProcessorBM\"}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "MineFactoryReloaded:safarinet.singleuse",
+          "nbt": "{hide:1b}"
+        }
+      ]
+    },
+    {
+      "name": "Pure metals #2",
+      "description": "This machine can purify ores. You can get up to 7 ingots from each ore. This one uses botania mana from an adjacent mana pool.",
+      "x": 172,
+      "y": 52,
+      "icon": {
+        "id": "technom:processorBO",
+        "nbt": "{Active:0b,ItemsTile:[],Mana:0,x:0,y:0,z:0,Time:0,id:\"TileProcessorBO\"}"
+      },
+      "prerequisites": [
+        "Advanced magic"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "technom:processorBO",
+                "nbt": "{Active:0b,ItemsTile:[],Mana:0,x:0,y:0,z:0,Time:0,id:\"TileProcessorBO\"}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "MineFactoryReloaded:safarinet.singleuse",
+          "nbt": "{hide:1b}"
+        }
+      ]
+    },
+    {
+      "name": "Maximum yield",
+      "description": "To get the maximum out of ores. You need to process them 2 times in each of the three purifiers.",
+      "x": 137,
+      "y": 37,
+      "prerequisites": [
+        "Pure metals #1",
+        "Pure metals #2",
+        "Pure metals #3"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bedrock",
+                "damage": 5
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:heartCanister",
+          "damage": 6
+        }
+      ]
+    },
+    {
+      "name": "Flower power",
+      "description": "This dynamo uses mana from botania mana pools to create energy.",
+      "x": 199,
+      "y": 111,
+      "icon": {
+        "id": "technom:flowerDynamo",
+        "nbt": "{face:1b,Mana:0,Boost:0b,fuel:0,x:0,y:0,modified:0b,z:0,id:\"TileFlowerDynamo\",redstoneSettings:\"High\",energy:0}"
+      },
+      "prerequisites": [
+        "Advanced magic"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "technom:flowerDynamo",
+                "nbt": "{face:1b,Mana:0,Boost:0b,fuel:0,x:0,y:0,modified:0b,z:0,id:\"TileFlowerDynamo\",redstoneSettings:\"High\",energy:0}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "technom:itemMaterial",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "A fluxed wand",
+      "description": "I can make a wand energized. It will greatly decrease vis storage but it will simply fill up from RF if I have a capacitor with me.",
+      "x": 269,
+      "y": 86,
+      "icon": {
+        "id": "technom:wandCores"
+      },
+      "prerequisites": [
+        "Stability"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "technom:wandCores"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "technom:itemMaterial",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Stability",
+      "description": "These lamps will keep things nice and orderly. It fights instability.",
+      "x": 254,
+      "y": 106,
+      "icon": {
+        "id": "technom:fluxLamp",
+        "nbt": "{Empty:\"\",Stabilize:1b,x:0,y:0,z:0,id:\"TileFluxLamp\",Placed:0b,AspectAmount:0}"
+      },
+      "prerequisites": [
+        "Advanced magic"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "technom:fluxLamp",
+                "nbt": "{Empty:\"\",Stabilize:1b,x:0,y:0,z:0,id:\"TileFluxLamp\",Placed:0b,AspectAmount:0}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "technom:itemMaterial",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Transforming the world",
+      "description": "Given enough power, i can change the structure of the wasteland itself!",
+      "x": 266,
+      "y": 13,
+      "icon": {
+        "id": "technom:biomeMorpher",
+        "nbt": "{x:0,y:0,modified:0b,z:0,id:\"TileBiomeMorpher\",energy:0,redstoneSettings:\"Low\"}"
+      },
+      "prerequisites": [
+        "Advanced magic"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "technom:biomeMorpher",
+                "nbt": "{x:0,y:0,modified:0b,z:0,id:\"TileBiomeMorpher\",energy:0,redstoneSettings:\"Low\"}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:blockCosmeticSolid",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Bellow with power",
+      "description": "Use this bellows to speed up an infernal furnace. Or to use the alchemy furnace without fuel.",
+      "x": 291,
+      "y": 13,
+      "icon": {
+        "id": "technom:electricBellows",
+        "nbt": "{Facing:2b,x:0,y:0,z:0,id:\"TileElectricBellows\",energy:0}"
+      },
+      "prerequisites": [
+        "Advanced magic"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "technom:electricBellows",
+                "nbt": "{Facing:2b,x:0,y:0,z:0,id:\"TileElectricBellows\",energy:0}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "technom:itemMaterial",
+          "damage": 1
+        },
+        {
+          "id": "technom:itemMaterial",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Bigger.Better.Quantum.",
+      "description": "These jars can store ten times the essentia.",
+      "x": 218,
+      "y": 133,
+      "icon": {
+        "id": "technom:essentiaContainer",
+        "nbt": "{Amount:0s,x:0,y:0,facing:2b,z:0,id:\"TileEssentiacontainer\"}"
+      },
+      "prerequisites": [
+        "Advanced magic"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "technom:essentiaContainer",
+                "nbt": "{Amount:0s,x:0,y:0,facing:2b,z:0,id:\"TileEssentiacontainer\"}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:cake"
+        },
+        {
+          "id": "Thaumcraft:ItemEssence",
+          "damage": 1,
+          "amount": 10,
+          "nbt": "{Aspects:[0:{amount:8,key:\"ignis\"}]}"
+        }
+      ]
+    },
+    {
+      "name": "Pure metals #3",
+      "description": "This machine can purify ores. You can get up to 7 ingots from each ore. This one needs ignis to be piped in with tubes.",
+      "x": 173,
+      "y": 79,
+      "icon": {
+        "id": "technom:processorTC",
+        "nbt": "{Active:0b,ItemsTile:[],Amount:0s,x:0,y:0,z:0,Time:0,id:\"TileProcessorTC\"}"
+      },
+      "prerequisites": [
+        "Advanced magic"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "technom:processorTC",
+                "nbt": "{Active:0b,ItemsTile:[],Amount:0s,x:0,y:0,z:0,Time:0,id:\"TileProcessorTC\"}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "MineFactoryReloaded:safarinet.singleuse",
+          "nbt": "{hide:1b}"
+        }
+      ]
+    },
+    {
+      "name": "Essential wireless",
+      "description": "All those tubes everywhere. This should help me clean the mess a bit.",
+      "x": 205,
+      "y": 155,
+      "icon": {
+        "id": "technom:teslaCoil",
+        "nbt": "{size:0,x:0,y:0,modified:0b,facing:0b,z:0,boost:0b,id:\"TileTeslaCoil\",redstone:0b,redstoneSettings:\"Low\"}"
+      },
+      "prerequisites": [
+        "Bigger.Better.Quantum."
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "technom:teslaCoil",
+                "nbt": "{size:0,x:0,y:0,modified:0b,facing:0b,z:0,boost:0b,id:\"TileTeslaCoil\",redstone:0b,redstoneSettings:\"Low\"}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "technom:coilCoupler"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "technom:essentiaContainer",
+          "nbt": "{Amount:0s,x:0,y:0,facing:2b,z:0,id:\"TileEssentiacontainer\"}"
+        }
+      ]
+    },
+    {
+      "name": "Essential power",
+      "description": "A dynamo that can burn ignis for energy!",
+      "x": 172,
+      "y": 111,
+      "icon": {
+        "id": "technom:essentiaDynamo",
+        "nbt": "{face:1b,Boost:0b,fuel:0,Amount:0s,x:0,y:0,modified:0b,z:0,id:\"TileEssentiaDynamo\",redstoneSettings:\"High\",energy:0}"
+      },
+      "prerequisites": [
+        "Flower power"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "technom:essentiaDynamo",
+                "nbt": "{face:1b,Boost:0b,fuel:0,Amount:0s,x:0,y:0,modified:0b,z:0,id:\"TileEssentiaDynamo\",redstoneSettings:\"High\",energy:0}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "technom:itemMaterial",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Powernode",
+      "description": "Placed under a node, this dynamo makes power by tapping its vis.",
+      "x": 144,
+      "y": 111,
+      "icon": {
+        "id": "technom:nodeDynamo",
+        "nbt": "{face:1b,Boost:0b,fuel:0,Amount:0s,x:0,y:0,modified:0b,z:0,id:\"TileNodeDynamo\",redstoneSettings:\"High\",energy:0}"
+      },
+      "prerequisites": [
+        "Essential power"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "technom:nodeDynamo",
+                "nbt": "{face:1b,Boost:0b,fuel:0,Amount:0s,x:0,y:0,modified:0b,z:0,id:\"TileNodeDynamo\",redstoneSettings:\"High\",energy:0}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:blockCosmeticSolid",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Essentia quarry.",
+      "description": "This monster is eating blocks under it to create essentia.",
+      "x": 259,
+      "y": 154,
+      "icon": {
+        "id": "technom:eldritchConsumer",
+        "nbt": "{Aspects:[],x:-115,cooldown:0,y:64,modified:0b,z:-239,id:\"TileEldrichConsumer\",RangeIdentificator:0,energy:0,redstoneSettings:\"High\"}"
+      },
+      "prerequisites": [
+        "Excessive energy"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "technom:eldritchConsumer",
+                "nbt": "{Aspects:[],x:-115,cooldown:0,y:64,modified:0b,z:-239,id:\"TileEldrichConsumer\",RangeIdentificator:0,energy:0,redstoneSettings:\"High\"}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "technom:essentiaContainer",
+          "amount": 3,
+          "nbt": "{Amount:0s,x:0,y:0,facing:2b,z:0,id:\"TileEssentiacontainer\"}"
+        }
+      ]
+    },
+    {
+      "name": "Excessive energy",
+      "description": "With rf i can just create essentia artificially.",
+      "x": 246,
+      "y": 132,
+      "icon": {
+        "id": "technom:condenserBlock",
+        "nbt": "{DOWN:{s:0b},Amount:0s,WEST:{s:0b},redstoneSettings:\"Low\",NORTH:{s:0b},x:0,y:0,modified:0b,z:0,id:\"TileCondenser\",UP:{s:0b},SOUTH:{s:0b},EAST:{s:0b},energy:0}"
+      },
+      "prerequisites": [
+        "Advanced magic"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "technom:condenserBlock",
+                "nbt": "{DOWN:{s:0b},Amount:0s,WEST:{s:0b},redstoneSettings:\"Low\",NORTH:{s:0b},x:0,y:0,modified:0b,z:0,id:\"TileCondenser\",UP:{s:0b},SOUTH:{s:0b},EAST:{s:0b},energy:0}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "technom:itemMaterial",
+          "damage": 1
+        },
+        {
+          "id": "technom:itemMaterial",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Creating nodes",
+      "description": "Theres actually a way to make nodes. I need 2 node creators with exactly 5 blocks between them. Then they need power, essentia and a whack with the wand.",
+      "x": 212,
+      "y": 37,
+      "bigIcon": true,
+      "icon": {
+        "id": "technom:nodeGenerator",
+        "nbt": "{Facing:2b,Amount:0s,RegenDummyBlocks:1b,Step:0,redstoneSettings:\"Low\",Active:0b,Initiator:0b,Boost:0b,x:0,Running:0b,y:0,modified:0b,z:0,id:\"TileNodeGenerator\",Spawn:0b,energy:0}"
+      },
+      "prerequisites": [
+        "Advanced magic"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "technom:nodeGenerator",
+                "nbt": "{Facing:2b,Amount:0s,RegenDummyBlocks:1b,Step:0,redstoneSettings:\"Low\",Active:0b,Initiator:0b,Boost:0b,x:0,Running:0b,y:0,modified:0b,z:0,id:\"TileNodeGenerator\",Spawn:0b,energy:0}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "technom:nodeGenerator",
+          "nbt": "{Facing:2b,Amount:0s,RegenDummyBlocks:1b,Step:0,redstoneSettings:\"Low\",Active:0b,Initiator:0b,Boost:0b,x:0,Running:0b,y:0,modified:0b,z:0,id:\"TileNodeGenerator\",Spawn:0b,energy:0}"
+        }
+      ]
+    },
+    {
+      "name": "Improving the node",
+      "description": "Potency gems can be used to improve the node! I should make some right now!",
+      "x": 200,
+      "y": 11,
+      "icon": {
+        "id": "technom:itemBoost"
+      },
+      "prerequisites": [
+        "Creating nodes"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "technom:itemBoost"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "technom:cosmeticOpaque"
+        }
+      ]
+    },
+    {
+      "name": "(De-)Condense",
+      "description": "This block can either fill up mana pools when it gets piped in condensed mana, or the other way around, draw from the pool to create condensed mana.",
+      "x": 185,
+      "y": 133,
+      "icon": {
+        "id": "technom:manaExchanger",
+        "nbt": "{Empty:\"\",Energy:0,Mode:0b,x:0,y:0,modified:0b,z:0,id:\"TileManaExchanger\",redstoneSettings:\"Low\"}"
+      },
+      "prerequisites": [
+        "Flower power"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "technom:manaExchanger",
+                "nbt": "{Empty:\"\",Energy:0,Mode:0b,x:0,y:0,modified:0b,z:0,id:\"TileManaExchanger\",redstoneSettings:\"Low\"}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "technom:itemMaterial",
+          "damage": 2
+        },
+        {
+          "id": "technom:manaBucket"
+        }
+      ]
+    },
+    {
+      "name": "Fusion",
+      "description": "The is the counterpart to the alchemical centrifuge. If can combine two essentias to one.",
+      "x": 230,
+      "y": 156,
+      "icon": {
+        "id": "technom:fusor"
+      },
+      "prerequisites": [
+        "Bigger.Better.Quantum."
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "technom:fusor"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemEssence",
+          "damage": 1,
+          "amount": 10,
+          "nbt": "{Aspects:[0:{amount:8,key:\"aer\"}]}"
+        },
+        {
+          "id": "Thaumcraft:ItemEssence",
+          "damage": 1,
+          "amount": 10,
+          "nbt": "{Aspects:[0:{amount:8,key:\"ignis\"}]}"
+        },
+        {
+          "id": "Thaumcraft:ItemEssence",
+          "damage": 1,
+          "amount": 10,
+          "nbt": "{Aspects:[0:{amount:8,key:\"infernus\"}]}"
+        }
+      ]
+    },
+    {
+      "name": "Powerblood",
+      "description": "If I should ever have too much power, i could simply turn it into blood.",
+      "x": 116,
+      "y": 109,
+      "icon": {
+        "id": "technom:bloodFabricator",
+        "nbt": "{Empty:\"\",x:0,y:0,z:0,id:\"TileBloodFabricator\",energy:0}"
+      },
+      "prerequisites": [
+        "Powernode"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "technom:bloodFabricator",
+                "nbt": "{Empty:\"\",x:0,y:0,z:0,id:\"TileBloodFabricator\",energy:0}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Mekanism:EnergyCube",
+          "damage": 1,
+          "nbt": "{tier:\"Ultimate\",electricity:1.28E8d}"
+        }
+      ]
+    },
+    {
+      "name": "Generating Mana",
+      "description": "These flowers eat energy and create mana!",
+      "x": 168,
+      "y": 155,
+      "icon": {
+        "id": "technom:manaFabricator",
+        "nbt": "{Facing:0,Mana:0,x:0,y:0,z:0,id:\"ManaFabricator\",energy:0}"
+      },
+      "prerequisites": [
+        "(De-)Condense"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "technom:manaFabricator",
+                "nbt": "{Facing:0,Mana:0,x:0,y:0,z:0,id:\"ManaFabricator\",energy:0}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "technom:existencePylon"
+        }
+      ]
+    }
+  ],
+  "reputation": []
+}
