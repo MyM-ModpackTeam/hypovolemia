@@ -10,6 +10,10 @@ recipes.addShapeless(<minecraft:redstone_block>, [<minecraft:lava_bucket>, <ore:
 recipes.addShaped(<technom:bloodDynamo>, [[<ore:blockRedstone>, <ore:blockRedstone>, <ore:blockRedstone>], [<ore:blockRedstone>, <AWWayofTime:Altar>, <ore:blockRedstone>], [<ore:blockRedstone>, <ore:blockRedstone>, <ore:blockRedstone>]]);
 recipes.remove(<MineFactoryReloaded:machine.1:8>);
 recipes.remove(<Mekanism:MachineBlock3:3>);
+
+//ztones ofanix removal
+recipes.remove(<Ztones:ofanix>);
+
 //foundry
 recipes.remove(<foundry:foundryComponent:1>);
 recipes.addShaped(<foundry:foundryComponent:1>, [[<ore:dustRedstone>, <ore:ingotCopper>, <ore:dustRedstone>], [<ore:ingotCopper>, <ore:nuggetGold>, <ore:ingotCopper>], [<ore:dustRedstone>, <ore:ingotCopper>, <ore:dustRedstone>]]);
