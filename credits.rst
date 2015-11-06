@@ -1,6 +1,7 @@
 ===========
 Hypovolemia
 ===========
+- `Aggro Wolves <http://www.curse.com/mc-mods/minecraft/236852-aggro-wolves>`_, pizzaluc
 - `Thaumcraft NEI Plugin <http://www.curse.com/mc-mods/minecraft/225095-thaumcraft-nei-plugin>`_, DjGiannuzz
 - `Simple labels <http://minecraft.curseforge.com/projects/simplelabels>`_, insaneau
 - `Chicken Chunks <http://www.curse.com/mc-mods/minecraft/229316-chickenchunks#t1:description>`_, chicken_bones
