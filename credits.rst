@@ -1,6 +1,10 @@
 ===========
 Hypovolemia
 ===========
+
+
+- `Botania <http://botaniamod.net/license.php>`_, vazkii
+- `Avaritia <http://www.curse.com/mc-mods/minecraft/233785-avaritia>`_, TTFTCUTS
 - `Aggro Wolves <http://www.curse.com/mc-mods/minecraft/236852-aggro-wolves>`_, pizzaluc
 - `Thaumcraft NEI Plugin <http://www.curse.com/mc-mods/minecraft/225095-thaumcraft-nei-plugin>`_, DjGiannuzz
 - `Simple labels <http://minecraft.curseforge.com/projects/simplelabels>`_, insaneau
