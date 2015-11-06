@@ -42,7 +42,7 @@ mods.bloodmagic.Alchemy.addRecipe(<minecraft:quartz>*4,[<minecraft:obsidian>,<mi
 mods.bloodmagic.Altar.addRecipe(<minecraft:ender_pearl>,<minecraft:emerald>,2,3000,5,5);
 mods.bloodmagic.Alchemy.addRecipe(<appliedenergistics2:item.ItemMultiMaterial> * 4,[<minecraft:obsidian>,<minecraft:emerald>],3,5000);
 mods.bloodmagic.Alchemy.addRecipe(<minecraft:dye:4>*5,[<MineFactoryReloaded:rubber.raw>,<minecraft:gravel>,<minecraft:clay_ball>],2,1000);
-mods.bloodmagic.Alchemy.addRecipe(<minecraft:nether_star> ,[<minecraft:skull:1>], 6,500000);
+mods.bloodmagic.Alchemy.addRecipe(<minecraft:nether_star> ,[<minecraft:skull:1>], 5,500000);
 mods.bloodmagic.Alchemy.addRecipe(<minecraft:slime_ball>,[<MineFactoryReloaded:rubber.raw>,<MineFactoryReloaded:rubber.raw>,<MineFactoryReloaded:rubber.raw>],2,1000);
 mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:demonBloodShard>*2,[<AWWayofTime:demonBloodShard>,<AWWayofTime:imbuedSlate>,<AWWayofTime:imbuedSlate>],3,50000);
 mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:demonBloodShard>*4,[<AWWayofTime:demonBloodShard>,<AWWayofTime:demonicSlate>,<AWWayofTime:demonicSlate> * 1],4,50000);
