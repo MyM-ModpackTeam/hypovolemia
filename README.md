@@ -18,3 +18,12 @@ art by [legendary-memory (Ash) @ DeviantArt](http://legendary-memory.deviantart.
 ![hypovolemia impression](https://i.imgur.com/iSQzdwt.jpg)
 
 :point_right: [more impressions](https://imgur.com/a/K3P1d#2)
+
+##Compiling
+Terminal/Command Prompt:
+
+    ./gradlew buildAll
+
+Windows syntax:
+
+    gradlew buildAll

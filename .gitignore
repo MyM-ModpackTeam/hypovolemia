@@ -1,1 +1,3 @@
-config/hqm/editmode.cfg
+/srv/config/hqm/editmode.cfg
+build/*
+.gradle/*
