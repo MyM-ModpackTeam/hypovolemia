@@ -57,3 +57,4 @@ Hypovolemia
 - `Subsistence <http://minecraft.curseforge.com/mc-mods/229441-subsistence>`_, CyanideX
 - `Waila Harvestability <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1295067-waila-harvestability-how-can-i-harvest-what-im>`_, squeek502
 - `WAILA Plugins <http://www.curse.com/mc-mods/minecraft/226119-waila-plugins>`_, tterrag1098
+- `INpureCore <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2196459-1-7-10-inpure-projects-denoflions-mods>`_, denoflions
