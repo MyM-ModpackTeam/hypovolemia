@@ -47,7 +47,7 @@ mods.bloodmagic.Alchemy.addRecipe(<minecraft:slime_ball>,[<MineFactoryReloaded:r
 mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:demonBloodShard>*2,[<AWWayofTime:demonBloodShard>,<AWWayofTime:imbuedSlate>,<AWWayofTime:imbuedSlate>],3,50000);
 mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:demonBloodShard>*4,[<AWWayofTime:demonBloodShard>,<AWWayofTime:demonicSlate>,<AWWayofTime:demonicSlate> * 1],4,50000);
 mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:demonBloodShard>*8,[<AWWayofTime:demonBloodShard>,<AWWayofTime:bloodMagicBaseItems:27> * 1,<AWWayofTime:bloodMagicBaseItems:27> * 1],5,50000);
-
+mods.bloodmagic.Alchemy.addRecipe(<Mekanism:SaltBlock>,[<Mekanism:Substrate>,<Mekanism:Substrate>],3,1000);
 
 // Sanguimancy changes
 
