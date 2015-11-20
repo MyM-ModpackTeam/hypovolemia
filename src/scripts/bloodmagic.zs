@@ -105,6 +105,7 @@ mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_SheepSeeds>  ,<minecr
 mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_PigSeeds>  ,<minecraft:rotten_flesh>,3,100000);
 mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_CowSeeds>  ,<TConstruct:jerky:5>  ,3,100000);
 mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_ChickenSeeds>  ,<TConstruct:jerky:4>  ,3,100000);
+mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_GhastSeeds>  ,<magicalcrops:magicalcrops_SkeletonSeeds>   ,3,100000);
 
 
 //ae2
