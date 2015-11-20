@@ -13,7 +13,8 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
-            1
+            1,
+            0
         ]
     }
 }
