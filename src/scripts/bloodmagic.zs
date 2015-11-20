@@ -48,6 +48,7 @@ mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:demonBloodShard>*2,[<AWWayofTime:
 mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:demonBloodShard>*4,[<AWWayofTime:demonBloodShard>,<AWWayofTime:demonicSlate>,<AWWayofTime:demonicSlate> * 1],4,50000);
 mods.bloodmagic.Alchemy.addRecipe(<AWWayofTime:demonBloodShard>*8,[<AWWayofTime:demonBloodShard>,<AWWayofTime:bloodMagicBaseItems:27> * 1,<AWWayofTime:bloodMagicBaseItems:27> * 1],5,50000);
 mods.bloodmagic.Alchemy.addRecipe(<Mekanism:SaltBlock>,[<Mekanism:Substrate>,<Mekanism:Substrate>],3,1000);
+mods.bloodmagic.Alchemy.addRecipe(<Mekanism:OtherDust:4>,[<Mekanism:Dust:2> ,<Mekanism:Dust:6> * 1],2,5000);
 
 // Sanguimancy changes
 
