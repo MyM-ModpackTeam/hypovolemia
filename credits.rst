@@ -3,6 +3,7 @@ Hypovolemia
 ===========
 
 
+- `Lootable Bodies <http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2298198-dr-cyanos-lootable-bodies-save-your-inventory-on-a>`_, Dr.Cyano
 - `Botania <http://botaniamod.net/license.php>`_, vazkii
 - `Avaritia <http://www.curse.com/mc-mods/minecraft/233785-avaritia>`_, TTFTCUTS
 - `Aggro Wolves <http://www.curse.com/mc-mods/minecraft/236852-aggro-wolves>`_, pizzaluc
