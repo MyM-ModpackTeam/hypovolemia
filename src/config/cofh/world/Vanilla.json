@@ -1,5 +1,6 @@
 {
     "gravel": {
+        "enabled": "false",
         "template": "uniform",
         "block": "gravel",
         "material": "stone",
@@ -13,8 +14,7 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
-            1,
-            0
+            1
         ]
     }
 }
