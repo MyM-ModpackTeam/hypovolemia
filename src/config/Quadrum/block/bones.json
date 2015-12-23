@@ -1,13 +1,13 @@
 {
-    "name": "Bones",
-    "default-texture": "Bones",
+    "name": "bones",
+    "default-texture": "bones",
     "material": "wood",
     "hardness": 1,
     "type": "block",
 	"drops-self": "false",
 	"drops": [
-		{"item": "minecraft:bone", "amount": "4-5", "damage": "1"},
-        {"item": "minecraft:skull", "amount": "1-2"}],
+		{"item": "minecraft:bone", "amount": "1-9"},
+        {"item": "minecraft:skull", "amount": "0-1"}],
 	"flammable": "false",
     "requires-tool": "false"
 }

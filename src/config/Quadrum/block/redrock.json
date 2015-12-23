@@ -1,0 +1,15 @@
+{
+    "name": "redrock",
+    "default-texture": "redrock",
+    "material": "rock",
+    "hardness": 1,
+    "resistance": 10,
+    "type": "block",
+    "drops-self": "false",
+    "drops": [
+        {"item": "ExtrabiomesXL:terrain_blocks1", "amount": "1"}
+    ],
+	"flammable": "false",
+    "mining-level": 1,
+    "requires-tool": "false"
+}
