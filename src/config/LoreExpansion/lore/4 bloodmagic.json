@@ -15,15 +15,17 @@
 	
 	If you dont have enough blood for the conversion, the altar will simply use up all the blood and you will get nothing (well the original item back).
 	
-	So allways have enough blood or be ready to add some while the altar is working.
+	So always have enough blood or be ready to add some while the altar is working.
 	
-	Later on you can insert multiple items with a hopper e.g.. Of course this makes it even harder to have enough blood avaible.
+	Later on you can insert multiple items with a hopper e.g.. Of course this makes it even harder to have enough blood available.
 	
 	Even later you will be able to craft items that will aid you in this. Like the altar diviner that will only put in as many items as the altar can handle with its blood level.
 	
 	There are items that convert into items that can be converted too. (Convertception). Its important to either automate the altar correctly or have an eye on it to take the item out when it converted to the item you want to have actually.
 	
 	The different tiers of the altar structure are hard to explain. We suggest you check the FTB Wiki for it. http://ftbwiki.org/Blood_Altar
+
+	Also note : When first filling the altar, it has hidden tanks you can not see without the proper sigil. These will fill up first so it looks like the altar is loosing blood while idle at first.
 	",
 "sound": "4 Bloodmagic",
 "autoplay": true
