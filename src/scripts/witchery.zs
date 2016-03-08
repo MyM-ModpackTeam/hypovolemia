@@ -1,5 +1,8 @@
 import mods.nei.NEI;
 
+// Var names
+Var Oven = (<witchery:witchesovenidle>);
+
 //Removes & hides
 recipes.remove(<witchery:kettle>);
 recipes.remove(<witchery:witchesovenidle>);
