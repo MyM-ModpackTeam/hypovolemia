@@ -1,0 +1,26 @@
+{
+	"Bones": {
+		"template": {
+			"type": "decoration", 
+			"generator": "decoration",
+			"genSurface": "hypovolemiaextras:RedRock",
+			"genSky": "true",
+			"checkStay": "false",
+			"stackHeight": 3,
+			"xVariance": 8,
+			"zVariance": 8,
+			"yVariance": 4
+		},
+		"block": {"name": "hypovolemiaextras:BPillar"},
+		"material": [],
+		"clusterSize": 1,
+		"numClusters": 5,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+	}
+}
