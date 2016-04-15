@@ -3,7 +3,7 @@
 		"template": {
 			"type": "decoration", 
 			"generator": "decoration",
-			"genSurface": "hypovolemiaextras:RedRock",
+			"genSurface": "hypovolemiaextras:RedRockStone",
 			"genSky": "true",
 			"checkStay": "false",
 			"stackHeight": 3,
