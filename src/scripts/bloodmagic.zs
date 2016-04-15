@@ -16,7 +16,7 @@ mods.bloodmagic.Alchemy.removeRecipe(<minecraft:grass>);
 mods.bloodmagic.Alchemy.addRecipe(<minecraft:grass>,[<minecraft:dirt>,<minecraft:dirt>,<Botania:fertilizer>,<Botania:fertilizer>,<Botania:fertilizer>],2,1000);
 recipes.remove(<minecraft:planks:*>);
 mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:weakBloodOrb>);
-mods.bloodmagic.Altar.addRecipe(<minecraft:planks>, <Quadrum:woodsplinter>, 1,100,20,20);
+mods.bloodmagic.Altar.addRecipe(<minecraft:planks>, <hypovolemiaextras:wSplinter>, 1,100,20,20);
 mods.bloodmagic.Altar.addRecipe(<minecraft:planks>, <minecraft:bone>, 1,100,1,1);
 mods.bloodmagic.Altar.addRecipe(<minecraft:planks>, <minecraft:bone:1>, 1,100,1,1);
 mods.bloodmagic.Altar.addRecipe(<minecraft:dirt>, <minecraft:skull>, 1,100,1,1);
@@ -170,12 +170,6 @@ mods.bloodmagic.Altar.addRecipe(<minecraft:diamond_hoe>, <minecraft:iron_hoe>, 3
 
 //Thaumcraft Stuff
 
-//recipes.remove(<Thaumcraft:blockTable>);
-//recipes.remove(<technom:pen>);
-//recipes.remove(<Thaumcraft:ItemInkwell>);
-//mods.bloodmagic.Altar.addRecipe(<Thaumcraft:WandCasting>, <Quadrum:WoodWand>, 2,5000,5,5);
-//mods.bloodmagic.Altar.addRecipe(<Thaumcraft:blockTable>, <Avaritia:Triple_Craft>, 2,10000,5,5);
-//mods.bloodmagic.Altar.addRecipe(<ForbiddenMagic:Boundwell>, <technom:itemMaterial:3>, 3,10000,5,5);
 mods.bloodmagic.Alchemy.addRecipe(<Thaumcraft:ItemShard>,[<magicalcrops:magicalcrops_AirEssence>,<magicalcrops:magicalcrops_AirEssence>,<magicalcrops:magicalcrops_AirEssence>,<minecraft:iron_ingot>,<minecraft:iron_ingot>],2,5000);
 mods.bloodmagic.Alchemy.addRecipe(<Thaumcraft:ItemShard:1>,[<magicalcrops:magicalcrops_FireEssence>,<magicalcrops:magicalcrops_FireEssence>,<magicalcrops:magicalcrops_FireEssence>,<minecraft:iron_ingot>,<minecraft:iron_ingot>],2,5000);
 mods.bloodmagic.Alchemy.addRecipe(<Thaumcraft:ItemShard:2>,[<magicalcrops:magicalcrops_WaterEssence>,<magicalcrops:magicalcrops_WaterEssence>,<magicalcrops:magicalcrops_WaterEssence>,<minecraft:iron_ingot>,<minecraft:iron_ingot>],2,5000);
