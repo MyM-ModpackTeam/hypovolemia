@@ -1,26 +1,61 @@
 {
-	"Bones": {
-		"template": {
-			"type": "decoration", 
-			"generator": "decoration",
-			"genSurface": "hypovolemiaextras:RedRockStone",
-			"genSky": "true",
-			"checkStay": "false",
-			"stackHeight": 3,
-			"xVariance": 8,
-			"zVariance": 8,
-			"yVariance": 4
-		},
-		"block": {"name": "hypovolemiaextras:BPillar"},
-		"material": [],
-		"clusterSize": 1,
-		"numClusters": 5,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "whitelist",
-        "dimensions": [
-            0
-        ]
-	}
-}
+ 	"bones": {
+         "template": "surface",
+         "generator": "sparse-cluster",
+ 		"block": "hypovolemiaextras:BPillar",
+ 		"material": ["hypovolemiaextras:RedRockStone"],
+ 		"clusterSize": 3,
+ 		"numClusters": 2,
+         "retrogen": "true",
+         "biomeRestriction": "none",
+         "biomes": [],
+         "dimensionRestriction": "whitelist",
+         "dimensions": [
+             0
+         ]
+ 	},
+     "tallBrownGrass": {
+         "template": "decoration",
+         "xVariance": 4,
+         "zVariance": 4,
+         "yVariance": 4,
+         "generator": "decoration",
+         "block": [
+             {"name": "ExtrabiomesXL:grass", "weight": 100}
+         ],
+         "material": [],
+         "genSky": "true",
+         "genSurface": "hypovolemiaextras:RedRockStone",
+         "clusterSize": 8,
+         "numClusters": 3,
+         "retrogen": "false",
+         "biomeRestriction": "none",
+         "biomes": [],
+         "dimensionRestriction": "whitelist",
+         "dimensions": [
+             0
+         ]
+     },
+     "shortBrownGrass": {
+         "template": "decoration",
+         "xVariance": 4,
+         "zVariance": 4,
+         "yVariance": 4,
+         "generator": "decoration",
+         "block": [
+             {"name": "ExtrabiomesXL:grass", "metadata": 1, "weigh": 100}
+         ],
+         "material": [],
+         "genSky": "true",
+         "genSurface": "hypovolemiaextras:RedRockStone",
+         "clusterSize": 8,
+         "numClusters": 3,
+         "retrogen": "false",
+         "biomeRestriction": "none",
+         "biomes": [],
+         "dimensionRestriction": "whitelist",
+         "dimensions": [
+             0
+         ]
+     }
+ } 
