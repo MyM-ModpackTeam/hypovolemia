@@ -2,7 +2,7 @@
  	"bones": {
          "template": "surface",
          "generator": "sparse-cluster",
- 		"block": "hypovolemiaextras:BPillar",
+ 		"block": "hypovolemiaextras:BPillar2",
  		"material": ["hypovolemiaextras:RedRockStone"],
  		"clusterSize": 3,
  		"numClusters": 2,
