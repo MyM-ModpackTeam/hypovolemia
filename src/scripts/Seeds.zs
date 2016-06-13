@@ -1,0 +1,11 @@
+vanilla.seeds.removeSeed(<witchery:seedsartichoke>);
+vanilla.seeds.removeSeed(<AgriCraft:seedCarrot>);
+vanilla.seeds.removeSeed(<witchery:garlic>);
+vanilla.seeds.removeSeed(<witchery:seedswolfsbane>);
+vanilla.seeds.removeSeed(<AgriCraft:seedPotato>);
+vanilla.seeds.removeSeed(<witchery:seedsmandrake>);
+vanilla.seeds.removeSeed(<minecraft:wheat_seeds>);
+vanilla.seeds.removeSeed(<witchery:seedsbelladonna>);
+vanilla.seeds.removeSeed(<witchery:seedsmandrake>);
+vanilla.seeds.removeSeed(<witchery:seedssnowbell>);
+vanilla.seeds.removeSeed(<witchery:seedsartichoke>);
