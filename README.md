@@ -19,6 +19,9 @@ art by [legendary-memory (Ash) @ DeviantArt](http://legendary-memory.deviantart.
 
 :point_right: [more impressions](https://imgur.com/a/K3P1d#2)
 
+##Fastcraft
+This pack contains Fastcraft, by Player, enabled by default. Fastcraft enhances Minecraft with increased performance. Bug reports being made directly to Mod Authors should state Fastcraft is enabled.
+
 ##Compiling
 Terminal/Command Prompt:
 
