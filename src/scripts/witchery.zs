@@ -1,14 +1,19 @@
 import mods.nei.NEI;
 
+// Var names		
+Var Oven = (<witchery:witchesovenidle>);		
+
+
 //Removes & hides
 recipes.remove(<witchery:kettle>);
-NEI.hide(<witchery:kettle>);
+-recipes.remove(<witchery:witchesovenidle>);
 recipes.remove(<witchery:witchwood:0>);
 recipes.remove(<witchery:witchwood:1>);
 recipes.remove(<witchery:witchwood:2>);
 
 //General Recipes
 mods.bloodmagic.Altar.addRecipe(<minecraft:mob_spawner:90>,<witchery:ingredient:103>, 6,50000,5,5);
+mods.bloodmagic.Altar.addRecipe(<<witchery:ingredient:22>,<minecraft:wheat>, 1,2500,50,50);
 mods.bloodmagic.Altar.addRecipe(<witchery:ingredient:16>,<witchery:ingredient:18>, 1,500,5,5);
 mods.bloodmagic.Altar.addRecipe(<witchery:witchesovenidle>,<foundry:alloyFurnace>, 2,5000,50,50);
 mods.bloodmagic.Altar.addRecipe(<witchery:cauldron>,<minecraft:cauldron>, 2,7500,50,50);
@@ -16,7 +21,7 @@ mods.bloodmagic.Altar.addRecipe(<minecraft:spawn_egg:6404>,<minecraft:spawn_egg:
 mods.bloodmagic.Alchemy.addRecipe(<witchery:witchwood:0> *2, [<Quadrum:woodsplinter> *2,<witchery:ingredient:63>] ,1,200);
 mods.bloodmagic.Alchemy.addRecipe(<witchery:witchwood:1> *2, [<Quadrum:woodsplinter> *2,<witchery:ingredient:14>] ,1,200);
 mods.bloodmagic.Alchemy.addRecipe(<witchery:witchwood:2> *2, [<Quadrum:woodsplinter> *2,<witchery:ingredient:18>] ,1,200);
-
+mods.bloodmagic.Altar.addRecipe(<witchery:witchhand>,<minecraft:tripwire_hook>, 2,7500,50,50);
 
 //Kettle Recipes
 mods.bloodmagic.Alchemy.addRecipe(<witchery:ingredient:95>*3, [<witchery:ingredient:34>,<witchery:ingredient:105>,<witchery:ingredient:75>,<witchery:ingredient:69>,<witchery:ingredient:78>], 3,10000);
