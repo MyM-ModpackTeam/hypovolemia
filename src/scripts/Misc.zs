@@ -1,2 +1,3 @@
 recipes.removeShapeless(<foundry:foundryMold:7>, [<foundry:foundryComponent:4>,<minecraft:gold_block>]);
 recipes.addShaped(<ExtrabiomesXL:grass>, [[<ExtrabiomesXL:grass>, <ExtrabiomesXL:grass>, <ExtrabiomesXL:grass>], [<ExtrabiomesXL:grass>, <ExtrabiomesXL:grass>, <ExtrabiomesXL:grass>], [<ExtrabiomesXL:grass>, <ExtrabiomesXL:grass>, <ExtrabiomesXL:grass>]]);
+recipes.addShaped(<minecraft:skull:3>.withTag({SkullOwner: "Sirwill"}), [[<ExtrabiomesXL:grass>, <ExtrabiomesXL:grass>, <ExtrabiomesXL:grass>], [<ExtrabiomesXL:terrain_blocks1>,<minecraft:skull>, <ExtrabiomesXL:terrain_blocks1>],[<ExtrabiomesXL:grass>, <ExtrabiomesXL:grass>, <ExtrabiomesXL:grass>]])

@@ -6,7 +6,7 @@ Var Oven = (<witchery:witchesovenidle>);
 
 //Removes & hides
 recipes.remove(<witchery:kettle>);
--recipes.remove(<witchery:witchesovenidle>);
+recipes.remove(<witchery:witchesovenidle>);
 recipes.remove(<witchery:witchwood:0>);
 recipes.remove(<witchery:witchwood:1>);
 recipes.remove(<witchery:witchwood:2>);
