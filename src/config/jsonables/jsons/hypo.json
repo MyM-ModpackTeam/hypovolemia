@@ -1,0 +1,26 @@
+{  
+    "materials":[  
+        
+    ],
+    "fluids":[  
+        
+    ],
+    "aspects":[  
+	 {  
+            "tag":"blood",
+            "color":13178390,
+            "aspect1":"sano",
+            "aspect2":"corpus"
+        }
+       
+    ],
+    "oreBerries":[  
+ 
+    ],
+    "smelteryFuels":[  
+        
+    ],
+    "brews":[
+
+    ]
+}
