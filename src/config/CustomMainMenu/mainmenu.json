@@ -146,7 +146,7 @@
     {
         "version":
         {
-            "text" : "@version@",
+            "text" : "0.0.20",
             "posX" : -60,
             "posY" : -20,
             "color" : 10921638,
@@ -156,7 +156,7 @@
             "action" : 
             {
                 "type" : "openLink",
-                "link" : "https://github.com/MyM-ModpackTeam/hypovolemia/releases/tag/@version@"
+                "link" : "https://github.com/MyM-ModpackTeam/hypovolemia/releases/tag/0.0.20"
             }
         }
     },

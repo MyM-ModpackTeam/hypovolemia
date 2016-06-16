@@ -1,0 +1,109 @@
+
+{
+  "ID": 24,
+  "Name": "Bloody Water",
+  "Class": "net.minecraft.world.biome.BiomeGenOcean",
+  "Color": 48,
+  "Root Height": -1.8,
+  "Height Variation": 0.1,
+  "Top Block": "ci:Redrock",
+  "Filler Block": "ci:Redrock",
+  "Grass Color": "Not set. Check in-game.",
+  "Foliage Color": "Not set. Check in-game.",
+  "Water Color": "13107200",
+  "Temperature": 2.0,
+  "Humidity": 0.5,
+  "Water Tint": 13107200,
+  "Enable Rain": false,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "OCEAN",
+    "WATER"
+  ],
+  "BiomeManager Entries": {
+    "DESERT Weights": [
+      2000,
+      10
+    ],
+    "WARM Weights": [
+      2000,
+      10
+    ],
+    "COOL Weights": [
+      2000,
+      10
+    ],
+    "ICY Weights": [
+      0,
+      10
+    ]
+  },
+  "Spawnable Creatures": [],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntitySpider",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityZombie",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityCreeper",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntitySlime",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityEnderman",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityWitch",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "pizzaluc.mods.Aggro_Wolfs",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "exter.foundry.entity.EntitySkeletonGun",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    }
+  ],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityBat",
+      "Weight": 10,
+      "Min Group Count": 8,
+      "Max Group Count": 8
+    }
+  ],
+  "Spawn Biome": false,
+  "Tweaked": true
+}

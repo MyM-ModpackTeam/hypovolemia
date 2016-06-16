@@ -2,10 +2,10 @@
 	"bones": {
         "template": "surface",
         "generator": "sparse-cluster",
-		"block": "Quadrum:bones",
-		"material": ["ExtrabiomesXL:terrain_blocks1"],
+		"block": "ci:Bonerock",
+		"material": ["ci:Redrock"],
 		"clusterSize": 3,
-		"numClusters": 2,
+		"numClusters": 10,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
@@ -14,19 +14,19 @@
             0
         ]
 	},
-    "tallBrownGrass": {
+    "Williweed": {
         "template": "decoration",
         "xVariance": 4,
         "zVariance": 4,
         "yVariance": 4,
         "generator": "decoration",
         "block": [
-            {"name": "ExtrabiomesXL:grass", "weight": 100}
+            {"name": "ci:WilliWeed", "weight": 100}
         ],
         "material": [],
         "genSky": "true",
-        "genSurface": "ExtrabiomesXL:terrain_blocks1",
-        "clusterSize": 8,
+        "genSurface": "ci:Redrock",
+        "clusterSize": 30,
         "numClusters": 3,
         "retrogen": "false",
         "biomeRestriction": "none",
@@ -36,19 +36,19 @@
             0
         ]
     },
-    "shortBrownGrass": {
+    "SlindWeed": {
         "template": "decoration",
         "xVariance": 4,
         "zVariance": 4,
         "yVariance": 4,
         "generator": "decoration",
         "block": [
-            {"name": "ExtrabiomesXL:grass", "metadata": 1, "weigh": 100}
+            {"name": "ci:SlindWeed", "metadata": 1, "weigh": 100}
         ],
         "material": [],
         "genSky": "true",
-        "genSurface": "ExtrabiomesXL:terrain_blocks1",
-        "clusterSize": 8,
+        "genSurface": "ci:Redrock",
+        "clusterSize": 10,
         "numClusters": 3,
         "retrogen": "false",
         "biomeRestriction": "none",

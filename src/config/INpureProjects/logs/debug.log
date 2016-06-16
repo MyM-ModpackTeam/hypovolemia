@@ -1,0 +1,242 @@
+Script handler ready. Waiting for a while to ensure all other mods are done messing with NEI.
+Starting NEI Filter scripting. This might take a moment to load all the modules...
+Engine: JAVASCRIPT
+Setting up Java Library...
+Setting up FML Library...
+Setting up NEI Library...
+Setting up CreativeTab library...
+Found creative tab: tabBloodMagic
+Found creative tab: misc
+Found creative tab: agricraft
+Found creative tab: avaritia
+Found creative tab: tools
+Found creative tab: Botania
+Found creative tab: buildingBlocks
+Found creative tab: CarpentersBlocks
+Found creative tab: blocksAndItems
+Found creative tab: food
+Found creative tab: toolsAndWeapons
+Found creative tab: enchiridion
+Found creative tab: decorations
+Found creative tab: forbidden
+Found creative tab: combat
+Found creative tab: mobcrystal
+Found creative tab: hqm
+Found creative tab: loreexp
+Found creative tab: tabMekanism
+Found creative tab: MineFactory Reloaded
+Found creative tab: NotEnoughWands
+Found creative tab: quadrum.block
+Found creative tab: quadrum.item
+Found creative tab: tabSanguimancy
+Found creative tab: storageDrawers
+Found creative tab: TConstructBlocks
+Found creative tab: TConstructWeaponry
+Found creative tab: TConstructParts
+Found creative tab: TConstructTools
+Found creative tab: TConstructMaterials
+Found creative tab: redstone
+Found creative tab: TConstructEquipables
+Found creative tab: thaumcraft
+Found creative tab: materials
+Found creative tab: ztones
+Found creative tab: appliedenergistics2
+Found creative tab: appliedenergistics2.facades
+Found creative tab: tabWoodChiselBlocks
+Found creative tab: tabStairChiselBlocks
+Found creative tab: tabModdedChiselBlocks
+Found creative tab: tabStoneChiselBlocks
+Found creative tab: tabOtherChiselBlocks
+Found creative tab: tabChisel
+Found creative tab: tabMetalChiselBlocks
+Found creative tab: Hypovolemia
+Found creative tab: Extra_Cells
+Found creative tab: foundryMachines
+Found creative tab: foundryBlocks
+Found creative tab: foundryMaterials
+Found creative tab: foundryFluids
+Found creative tab: foundryMolds
+Found creative tab: foundryFirearms
+Found creative tab: guideapi.creativeTab
+Found creative tab: magicalcrops
+Found creative tab: transportation
+Found creative tab: brewing
+Found creative tab: inventoryGenerators
+Found creative tab: structureTools
+Found creative tab: subsistence.blocks
+Found creative tab: subsistence.items
+Found creative tab: subsistence.tools
+Found creative tab: Technomancy
+Found creative tab: ThaumicEnergistics
+Found creative tab: tabWitchery
+Setting up ForgeMicroblock Library...
+Setting up Applied Energistics 2 Library...
+Loading table of contents for module: custom, 1.0, Author: sirwill
+Loading: general.js
+override called. Params: Mekanism, MachineBlock2, 11
+Regex match found! Mekanism:MachineBlock2 matches Mekanism:MachineBlock2.
+Found ItemStack Mekanism:MachineBlock2. 1xtile.MachineBlock2@0
+override called. Params: foundry, foundryContainer, 0
+Regex match found! foundry:foundryContainer matches foundry:foundryContainer.
+Found ItemStack foundry:foundryContainer. 16xitem.foundryContainer@0
+override called. Params: extracells, pattern.fluid, 0
+Regex match found! extracells:pattern.fluid matches extracells:pattern.fluid.
+Found ItemStack extracells:pattern.fluid. 1xitem.extracells.pattern.fluid@0
+override called. Params: TConstruct, pickaxe, 0
+Regex match found! TConstruct:pickaxe matches TConstruct:pickaxe.
+Found ItemStack TConstruct:pickaxe. 1xitem.InfiTool.Pickaxe@0
+override called. Params: TConstruct, shovel, 0
+Regex match found! TConstruct:shovel matches TConstruct:shovel.
+Found ItemStack TConstruct:shovel. 1xitem.InfiTool.Shovel@0
+override called. Params: TConstruct, hatchet, 0
+Regex match found! TConstruct:hatchet matches TConstruct:hatchet.
+Found ItemStack TConstruct:hatchet. 1xitem.InfiTool.Axe@0
+override called. Params: TConstruct, broadsword, 0
+Regex match found! TConstruct:broadsword matches TConstruct:broadsword.
+Found ItemStack TConstruct:broadsword. 1xitem.InfiTool.Broadsword@0
+override called. Params: TConstruct, longsword, 0
+Regex match found! TConstruct:longsword matches TConstruct:longsword.
+Found ItemStack TConstruct:longsword. 1xitem.InfiTool.Longsword@0
+override called. Params: TConstruct, rapier, 0
+Regex match found! TConstruct:rapier matches TConstruct:rapier.
+Found ItemStack TConstruct:rapier. 1xitem.InfiTool.Rapier@0
+override called. Params: TConstruct, dagger, 0
+Regex match found! TConstruct:dagger matches TConstruct:dagger.
+Found ItemStack TConstruct:dagger. 1xitem.InfiTool.Dagger@0
+override called. Params: TConstruct, cutlass, 0
+Regex match found! TConstruct:cutlass matches TConstruct:cutlass.
+Found ItemStack TConstruct:cutlass. 1xitem.InfiTool.Cutlass@0
+override called. Params: TConstruct, frypan, 0
+Regex match found! TConstruct:frypan matches TConstruct:frypan.
+Found ItemStack TConstruct:frypan. 1xitem.InfiTool.FryPan@0
+override called. Params: TConstruct, battlesign, 0
+Regex match found! TConstruct:battlesign matches TConstruct:battlesign.
+Found ItemStack TConstruct:battlesign. 1xitem.InfiTool.Battlesign@0
+override called. Params: TConstruct, mattock, 0
+Regex match found! TConstruct:mattock matches TConstruct:mattock.
+Found ItemStack TConstruct:mattock. 1xitem.InfiTool.Mattock@0
+override called. Params: TConstruct, chisel, 0
+Regex match found! TConstruct:chisel matches TConstruct:chisel.
+Found ItemStack TConstruct:chisel. 1xitem.InfiTool.Chisel@0
+override called. Params: TConstruct, lumberaxe, 0
+Regex match found! TConstruct:lumberaxe matches TConstruct:lumberaxe.
+Found ItemStack TConstruct:lumberaxe. 1xitem.InfiTool.LumberAxe@0
+override called. Params: TConstruct, cleaver, 0
+Regex match found! TConstruct:cleaver matches TConstruct:cleaver.
+Found ItemStack TConstruct:cleaver. 1xitem.InfiTool.Cleaver@0
+override called. Params: TConstruct, scythe, 0
+Regex match found! TConstruct:scythe matches TConstruct:scythe.
+Found ItemStack TConstruct:scythe. 1xitem.InfiTool.Scythe@0
+override called. Params: TConstruct, excavator, 0
+Regex match found! TConstruct:excavator matches TConstruct:excavator.
+Found ItemStack TConstruct:excavator. 1xitem.InfiTool.Excavator@0
+override called. Params: TConstruct, hammer, 0
+Regex match found! TConstruct:hammer matches TConstruct:hammer.
+Found ItemStack TConstruct:hammer. 1xitem.InfiTool.Hammer@0
+override called. Params: TConstruct, battleaxe, 0
+Regex match found! TConstruct:battleaxe matches TConstruct:battleaxe.
+Found ItemStack TConstruct:battleaxe. 1xitem.InfiTool.Battleaxe@0
+override called. Params: TConstruct, Shuriken, 0
+Regex match found! TConstruct:Shuriken matches TConstruct:Shuriken.
+Found ItemStack TConstruct:Shuriken. 1xitem.InfiTool@0
+override called. Params: TConstruct, ThrowingKnife, 0
+Regex match found! TConstruct:ThrowingKnife matches TConstruct:ThrowingKnife.
+Found ItemStack TConstruct:ThrowingKnife. 1xitem.InfiTool@0
+override called. Params: TConstruct, Javelin, 0
+Regex match found! TConstruct:Javelin matches TConstruct:Javelin.
+Found ItemStack TConstruct:Javelin. 1xitem.InfiTool@0
+override called. Params: TConstruct, Bow, 0
+override called. Params: TConstruct, Crossbow, 0
+Regex match found! TConstruct:Crossbow matches TConstruct:Crossbow.
+Found ItemStack TConstruct:Crossbow. 1xitem.InfiTool@0
+override called. Params: TConstruct, ArrowAmmo, 0
+Regex match found! TConstruct:ArrowAmmo matches TConstruct:ArrowAmmo.
+Found ItemStack TConstruct:ArrowAmmo. 1xitem.InfiTool@0
+override called. Params: TConstruct, BoltAmmo, 0
+Regex match found! TConstruct:BoltAmmo matches TConstruct:BoltAmmo.
+Found ItemStack TConstruct:BoltAmmo. 1xitem.InfiTool@0
+override called. Params: TConstruct, LongBow, 0
+Regex match found! TConstruct:LongBow matches TConstruct:LongBow.
+Found ItemStack TConstruct:LongBow. 1xitem.InfiTool@0
+override called. Params: TConstruct, ToolForgeBlock, 0
+Regex match found! TConstruct:ToolForgeBlock matches TConstruct:ToolForgeBlock.
+Found ItemStack TConstruct:ToolForgeBlock. 64xtile.ToolForge@0
+Loading table of contents for module: custom_nei_filters, 1.0, Author: denoflionsx
+Bootstrap setting found. Loading: Bootstrap.js
+Loading: vanilla.js
+hide called. Params: minecraft, portal
+Regex match found! minecraft:portal matches minecraft:portal.
+Found ItemStack minecraft:portal. 64xtile.portal@0
+hide called. Params: minecraft, end_portal
+Regex match found! minecraft:end_portal matches minecraft:end_portal.
+Found ItemStack minecraft:end_portal. 64xtile.null@0
+hide called. Params: minecraft, fire
+Regex match found! minecraft:fire matches minecraft:fire.
+Found ItemStack minecraft:fire. 64xtile.fire@0
+hide called. Params: minecraft, water
+Regex match found! minecraft:water matches minecraft:water.
+Found ItemStack minecraft:water. 64xtile.water@0
+hide called. Params: minecraft, lava
+Regex match found! minecraft:lava matches minecraft:lava.
+Found ItemStack minecraft:lava. 64xtile.lava@0
+hide called. Params: minecraft, mob_spawner
+Regex match found! minecraft:mob_spawner matches minecraft:mob_spawner.
+Found ItemStack minecraft:mob_spawner. 64xtile.mobSpawner@0
+override called. Params: minecraft, potion, 0
+Regex match found! minecraft:potion matches minecraft:potion.
+Found ItemStack minecraft:potion. 1xitem.potion@0
+override called. Params: minecraft, spawn_egg, 0
+Regex match found! minecraft:spawn_egg matches minecraft:spawn_egg.
+Found ItemStack minecraft:spawn_egg. 64xitem.monsterPlacer@0
+Loading: ThermalExpansion.js
+Loading: Mekanism.js
+override called. Params: Mekanism, GasTank, 100
+Regex match found! Mekanism:GasTank matches Mekanism:GasTank.
+Found ItemStack Mekanism:GasTank. 1xtile.GasTank@0
+override called. Params: Mekanism, *PlasticBlock, 0
+Regex match found! Mekanism:*PlasticBlock matches Mekanism:GlowPlasticBlock.
+Regex match found! Mekanism:*PlasticBlock matches Mekanism:PlasticBlock.
+Regex match found! Mekanism:*PlasticBlock matches Mekanism:ReinforcedPlasticBlock.
+Regex match found! Mekanism:*PlasticBlock matches Mekanism:RoadPlasticBlock.
+Regex match found! Mekanism:*PlasticBlock matches Mekanism:SlickPlasticBlock.
+Found ItemStack Mekanism:GlowPlasticBlock. 64xtile.GlowPlasticBlock@0
+Found ItemStack Mekanism:PlasticBlock. 64xtile.PlasticBlock@0
+Found ItemStack Mekanism:ReinforcedPlasticBlock. 64xtile.ReinforcedPlasticBlock@0
+Found ItemStack Mekanism:RoadPlasticBlock. 64xtile.RoadPlasticBlock@0
+Found ItemStack Mekanism:SlickPlasticBlock. 64xtile.SlickPlasticBlock@0
+override called. Params: Mekanism, Balloon, 0
+Regex match found! Mekanism:Balloon matches Mekanism:Balloon.
+Found ItemStack Mekanism:Balloon. 64xitem.Balloon@0
+override called. Params: Mekanism, GlowPanel, 0
+Regex match found! Mekanism:GlowPanel matches Mekanism:GlowPanel.
+Found ItemStack Mekanism:GlowPanel. 64xitem.GlowPanel@0
+Loading: ForgeMicroblock.js
+getRandomMaterial called. Returned: Mekanism:BasicBlock_1
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, Mekanism:BasicBlock_1
+Loading: ExtraUtilities.js
+Loading: BuildCraft.js
+Loading: Bibliocraft.js
+Loading: AppliedEnergistics2.js
+getFacadeItem called. Returned: appliedenergistics2:item.ItemFacade
+getSubTypes called.
+getNumberOfTypes called. Returned: 2137
+override called. Params: appliedenergistics2, item.ItemFacade, 372
+Regex match found! appliedenergistics2:item.ItemFacade matches appliedenergistics2:item.ItemFacade.
+Found ItemStack appliedenergistics2:item.ItemFacade. 64xitem.appliedenergistics2.ItemFacade@0
+Loading: Tcon.js
+override called. Params: TConstruct, tool*, 0
+Regex match found! TConstruct:tool* matches TConstruct:toolRod.
+Regex match found! TConstruct:tool* matches TConstruct:toolShard.
+Found ItemStack TConstruct:toolRod. 64xitem.tconstruct.ToolRod@0
+Found ItemStack TConstruct:toolShard. 64xitem.tconstruct.ToolShard@0
+override called. Params: TConstruct, binding, 0
+Regex match found! TConstruct:binding matches TConstruct:binding.
+Found ItemStack TConstruct:binding. 64xitem.tconstruct.Binding@0
+override called. Params: TConstruct, scytheBlade, 0
+Regex match found! TConstruct:scytheBlade matches TConstruct:scytheBlade.
+Found ItemStack TConstruct:scytheBlade. 64xitem.tconstruct.ScytheHead@0
+Loading: MFR.js
+override called. Params: MineFactoryReloaded, tile.mfr.stainedglass.block, 0
+hide called. Params: MineFactoryReloaded:fluid.mfr.liquid.milk.still, 0
+override called. Params: MineFactoryReloaded, tile.mfr.stainedglass.pane, 0
+override called. Params: MineFactoryReloaded, tile.mfr.conveyor, 0
