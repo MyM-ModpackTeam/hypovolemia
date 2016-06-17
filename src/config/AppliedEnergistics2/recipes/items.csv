@@ -1139,7 +1139,7 @@ Botania:manaBeacon:14, Red Unstable Beacon
 Botania:manaBeacon:15, Black Unstable Beacon
 Botania:manaVoid, tile.manaVoid.name
 Botania:manaDetector, tile.manaDetector.name
-Botania:enchanter, tile.enchanter.name
+Botania:enchanter, Osmotic Enchanter
 Botania:turntable, tile.turntable.name
 Botania:tinyPlanetBlock, tile.tinyPlanetBlock.name
 Botania:alchemyCatalyst, tile.alchemyCatalyst.name
@@ -3169,6 +3169,38 @@ extracells:ecbaseblock:0, ME Fluid Interface
 extracells:ecbaseblock:1, ME Fluid Auto Filler
 extracells:hardmedrive, Blast resistant ME Drive [WIP]
 extracells:vibrantchamberfluid, Fluid Vibration Chamber
+ThaumicTinkerer:funnel, Essentia Funnel
+ThaumicTinkerer:fireFire, Ignis Imbued Fire
+ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
+ThaumicTinkerer:fireAir, Aer Imbued Fire
+ThaumicTinkerer:darkQuartz:0, Block of Smokey Quartz
+ThaumicTinkerer:darkQuartz:1, Chiseled Smokey Quartz Block
+ThaumicTinkerer:darkQuartz:2, Pillar Smokey Quartz Block
+ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
+ThaumicTinkerer:platform, Ethereal Platform
+ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
+ThaumicTinkerer:fireChaos, Perditio Imbued Fire
+ThaumicTinkerer:fireWater, Aqua Imbued Fire
+ThaumicTinkerer:magnet:0, Kinetic Attractor
+ThaumicTinkerer:magnet:1, Corporeal Attractor
+ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
+ThaumicTinkerer:animationTablet, Dynamism Tablet
+ThaumicTinkerer:dislocator, Transvector Dislocator
+ThaumicTinkerer:repairer, Thaumic Restorer
+ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
+ThaumicTinkerer:nitorGas, tile.nitorGas.name
+ThaumicTinkerer:fireEarth, Terra Imbued Fire
+ThaumicTinkerer:fireOrder, Ordo Imbued Fire
+ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
+ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
+ThaumicTinkerer:warpGate, Celestial Gateway
+ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
+ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
+ThaumicTinkerer:spawner, Tablet of Necromancy
+ThaumicTinkerer:bedrockPortal, Bedrock Portal
+ThaumicTinkerer:interface, Transvector Interface
+ThaumicTinkerer:forcefield, Forcefield
+ThaumicTinkerer:enchanter, Osmotic Enchanter
 ForbiddenMagic:ArcaneCake, Thaumic Cake
 ForbiddenMagic:WrathCage, Wrath Cage
 ForbiddenMagic:InkFlower, Umbral Rose
@@ -4151,6 +4183,98 @@ thaumicenergistics:thaumicenergistics.block.arcane.assembler, Arcane Assembler
 thaumicenergistics:thaumicenergistics.block.knowledge.inscriber, Knowledge Inscriber
 thaumicenergistics:thaumicenergistics.block.essentia.vibration.chamber, Essentia Vibration Chamber
 thaumicenergistics:thaumicenergistics.block.distillation.encoder, Distillation Pattern Encoder
+ThaumicExploration:autoSorter, tile.thaumicexploration:autoSorter.name
+ThaumicExploration:trashJar, Oblivion Jar
+ThaumicExploration:boundChest, tile.boundChest.name
+ThaumicExploration:floatCandle:0, White Floating Candle
+ThaumicExploration:floatCandle:1, Orange Floating Candle
+ThaumicExploration:floatCandle:2, Magenta Floating Candle
+ThaumicExploration:floatCandle:3, Light Blue Floating Candle
+ThaumicExploration:floatCandle:4, Yellow Floating Candle
+ThaumicExploration:floatCandle:5, Lime Floating Candle
+ThaumicExploration:floatCandle:6, Pink Floating Candle
+ThaumicExploration:floatCandle:7, Gray Floating Candle
+ThaumicExploration:floatCandle:8, Light Gray Floating Candle
+ThaumicExploration:floatCandle:9, Cyan Floating Candle
+ThaumicExploration:floatCandle:10, Purple Floating Candle
+ThaumicExploration:floatCandle:11, Blue Floating Candle
+ThaumicExploration:floatCandle:12, Brown Floating Candle
+ThaumicExploration:floatCandle:13, Green Floating Candle
+ThaumicExploration:floatCandle:14, Red Floating Candle
+ThaumicExploration:floatCandle:15, Black Floating Candle
+ThaumicExploration:meltyIce, Ice
+ThaumicExploration:boundJar, Bound Jar
+ThaumicExploration:thinkTankJar, Think Tank
+ThaumicExploration:everfullUrn, Everfull Urn
+ThaumicExploration:everburnUrn, Everburn Urn
+ThaumicExploration:soulBrazier, Soul Brazier
+ThaumicExploration:crucibleSouls, Crucible of Souls
+ThaumicExploration:replicator, Thaumic Replicator
+ThaumicHorizons:synthNode, Ethereal Shard
+ThaumicHorizons:alchemite, Alchemite
+ThaumicHorizons:visDynamo, Vis Dynamo
+ThaumicHorizons:essentiaDynamo, Essentia Dynamo
+ThaumicHorizons:nodeMonitor, Node Monitor
+ThaumicHorizons:soulSieve, Soul Sieve
+ThaumicHorizons:inspiratron, Inspiratron
+ThaumicHorizons:soulforge, Soulforge
+ThaumicHorizons:soulJar:0, Jarred  Soul
+ThaumicHorizons:bloodInfuser, Seroconverter
+ThaumicHorizons:vat, Curative Vat
+ThaumicHorizons:vatSolid, Curative Vat
+ThaumicHorizons:vatInterior, tile.ThaumicHorizons_vatInterior.name
+ThaumicHorizons:soulBeacon, Soul Beacon
+ThaumicHorizons:modMatrix, Modified Runic Matrix
+ThaumicHorizons:chocolate, Block of Chocolate
+ThaumicHorizons:evanescent, tile.ThaumicHorizons_evanescent.name
+ThaumicHorizons:light, Light Orb
+ThaumicHorizons:lightSolar, Light Orb
+ThaumicHorizons:transductionAmplifier, Transduction Amplifier
+ThaumicHorizons:recombinator, Teleological Recombinator
+ThaumicHorizons:vortexStabilizer, Vortex Attenuator
+ThaumicHorizons:vortexTH:0, Planar Vortex
+ThaumicHorizons:vortexTH:1, Planar Vortex (Creative)
+ThaumicHorizons:voidTH, Planar Boundary
+ThaumicHorizons:cloudTH:0, Cloud
+ThaumicHorizons:cloudTH:2, Thundercloud
+ThaumicHorizons:cloudTH:3, Acid Cloud
+ThaumicHorizons:cloudTH:5, Tumorous Cloud
+ThaumicHorizons:cloudTH:8, Spore Cloud
+ThaumicHorizons:cloudGlowingTH:1, Plasma Cloud
+ThaumicHorizons:cloudGlowingTH:4, Alloy Cloud
+ThaumicHorizons:cloudGlowingTH:6, Vis Cloud
+ThaumicHorizons:cloudGlowingTH:7, Glyph Cloud
+ThaumicHorizons:cloudGlowingTH:9, Animus Cloud
+ThaumicHorizons:brainTH, Lump of Brain
+ThaumicHorizons:dustTH, Dust
+ThaumicHorizons:eyeTH, Eye Cluster
+ThaumicHorizons:boneTH, Bone
+ThaumicHorizons:fleshTH, Lump of Flesh
+ThaumicHorizons:spikeTH, Metal Spike
+ThaumicHorizons:spikeWoodTH, Wooden Spike
+ThaumicHorizons:spikeToothTH, Tooth
+ThaumicHorizons:crystalTH:0, White Crystal
+ThaumicHorizons:crystalTH:1, Orange Crystal
+ThaumicHorizons:crystalTH:2, Magenta Crystal
+ThaumicHorizons:crystalTH:3, Light Blue Crystal
+ThaumicHorizons:crystalTH:4, Yellow Crystal
+ThaumicHorizons:crystalTH:5, Lime Crystal
+ThaumicHorizons:crystalTH:6, Pink Crystal
+ThaumicHorizons:crystalTH:7, Gray Crystal
+ThaumicHorizons:crystalTH:8, Light Gray Crystal
+ThaumicHorizons:crystalTH:9, Cyan Crystal
+ThaumicHorizons:crystalTH:10, Purple Crystal
+ThaumicHorizons:crystalTH:11, Blue Crystal
+ThaumicHorizons:crystalTH:12, Brown Crystal
+ThaumicHorizons:crystalTH:13, Green Crystal
+ThaumicHorizons:crystalTH:14, Red Crystal
+ThaumicHorizons:crystalTH:15, Black Crystal
+ThaumicHorizons:crystalDeep, Deep Crystal
+ThaumicHorizons:leviathanTH, Primordial Fossil
+ThaumicHorizons:slotTH, Keystone Receptacle
+ThaumicHorizons:portalTH, tile.null.name
+ThaumicHorizons:gatewayTH, Planar Gateway
+TravellersGear:armorstand, Armor Stand
 witchery:belladonna, Belladonna
 witchery:mandrake, Mandrake
 witchery:artichoke, Water Artichoke
@@ -4336,6 +4460,31 @@ witchery:cstonepressureplate, Pressure Plate
 witchery:csnowpressureplate, Snow Pressure Plate
 witchery:cbuttonwood, Button
 witchery:cbuttonstone, Button
+WitchingGadgets:WG_WallMirror, Mirror on the Wall
+WitchingGadgets:WG_VoidWalkway, Void Walkway
+WitchingGadgets:WG_StoneDevice:0, Ethereal Wall
+WitchingGadgets:WG_StoneDevice:1, Magical Lock
+WitchingGadgets:WG_StoneDevice:2, Obsidian Plate
+WitchingGadgets:WG_StoneDevice:3, Obsidian Rune
+WitchingGadgets:WG_StoneDevice:6, Sarcophagus
+WitchingGadgets:WG_StoneDevice:7, Ageing Stone
+WitchingGadgets:WG_WoodenDevice:0, Spinning Wheel
+WitchingGadgets:WG_WoodenDevice:2, Thaumic Stone Extruder
+WitchingGadgets:WG_WoodenDevice:3, Cutting Table
+WitchingGadgets:WG_WoodenDevice:4, Thaumic Sauna Stove
+WitchingGadgets:WG_WoodenDevice:5, Aspect Library
+WitchingGadgets:WG_MetalDevice:0, Essentia Pump
+WitchingGadgets:WG_MetalDevice:1, Arcane Terrestrial Reformer
+WitchingGadgets:WG_MetalDevice:2, Terrestrial Focus: Plains
+WitchingGadgets:WG_MetalDevice:3, Terrestrial Focus: Cold Taiga
+WitchingGadgets:WG_MetalDevice:4, Terrestrial Focus: Desert
+WitchingGadgets:WG_MetalDevice:5, Terrestrial Focus: Jungle
+WitchingGadgets:WG_MetalDevice:6, Terrestrial Focus: Hell
+WitchingGadgets:WG_MetalDevice:7, Void metal Block
+WitchingGadgets:WG_MetalDevice:8, Terrestrial Focus: Tainted Lands
+WitchingGadgets:WG_MetalDevice:9, Terrestrial Focus: Mushroom Island
+WitchingGadgets:WG_RoseVine, Rose Vines
+WitchingGadgets:WG_CustomAir, Glimmer of Light
 Ztones:stoneTile, Ztone Tile
 Ztones:cleanDirt, Garden Soil
 Ztones:booster, Booster
@@ -6327,6 +6476,10 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Rainbow Eucalyptus Wood Pl
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Autumn Wood Planks
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Bald Cypress Wood Planks
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Sakura Wood Planks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Smokey Quartz
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Chiseled Smokey Quartz Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Pillar Smokey Quartz Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Smokey Quartz Slab
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Nether Star Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Tainted Log
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Tainted Planks
@@ -6573,6 +6726,16 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Scorched Limestone Bricks
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Tiled Limestone
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Infernal Log
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Infernal Log
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Alchemite
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Chocolate
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Planar Boundary
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Lump of Brain
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Dust
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Eye Cluster
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Bone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Lump of Flesh
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Primordial Fossil
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Planar Gateway
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Rowan Wood
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Alder Wood
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Hawthorn Wood
@@ -8041,7 +8204,7 @@ Botania:clip, item.clip.name
 Botania:cobbleRod, item.cobbleRod.name
 Botania:smeltRod, item.smeltRod.name
 Botania:worldSeed, item.worldSeed.name
-Botania:spellCloth, item.spellCloth.name
+Botania:spellCloth, Spellbinding Cloth
 Botania:thornChakram:0, Thorn Chakram
 Botania:thornChakram:1, Flare Chakram
 Botania:overgrowthSeed, item.overgrowthSeed.name
@@ -9900,6 +10063,195 @@ thaumicenergistics:wireless.essentia.terminal, Wireless Essentia Terminal
 thaumicenergistics:knowledge.core, Knowledge Core
 thaumicenergistics:focus.aewrench, Wand Focus: AE Wrench
 thaumicenergistics:golem.wifi.backpack, Wireless Golem Backpack
+ThaumicExploration:transmutationCore, Transmutative Rod
+ThaumicExploration:transmutationStaffCore, Transmutative Staff Core
+ThaumicExploration:talismanFood, Talisman of Nourishment
+ThaumicExploration:amberCore, Amber Rod
+ThaumicExploration:amberStaffCore, Amber Staff Core
+ThaumicExploration:necroStaffCore, Necromancer's Staff Core
+ThaumicExploration:sojournerCap, Sojourner's Cap
+ThaumicExploration:sojournerCapUncharged, Inert Sojourner's Cap
+ThaumicExploration:mechanistCap, Mechanist's Cap
+ThaumicExploration:mechanistCapUncharged, Inert Mechanist's Cap
+ThaumicExploration:pureZombieBrain, Cured Zombie Brain
+ThaumicExploration:blankSeal:0, Dark Blank Seal
+ThaumicExploration:blankSeal:1, Red Blank Seal
+ThaumicExploration:blankSeal:2, Green Blank Seal
+ThaumicExploration:blankSeal:3, Brown Blank Seal
+ThaumicExploration:blankSeal:4, Blue Blank Seal
+ThaumicExploration:blankSeal:5, Purple Blank Seal
+ThaumicExploration:blankSeal:6, Cyan Blank Seal
+ThaumicExploration:blankSeal:7, Light Gray Blank Seal
+ThaumicExploration:blankSeal:8, Gray Blank Seal
+ThaumicExploration:blankSeal:9, Pink Blank Seal
+ThaumicExploration:blankSeal:10, Lime Blank Seal
+ThaumicExploration:blankSeal:11, Yellow Blank Seal
+ThaumicExploration:blankSeal:12, Light Blue Blank Seal
+ThaumicExploration:blankSeal:13, Magenta Blank Seal
+ThaumicExploration:blankSeal:14, Orange Blank Seal
+ThaumicExploration:blankSeal:15, Pale Blank Seal
+ThaumicExploration:chestSeal:0, Dark Chest Binding Seal
+ThaumicExploration:chestSeal:1, Red Chest Binding Seal
+ThaumicExploration:chestSeal:2, Green Chest Binding Seal
+ThaumicExploration:chestSeal:3, Brown Chest Binding Seal
+ThaumicExploration:chestSeal:4, Blue Chest Binding Seal
+ThaumicExploration:chestSeal:5, Purple Chest Binding Seal
+ThaumicExploration:chestSeal:6, Cyan Chest Binding Seal
+ThaumicExploration:chestSeal:7, Light Gray Chest Binding Seal
+ThaumicExploration:chestSeal:8, Gray Chest Binding Seal
+ThaumicExploration:chestSeal:9, Pink Chest Binding Seal
+ThaumicExploration:chestSeal:10, Lime Chest Binding Seal
+ThaumicExploration:chestSeal:11, Yellow Chest Binding Seal
+ThaumicExploration:chestSeal:12, Light Blue Chest Binding Seal
+ThaumicExploration:chestSeal:13, Magenta Chest Binding Seal
+ThaumicExploration:chestSeal:14, Orange Chest Binding Seal
+ThaumicExploration:chestSeal:15, Pale Chest Binding Seal
+ThaumicExploration:chestSealLinked:0, Dark Chest Binding Seal
+ThaumicExploration:chestSealLinked:1, Red Chest Binding Seal
+ThaumicExploration:chestSealLinked:2, Green Chest Binding Seal
+ThaumicExploration:chestSealLinked:3, Brown Chest Binding Seal
+ThaumicExploration:chestSealLinked:4, Blue Chest Binding Seal
+ThaumicExploration:chestSealLinked:5, Purple Chest Binding Seal
+ThaumicExploration:chestSealLinked:6, Cyan Chest Binding Seal
+ThaumicExploration:chestSealLinked:7, Light Gray Chest Binding Seal
+ThaumicExploration:chestSealLinked:8, Gray Chest Binding Seal
+ThaumicExploration:chestSealLinked:9, Pink Chest Binding Seal
+ThaumicExploration:chestSealLinked:10, Lime Chest Binding Seal
+ThaumicExploration:chestSealLinked:11, Yellow Chest Binding Seal
+ThaumicExploration:chestSealLinked:12, Light Blue Chest Binding Seal
+ThaumicExploration:chestSealLinked:13, Magenta Chest Binding Seal
+ThaumicExploration:chestSealLinked:14, Orange Chest Binding Seal
+ThaumicExploration:chestSealLinked:15, Pale Chest Binding Seal
+ThaumicExploration:jarSeal:0, Dark Jar Binding Seal
+ThaumicExploration:jarSeal:1, Red Jar Binding Seal
+ThaumicExploration:jarSeal:2, Green Jar Binding Seal
+ThaumicExploration:jarSeal:3, Brown Jar Binding Seal
+ThaumicExploration:jarSeal:4, Blue Jar Binding Seal
+ThaumicExploration:jarSeal:5, Purple Jar Binding Seal
+ThaumicExploration:jarSeal:6, Cyan Jar Binding Seal
+ThaumicExploration:jarSeal:7, Light Gray Jar Binding Seal
+ThaumicExploration:jarSeal:8, Gray Jar Binding Seal
+ThaumicExploration:jarSeal:9, Pink Jar Binding Seal
+ThaumicExploration:jarSeal:10, Lime Jar Binding Seal
+ThaumicExploration:jarSeal:11, Yellow Jar Binding Seal
+ThaumicExploration:jarSeal:12, Light Blue Jar Binding Seal
+ThaumicExploration:jarSeal:13, Magenta Jar Binding Seal
+ThaumicExploration:jarSeal:14, Orange Jar Binding Seal
+ThaumicExploration:jarSeal:15, Pale Jar Binding Seal
+ThaumicExploration:charmNoTaint, Wispy Dreamcatcher
+ThaumicExploration:charmTaint, Tainted Band
+ThaumicExploration:bootsMeteor, Boots of the Meteor
+ThaumicExploration:bootsComet, Boots of the Comet
+ThaumicExploration:taintBerry, Taintberry
+ThaumicExploration:tentacleRing, Taintacle Ring
+ThaumicExploration:stabilizerBelt, Thaumostatic Stabilizer
+ThaumicExploration:discountRing, item.thaumicexploration:discountRing.name
+ThaumicHorizons:spawnerEgg:0, Spawn Chromatic Sheep
+ThaumicHorizons:spawnerEgg:1, Spawn Self-Shearing Sheep
+ThaumicHorizons:spawnerEgg:2, Spawn Guardian Panther
+ThaumicHorizons:spawnerEgg:3, Spawn Gravekeeper
+ThaumicHorizons:spawnerEgg:4, Spawn Familiar
+ThaumicHorizons:spawnerEgg:5, Spawn Chocolate Cow
+ThaumicHorizons:spawnerEgg:6, Spawn Scholar's Chicken
+ThaumicHorizons:spawnerEgg:7, Spawn Golden Chicken
+ThaumicHorizons:spawnerEgg:8, Spawn Ore Boar
+ThaumicHorizons:spawnerEgg:9, Spawn Taintfeeder
+ThaumicHorizons:spawnerEgg:10, Spawn Endersteed
+ThaumicHorizons:spawnerEgg:11, Spawn Seawolf
+ThaumicHorizons:spawnerEgg:12, Spawn Nether Hound
+ThaumicHorizons:spawnerEgg:13, Spawn Lunar Wolf
+ThaumicHorizons:spawnerEgg:14, Spawn Zombie Horse
+ThaumicHorizons:spawnerEgg:15, Spawn Skeletal Horse
+ThaumicHorizons:spawnerEgg:16, Spawn Nightmare
+ThaumicHorizons:spawnerEgg:17, Spawn Meat Slime
+ThaumicHorizons:spawnerEgg:18, Spawn Mercurial Slime
+ThaumicHorizons:spawnerEgg:19, Spawn Volt Slime
+ThaumicHorizons:spawnerEgg:20, Spawn Medslime
+ThaumicHorizons:spawnerEgg:21, Spawn Sheeder
+ThaumicHorizons:spawnerEgg:22, Spawn Lost Soul
+ThaumicHorizons:eggIncubated, item.null.name
+ThaumicHorizons:lensFire, item.null.name
+ThaumicHorizons:lensWater, item.null.name
+ThaumicHorizons:lensAir, item.null.name
+ThaumicHorizons:lensEarth, item.null.name
+ThaumicHorizons:lensOrderEntropy, item.null.name
+ThaumicHorizons:lensCase, item.null.name
+ThaumicHorizons:focusContainment, item.null.name
+ThaumicHorizons:focusLiquefaction, item.null.name
+ThaumicHorizons:focusDisintegration, item.null.name
+ThaumicHorizons:focusIllumination:0, Wand Focus: Illumination (Black)
+ThaumicHorizons:focusIllumination:1, Wand Focus: Illumination (Red)
+ThaumicHorizons:focusIllumination:2, Wand Focus: Illumination (Green)
+ThaumicHorizons:focusIllumination:3, Wand Focus: Illumination (Brown)
+ThaumicHorizons:focusIllumination:4, Wand Focus: Illumination (Blue)
+ThaumicHorizons:focusIllumination:5, Wand Focus: Illumination (Purple)
+ThaumicHorizons:focusIllumination:6, Wand Focus: Illumination (Cyan)
+ThaumicHorizons:focusIllumination:7, Wand Focus: Illumination (Silver)
+ThaumicHorizons:focusIllumination:8, Wand Focus: Illumination (Gray)
+ThaumicHorizons:focusIllumination:9, Wand Focus: Illumination (Pink)
+ThaumicHorizons:focusIllumination:10, Wand Focus: Illumination (Lime)
+ThaumicHorizons:focusIllumination:11, Wand Focus: Illumination (Yellow)
+ThaumicHorizons:focusIllumination:12, Wand Focus: Illumination (Light Blue)
+ThaumicHorizons:focusIllumination:13, Wand Focus: Illumination (Magenta)
+ThaumicHorizons:focusIllumination:14, Wand Focus: Illumination (Orange)
+ThaumicHorizons:focusIllumination:15, Wand Focus: Illumination (White)
+ThaumicHorizons:focusAnimation, item.null.name
+ThaumicHorizons:amuletMirror:0, Mirrored Amulet
+ThaumicHorizons:syringeEmpty, item.null.name
+ThaumicHorizons:syringeBlood:0, Blood Syringe
+ThaumicHorizons:syringeBlood:1, Blast Phial
+ThaumicHorizons:syringeBloodSample, item.null.name
+ThaumicHorizons:injector, item.null.name
+ThaumicHorizons:corpseEffigy, item.null.name
+ThaumicHorizons:nutrients, item.null.name
+ThaumicHorizons:dummy, item.null.name
+ThaumicHorizons:barChocolate, item.null.name
+ThaumicHorizons:bucketChocolate, item.null.name
+ThaumicHorizons:iceCream, item.null.name
+ThaumicHorizons:inkEgg, item.null.name
+ThaumicHorizons:goldEgg, item.null.name
+ThaumicHorizons:infusionCheat, item.null.name
+ThaumicHorizons:infusionSelfCheat, item.null.name
+ThaumicHorizons:suicidePill, item.null.name
+ThaumicHorizons:golemPowder, item.null.name
+ThaumicHorizons:golemPlacer:0, Animated Golem
+ThaumicHorizons:golemPlacer:1, Animated Golem
+ThaumicHorizons:golemPlacer:2, Animated Golem
+ThaumicHorizons:golemPlacer:3, Animated Golem
+ThaumicHorizons:golemPlacer:4, Animated Golem
+ThaumicHorizons:golemPlacer:5, Animated Golem
+ThaumicHorizons:golemPlacer:6, Animated Golem
+ThaumicHorizons:golemPlacer:7, Animated Golem
+ThaumicHorizons:boatGreatwood, item.null.name
+ThaumicHorizons:boatThaumium, item.null.name
+ThaumicHorizons:dummyVat, item.null.name
+ThaumicHorizons:keystoneTH, item.null.name
+ThaumicHorizons:planarConduit, item.null.name
+ThaumicHorizons:wandCastingDisposable:0, Disposable Crystalline Wand
+ThaumicHorizons:crystalWand, item.null.name
+ThaumicHorizons:voidPutty, item.null.name
+ThaumicHorizons:meatTH, item.null.name
+ThaumicHorizons:meatCookedTH, item.null.name
+ThaumicHorizons:meatNuggetTH, item.null.name
+ThaumicHorizons:nodeCheat, Node Opener
+TravellersGear:simpleGear:0, Cloak
+TravellersGear:simpleGear:1, Belt
+TravellersGear:simpleGear:2, Gold Ring
+TravellersGear:simpleGear:3, Silver Ring
+TravellersGear:simpleGear:4, Pauldrons
+TravellersGear:simpleGear:5, Vambraces
+TravellersGear:simpleGear:6, Title Scroll
+TravellersGear:simpleGear:6, Title Scroll
+TravellersGear:simpleGear:6, Title Scroll
+TravellersGear:simpleGear:6, Title Scroll
+TravellersGear:simpleGear:6, Title Scroll
+TravellersGear:simpleGear:6, Title Scroll
+TravellersGear:simpleGear:6, Title Scroll
+TravellersGear:simpleGear:6, Title Scroll
+TravellersGear:simpleGear:6, Title Scroll
+TravellersGear:simpleGear:6, Title Scroll
+TravellersGear:simpleGear:6, Title Scroll
+TravellersGear:simpleGear:6, Title Scroll
 witchery:ingredient:0, Candelabra
 witchery:ingredient:1, Chalice
 witchery:ingredient:2, Chalice (Filled)
@@ -10183,6 +10535,241 @@ witchery:garlic, Garlic
 witchery:bucketspirit, Spirit Bucket
 witchery:buckethollowtears, Hollow Tears Bucket
 witchery:bucketbrew, item.witchery:bucketbrew.name
+WitchingGadgets:item.WG_Material:0, Yarn
+WitchingGadgets:item.WG_Material:1, Golden Thread
+WitchingGadgets:item.WG_Material:2, Thaumium Thread
+WitchingGadgets:item.WG_Material:3, Cloth of Spacious Folds
+WitchingGadgets:item.WG_Material:4, Golden Fabric
+WitchingGadgets:item.WG_Material:5, Bewitched Fleece
+WitchingGadgets:item.WG_Material:6, Wolf Pelt
+WitchingGadgets:item.WG_Material:7, Arcane Abacus
+WitchingGadgets:item.WG_Material:8, Gemcutter's Tools
+WitchingGadgets:item.WG_Material:9, Iconographic Plate
+WitchingGadgets:item.WG_Material:10, Developed Iconograph
+WitchingGadgets:item.WG_Material:11, Guiding Thread
+WitchingGadgets:item.WG_Material:12, Powerless Pearl
+WitchingGadgets:item.WG_Material:13, Gemstone Dust
+WitchingGadgets:item.WG_Material:18, Gold Coin
+WitchingGadgets:item.WG_Bag:0, Bag of Tricks
+WitchingGadgets:item.WG_Bag:1, Voidlinked Bag
+WitchingGadgets:item.WG_Bag:2, Enderlinked Bag
+WitchingGadgets:item.WG_Bag:3, Hungry Bag
+WitchingGadgets:item.WG_ThaumiumShears, Thaumium Shears
+WitchingGadgets:item.WG_AdvancedRobeChest, Bewitched Robe
+WitchingGadgets:item.WG_AdvancedRobeLegs, Bewitched Leggings
+WitchingGadgets:item.WG_MagicFood:0, Sweetwart
+WitchingGadgets:item.WG_MagicFood:1, Nethercake
+WitchingGadgets:item.WG_Cloak:0, Cloak
+WitchingGadgets:item.WG_Cloak:1, Spectral Mantle
+WitchingGadgets:item.WG_Cloak:2, Cloak of Voluminous Pockets
+WitchingGadgets:item.WG_Cloak:3, Wolven Cloak
+WitchingGadgets:item.WG_Kama:0, Kama
+WitchingGadgets:item.WG_Kama:1, Spectral Kama
+WitchingGadgets:item.WG_Kama:2, Kama of Voluminous Pockets
+WitchingGadgets:item.WG_Kama:3, Wolven Kama
+WitchingGadgets:item.WG_InfusedGem, Infused Gem
+WitchingGadgets:item.WG_Baubles:0, Seraph's Shoulders
+WitchingGadgets:item.WG_Baubles:1, Steadfast Spaulders
+WitchingGadgets:item.WG_Baubles:2, Berserker's Bracers
+WitchingGadgets:item.WG_Baubles:3, Vambraces of Steady Progression
+WitchingGadgets:item.WG_Baubles:4, Title: Crimson Cult
+WitchingGadgets:item.WG_Baubles:4, Title: Crimson Cult
+WitchingGadgets:item.WG_Baubles:4, Title: Crimson Cult
+WitchingGadgets:item.WG_Baubles:5, Ring of the Covetous Coin
+WitchingGadgets:item.WG_Baubles:6, Band of the Sniper
+WitchingGadgets:item.WG_ScanCamera, Thaumic Iconograph Box
+WitchingGadgets:item.WG_PrimordialGlove, Primordial Gauntlet
+WitchingGadgets:item.WG_PrimordialHammer, Primordial Warhammer
+WitchingGadgets:item.WG_PrimordialAxe, Primordial Greataxe
+WitchingGadgets:item.WG_PrimordialSword, Primordial Claymore
+WitchingGadgets:item.WG_PrimordialHelm, Primordial Helm
+WitchingGadgets:item.WG_PrimordialChest, Primordial Cuirass
+WitchingGadgets:item.WG_PrimordialLegs, Primordial Greaves
+WitchingGadgets:item.WG_PrimordialBoots, Primordial Boots
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
+WitchingGadgets:item.WG_Cluster:0, Native Aluminum Cluster
+WitchingGadgets:item.WG_Cluster:1, Native Cobalt Cluster
+WitchingGadgets:item.WG_Cluster:2, Native Ardite Cluster
+WitchingGadgets:item.WG_Cluster:3, Native Nickel Cluster
+WitchingGadgets:item.WG_Cluster:6, Native Zinc Cluster
 Ztones:hunger, MSG Pill
 Ztones:minicharcoal, Mini Charcoal
 Ztones:minicoal, Mini Coal
