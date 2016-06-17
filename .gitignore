@@ -1,3 +1,14 @@
 /srv/config/hqm/editmode.cfg
 build/*
+
 .gradle/*
+/src/imcScripts*
+/src/asm*
+/src/logs*
+/srcresourcepacks*/src/saves*
+/src/server-resource-packs*
+/src/BotaniaVars*
+/src/minecraftinstance*
+/src/minetweaker.log*
+/src/saves*
+
