@@ -1,7 +1,7 @@
 import mods.nei.NEI;
 
 // Var names		
-Var Oven = (<witchery:witchesovenidle>);		
+var Oven = (<witchery:witchesovenidle>);		
 
 
 //Removes & hides
@@ -13,7 +13,7 @@ recipes.remove(<witchery:witchwood:2>);
 
 //General Recipes
 mods.bloodmagic.Altar.addRecipe(<minecraft:mob_spawner:90>,<witchery:ingredient:103>, 6,50000,5,5);
-mods.bloodmagic.Altar.addRecipe(<<witchery:ingredient:22>,<minecraft:wheat>, 1,2500,50,50);
+mods.bloodmagic.Altar.addRecipe(<witchery:ingredient:22>,<minecraft:wheat>, 1,2500,50,50);
 mods.bloodmagic.Altar.addRecipe(<witchery:ingredient:16>,<witchery:ingredient:18>, 1,500,5,5);
 mods.bloodmagic.Altar.addRecipe(<witchery:witchesovenidle>,<foundry:alloyFurnace>, 2,5000,50,50);
 mods.bloodmagic.Altar.addRecipe(<witchery:cauldron>,<minecraft:cauldron>, 2,7500,50,50);
