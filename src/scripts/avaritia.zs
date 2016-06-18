@@ -15,6 +15,16 @@ mods.avaritia.ExtremeCrafting.addShaped(output, [[, , , , , , , , ],
 												[, , , , , , , , ],
 												[, , , , , , , , ],
 												[, , , , , , , , ]]);
+mods.thaumcraft.Research.addResearch("", "THAUMICSKIES", "metallum 4", 0, 0, 0, );
+game.setLocalization("tc.research_name.", "");
+game.setLocalization("tc.research_text.", "[TS] ");
+mods.thaumcraft.Research.addPage("", "ts.research_page.");
+game.setLocalization("ts.research_page.", "");	
+mods.thaumcraft.Research.addCraftingPage("key", output);
+mods.thaumcraft.Research.addCruciblePage("key", output);
+mods.thaumcraft.Research.addArcanePage("key", output);
+mods.thaumcraft.Research.addInfusionPage("key", output);
+mods.thaumcraft.Infusion.addRecipe("key", center, [pedestals array], "aspects", output, instability as integer);											
 */
 
 
@@ -50,6 +60,10 @@ var infchest = <Avaritia:Infinity_Chest>;
 var infpants = <Avaritia:Infinity_Pants>;
 var infshoes = <Avaritia:Infinity_Shoes>;
 var infwand = <Thaumcraft:WandCasting:9000>.withTag({aqua: 999999900, terra: 999999900, ignis: 999999900, cap: "matrix", rod: "infinity", ordo: 999999900, perditio: 999999900, aer: 999999900});
+var chaostiny = <DraconicEvolution:chaosFragment:0>;
+var chaossmall = <DraconicEvolution:chaosFragment:1>;
+var chaoslarge = <DraconicEvolution:chaosFragment:2>;
+var neutronugget = <Avaritia:Resource:3>;
 
 
 #remove the shit
@@ -62,6 +76,9 @@ mods.avaritia.ExtremeCrafting.remove(infwand);
 recipes.remove(tanktier15);
 recipes.remove(tanktier16);
 mods.avaritia.ExtremeCrafting.remove(armokorb);
+recipes.remove(chaostiny);
+recipes.remove(chaossmall);
+recipes.remove(chaoslarge);
 
 
 
@@ -163,4 +180,56 @@ mods.avaritia.ExtremeCrafting.addShaped(cosmossword, [[infblock, infblock, infbl
 												[infblock, planeteater, planeteater, skullsword, infcatalyst, skullsword, worldbreaker, worldbreaker, infblock],
 												[infblock, armokorb, planeteater, skullsword, infcatalyst, skullsword, worldbreaker, armokorb, infblock],
 												[infblock, infblock, infblock, infblock, infblock, infblock, infblock, infblock, infblock]]);												
+												
+#add tiny chaos fragment
+mods.avaritia.ExtremeCrafting.addShaped(chaostiny, [[null, null, null, null, null, null, null, null, null],
+												[null, null, null, null, null, null, null, null, null],
+												[null, null, null, null, null, null, null, null, null],
+												[null, null, null, neutronugget, neutronugget, neutronugget, null, null, null],
+												[null, null, null, neutronugget,chargeddraco, neutronugget, null, null, null],
+												[null, null, null, neutronugget, neutronugget, neutronugget, null, null, null],
+												[null, null, null, null, null, null, null, null, null],
+												[null, null, null, null, null, null, null, null, null],
+												[null, null, null, null, null, null, null, null, null]]);
+
+#add Chaos Shard
+mods.avaritia.ExtremeCrafting.addShaped(chaosshard, [[null, null, null, null, null, null, null, null, null],
+												[null, null, null, null, null, null, null, null, null],
+												[null, null, neutroblock, neutroblock, neutroblock, neutroblock, neutroblock, null, null],
+												[null, null, neutroblock, chaoslarge, chaoslarge, chaoslarge, neutroblock, null, null],
+												[null, null, neutroblock, chaoslarge, armokorb, chaoslarge, neutroblock, null, null],
+												[null, null, neutroblock, chaoslarge, chaoslarge, chaoslarge, neutroblock, null, null],
+												[null, null, neutroblock, neutroblock, neutroblock, neutroblock, neutroblock, null, null],
+												[null, null, null, null, null, null, null, null, null],
+												[null, null, null, null, null, null, null, null, null]]);												
 																	
+#add medium shard
+mods.bloodmagic.Alchemy.addRecipe(chaossmall, [chaostiny, chaostiny, chaostiny, chaostiny, chaostiny], 6, 200000);
+
+#add thaumcraft tab for whatever
+mods.thaumcraft.Research.addTab("FORBIDDENQUESTING", "hqm", "textures/items/hqmInvalidItem.png", "thaumicenergistics", "textures/research/Research.Background.png");
+game.setLocalization("tc.research_category.FORBIDDENQUESTING", "Forbidden Questing");
+
+#add large chaos fragment infusion recipe
+mods.thaumcraft.Infusion.addRecipe("LARGECHAOSFRAGMENT", neutroingot, [chaossmall, chaossmall, chaossmall, chaossmall, chaossmall, chaossmall, chaossmall, chaossmall], "perditio 666, blood 100, aer 666, ordo 666, fourtytwo 100", chaoslarge, 24);
+
+#add large chaos fragment research page
+mods.thaumcraft.Research.addResearch("LARGECHAOSFRAGMENTACTUAL", "FORBIDDENQUESTING", "auram 100", 0, 1, 0, chaosshard);
+mods.thaumcraft.Research.addResearch("LARGECHAOSFRAGMENT", "FORBIDDENQUESTING", "machina 10, terminus 10, fabrico 10, perditio 20, potentia 10, blood 3", 0, 0, 0, chaosshard);
+game.setLocalization("tc.research_name.LARGECHAOSFRAGMENTACTUAL", "Embiggening the Chaos");
+game.setLocalization("tc.research_text.LARGECHAOSFRAGMENTACTUAL", "The bigger the better, huh?");
+game.setLocalization("tc.research_name.LARGECHAOSFRAGMENT", "Embiggening the Chaos");
+game.setLocalization("tc.research_text.LARGECHAOSFRAGMENT", "The bigger the better, huh?");
+mods.thaumcraft.Research.addPage("LARGECHAOSFRAGMENTACTUAL", "ts.research_page.LARGECHAOSFRAGMENT1");
+game.setLocalization("ts.research_page.LARGECHAOSFRAGMENT1", "After a lot of whatever you realized that you could infuse chaos with chaos to create chaos! <BR>Sounds fun!");
+mods.thaumcraft.Research.addInfusionPage("LARGECHAOSFRAGMENTACTUAL", chaoslarge);
+mods.thaumcraft.Research.setStub("LARGECHAOSFRAGMENTACTUAL", true);
+mods.thaumcraft.Research.setSpikey("LARGECHAOSFRAGMENTACTUAL", true);
+mods.thaumcraft.Research.setConcealed("LARGECHAOSFRAGMENTACTUAL", true);
+mods.thaumcraft.Research.setVirtual("LARGECHAOSFRAGMENT", true);
+mods.thaumcraft.Research.addSibling("LARGECHAOSFRAGMENT", "LARGECHAOSFRAGMENTACTUAL");
+mods.thaumcraft.Research.addPrereq("LARGECHAOSFRAGMENTACTUAL", "LARGECHAOSFRAGMENT", true);
+
+#renaming the aspects description of blood and 42
+game.setLocalization("tc.aspect.blood", "BLOOD!!! It's everywhere!");
+game.setLocalization("tc.aspect.fourtytwo", "The Answer to the Ultimate Question of Life, The Universe, and Everything");
