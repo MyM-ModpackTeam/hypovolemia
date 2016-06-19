@@ -115,17 +115,64 @@ task compileCurse(type: Copy) {
     }
     includeEmptyDirs = false
 }
-	
-	
-	
 	task compileCurse1(type: Copy) {
     from('Misc') {
-		include '**/manifest.**'
+		include '**/curse/**'
     }
     into "$buildSources/Curse"
-	
-	
 }
+
+
+
+
+
+task compileMultiMC(type: Copy) {
+    doFirst {
+        delete("$buildSources/MultiMC/minecraft")
+    }
+    from('src') {
+        exclude '**/_SERVER/**'
+    }
+    from('src') {
+        include '**/*.properties'
+        include '**/*.txt'
+        include '**/*.json'
+        include '**/*.cfg'
+        include '**/*.conf'
+        include '**/*.config'
+        include '**/*.xml'
+        include '**/*.recipes'
+        exclude '**/_SERVER/**'
+		exclude '**/saves/**'
+		exclude '**/minetweaker.log/**'
+		exclude '**/BotaniaVars.dat/**'
+		exclude '**/options.txt/**'
+		exclude '**/asm/**'
+		exclude '**/logs/**'
+        filter(ReplaceTokens, tokens: project.properties.collectEntries { k, v -> [k, v ?: ''] })
+    }
+    into "$buildSources/MultiMC/minecraft"
+	
+    eachFile { details ->
+        details.path = details.path.replaceAll('_CURSECLIENT', '');
+    }
+    includeEmptyDirs = false
+}
+	
+	
+	task compileMultiMC1(type: Copy) {
+    from('Misc') {
+		include '**/MultiMC/patches/**'
+		include '**/MultiMC/.packignore.**'
+		include '**/MultiMC/instance.**'
+    }
+    into "$buildSources"
+}
+
+
+
+
+
 
 task buildServer(type: Zip, dependsOn: ['compileServer']) {
     from "$buildSources/server"
@@ -140,4 +187,9 @@ task buildClient(type: Zip, dependsOn: ['compileClient']) {
 task buildCurse(type: Zip,  dependsOn: ['compileCurse','compileCurse1']) {
     from "$buildSources/curse"
 	baseName = "$buildDir/${project.name}_${project.version}_CURSECLIENT"
+}
+
+task buildMultiMC(type: Zip,  dependsOn: ['compileMultiMC','compileMultiMC1']) {
+    from "$buildSources/MultiMC"
+	baseName = "$buildDir/${project.name}_${project.version}_MultiMCCLIENT"
 }

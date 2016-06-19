@@ -1,0 +1,110 @@
+{
+    "+libraries": [
+        {
+            "insert": "prepend",
+            "name": "org.apache.commons:commons-lang3:3.3.2"
+        },
+        {
+            "insert": "prepend",
+            "name": "com.google.guava:guava:17.0"
+        },
+        {
+            "insert": "prepend",
+            "name": "net.sf.jopt-simple:jopt-simple:4.5"
+        },
+        {
+            "insert": "prepend",
+            "name": "lzma:lzma:0.0.1"
+        },
+        {
+            "MMC-hint": "forge-pack-xz",
+            "insert": "prepend",
+            "name": "org.scala-lang:scala-xml_2.11:1.0.2",
+            "url": "http://files.minecraftforge.net/maven/"
+        },
+        {
+            "MMC-hint": "forge-pack-xz",
+            "insert": "prepend",
+            "name": "org.scala-lang:scala-swing_2.11:1.0.1",
+            "url": "http://files.minecraftforge.net/maven/"
+        },
+        {
+            "MMC-hint": "forge-pack-xz",
+            "insert": "prepend",
+            "name": "org.scala-lang:scala-reflect:2.11.1",
+            "url": "http://files.minecraftforge.net/maven/"
+        },
+        {
+            "MMC-hint": "forge-pack-xz",
+            "insert": "prepend",
+            "name": "org.scala-lang:scala-parser-combinators_2.11:1.0.1",
+            "url": "http://files.minecraftforge.net/maven/"
+        },
+        {
+            "MMC-hint": "forge-pack-xz",
+            "insert": "prepend",
+            "name": "org.scala-lang:scala-library:2.11.1",
+            "url": "http://files.minecraftforge.net/maven/"
+        },
+        {
+            "MMC-hint": "forge-pack-xz",
+            "insert": "prepend",
+            "name": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2",
+            "url": "http://files.minecraftforge.net/maven/"
+        },
+        {
+            "MMC-hint": "forge-pack-xz",
+            "insert": "prepend",
+            "name": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2",
+            "url": "http://files.minecraftforge.net/maven/"
+        },
+        {
+            "MMC-hint": "forge-pack-xz",
+            "insert": "prepend",
+            "name": "org.scala-lang:scala-compiler:2.11.1",
+            "url": "http://files.minecraftforge.net/maven/"
+        },
+        {
+            "MMC-hint": "forge-pack-xz",
+            "insert": "prepend",
+            "name": "org.scala-lang:scala-actors-migration_2.11:1.1.0",
+            "url": "http://files.minecraftforge.net/maven/"
+        },
+        {
+            "MMC-hint": "forge-pack-xz",
+            "insert": "prepend",
+            "name": "com.typesafe:config:1.2.1",
+            "url": "http://files.minecraftforge.net/maven/"
+        },
+        {
+            "MMC-hint": "forge-pack-xz",
+            "insert": "prepend",
+            "name": "com.typesafe.akka:akka-actor_2.11:2.3.3",
+            "url": "http://files.minecraftforge.net/maven/"
+        },
+        {
+            "insert": "prepend",
+            "name": "org.ow2.asm:asm-all:5.0.3"
+        },
+        {
+            "insert": "prepend",
+            "name": "net.minecraft:launchwrapper:1.12"
+        },
+        {
+            "MMC-depend": "hard",
+            "insert": "prepend",
+            "name": "net.minecraftforge:forge:1.7.10-10.13.4.1558-1.7.10:universal",
+            "url": "http://files.minecraftforge.net/maven/"
+        }
+    ],
+    "+tweakers": [
+        "cpw.mods.fml.common.launcher.FMLTweaker"
+    ],
+    "fileId": "net.minecraftforge",
+    "mainClass": "net.minecraft.launchwrapper.Launch",
+    "mcVersion": "1.7.10",
+    "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userProperties ${user_properties} --userType ${user_type} ",
+    "name": "Forge",
+    "order": 5,
+    "version": "10.13.4.1558-1.7.10"
+}
