@@ -18,7 +18,7 @@ ext {
     buildSources = "$buildDir/sources"
 }
 
-task buildAll(dependsOn: ['buildServer', 'buildClient'])
+task buildAll(dependsOn: ['buildServer', 'buildClient', 'buildCurse'])
 
 task compileServer(type: Copy) {
     doFirst {
@@ -37,6 +37,12 @@ task compileServer(type: Copy) {
         include '**/*.xml'
         include '**/*.recipes'
         exclude '**/_CLIENT/**'
+		exclude '**/saves/**'
+		exclude '**/minetweaker.log/**'
+		exclude '**/BotaniaVars.dat/**'
+		exclude '**/options.txt/**'
+		exclude '**/asm/**'
+		exclude '**/logs/**'
         filter(ReplaceTokens, tokens: project.properties.collectEntries { k, v -> [k, v ?: ''] })
     }
     into "$buildSources/server"
@@ -46,6 +52,8 @@ task compileServer(type: Copy) {
     }
     includeEmptyDirs = false
 }
+
+
 
 task compileClient(type: Copy) {
     doFirst {
@@ -74,12 +82,62 @@ task compileClient(type: Copy) {
     includeEmptyDirs = false
 }
 
+
+task compileCurse(type: Copy) {
+    doFirst {
+        delete("$buildSources/curse/override")
+    }
+    from('src') {
+        exclude '**/_SERVER/**'
+    }
+    from('src') {
+        include '**/*.properties'
+        include '**/*.txt'
+        include '**/*.json'
+        include '**/*.cfg'
+        include '**/*.conf'
+        include '**/*.config'
+        include '**/*.xml'
+        include '**/*.recipes'
+        exclude '**/_SERVER/**'
+		exclude '**/saves/**'
+		exclude '**/minetweaker.log/**'
+		exclude '**/BotaniaVars.dat/**'
+		exclude '**/options.txt/**'
+		exclude '**/asm/**'
+		exclude '**/logs/**'
+        filter(ReplaceTokens, tokens: project.properties.collectEntries { k, v -> [k, v ?: ''] })
+    }
+    into "$buildSources/Curse/override"
+	
+    eachFile { details ->
+        details.path = details.path.replaceAll('_CURSECLIENT', '');
+    }
+    includeEmptyDirs = false
+}
+	
+	
+	
+	task compileCurse1(type: Copy) {
+    from('Misc') {
+		include '**/manifest.**'
+    }
+    into "$buildSources/Curse"
+	
+	
+}
+
 task buildServer(type: Zip, dependsOn: ['compileServer']) {
     from "$buildSources/server"
     baseName = "$buildDir/${project.name}_${project.version}_Server"
 }
-
+	
 task buildClient(type: Zip, dependsOn: ['compileClient']) {
     from "$buildSources/client"
     baseName = "$buildDir/${project.name}_${project.version}_Client"
+}
+
+task buildCurse(type: Zip,  dependsOn: ['compileCurse','compileCurse1']) {
+    from "$buildSources/curse"
+	baseName = "$buildDir/${project.name}_${project.version}_CURSECLIENT"
 }

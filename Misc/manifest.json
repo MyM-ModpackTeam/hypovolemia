@@ -1,0 +1,18 @@
+{
+  "minecraft": {
+    "version": "1.7.10",
+    "modLoaders": [
+      {
+        "id": "forge-10.13.4.1614",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "Hypo",
+  "version": "1.0",
+  "author": "johnfg12",
+  "files": [],
+  "overrides": "overrides"
+}
