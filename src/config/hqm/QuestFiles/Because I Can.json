@@ -1,0 +1,126 @@
+{
+  "name": "Because I Can",
+  "description": "This Quest Set is For Those who want to continue playing after hitting absolute End Game and want to waste thier Time with it :D",
+  "quests": [
+    {
+      "name": "Too Much Iron...",
+      "description": "Time to Throw away some Iron!",
+      "x": 20,
+      "y": 12,
+      "icon": {
+        "id": "minecraft:iron_ingot"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_ingot"
+              },
+              "required": 1000000
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Avaritia:Resource_Block",
+          "amount": 100
+        }
+      ]
+    },
+    {
+      "name": "too much cobblestone....",
+      "description": "Time to get rid of some cobblestone",
+      "x": 159,
+      "y": 112,
+      "icon": {
+        "id": "minecraft:stone"
+      },
+      "prerequisites": [
+        "Too Much Iron...",
+        "Too Many Diamonds",
+        "Too Much Gold..."
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:stone"
+              },
+              "required": 10000000
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:diamond_pickaxe",
+          "nbt": "{ench:[0:{lvl:1000,id:17},1:{lvl:1000,id:32},2:{lvl:1000,id:0},3:{lvl:1000,id:35}],Unbreakable:1,display:{Lore:[0:\"ooops Wonder how this happened\"],Name:\"Kappa 9000\"},AttributeModifiers:[0:{UUIDMost:11853,UUIDLeast:154003,Amount:100,AttributeName:\"generic.maxHealth\",Operation:0,Name:\"generic.maxHealth\"}]}"
+        }
+      ]
+    },
+    {
+      "name": "Too Many Diamonds",
+      "description": "Time to Throw out some diamonds!",
+      "x": 55,
+      "y": 11,
+      "icon": {
+        "id": "minecraft:diamond"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:diamond"
+              },
+              "required": 1000000,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:diamond_chestplate",
+          "nbt": "{ench:[0:{lvl:1000,id:0},1:{lvl:1000,id:1},2:{lvl:1000,id:3},3:{lvl:1000,id:7}],Unbreakable:1,display:{Lore:[0:\"You Have Too Much Time On Your Hands\"],Name:\"This Don\u0027t Make Sense\"},AttributeModifiers:[0:{UUIDMost:38396,UUIDLeast:171666,Amount:100,AttributeName:\"generic.maxHealth\",Operation:0,Name:\"generic.maxHealth\"},1:{UUIDMost:98831,UUIDLeast:136353,Amount:100,AttributeName:\"generic.knockbackResistance\",Operation:0,Name:\"generic.knockbackResistance\"},2:{UUIDMost:56231,UUIDLeast:109448,Amount:100,AttributeName:\"generic.attackDamage\",Operation:0,Name:\"generic.attackDamage\"},3:{UUIDMost:51982,UUIDLeast:122169,Amount:3,AttributeName:\"generic.movementSpeed\",Operation:0,Name:\"generic.movementSpeed\"}]}"
+        }
+      ]
+    },
+    {
+      "name": "Too Much Gold...",
+      "description": "Time to Throw out some gold!",
+      "x": 91,
+      "y": 12,
+      "icon": {
+        "id": "minecraft:gold_ingot"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:gold_ingot"
+              },
+              "required": 1000000
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:potion",
+          "damage": 8193,
+          "nbt": "{CustomPotionEffects:[0:{Duration:\"2e+29\",Id:1,Amplifier:10},1:{Duration:\"1.9999999999999998e+36\",Id:3,Amplifier:10},2:{Duration:\"2.0000000000000001e+37\",Id:5,Amplifier:10},3:{Duration:\"2e+38\",Id:6,Amplifier:10},4:{Duration:\"1.9999999999999998e+36\",Id:10,Amplifier:10},5:{Duration:\"1.9999999999999998e+40\",Id:11,Amplifier:10},6:{Duration:\"2e+38\",Id:12,Amplifier:10},7:{Duration:\"2e+39\",Id:13,Amplifier:10},8:{Duration:\"2e+38\",Id:21,Amplifier:30},9:{Duration:\"2.0000000000000001e+37\",Id:22,Amplifier:10},10:{Duration:\"2.0000000000000001e+37\",Id:23,Amplifier:10}],display:{Lore:[0:\"Insane Offerings for Insane Power\",1:\"More Power I Say! More!\"],Name:\"The Impossible Potion\"}}"
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

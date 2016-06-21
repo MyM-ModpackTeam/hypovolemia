@@ -1,85 +1,114 @@
 {
-  "name": "Second chance",
+  "name": "Second Chance",
   "description": "The way to resurrection?",
   "quests": [
     {
-      "name": "Biofuel",
-      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
-      "x": 97,
-      "y": 188,
+      "name": "BioFuel",
+      "description": "Trying to please the gods with my offerings and hoping for a second chance",
+      "x": 19,
+      "y": 9,
       "icon": {
-        "id": "Mekanism:BioFuel"
+        "id": "Mekanism:MachineBlock2",
+        "damage": 11,
+        "nbt": "{prevScale:1.0f,fluidTank:{FluidName:\"biofuel\",Amount:14000}}"
       },
-      "prerequisites": [
-        "Plastics"
-      ],
       "tasks": [
         {
           "type": "CONSUME",
           "items": [
             {
-              "item": {
-                "id": "Mekanism:BioFuel"
-              },
-              "required": 10000
+              "fluid": "biofuel",
+              "required": 100000
             }
           ]
         }
       ],
       "reward": [
         {
-          "id": "magicalcrops:essence_storage",
-          "damage": 3
+          "id": "ThaumicTinkerer:kamiResource",
+          "damage": 2,
+          "amount": 10
         }
       ]
     },
     {
       "name": "Brine",
-      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
-      "x": 294,
-      "y": 143,
+      "description": "Trying to please the gods with my offerings and hoping for a second chance",
+      "x": 20,
+      "y": 38,
       "icon": {
-        "id": "Mekanism:BrineBucket"
+        "id": "Mekanism:MachineBlock2",
+        "damage": 11,
+        "nbt": "{prevScale:1.0f,fluidTank:{FluidName:\"brine\",Amount:14000}}"
       },
       "prerequisites": [
-        "Essence"
+        "BioFuel"
       ],
       "tasks": [
         {
-          "type": "CONSUME_QDS",
+          "type": "CONSUME",
           "items": [
             {
-              "item": {
-                "id": "Mekanism:MachineBlock2",
-                "damage": 11,
-                "nbt": "{fluidTank:{Amount:14000,FluidName:\"brine\"},prevScale:1.0f}"
-              },
-              "required": 10
+              "fluid": "brine",
+              "required": 100000
             }
           ]
         }
       ],
       "reward": [
         {
-          "id": "Mekanism:MachineBlock2",
-          "damage": 11,
-          "amount": 10
+          "id": "ForbiddenMagic:StarBlock",
+          "amount": 64
         },
         {
-          "id": "NotEnoughWands:TeleportationWand"
+          "id": "minecraft:golden_apple",
+          "damage": 1,
+          "amount": 64
         }
       ]
     },
     {
-      "name": "Fluix",
-      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
-      "x": 285,
-      "y": 33,
+      "name": "Iron For Days",
+      "description": "Trying to please the gods with my offerings and hoping for a second chance",
+      "x": 21,
+      "y": 66,
       "icon": {
-        "id": "appliedenergistics2:tile.BlockFluix"
+        "id": "Mekanism:MachineBlock2",
+        "damage": 11,
+        "nbt": "{prevScale:1.0f,fluidTank:{FluidName:\"iron.molten\",Amount:14000}}"
       },
       "prerequisites": [
-        "Endstone"
+        "Brine"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "fluid": "iron.molten",
+              "required": 100000
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:WandCasting",
+          "damage": 150,
+          "nbt": "{cap:\"ICHOR\",rod:\"ICHORCLOTH\",sceptre:1b}"
+        }
+      ]
+    },
+    {
+      "name": "Fluix is Beauty",
+      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
+      "x": 21,
+      "y": 96,
+      "icon": {
+        "id": "appliedenergistics2:tile.FluixSlabBlock.double"
+      },
+      "prerequisites": [
+        "Iron For Days"
       ],
       "tasks": [
         {
@@ -87,7 +116,7 @@
           "items": [
             {
               "item": {
-                "id": "appliedenergistics2:tile.BlockFluix"
+                "id": "appliedenergistics2:tile.FluixSlabBlock.double"
               },
               "required": 500
             }
@@ -101,16 +130,13 @@
       ]
     },
     {
-      "name": "Dragonheart",
+      "name": "Dragons Heart",
       "description": "Trying to please the gods with my offerings and hoping for a second chance.",
-      "x": 133,
-      "y": 96,
+      "x": 21,
+      "y": 124,
       "icon": {
         "id": "DraconicEvolution:dragonHeart"
       },
-      "prerequisites": [
-        "Cores"
-      ],
       "tasks": [
         {
           "type": "CONSUME",
@@ -118,7 +144,16 @@
             {
               "item": {
                 "id": "DraconicEvolution:dragonHeart"
-              }
+              },
+              "required": 100,
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "TConstruct:heartCanister",
+                "damage": 6
+              },
+              "required": 100
             }
           ]
         }
@@ -128,19 +163,55 @@
           "id": "Mekanism:EnergyCube",
           "damage": 1,
           "nbt": "{tier:\"Ultimate\",electricity:1.28E8d}"
+        },
+        {
+          "id": "DraconicEvolution:draconiumFluxCapacitor",
+          "damage": 1,
+          "nbt": "{Upgrades:{RFCapacity:[0,0,6,0,]},Energy:0}"
         }
       ]
     },
     {
-      "name": "Cores",
+      "name": "Lovely End Stone",
       "description": "Trying to please the gods with my offerings and hoping for a second chance.",
-      "x": 120,
-      "y": 117,
+      "x": 22,
+      "y": 154,
+      "icon": {
+        "id": "minecraft:end_stone"
+      },
+      "prerequisites": [
+        "Dragons Heart"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:end_stone"
+              },
+              "required": 10000
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "DraconicEvolution:draconicHelm",
+          "nbt": "{ench:[0:{lvl:20,id:0}],Upgrades:{ShieldCapacity:[0,0,6,0,]},ConfigProfiles:[0:{},1:{},2:{},3:{},4:{}]}"
+        }
+      ]
+    },
+    {
+      "name": "Cores For Doors",
+      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
+      "x": 22,
+      "y": 185,
       "icon": {
         "id": "DraconicEvolution:wyvernCore"
       },
       "prerequisites": [
-        "Puff!"
+        "Lovely End Stone"
       ],
       "tasks": [
         {
@@ -150,86 +221,33 @@
               "item": {
                 "id": "DraconicEvolution:wyvernCore"
               },
-              "required": 100
+              "required": 1000
             }
           ]
         }
       ],
       "reward": [
         {
-          "id": "AWWayofTime:blockCrystal"
-        }
-      ]
-    },
-    {
-      "name": "Iron",
-      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
-      "x": 20,
-      "y": 189,
-      "icon": {
-        "id": "minecraft:iron_ingot"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:iron_ingot"
-              },
-              "required": 100
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "appliedenergistics2:tile.BlockFluix"
+          "id": "DraconicEvolution:draconicChest",
+          "nbt": "{ench:[0:{lvl:20,id:0}],Upgrades:{ShieldCapacity:[0,0,6,0,]},ConfigProfiles:[0:{},1:{},2:{},3:{},4:{}]}"
         },
         {
-          "id": "magicalcrops:magicalcrops_CowSeeds"
-        }
-      ]
-    },
-    {
-      "name": "Endstone",
-      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
-      "x": 297,
-      "y": 11,
-      "icon": {
-        "id": "minecraft:end_stone"
-      },
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:end_stone"
-              },
-              "required": 100
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "minecraft:golden_apple",
+          "id": "DraconicEvolution:draconiumFluxCapacitor",
           "damage": 1,
-          "amount": 10
+          "nbt": "{Upgrades:{RFCapacity:[0,0,6,0,]},Energy:0}"
         }
       ]
     },
     {
-      "name": "Melons",
+      "name": "Beauty of Cores",
       "description": "Trying to please the gods with my offerings and hoping for a second chance.",
-      "x": 34,
-      "y": 168,
+      "x": 55,
+      "y": 186,
       "icon": {
-        "id": "minecraft:melon"
+        "id": "DraconicEvolution:awakenedCore"
       },
       "prerequisites": [
-        "Iron"
+        "Cores For Doors"
       ],
       "tasks": [
         {
@@ -237,7 +255,7 @@
           "items": [
             {
               "item": {
-                "id": "minecraft:melon"
+                "id": "DraconicEvolution:awakenedCore"
               },
               "required": 1000
             }
@@ -246,20 +264,30 @@
       ],
       "reward": [
         {
-          "id": "magicalcrops:magicalcrops_SheepSeeds"
+          "id": "DraconicEvolution:draconicLeggs",
+          "nbt": "{ench:[0:{lvl:20,id:0}],Upgrades:{ShieldCapacity:[0,0,6,0,]},ConfigProfiles:[0:{},1:{},2:{},3:{},4:{}]}"
+        },
+        {
+          "id": "DraconicEvolution:draconicBoots",
+          "nbt": "{ench:[0:{lvl:20,id:0}],Upgrades:{ShieldCapacity:[0,0,6,0,]},ConfigProfiles:[0:{},1:{},2:{},3:{},4:{}]}"
+        },
+        {
+          "id": "DraconicEvolution:draconiumFluxCapacitor",
+          "damage": 1,
+          "nbt": "{Upgrades:{RFCapacity:[0,0,6,0,]},Energy:0}"
         }
       ]
     },
     {
-      "name": "Mary-rus",
-      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
-      "x": 45,
-      "y": 189,
+      "name": "Rock it ",
+      "description": "Trying to please the gods with my offerings and hoping for a second chance.                                                                              NOTE : THIS WILL REQUIRE THE WORLD BREAKER PICKAXE AND FOR YOU TO REACH THE BEDROCK DIMENSION",
+      "x": 56,
+      "y": 152,
       "icon": {
-        "id": "extracells:walrus"
+        "id": "minecraft:bedrock"
       },
       "prerequisites": [
-        "Iron"
+        "Beauty of Cores"
       ],
       "tasks": [
         {
@@ -267,29 +295,32 @@
           "items": [
             {
               "item": {
-                "id": "extracells:walrus"
+                "id": "minecraft:bedrock"
               },
-              "required": 50
+              "required": 100000
             }
           ]
         }
       ],
       "reward": [
         {
-          "id": "magicalcrops:magicalcrops_ChickenSeeds"
+          "id": "extracells:storage.component",
+          "damage": 3,
+          "amount": 4
         }
       ]
     },
     {
-      "name": "Potato!",
+      "name": "Cables For Anchors",
       "description": "Trying to please the gods with my offerings and hoping for a second chance.",
-      "x": 22,
-      "y": 147,
+      "x": 56,
+      "y": 117,
       "icon": {
-        "id": "minecraft:potato"
+        "id": "appliedenergistics2:item.ItemMultiPart",
+        "damage": 16
       },
       "prerequisites": [
-        "Melons"
+        "Fluix is Beauty"
       ],
       "tasks": [
         {
@@ -297,37 +328,8 @@
           "items": [
             {
               "item": {
-                "id": "minecraft:potato"
-              },
-              "required": 1000
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "magicalcrops:magicalcrops_PigSeeds"
-        }
-      ]
-    },
-    {
-      "name": "Retinol",
-      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
-      "x": 46,
-      "y": 146,
-      "icon": {
-        "id": "minecraft:carrot"
-      },
-      "prerequisites": [
-        "Melons"
-      ],
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:carrot"
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 16
               },
               "required": 1000
             }
@@ -336,173 +338,24 @@
       ],
       "reward": [
         {
-          "id": "magicalcrops:magicalcrops_CobaltSeeds"
-        }
-      ]
-    },
-    {
-      "name": "Iball",
-      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
-      "x": 59,
-      "y": 167,
-      "icon": {
-        "id": "minecraft:apple"
-      },
-      "prerequisites": [
-        "Mary-rus"
-      ],
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:apple"
-              },
-              "required": 1000
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "magicalcrops:magicalcrops_ArditeSeeds"
-        }
-      ]
-    },
-    {
-      "name": "Minico",
-      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
-      "x": 272,
-      "y": 11,
-      "icon": {
-        "id": "magicalcrops:essence_storage"
-      },
-      "prerequisites": [
-        "Endstone"
-      ],
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "magicalcrops:essence_storage"
-              },
-              "required": 100
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "thaumicenergistics:storage.essentia",
-          "damage": 3
-        }
-      ]
-    },
-    {
-      "name": "Zivico",
-      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
-      "x": 248,
-      "y": 10,
-      "icon": {
-        "id": "magicalcrops:essence_storage",
-        "damage": 4
-      },
-      "prerequisites": [
-        "Minico"
-      ],
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "magicalcrops:essence_storage",
-                "damage": 4
-              },
-              "required": 10
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "Botania:floatingSpecialFlower",
-          "amount": 4,
-          "nbt": "{type:\"endoflame\"}"
-        }
-      ]
-    },
-    {
-      "name": "Unnamed",
-      "x": 170,
-      "y": 76,
-      "icon": {
-        "id": "Sanguimancy:BlockBloodTank",
-        "damage": 15
-      },
-      "prerequisites": [
-        "Plates"
-      ],
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "Sanguimancy:BlockBloodTank",
-                "damage": 15
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Puff!",
-      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
-      "x": 96,
-      "y": 145,
-      "icon": {
-        "id": "minecraft:fish",
-        "damage": 3
-      },
-      "prerequisites": [
-        "Rowans"
-      ],
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:fish",
-                "damage": 3
-              },
-              "required": 500
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "magicalcrops:magicalcrops_WitherProofGlass",
+          "id": "magicalcrops:essence_storage",
+          "damage": 5,
           "amount": 32
         }
       ]
     },
     {
-      "name": "Pads",
+      "name": "Coils... MOAR COILS!",
       "description": "Trying to please the gods with my offerings and hoping for a second chance.",
-      "x": 71,
-      "y": 146,
+      "x": 56,
+      "y": 88,
       "icon": {
-        "id": "minecraft:waterlily"
+        "id": "ForgeMicroblock:microblock",
+        "damage": 260,
+        "nbt": "{mat:\"ImmersiveEngineering:storage_9\"}"
       },
       "prerequisites": [
-        "Rowans"
+        "Cables For Anchors"
       ],
       "tasks": [
         {
@@ -510,7 +363,21 @@
           "items": [
             {
               "item": {
-                "id": "minecraft:waterlily"
+                "id": "ImmersiveEngineering:coil"
+              },
+              "required": 1000
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:coil",
+                "damage": 1
+              },
+              "required": 1000
+            },
+            {
+              "item": {
+                "id": "ImmersiveEngineering:coil",
+                "damage": 2
               },
               "required": 1000
             }
@@ -519,23 +386,59 @@
       ],
       "reward": [
         {
-          "id": "technom:manaFabricator",
-          "amount": 3,
-          "nbt": "{Mana:0,id:\"ManaFabricator\",Facing:0,z:0,y:0,energy:0,x:0}"
+          "id": "ImmersiveEngineering:metalDevice",
+          "damage": 7,
+          "nbt": "{energyStorage:4000000}"
+        },
+        {
+          "id": "ImmersiveEngineering:metalDevice",
+          "damage": 7,
+          "nbt": "{energyStorage:4000000}"
         }
       ]
     },
     {
-      "name": "He slimed me!",
+      "name": "Redstone Can Travel",
       "description": "Trying to please the gods with my offerings and hoping for a second chance.",
-      "x": 272,
-      "y": 53,
+      "x": 57,
+      "y": 58,
       "icon": {
-        "id": "MineFactoryReloaded:pinkslime",
+        "id": "immersiveintegration:iiWireCoil"
+      },
+      "prerequisites": [
+        "Coils... MOAR COILS!"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "immersiveintegration:iiWireCoil"
+              },
+              "required": 1000
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemBasicStorageCell.1k",
+          "nbt": "{@0:5000,ic:5000,it:1s,#0:{Craft:0b,Cnt:5000L,id:152s,Count:0b,Damage:0s,Req:0L}}"
+        }
+      ]
+    },
+    {
+      "name": "Things Can Heat Up!",
+      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
+      "x": 56,
+      "y": 29,
+      "icon": {
+        "id": "foundry:foundryComponent",
         "damage": 1
       },
       "prerequisites": [
-        "Fluix"
+        "Redstone Can Travel"
       ],
       "tasks": [
         {
@@ -543,258 +446,1007 @@
           "items": [
             {
               "item": {
-                "id": "MineFactoryReloaded:pinkslime",
+                "id": "foundry:foundryComponent",
                 "damage": 1
               },
-              "required": 100
+              "required": 1000
             }
           ]
         }
       ],
       "reward": [
         {
-          "id": "thaumicenergistics:storage.essentia",
-          "damage": 3
+          "id": "MineFactoryReloaded:machine.1",
+          "damage": 5,
+          "amount": 5
+        },
+        {
+          "id": "Mekanism:EnergyCube",
+          "damage": 1,
+          "nbt": "{tier:\"Ultimate\",electricity:1.28E8d}"
+        },
+        {
+          "id": "Mekanism:MachineBlock2",
+          "damage": 11,
+          "amount": 5
+        },
+        {
+          "id": "Mekanism:PartTransmitter",
+          "damage": 3,
+          "amount": 10
         }
       ]
     },
     {
-      "name": "Plastics",
+      "name": "More Pain",
       "description": "Trying to please the gods with my offerings and hoping for a second chance.",
-      "x": 72,
+      "x": 88,
       "y": 188,
-      "icon": {
-        "id": "MineFactoryReloaded:plastic.raw"
-      },
-      "prerequisites": [
-        "Mary-rus"
-      ],
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "MineFactoryReloaded:plastic.raw"
-              },
-              "required": 1000
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "magicalcrops:magicalcrops_SlimeSeeds"
-        }
-      ]
-    },
-    {
-      "name": "Rowans",
-      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
-      "x": 84,
-      "y": 167,
-      "icon": {
-        "id": "witchery:witchlog"
-      },
-      "prerequisites": [
-        "Iball"
-      ],
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "witchery:witchlog"
-              },
-              "required": 1000
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "MineFactoryReloaded:portaspawner"
-        }
-      ]
-    },
-    {
-      "name": "Unnamed",
-      "x": 183,
-      "y": 96,
-      "icon": {
-        "id": "witchery:ingredient",
-        "damage": 82
-      },
-      "prerequisites": [
-        "Redstone"
-      ],
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "witchery:ingredient",
-                "damage": 82
-              },
-              "required": 100
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Slates",
-      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
-      "x": 259,
-      "y": 32,
-      "icon": {
-        "id": "AWWayofTime:bloodMagicBaseItems",
-        "damage": 27
-      },
-      "prerequisites": [
-        "Zivico"
-      ],
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "AWWayofTime:bloodMagicBaseItems",
-                "damage": 27
-              },
-              "required": 100
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "NotEnoughWands:BuildingWand"
-        }
-      ]
-    },
-    {
-      "name": "Plates",
-      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
-      "x": 247,
-      "y": 54,
-      "icon": {
-        "id": "AWWayofTime:bloodMagicBaseItems",
-        "damage": 17
-      },
-      "prerequisites": [
-        "He slimed me!"
-      ],
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "AWWayofTime:bloodMagicBaseItems",
-                "damage": 17
-              },
-              "required": 50
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "thaumicenergistics:storage.essentia",
-          "damage": 3
-        }
-      ]
-    },
-    {
-      "name": "Blood",
-      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
-      "x": 295,
-      "y": 186,
       "icon": {
         "id": "AWWayofTime:bucketLife"
       },
       "tasks": [
         {
-          "type": "CONSUME_QDS",
+          "type": "CONSUME",
           "items": [
             {
               "fluid": "life essence",
-              "required": 5000000
+              "required": 500000
             }
           ]
         }
       ],
       "reward": [
         {
-          "id": "Mekanism:MachineBlock",
-          "damage": 12
+          "id": "AWWayofTime:AlchemicalWizardrybloodRune",
+          "damage": 1,
+          "amount": 32
         },
         {
-          "id": "Mekanism:MachineBlock2",
-          "damage": 11,
-          "amount": 10
+          "id": "AWWayofTime:blockCrystal",
+          "amount": 12
+        },
+        {
+          "id": "Sanguimancy:BlockBloodTank",
+          "damage": 13
         }
       ]
     },
     {
-      "name": "Water",
+      "name": "The Power of Blood",
       "description": "Trying to please the gods with my offerings and hoping for a second chance.",
-      "x": 270,
-      "y": 143,
+      "x": 88,
+      "y": 158,
       "icon": {
-        "id": "minecraft:water_bucket"
+        "id": "AWWayofTime:AlchemicalWizardrybloodRune"
       },
       "prerequisites": [
-        "Essence"
+        "More Pain"
       ],
       "tasks": [
         {
-          "type": "CONSUME_QDS",
+          "type": "CONSUME",
           "items": [
             {
               "item": {
-                "id": "Mekanism:MachineBlock2",
-                "damage": 11,
-                "nbt": "{fluidTank:{Amount:14000,FluidName:\"water\"},prevScale:1.0f}"
+                "id": "AWWayofTime:AlchemicalWizardrybloodRune"
               },
-              "required": 10
+              "required": 1000
             }
           ]
         }
       ],
       "reward": [
         {
-          "id": "Mekanism:MachineBlock2",
-          "damage": 11,
-          "amount": 10
+          "id": "ForbiddenMagic:EldritchOrb"
         },
         {
-          "id": "minecraft:nether_star"
+          "id": "magicalcrops:magicalcrops_UltimateEmeraldApple",
+          "amount": 64
         }
       ]
     },
     {
-      "name": "Lava",
+      "name": "The Altar That Could",
       "description": "Trying to please the gods with my offerings and hoping for a second chance.",
-      "x": 258,
-      "y": 164,
+      "x": 88,
+      "y": 127,
       "icon": {
-        "id": "minecraft:lava_bucket"
+        "id": "AWWayofTime:AlchemicalWizardrybloodRune",
+        "damage": 1
       },
       "prerequisites": [
-        "Essence"
+        "The Power of Blood"
       ],
       "tasks": [
         {
-          "type": "CONSUME_QDS",
+          "type": "CONSUME",
           "items": [
             {
-              "fluid": "lava",
-              "required": 2500000
+              "item": {
+                "id": "AWWayofTime:AlchemicalWizardrybloodRune",
+                "damage": 1
+              },
+              "required": 1000
+            },
+            {
+              "item": {
+                "id": "AWWayofTime:AlchemicalWizardrybloodRune",
+                "damage": 4
+              },
+              "required": 1000
+            },
+            {
+              "item": {
+                "id": "AWWayofTime:AlchemicalWizardrybloodRune"
+              },
+              "required": 1000
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Sanguimancy:BlockBloodTank",
+          "damage": 15
+        }
+      ]
+    },
+    {
+      "name": "More Suffering",
+      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
+      "x": 89,
+      "y": 94,
+      "icon": {
+        "id": "AWWayofTime:blockCrystal"
+      },
+      "prerequisites": [
+        "The Altar That Could"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "AWWayofTime:blockCrystal"
+              },
+              "required": 1000
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "NotEnoughWands:CapturingWand"
+        },
+        {
+          "id": "Avaritia:Infinity_Pickaxe",
+          "nbt": "{ench:[0:{lvl:10s,id:35s}]}"
+        }
+      ]
+    },
+    {
+      "name": "Ultimate Price",
+      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
+      "x": 89,
+      "y": 62,
+      "icon": {
+        "id": "Avaritia:Orb_Armok"
+      },
+      "prerequisites": [
+        "More Suffering"
+      ],
+      "tasks": [
+        {
+          "type": "DEATH",
+          "deaths": 5000
+        }
+      ],
+      "reward": [
+        {
+          "id": "Avaritia:Orb_Armok"
+        }
+      ]
+    },
+    {
+      "name": "Thaumaturgy is Fun!",
+      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
+      "x": 122,
+      "y": 188,
+      "icon": {
+        "id": "Thaumcraft:ItemShard",
+        "damage": 6
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemShard"
+              },
+              "required": 1000
+            },
+            {
+              "item": {
+                "id": "Thaumcraft:ItemShard",
+                "damage": 1
+              },
+              "required": 1000
+            },
+            {
+              "item": {
+                "id": "Thaumcraft:ItemShard",
+                "damage": 2
+              },
+              "required": 1000
+            },
+            {
+              "item": {
+                "id": "Thaumcraft:ItemShard",
+                "damage": 3
+              },
+              "required": 1000
+            },
+            {
+              "item": {
+                "id": "Thaumcraft:ItemShard",
+                "damage": 4
+              },
+              "required": 1000
+            },
+            {
+              "item": {
+                "id": "Thaumcraft:ItemShard",
+                "damage": 5
+              },
+              "required": 1000
+            },
+            {
+              "item": {
+                "id": "Thaumcraft:ItemShard",
+                "damage": 6
+              },
+              "required": 1000
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:blockCustomPlant",
+          "damage": 1,
+          "amount": 100
+        },
+        {
+          "id": "Thaumcraft:blockCustomPlant",
+          "amount": 100
+        },
+        {
+          "id": "Thaumcraft:blockCustomOre",
+          "damage": 7,
+          "amount": 100
+        },
+        {
+          "id": "Thaumcraft:blockCustomOre",
+          "amount": 100
+        }
+      ]
+    },
+    {
+      "name": "A Thaumaturges Journey",
+      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
+      "x": 120,
+      "y": 158,
+      "icon": {
+        "id": "Thaumcraft:blockCustomPlant",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Thaumaturgy is Fun!"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:blockMagicalLog",
+                "damage": 1
+              },
+              "required": 1000
+            },
+            {
+              "item": {
+                "id": "Thaumcraft:blockMagicalLog"
+              },
+              "required": 1000
+            },
+            {
+              "item": {
+                "id": "Thaumcraft:WandRod"
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "Thaumcraft:WandRod",
+                "damage": 2
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:blockAiry",
+          "amount": 30
+        },
+        {
+          "id": "technom:nodeDynamo",
+          "nbt": "{face:1b,Boost:0b,fuel:0,Amount:0s,x:0,y:0,modified:0b,z:0,id:\"TileNodeDynamo\",redstoneSettings:\"High\",energy:0}"
+        },
+        {
+          "id": "Mekanism:PartTransmitter",
+          "damage": 3,
+          "amount": 64
+        },
+        {
+          "id": "Mekanism:EnergyCube",
+          "damage": 100,
+          "nbt": "{tier:\"Ultimate\"}"
+        }
+      ]
+    },
+    {
+      "name": "Going Forbidden",
+      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
+      "x": 120,
+      "y": 127,
+      "icon": {
+        "id": "ForbiddenMagic:NetherShard",
+        "damage": 2
+      },
+      "prerequisites": [
+        "A Thaumaturges Journey"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "ForbiddenMagic:NetherShard",
+                "damage": 3
+              },
+              "required": 1000
+            },
+            {
+              "item": {
+                "id": "ForbiddenMagic:NetherShard",
+                "damage": 2
+              },
+              "required": 1000
+            },
+            {
+              "item": {
+                "id": "ForbiddenMagic:NetherShard",
+                "damage": 1
+              },
+              "required": 1000
+            },
+            {
+              "item": {
+                "id": "ForbiddenMagic:NetherShard"
+              },
+              "required": 1000
+            },
+            {
+              "item": {
+                "id": "ForbiddenMagic:NetherShard",
+                "damage": 4
+              },
+              "required": 1000
+            },
+            {
+              "item": {
+                "id": "ForbiddenMagic:NetherShard",
+                "damage": 5
+              },
+              "required": 1000
+            },
+            {
+              "item": {
+                "id": "ForbiddenMagic:NetherShard",
+                "damage": 6
+              },
+              "required": 1000
+            },
+            {
+              "item": {
+                "id": "ForbiddenMagic:GluttonyShard"
+              },
+              "required": 1000
+            },
+            {
+              "item": {
+                "id": "Thaumcraft:WandCasting",
+                "damage": 72,
+                "nbt": "{cap:\"thaumium\",rod:\"tainted\"}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ForbiddenMagic:StarBlock",
+          "amount": 64
+        },
+        {
+          "id": "ForbiddenMagic:ArcaneCakeItem"
+        }
+      ]
+    },
+    {
+      "name": "Is It Worth It?",
+      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
+      "x": 104,
+      "y": 33,
+      "icon": {
+        "id": "Thaumcraft:ItemThaumonomicon",
+        "damage": 42
+      },
+      "prerequisites": [
+        "Ultimate Price",
+        "This Thing is Glowing"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "ForbiddenMagic:WandCaps"
+              },
+              "required": 1000
+            },
+            {
+              "item": {
+                "id": "ForbiddenMagic:WandCaps",
+                "damage": 5
+              },
+              "required": 1000
+            },
+            {
+              "item": {
+                "id": "ForbiddenMagic:WandCaps",
+                "damage": 2
+              },
+              "required": 1000
+            },
+            {
+              "item": {
+                "id": "ForbiddenMagic:WandCaps",
+                "damage": 3
+              },
+              "required": 1000
+            },
+            {
+              "item": {
+                "id": "ForbiddenMagic:WandCaps",
+                "damage": 1
+              },
+              "required": 1000
+            },
+            {
+              "item": {
+                "id": "ForbiddenMagic:EldritchOrb"
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "Thaumcraft:ItemEssence",
+                "damage": 1,
+                "nbt": "{Aspects:[0:{amount:8,key:\"terminus\"}]}"
+              },
+              "required": 1000
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemThaumonomicon",
+          "damage": 42
+        }
+      ]
+    },
+    {
+      "name": "Forbidden Caps Are Neat",
+      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
+      "x": 120,
+      "y": 95,
+      "icon": {
+        "id": "ForbiddenMagic:WandCaps",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Going Forbidden"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "ForbiddenMagic:WandCaps",
+                "damage": 6
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "ForbiddenMagic:WandCaps"
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "ForbiddenMagic:WandCaps",
+                "damage": 1
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "ForbiddenMagic:WandCaps",
+                "damage": 2
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "ForbiddenMagic:WandCaps",
+                "damage": 3
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "ForbiddenMagic:WandCaps",
+                "damage": 5
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "ForbiddenMagic:WandCaps",
+                "damage": 4
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:WandCasting",
+          "damage": 144,
+          "nbt": "{cap:\"elementium\",rod:\"dreamwood_staff\",AttributeModifiers:[0:{UUIDMost:-3801225194067177672L,UUIDLeast:-6586624321849018929L,Amount:6.0d,AttributeName:\"generic.attackDamage\",Operation:0,Name:\"Weapon modifier\"}]}"
+        },
+        {
+          "id": "Thaumcraft:WandCasting",
+          "damage": 84,
+          "nbt": "{cap:\"elementium\",rod:\"dreamwood\"}"
+        },
+        {
+          "id": "Botania:storage",
+          "damage": 1,
+          "amount": 64
+        },
+        {
+          "id": "Botania:storage",
+          "damage": 2,
+          "amount": 64
+        }
+      ]
+    },
+    {
+      "name": "This Thing is Glowing",
+      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
+      "x": 120,
+      "y": 64,
+      "icon": {
+        "id": "ForbiddenMagic:EldritchOrb"
+      },
+      "prerequisites": [
+        "Forbidden Caps Are Neat"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "ForbiddenMagic:EldritchOrb"
+              },
+              "required": 30,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "thaumicenergistics:storage.essentia",
+          "damage": 3,
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "This is Beyond Madness",
+      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
+      "x": 284,
+      "y": 11,
+      "bigicon": true,
+      "icon": {
+        "id": "DraconicEvolution:chaosShard"
+      },
+      "prerequisites": [
+        "Is It Worth It?",
+        "Things Can Heat Up!",
+        "Rock it ",
+        "Spirits? COOL!",
+        "IchorCloth"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "DraconicEvolution:chaosShard"
+              },
+              "required": 1000
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:pool",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Mana Is Neat!",
+      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
+      "x": 148,
+      "y": 33,
+      "icon": {
+        "id": "Botania:manaTablet",
+        "nbt": "{mana:500000,creative:1b}"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:manaTablet",
+                "nbt": "{mana:500000}"
+              },
+              "required": 100,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:specialFlower",
+          "amount": 64,
+          "nbt": "{type:\"endoflame\"}"
+        },
+        {
+          "id": "Botania:specialFlower",
+          "amount": 64,
+          "nbt": "{type:\"hydroangeas\"}"
+        },
+        {
+          "id": "Botania:specialFlower",
+          "amount": 64,
+          "nbt": "{type:\"daybloom\"}"
+        },
+        {
+          "id": "Botania:specialFlower",
+          "amount": 64,
+          "nbt": "{type:\"nightshade\"}"
+        }
+      ]
+    },
+    {
+      "name": "Flowers Are Sweet!",
+      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
+      "x": 149,
+      "y": 65,
+      "icon": {
+        "id": "Botania:specialFlower",
+        "nbt": "{type:\"loonium\"}"
+      },
+      "prerequisites": [
+        "Mana Is Neat!"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:specialFlower",
+                "nbt": "{type:\"clayconia\"}"
+              },
+              "required": 1000,
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "Botania:specialFlower",
+                "nbt": "{type:\"loonium\"}"
+              },
+              "required": 1000,
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "Botania:specialFlower",
+                "nbt": "{type:\"hopperhock\"}"
+              },
+              "required": 1000
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:storage",
+          "amount": 32
+        },
+        {
+          "id": "Botania:storage",
+          "damage": 1,
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "Spirits? COOL!",
+      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
+      "x": 150,
+      "y": 97,
+      "icon": {
+        "id": "Botania:manaResource",
+        "damage": 5
+      },
+      "prerequisites": [
+        "Flowers Are Sweet!"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:manaResource",
+                "damage": 5
+              },
+              "required": 1000
+            },
+            {
+              "item": {
+                "id": "Botania:manaResource",
+                "damage": 14
+              },
+              "required": 1000
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:manaTablet",
+          "amount": 16,
+          "nbt": "{mana:500000}"
+        },
+        {
+          "id": "Botania:pool",
+          "amount": 8
+        },
+        {
+          "id": "Botania:storage",
+          "damage": 2,
+          "amount": 32
+        }
+      ]
+    },
+    {
+      "name": "This is new....",
+      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
+      "x": 152,
+      "y": 129,
+      "icon": {
+        "id": "ThaumicTinkerer:kamiResource"
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "ThaumicTinkerer:kamiResource"
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThaumicTinkerer:kamiResource",
+          "damage": 1,
+          "amount": 32
+        }
+      ]
+    },
+    {
+      "name": "Ichor? What?",
+      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
+      "x": 153,
+      "y": 158,
+      "icon": {
+        "id": "ThaumicTinkerer:kamiResource",
+        "damage": 2
+      },
+      "prerequisites": [
+        "This is new...."
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "ThaumicTinkerer:kamiResource",
+                "damage": 1
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "ThaumicTinkerer:kamiResource",
+                "damage": 2
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "ThaumicTinkerer:kamiResource",
+                "damage": 5
+              },
+              "required": 100
+            },
+            {
+              "item": {
+                "id": "ThaumicTinkerer:kamiResource",
+                "damage": 4
+              },
+              "required": 100
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:WandCasting",
+          "damage": 150,
+          "nbt": "{cap:\"ICHOR\",rod:\"ICHORCLOTH\",sceptre:1b}"
+        },
+        {
+          "id": "Thaumcraft:WandCasting",
+          "damage": 150,
+          "nbt": "{cap:\"ICHOR\",rod:\"ICHORCLOTH\",sceptre:1b}"
+        },
+        {
+          "id": "Thaumcraft:WandCasting",
+          "damage": 100,
+          "nbt": "{cap:\"ICHOR\",rod:\"ICHORCLOTH\"}"
+        },
+        {
+          "id": "Thaumcraft:WandCasting",
+          "damage": 100,
+          "nbt": "{cap:\"ICHOR\",rod:\"ICHORCLOTH\"}"
+        }
+      ]
+    },
+    {
+      "name": "IchorCloth",
+      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
+      "x": 154,
+      "y": 185,
+      "icon": {
+        "id": "ThaumicTinkerer:ichorclothHelm"
+      },
+      "prerequisites": [
+        "Ichor? What?"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "ThaumicTinkerer:ichorclothHelm"
+              }
+            },
+            {
+              "item": {
+                "id": "ThaumicTinkerer:ichorclothChest"
+              }
+            },
+            {
+              "item": {
+                "id": "ThaumicTinkerer:ichorclothLegs"
+              }
+            },
+            {
+              "item": {
+                "id": "ThaumicTinkerer:ichorclothBoots"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:WandCasting",
+          "damage": 150,
+          "nbt": "{cap:\"ICHOR\",rod:\"ICHORCLOTH\",sceptre:1b}"
+        }
+      ]
+    },
+    {
+      "name": "Power Beyond the 9th",
+      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
+      "x": 284,
+      "y": 52,
+      "bigicon": true,
+      "icon": {
+        "id": "Mekanism:EnergyCube",
+        "damage": 1,
+        "nbt": "{tier:\"Ultimate\",electricity:1.28E8d}"
+      },
+      "prerequisites": [
+        "This is Beyond Madness"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:EnergyCube",
+                "damage": 1,
+                "nbt": "{tier:\"Ultimate\",electricity:1.28E8d}"
+              },
+              "required": 1000,
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -803,244 +1455,24 @@
         {
           "id": "Mekanism:EnergyCube",
           "damage": 1,
-          "nbt": "{tier:\"Elite\",electricity:3.2E7d}"
-        }
-      ]
-    },
-    {
-      "name": "Essence",
-      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
-      "x": 282,
-      "y": 164,
-      "icon": {
-        "id": "MineFactoryReloaded:bucket.essence"
-      },
-      "prerequisites": [
-        "Blood"
-      ],
-      "tasks": [
-        {
-          "type": "CONSUME_QDS",
-          "items": [
-            {
-              "item": {
-                "id": "Mekanism:MachineBlock2",
-                "damage": 11,
-                "nbt": "{Items:[],fluidTank:{Amount:14000,FluidName:\"mobessence\"},prevScale:0.99030226f}"
-              },
-              "required": 10,
-              "precision": "ORE_DICTIONARY"
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "Mekanism:MachineBlock2",
-          "damage": 11,
-          "nbt": "{fluidTank:{Amount:14000,FluidName:\"liquidgold\"},prevScale:1.0f}"
+          "nbt": "{tier:\"Creative\",electricity:2.147483647E9d}"
         },
         {
-          "id": "Mekanism:MachineBlock2",
-          "damage": 11,
-          "amount": 10
+          "id": "appliedenergistics2:tile.BlockCreativeEnergyCell"
         }
       ]
     },
     {
-      "name": "Ender",
+      "name": "This Is Stupid",
       "description": "Trying to please the gods with my offerings and hoping for a second chance.",
-      "x": 270,
-      "y": 186,
-      "icon": {
-        "id": "TConstruct:buckets",
-        "damage": 23
-      },
-      "prerequisites": [
-        "Essence"
-      ],
-      "tasks": [
-        {
-          "type": "CONSUME_QDS",
-          "items": [
-            {
-              "item": {
-                "id": "Mekanism:MachineBlock2",
-                "damage": 11,
-                "nbt": "{fluidTank:{Amount:14000,FluidName:\"enderium.molten\"},prevScale:1.0f}"
-              },
-              "required": 10
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "Mekanism:MachineBlock2",
-          "damage": 11,
-          "amount": 10
-        },
-        {
-          "id": "minecraft:nether_star"
-        }
-      ]
-    },
-    {
-      "name": "Essentia storage",
-      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
-      "x": 171,
-      "y": 117,
-      "icon": {
-        "id": "thaumicenergistics:storage.essentia",
-        "damage": 3
-      },
-      "prerequisites": [
-        "Molten Iron"
-      ],
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "thaumicenergistics:storage.essentia",
-                "damage": 3
-              }
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "AWWayofTime:blockCrystal"
-        }
-      ]
-    },
-    {
-      "name": "Item storage",
-      "x": 145,
-      "y": 75,
-      "icon": {
-        "id": "extracells:storage.physical",
-        "damage": 3,
-        "nbt": "{upgrades:{},config:{}}"
-      },
-      "prerequisites": [
-        "Tears"
-      ],
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "extracells:storage.physical",
-                "damage": 3,
-                "nbt": "{upgrades:{},config:{}}"
-              }
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "NotEnoughWands:CapturingWand"
-        }
-      ]
-    },
-    {
-      "name": "Fluid storage",
-      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
-      "x": 145,
-      "y": 117,
-      "icon": {
-        "id": "extracells:storage.fluid",
-        "damage": 6
-      },
-      "prerequisites": [
-        "Biofuel"
-      ],
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "extracells:storage.fluid",
-                "damage": 6
-              }
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "NotEnoughWands:IlluminationWand"
-        }
-      ]
-    },
-    {
-      "name": "Unnamed",
-      "x": 158,
+      "x": 284,
       "y": 96,
+      "bigicon": true,
       "icon": {
-        "id": "HardcoreQuesting:hearts",
-        "damage": 4
+        "id": "Avaritia:Infinity_Sword"
       },
       "prerequisites": [
-        "Fluid storage",
-        "Essentia storage",
-        "Unnamed",
-        "Item storage",
-        "Dragonheart",
-        "Unnamed"
-      ]
-    },
-    {
-      "name": "Sludge",
-      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
-      "x": 246,
-      "y": 143,
-      "icon": {
-        "id": "MineFactoryReloaded:bucket.sludge"
-      },
-      "prerequisites": [
-        "Lava",
-        "Water"
-      ],
-      "tasks": [
-        {
-          "type": "CONSUME_QDS",
-          "items": [
-            {
-              "fluid": "sludge",
-              "required": 1000000
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "minecraft:diamond_block"
-        },
-        {
-          "id": "DraconicEvolution:draconiumOre",
-          "amount": 10
-        }
-      ]
-    },
-    {
-      "name": "Redstone",
-      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
-      "x": 234,
-      "y": 122,
-      "icon": {
-        "id": "Mekanism:MachineBlock2",
-        "damage": 11,
-        "nbt": "{fluidTank:{Amount:14000,FluidName:\"liquidredstone\"},prevScale:1.0f}"
-      },
-      "prerequisites": [
-        "Sludge"
+        "Power Beyond the 9th"
       ],
       "tasks": [
         {
@@ -1048,137 +1480,21 @@
           "items": [
             {
               "item": {
-                "id": "Mekanism:MachineBlock2",
-                "damage": 11,
-                "nbt": "{fluidTank:{Amount:14000,FluidName:\"liquidredstone\"},prevScale:1.0f}"
+                "id": "Avaritia:Infinity_Sword"
               },
-              "required": 10
+              "precision": "NBT_FUZZY"
             }
           ]
         }
       ],
       "reward": [
         {
-          "id": "AWWayofTime:weakBloodShard",
-          "amount": 10
-        }
-      ]
-    },
-    {
-      "name": "Molten Iron",
-      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
-      "x": 222,
-      "y": 144,
-      "icon": {
-        "id": "Mekanism:MachineBlock2",
-        "damage": 11,
-        "nbt": "{fluidTank:{Amount:14000,FluidName:\"iron.molten\"},prevScale:1.0f}"
-      },
-      "prerequisites": [
-        "Sludge",
-        "Gold"
-      ],
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "Mekanism:MachineBlock2",
-                "damage": 11,
-                "nbt": "{fluidTank:{Amount:14000,FluidName:\"iron.molten\"},prevScale:1.0f}"
-              },
-              "required": 10
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "Mekanism:MachineBlock2",
-          "damage": 11,
-          "amount": 10
-        },
-        {
-          "id": "Botania:cosmetic",
-          "damage": 30
-        }
-      ]
-    },
-    {
-      "name": "Gold",
-      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
-      "x": 234,
-      "y": 165,
-      "icon": {
-        "id": "Mekanism:MachineBlock2",
-        "damage": 11,
-        "nbt": "{fluidTank:{Amount:14000,FluidName:\"liquidgold\"},prevScale:1.0f}"
-      },
-      "prerequisites": [
-        "Sludge"
-      ],
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "Mekanism:MachineBlock2",
-                "damage": 11,
-                "nbt": "{fluidTank:{Amount:14000,FluidName:\"liquidgold\"},prevScale:1.0f}"
-              },
-              "required": 1000
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "Mekanism:MachineBlock2",
-          "damage": 11,
-          "amount": 10
-        },
-        {
-          "id": "Mekanism:MachineBlock2",
-          "damage": 11,
-          "nbt": "{fluidTank:{Amount:14000,FluidName:\"cobalt.molten\"},prevScale:1.0f}"
-        }
-      ]
-    },
-    {
-      "name": "Tears",
-      "description": "Trying to please the gods with my offerings and hoping for a second chance.",
-      "x": 235,
-      "y": 31,
-      "icon": {
-        "id": "witchery:ingredient",
-        "damage": 115
-      },
-      "prerequisites": [
-        "Slates"
-      ],
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "witchery:ingredient",
-                "damage": 115
-              },
-              "required": 100
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "minecraft:diamond_block",
-          "amount": 10
+          "id": "Avaritia:Resource_Block",
+          "damage": 1,
+          "nbt": "{ench:[0:{lvl:1s,id:71s},1:{lvl:4s,id:66s},2:{lvl:5s,id:167s}],RepairCost:2,display:{Name:\"Forty Two\"}}"
         }
       ]
     }
   ],
-  "reputation": []
+  "reputationBar": []
 }

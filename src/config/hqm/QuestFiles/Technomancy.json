@@ -78,7 +78,7 @@
       "y": 23,
       "icon": {
         "id": "technom:processorBM",
-        "nbt": "{id:\"TileProcessorBM\",Active:0b,Owner:\"\",Time:0,ItemsTile:[],z:0,y:0,x:0}"
+        "nbt": "{Active:0b,Owner:\"\",ItemsTile:[],x:0,y:0,z:0,Time:0,id:\"TileProcessorBM\"}"
       },
       "prerequisites": [
         "Advanced magic"
@@ -90,7 +90,7 @@
             {
               "item": {
                 "id": "technom:processorBM",
-                "nbt": "{id:\"TileProcessorBM\",Active:0b,Owner:\"\",Time:0,ItemsTile:[],z:0,y:0,x:0}"
+                "nbt": "{Active:0b,Owner:\"\",ItemsTile:[],x:0,y:0,z:0,Time:0,id:\"TileProcessorBM\"}"
               }
             }
           ]
@@ -110,7 +110,7 @@
       "y": 52,
       "icon": {
         "id": "technom:processorBO",
-        "nbt": "{Mana:0,id:\"TileProcessorBO\",Active:0b,Time:0,ItemsTile:[],z:0,y:0,x:0}"
+        "nbt": "{Active:0b,ItemsTile:[],Mana:0,x:0,y:0,z:0,Time:0,id:\"TileProcessorBO\"}"
       },
       "prerequisites": [
         "Advanced magic"
@@ -122,7 +122,7 @@
             {
               "item": {
                 "id": "technom:processorBO",
-                "nbt": "{Mana:0,id:\"TileProcessorBO\",Active:0b,Time:0,ItemsTile:[],z:0,y:0,x:0}"
+                "nbt": "{Active:0b,ItemsTile:[],Mana:0,x:0,y:0,z:0,Time:0,id:\"TileProcessorBO\"}"
               }
             }
           ]
@@ -140,6 +140,9 @@
       "description": "To get the maximum out of ores. You need to process them 2 times in each of the three purifiers.",
       "x": 137,
       "y": 37,
+      "icon": {
+        "id": "minecraft:bedrock"
+      },
       "prerequisites": [
         "Pure metals #1",
         "Pure metals #2",
@@ -151,9 +154,9 @@
           "items": [
             {
               "item": {
-                "id": "minecraft:bedrock",
-                "damage": 5
-              }
+                "id": "minecraft:gold_block"
+              },
+              "required": 64
             }
           ]
         }
@@ -161,7 +164,8 @@
       "reward": [
         {
           "id": "TConstruct:heartCanister",
-          "damage": 6
+          "damage": 6,
+          "amount": 4
         }
       ]
     },
@@ -172,7 +176,7 @@
       "y": 111,
       "icon": {
         "id": "technom:flowerDynamo",
-        "nbt": "{Mana:0,id:\"TileFlowerDynamo\",face:1b,redstoneSettings:\"High\",fuel:0,Boost:0b,z:0,y:0,energy:0,x:0,modified:0b}"
+        "nbt": "{face:1b,Mana:0,Boost:0b,fuel:0,x:0,y:0,modified:0b,z:0,id:\"TileFlowerDynamo\",redstoneSettings:\"High\",energy:0}"
       },
       "prerequisites": [
         "Advanced magic"
@@ -184,7 +188,7 @@
             {
               "item": {
                 "id": "technom:flowerDynamo",
-                "nbt": "{Mana:0,id:\"TileFlowerDynamo\",face:1b,redstoneSettings:\"High\",fuel:0,Boost:0b,z:0,y:0,energy:0,x:0,modified:0b}"
+                "nbt": "{face:1b,Mana:0,Boost:0b,fuel:0,x:0,y:0,modified:0b,z:0,id:\"TileFlowerDynamo\",redstoneSettings:\"High\",energy:0}"
               }
             }
           ]
@@ -234,7 +238,7 @@
       "y": 106,
       "icon": {
         "id": "technom:fluxLamp",
-        "nbt": "{Empty:\"\",id:\"TileFluxLamp\",Placed:0b,AspectAmount:0,z:0,y:0,Stabilize:1b,x:0}"
+        "nbt": "{Empty:\"\",Stabilize:1b,x:0,y:0,z:0,id:\"TileFluxLamp\",Placed:0b,AspectAmount:0}"
       },
       "prerequisites": [
         "Advanced magic"
@@ -246,7 +250,7 @@
             {
               "item": {
                 "id": "technom:fluxLamp",
-                "nbt": "{Empty:\"\",id:\"TileFluxLamp\",Placed:0b,AspectAmount:0,z:0,y:0,Stabilize:1b,x:0}"
+                "nbt": "{Empty:\"\",Stabilize:1b,x:0,y:0,z:0,id:\"TileFluxLamp\",Placed:0b,AspectAmount:0}"
               }
             }
           ]
@@ -266,7 +270,7 @@
       "y": 13,
       "icon": {
         "id": "technom:biomeMorpher",
-        "nbt": "{id:\"TileBiomeMorpher\",redstoneSettings:\"Low\",z:0,y:0,energy:0,x:0,modified:0b}"
+        "nbt": "{x:0,y:0,modified:0b,z:0,id:\"TileBiomeMorpher\",energy:0,redstoneSettings:\"Low\"}"
       },
       "prerequisites": [
         "Advanced magic"
@@ -278,7 +282,7 @@
             {
               "item": {
                 "id": "technom:biomeMorpher",
-                "nbt": "{id:\"TileBiomeMorpher\",redstoneSettings:\"Low\",z:0,y:0,energy:0,x:0,modified:0b}"
+                "nbt": "{x:0,y:0,modified:0b,z:0,id:\"TileBiomeMorpher\",energy:0,redstoneSettings:\"Low\"}"
               }
             }
           ]
@@ -298,7 +302,7 @@
       "y": 13,
       "icon": {
         "id": "technom:electricBellows",
-        "nbt": "{id:\"TileElectricBellows\",Facing:2b,z:0,y:0,energy:0,x:0}"
+        "nbt": "{Facing:2b,x:0,y:0,z:0,id:\"TileElectricBellows\",energy:0}"
       },
       "prerequisites": [
         "Advanced magic"
@@ -310,7 +314,7 @@
             {
               "item": {
                 "id": "technom:electricBellows",
-                "nbt": "{id:\"TileElectricBellows\",Facing:2b,z:0,y:0,energy:0,x:0}"
+                "nbt": "{Facing:2b,x:0,y:0,z:0,id:\"TileElectricBellows\",energy:0}"
               }
             }
           ]
@@ -334,7 +338,7 @@
       "y": 133,
       "icon": {
         "id": "technom:essentiaContainer",
-        "nbt": "{id:\"TileEssentiacontainer\",Amount:0s,facing:2b,z:0,y:0,x:0}"
+        "nbt": "{Amount:0s,x:0,y:0,facing:2b,z:0,id:\"TileEssentiacontainer\"}"
       },
       "prerequisites": [
         "Advanced magic"
@@ -346,7 +350,7 @@
             {
               "item": {
                 "id": "technom:essentiaContainer",
-                "nbt": "{id:\"TileEssentiacontainer\",Amount:0s,facing:2b,z:0,y:0,x:0}"
+                "nbt": "{Amount:0s,x:0,y:0,facing:2b,z:0,id:\"TileEssentiacontainer\"}"
               }
             }
           ]
@@ -371,7 +375,7 @@
       "y": 79,
       "icon": {
         "id": "technom:processorTC",
-        "nbt": "{id:\"TileProcessorTC\",Active:0b,Amount:0s,Time:0,ItemsTile:[],z:0,y:0,x:0}"
+        "nbt": "{Active:0b,ItemsTile:[],Amount:0s,x:0,y:0,z:0,Time:0,id:\"TileProcessorTC\"}"
       },
       "prerequisites": [
         "Advanced magic"
@@ -383,7 +387,7 @@
             {
               "item": {
                 "id": "technom:processorTC",
-                "nbt": "{id:\"TileProcessorTC\",Active:0b,Amount:0s,Time:0,ItemsTile:[],z:0,y:0,x:0}"
+                "nbt": "{Active:0b,ItemsTile:[],Amount:0s,x:0,y:0,z:0,Time:0,id:\"TileProcessorTC\"}"
               }
             }
           ]
@@ -403,7 +407,7 @@
       "y": 155,
       "icon": {
         "id": "technom:teslaCoil",
-        "nbt": "{id:\"TileTeslaCoil\",redstoneSettings:\"Low\",redstone:0b,facing:0b,boost:0b,z:0,y:0,size:0,x:0,modified:0b}"
+        "nbt": "{size:0,x:0,y:0,modified:0b,facing:0b,z:0,boost:0b,id:\"TileTeslaCoil\",redstone:0b,redstoneSettings:\"Low\"}"
       },
       "prerequisites": [
         "Bigger.Better.Quantum."
@@ -415,7 +419,7 @@
             {
               "item": {
                 "id": "technom:teslaCoil",
-                "nbt": "{id:\"TileTeslaCoil\",redstoneSettings:\"Low\",redstone:0b,facing:0b,boost:0b,z:0,y:0,size:0,x:0,modified:0b}"
+                "nbt": "{size:0,x:0,y:0,modified:0b,facing:0b,z:0,boost:0b,id:\"TileTeslaCoil\",redstone:0b,redstoneSettings:\"Low\"}"
               }
             }
           ]
@@ -434,7 +438,7 @@
       "reward": [
         {
           "id": "technom:essentiaContainer",
-          "nbt": "{id:\"TileEssentiacontainer\",Amount:0s,facing:2b,z:0,y:0,x:0}"
+          "nbt": "{Amount:0s,x:0,y:0,facing:2b,z:0,id:\"TileEssentiacontainer\"}"
         }
       ]
     },
@@ -445,7 +449,7 @@
       "y": 111,
       "icon": {
         "id": "technom:essentiaDynamo",
-        "nbt": "{id:\"TileEssentiaDynamo\",face:1b,Amount:0s,redstoneSettings:\"High\",fuel:0,Boost:0b,z:0,y:0,energy:0,x:0,modified:0b}"
+        "nbt": "{face:1b,Boost:0b,fuel:0,Amount:0s,x:0,y:0,modified:0b,z:0,id:\"TileEssentiaDynamo\",redstoneSettings:\"High\",energy:0}"
       },
       "prerequisites": [
         "Flower power"
@@ -457,7 +461,7 @@
             {
               "item": {
                 "id": "technom:essentiaDynamo",
-                "nbt": "{id:\"TileEssentiaDynamo\",face:1b,Amount:0s,redstoneSettings:\"High\",fuel:0,Boost:0b,z:0,y:0,energy:0,x:0,modified:0b}"
+                "nbt": "{face:1b,Boost:0b,fuel:0,Amount:0s,x:0,y:0,modified:0b,z:0,id:\"TileEssentiaDynamo\",redstoneSettings:\"High\",energy:0}"
               }
             }
           ]
@@ -477,7 +481,7 @@
       "y": 111,
       "icon": {
         "id": "technom:nodeDynamo",
-        "nbt": "{id:\"TileNodeDynamo\",face:1b,Amount:0s,redstoneSettings:\"High\",fuel:0,Boost:0b,z:0,y:0,energy:0,x:0,modified:0b}"
+        "nbt": "{face:1b,Boost:0b,fuel:0,Amount:0s,x:0,y:0,modified:0b,z:0,id:\"TileNodeDynamo\",redstoneSettings:\"High\",energy:0}"
       },
       "prerequisites": [
         "Essential power"
@@ -489,7 +493,7 @@
             {
               "item": {
                 "id": "technom:nodeDynamo",
-                "nbt": "{id:\"TileNodeDynamo\",face:1b,Amount:0s,redstoneSettings:\"High\",fuel:0,Boost:0b,z:0,y:0,energy:0,x:0,modified:0b}"
+                "nbt": "{face:1b,Boost:0b,fuel:0,Amount:0s,x:0,y:0,modified:0b,z:0,id:\"TileNodeDynamo\",redstoneSettings:\"High\",energy:0}"
               }
             }
           ]
@@ -509,7 +513,7 @@
       "y": 154,
       "icon": {
         "id": "technom:eldritchConsumer",
-        "nbt": "{id:\"TileEldrichConsumer\",redstoneSettings:\"High\",RangeIdentificator:0,Aspects:[],cooldown:0,z:-239,y:64,energy:0,x:-115,modified:0b}"
+        "nbt": "{Aspects:[],x:-115,cooldown:0,y:64,modified:0b,z:-239,id:\"TileEldrichConsumer\",RangeIdentificator:0,energy:0,redstoneSettings:\"High\"}"
       },
       "prerequisites": [
         "Excessive energy"
@@ -521,7 +525,7 @@
             {
               "item": {
                 "id": "technom:eldritchConsumer",
-                "nbt": "{id:\"TileEldrichConsumer\",redstoneSettings:\"High\",RangeIdentificator:0,Aspects:[],cooldown:0,z:-239,y:64,energy:0,x:-115,modified:0b}"
+                "nbt": "{Aspects:[],x:-115,cooldown:0,y:64,modified:0b,z:-239,id:\"TileEldrichConsumer\",RangeIdentificator:0,energy:0,redstoneSettings:\"High\"}"
               }
             }
           ]
@@ -531,7 +535,7 @@
         {
           "id": "technom:essentiaContainer",
           "amount": 3,
-          "nbt": "{id:\"TileEssentiacontainer\",Amount:0s,facing:2b,z:0,y:0,x:0}"
+          "nbt": "{Amount:0s,x:0,y:0,facing:2b,z:0,id:\"TileEssentiacontainer\"}"
         }
       ]
     },
@@ -542,7 +546,7 @@
       "y": 132,
       "icon": {
         "id": "technom:condenserBlock",
-        "nbt": "{WEST:{s:0b},Amount:0s,UP:{s:0b},modified:0b,id:\"TileCondenser\",NORTH:{s:0b},redstoneSettings:\"Low\",EAST:{s:0b},DOWN:{s:0b},SOUTH:{s:0b},z:0,y:0,energy:0,x:0}"
+        "nbt": "{DOWN:{s:0b},Amount:0s,WEST:{s:0b},redstoneSettings:\"Low\",NORTH:{s:0b},x:0,y:0,modified:0b,z:0,id:\"TileCondenser\",UP:{s:0b},SOUTH:{s:0b},EAST:{s:0b},energy:0}"
       },
       "prerequisites": [
         "Advanced magic"
@@ -554,7 +558,7 @@
             {
               "item": {
                 "id": "technom:condenserBlock",
-                "nbt": "{WEST:{s:0b},Amount:0s,UP:{s:0b},modified:0b,id:\"TileCondenser\",NORTH:{s:0b},redstoneSettings:\"Low\",EAST:{s:0b},DOWN:{s:0b},SOUTH:{s:0b},z:0,y:0,energy:0,x:0}"
+                "nbt": "{DOWN:{s:0b},Amount:0s,WEST:{s:0b},redstoneSettings:\"Low\",NORTH:{s:0b},x:0,y:0,modified:0b,z:0,id:\"TileCondenser\",UP:{s:0b},SOUTH:{s:0b},EAST:{s:0b},energy:0}"
               }
             }
           ]
@@ -579,7 +583,7 @@
       "bigicon": true,
       "icon": {
         "id": "technom:nodeGenerator",
-        "nbt": "{Initiator:0b,Step:0,Facing:2b,Amount:0s,Running:0b,Boost:0b,modified:0b,id:\"TileNodeGenerator\",Active:0b,redstoneSettings:\"Low\",RegenDummyBlocks:1b,z:0,y:0,Spawn:0b,energy:0,x:0}"
+        "nbt": "{Facing:2b,Amount:0s,RegenDummyBlocks:1b,Step:0,redstoneSettings:\"Low\",Active:0b,Initiator:0b,Boost:0b,x:0,Running:0b,y:0,modified:0b,z:0,id:\"TileNodeGenerator\",Spawn:0b,energy:0}"
       },
       "prerequisites": [
         "Advanced magic"
@@ -591,7 +595,7 @@
             {
               "item": {
                 "id": "technom:nodeGenerator",
-                "nbt": "{Initiator:0b,Step:0,Facing:2b,Amount:0s,Running:0b,Boost:0b,modified:0b,id:\"TileNodeGenerator\",Active:0b,redstoneSettings:\"Low\",RegenDummyBlocks:1b,z:0,y:0,Spawn:0b,energy:0,x:0}"
+                "nbt": "{Facing:2b,Amount:0s,RegenDummyBlocks:1b,Step:0,redstoneSettings:\"Low\",Active:0b,Initiator:0b,Boost:0b,x:0,Running:0b,y:0,modified:0b,z:0,id:\"TileNodeGenerator\",Spawn:0b,energy:0}"
               }
             }
           ]
@@ -600,7 +604,7 @@
       "reward": [
         {
           "id": "technom:nodeGenerator",
-          "nbt": "{Initiator:0b,Step:0,Facing:2b,Amount:0s,Running:0b,Boost:0b,modified:0b,id:\"TileNodeGenerator\",Active:0b,redstoneSettings:\"Low\",RegenDummyBlocks:1b,z:0,y:0,Spawn:0b,energy:0,x:0}"
+          "nbt": "{Facing:2b,Amount:0s,RegenDummyBlocks:1b,Step:0,redstoneSettings:\"Low\",Active:0b,Initiator:0b,Boost:0b,x:0,Running:0b,y:0,modified:0b,z:0,id:\"TileNodeGenerator\",Spawn:0b,energy:0}"
         }
       ]
     },
@@ -640,7 +644,7 @@
       "y": 133,
       "icon": {
         "id": "technom:manaExchanger",
-        "nbt": "{Empty:\"\",id:\"TileManaExchanger\",redstoneSettings:\"Low\",Energy:0,Mode:0b,z:0,y:0,x:0,modified:0b}"
+        "nbt": "{Empty:\"\",Energy:0,Mode:0b,x:0,y:0,modified:0b,z:0,id:\"TileManaExchanger\",redstoneSettings:\"Low\"}"
       },
       "prerequisites": [
         "Flower power"
@@ -652,7 +656,7 @@
             {
               "item": {
                 "id": "technom:manaExchanger",
-                "nbt": "{Empty:\"\",id:\"TileManaExchanger\",redstoneSettings:\"Low\",Energy:0,Mode:0b,z:0,y:0,x:0,modified:0b}"
+                "nbt": "{Empty:\"\",Energy:0,Mode:0b,x:0,y:0,modified:0b,z:0,id:\"TileManaExchanger\",redstoneSettings:\"Low\"}"
               }
             }
           ]
@@ -719,7 +723,7 @@
       "y": 109,
       "icon": {
         "id": "technom:bloodFabricator",
-        "nbt": "{Empty:\"\",id:\"TileBloodFabricator\",z:0,y:0,energy:0,x:0}"
+        "nbt": "{Empty:\"\",x:0,y:0,z:0,id:\"TileBloodFabricator\",energy:0}"
       },
       "prerequisites": [
         "Powernode"
@@ -731,7 +735,7 @@
             {
               "item": {
                 "id": "technom:bloodFabricator",
-                "nbt": "{Empty:\"\",id:\"TileBloodFabricator\",z:0,y:0,energy:0,x:0}"
+                "nbt": "{Empty:\"\",x:0,y:0,z:0,id:\"TileBloodFabricator\",energy:0}"
               }
             }
           ]
@@ -752,7 +756,7 @@
       "y": 155,
       "icon": {
         "id": "technom:manaFabricator",
-        "nbt": "{Mana:0,id:\"ManaFabricator\",Facing:0,z:0,y:0,energy:0,x:0}"
+        "nbt": "{Facing:0,Mana:0,x:0,y:0,z:0,id:\"ManaFabricator\",energy:0}"
       },
       "prerequisites": [
         "(De-)Condense"
@@ -764,7 +768,7 @@
             {
               "item": {
                 "id": "technom:manaFabricator",
-                "nbt": "{Mana:0,id:\"ManaFabricator\",Facing:0,z:0,y:0,energy:0,x:0}"
+                "nbt": "{Facing:0,Mana:0,x:0,y:0,z:0,id:\"ManaFabricator\",energy:0}"
               }
             }
           ]
@@ -777,5 +781,5 @@
       ]
     }
   ],
-  "reputation": []
+  "reputationBar": []
 }
