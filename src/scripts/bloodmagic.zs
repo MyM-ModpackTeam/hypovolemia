@@ -193,3 +193,6 @@ mods.bloodmagic.Altar.addRecipe(<Thaumcraft:ItemThaumonomicon>,<minecraft:writab
 mods.bloodmagic.Altar.addRecipe(<Thaumcraft:blockTube>,<Mekanism:PartTransmitter:4> ,3,3000,5,5);
 mods.bloodmagic.Alchemy.addRecipe(<Thaumcraft:WandCap>,[<TConstruct:oreBerries>,<TConstruct:oreBerries>,<TConstruct:oreBerries>,<TConstruct:oreBerries>,<TConstruct:oreBerries> * 1],3,10000);
 mods.bloodmagic.Altar.addRecipe(<minecraft:spawn_egg:6404> * 1,<witchery:witchhat>,4,30000,5,5);
+
+//misc
+mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_OsmiumSeeds>,<minecraft:iron_block>, 2,50000,5,5);

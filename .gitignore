@@ -5,10 +5,12 @@ build/*
 /src/imcScripts*
 /src/asm*
 /src/logs*
+/src/usernamecache*
 /srcresourcepacks*/src/saves*
 /src/server-resource-packs*
 /src/BotaniaVars*
 /src/minecraftinstance*
 /src/minetweaker.log*
 /src/saves*
+/build*
 
