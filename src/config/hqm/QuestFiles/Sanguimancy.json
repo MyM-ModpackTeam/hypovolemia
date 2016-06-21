@@ -1,5 +1,607 @@
 {
   "name": "Sanguimancy",
-  "quests": [],
-  "reputation": []
+  "quests": [
+    {
+      "name": "Time to Get Started",
+      "description": "Now that you know a bit about Blood Magic lets go further into madness!",
+      "x": 20,
+      "y": 15,
+      "bigicon": true,
+      "icon": {
+        "id": "guideapi:ItemGuideBook",
+        "damage": 1,
+        "nbt": "{CreativeBook:0b}"
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Crafting Task",
+          "items": [
+            {
+              "item": {
+                "id": "guideapi:ItemGuideBook",
+                "damage": 1,
+                "nbt": "{CreativeBook:0b}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "AWWayofTime:reinforcedSlate",
+          "amount": 2
+        },
+        {
+          "id": "minecraft:golden_apple"
+        }
+      ],
+      "reputationrewards": [
+        {
+          "reputation": 2,
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "Time to Learn Automation",
+      "description": "lets see what you\u0027ve learned so far",
+      "x": 56,
+      "y": 18,
+      "icon": {
+        "id": "Sanguimancy:BlockAltarEmitter"
+      },
+      "prerequisites": [
+        "Time to Get Started"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Sanguimancy:BlockAltarEmitter"
+              },
+              "required": 2,
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "Sanguimancy:BlockAltarDiviner"
+              },
+              "required": 2,
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "AWWayofTime:reinforcedSlate",
+          "amount": 4
+        },
+        {
+          "id": "AWWayofTime:blankSlate",
+          "amount": 4
+        }
+      ],
+      "reputationrewards": [
+        {
+          "reputation": 2,
+          "value": 10
+        }
+      ]
+    },
+    {
+      "name": "Complex Automation",
+      "description": "Now that you know the basics Lets Go advanced!",
+      "x": 84,
+      "y": 18,
+      "icon": {
+        "id": "Translocator:translocator"
+      },
+      "prerequisites": [
+        "Time to Learn Automation"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Translocator:translocator"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Translocator:translocator"
+        },
+        {
+          "id": "Sanguimancy:BlockBloodTank"
+        },
+        {
+          "id": "AWWayofTime:reinforcedSlate",
+          "amount": 4
+        }
+      ],
+      "reputationrewards": [
+        {
+          "reputation": 2,
+          "value": 10
+        }
+      ]
+    },
+    {
+      "name": "Lets Learn About Life!",
+      "description": "Did you ever happen to hit that point where you wonder what could have gone better if you werent blown up by that creeper?",
+      "x": 111,
+      "y": 19,
+      "icon": {
+        "id": "Sanguimancy:bloodAmulet"
+      },
+      "prerequisites": [
+        "Complex Automation"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Sanguimancy:bloodAmulet"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "AWWayofTime:reinforcedSlate",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:golden_apple",
+          "damage": 1
+        }
+      ],
+      "reputationrewards": [
+        {
+          "reputation": 2,
+          "value": 30
+        }
+      ]
+    },
+    {
+      "name": "Wait what?! Blood Storage?!",
+      "description": "Now that you have your guide, lets learn how to make the best use of it",
+      "x": 24,
+      "y": 50,
+      "icon": {
+        "id": "Sanguimancy:BlockBloodTank"
+      },
+      "prerequisites": [
+        "Time to Get Started"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Sanguimancy:BlockBloodTank"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "AWWayofTime:reinforcedSlate",
+          "amount": 4
+        },
+        {
+          "id": "AWWayofTime:blankSlate",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "What?! more blood?!",
+      "description": "hmmm seems i can go bigger",
+      "x": 24,
+      "y": 78,
+      "icon": {
+        "id": "Sanguimancy:BlockBloodTank",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Wait what?! Blood Storage?!"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Sanguimancy:BlockBloodTank",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "AWWayofTime:imbuedSlate",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Even Bigger!",
+      "description": "go bigger!",
+      "x": 24,
+      "y": 106,
+      "icon": {
+        "id": "Sanguimancy:BlockBloodTank",
+        "damage": 2
+      },
+      "prerequisites": [
+        "What?! more blood?!"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Sanguimancy:BlockBloodTank",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:golden_apple",
+          "damage": 1
+        },
+        {
+          "id": "AWWayofTime:imbuedSlate",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "Even Bigger then Before",
+      "description": "Craft a Tier 4 Blood Tank",
+      "x": 24,
+      "y": 134,
+      "icon": {
+        "id": "Sanguimancy:BlockBloodTank",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Even Bigger!"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Sanguimancy:BlockBloodTank",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:mob_spawner",
+          "damage": 51,
+          "amount": 2
+        },
+        {
+          "id": "AWWayofTime:demonicSlate",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "This is Crazy",
+      "description": "Craft a Tier 8 Blood Tank",
+      "x": 26,
+      "y": 163,
+      "icon": {
+        "id": "Sanguimancy:BlockBloodTank",
+        "damage": 7
+      },
+      "prerequisites": [
+        "Even Bigger then Before"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Sanguimancy:BlockBloodTank",
+                "damage": 7
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "AWWayofTime:bloodMagicBaseItems",
+          "damage": 27,
+          "amount": 4
+        },
+        {
+          "id": "AWWayofTime:demonicSlate",
+          "amount": 10
+        },
+        {
+          "id": "Sanguimancy:BlockBloodTank",
+          "damage": 7,
+          "amount": 2
+        },
+        {
+          "id": "AWWayofTime:blockCrystal",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Time to Learn Corruption",
+      "description": "Now that you have a way to become corrupted, lets learn how to use that corruption for your own good",
+      "x": 53,
+      "y": 46,
+      "icon": {
+        "id": "Sanguimancy:corruptionCatalist",
+        "nbt": "{activated:0b}"
+      },
+      "prerequisites": [
+        "Time to Get Started"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Sanguimancy:corruptionCatalist",
+                "nbt": "{activated:0b}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "AWWayofTime:imbuedSlate",
+          "amount": 8
+        },
+        {
+          "id": "AWWayofTime:demonicSlate",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Soul Networks are Neat",
+      "description": "Learn how to use a soul network in the soul network dimension",
+      "x": 138,
+      "y": 19,
+      "icon": {
+        "id": "Sanguimancy:soulTransporter"
+      },
+      "prerequisites": [
+        "Lets Learn About Life!"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Sanguimancy:soulTransporter"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "AWWayofTime:demonicSlate",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "A Corrupted Toaster?....",
+      "description": "Craft the Evil Toaster! ",
+      "x": 73,
+      "y": 69,
+      "icon": {
+        "id": "Sanguimancy:BlockLumpCleaner"
+      },
+      "prerequisites": [
+        "Time to Learn Corruption"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Sanguimancy:BlockLumpCleaner"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "AWWayofTime:imbuedSlate",
+          "amount": 8
+        },
+        {
+          "id": "AWWayofTime:demonicSlate",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Ore To Lumps",
+      "description": "Create a Ore Lump using corruption",
+      "x": 93,
+      "y": 92,
+      "icon": {
+        "id": "Sanguimancy:oreLump",
+        "nbt": "{ore:\"Iron\"}"
+      },
+      "prerequisites": [
+        "A Corrupted Toaster?...."
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Sanguimancy:oreLump",
+                "nbt": "{ore:\"Iron\"}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Sanguimancy:oreLump",
+          "amount": 4,
+          "nbt": "{ore:\"Iron\"}"
+        }
+      ]
+    },
+    {
+      "name": "Using the Evil Toaster",
+      "description": "Make an Ingot using the Ore Lumps in the Evil Toaster",
+      "x": 127,
+      "y": 92,
+      "icon": {
+        "id": "minecraft:iron_ingot"
+      },
+      "prerequisites": [
+        "Ore To Lumps"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "Sanguimancy:oreLump",
+                "nbt": "{ore:\"Iron\"}"
+              },
+              "required": 4
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_ingot"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Sanguimancy:oreLump",
+          "amount": 4,
+          "nbt": "{ore:\"Iron\"}"
+        },
+        {
+          "id": "AWWayofTime:imbuedSlate",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Corrupted Tools?",
+      "description": "Time to Make Corrupted Tools!",
+      "x": 167,
+      "y": 56,
+      "icon": {
+        "id": "Sanguimancy:corruptedPickaxe"
+      },
+      "prerequisites": [
+        "Soul Networks are Neat",
+        "Using the Evil Toaster"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Sanguimancy:corruptedSword"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "Sanguimancy:corruptedPickaxe"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "Sanguimancy:corruptedShovel"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "Sanguimancy:corruptedAxe"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:bloodPendant"
+        },
+        {
+          "id": "AWWayofTime:demonicSlate",
+          "amount": 4
+        },
+        {
+          "id": "Sanguimancy:BlockBloodTank",
+          "damage": 4,
+          "nbt": "{x:2621,y:72,z:-1003,id:\"TileBloodTank\",tank:{FluidName:\"life essence\",Amount:256000},customNBTTag:{},capacity:0}"
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
 }

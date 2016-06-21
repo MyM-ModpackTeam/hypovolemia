@@ -1,0 +1,774 @@
+{
+  "name": "Becoming a God",
+  "description": "Time to Become one of them and earn my way back to life and become more powerful",
+  "quests": [
+    {
+      "name": "I need this......?",
+      "description": "Time to begin the journey back to life and become a god",
+      "x": 21,
+      "y": 13,
+      "bigicon": true,
+      "icon": {
+        "id": "Avaritia:Resource"
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Resource"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Avaritia:Resource"
+        }
+      ]
+    },
+    {
+      "name": "This Becomes that...?",
+      "description": "Craft an ingot using the new Diamond Lattice",
+      "x": 57,
+      "y": 16,
+      "icon": {
+        "id": "Avaritia:Resource",
+        "damage": 1
+      },
+      "prerequisites": [
+        "I need this......?"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Resource",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Avaritia:Resource",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "a bigger table?!",
+      "description": "Craft a compressed Crafting Table!",
+      "x": 88,
+      "y": 16,
+      "icon": {
+        "id": "Avaritia:Double_Craft"
+      },
+      "prerequisites": [
+        "This Becomes that...?"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Double_Craft"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Avaritia:Double_Craft",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "An Even Bigger Table?!",
+      "description": "Time to Craft a double compressed crafting table!",
+      "x": 120,
+      "y": 16,
+      "icon": {
+        "id": "Avaritia:Triple_Craft"
+      },
+      "prerequisites": [
+        "a bigger table?!"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Triple_Craft"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Avaritia:Resource",
+          "damage": 1,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "The Ultimate Table",
+      "description": "The gods have given you the knowledge to craft an unusual looking tool",
+      "x": 150,
+      "y": 16,
+      "icon": {
+        "id": "Avaritia:Dire_Crafting"
+      },
+      "prerequisites": [
+        "An Even Bigger Table?!"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Dire_Crafting"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Avaritia:Resource",
+          "damage": 1,
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "What is this?",
+      "description": "Craft a Neutron Collector to get started",
+      "x": 180,
+      "y": 16,
+      "icon": {
+        "id": "Avaritia:Neutron_Collector"
+      },
+      "prerequisites": [
+        "The Ultimate Table"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Neutron_Collector"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Avaritia:Resource",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Now this is madness",
+      "description": "Craft a Neutronium Compressor",
+      "x": 211,
+      "y": 16,
+      "icon": {
+        "id": "Avaritia:Neutronium_Compressor"
+      },
+      "prerequisites": [
+        "What is this?"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Neutronium_Compressor"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Avaritia:Resource",
+          "damage": 1,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "The End",
+      "description": "Congrats on finishing the Quest book, you may continue playing the pack if you want, future updates to come!",
+      "x": 26,
+      "y": 177,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:command_block"
+      },
+      "prerequisites": [
+        "The Final Flower"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:specialFlower",
+                "nbt": "{type:\"asgardandelion\"}"
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "Avaritia:Infinity_Axe"
+              }
+            },
+            {
+              "item": {
+                "id": "Avaritia:Infinity_Pickaxe",
+                "nbt": "{ench:[0:{lvl:10s,id:35s}]}"
+              }
+            },
+            {
+              "item": {
+                "id": "Avaritia:Infinity_Shovel"
+              }
+            },
+            {
+              "item": {
+                "id": "Thaumcraft:WandCasting",
+                "damage": 9000,
+                "nbt": "{aqua:999999900,terra:999999900,ignis:999999900,cap:\"matrix\",rod:\"infinity\",ordo:999999900,perditio:999999900,aer:999999900}"
+              }
+            },
+            {
+              "item": {
+                "id": "Avaritia:Infinity_Helm"
+              }
+            },
+            {
+              "item": {
+                "id": "Avaritia:Infinity_Pants"
+              }
+            },
+            {
+              "item": {
+                "id": "Avaritia:Infinity_Chest"
+              }
+            },
+            {
+              "item": {
+                "id": "Avaritia:Infinity_Shoes"
+              }
+            },
+            {
+              "item": {
+                "id": "Avaritia:Infinity_Bow"
+              }
+            },
+            {
+              "item": {
+                "id": "Avaritia:Orb_Armok"
+              }
+            },
+            {
+              "item": {
+                "id": "Avaritia:Akashic_Record"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Mekanism:EnergyCube",
+          "damage": 1,
+          "nbt": "{tier:\"Creative\",electricity:2.147483647E9d}"
+        },
+        {
+          "id": "AWWayofTime:activationCrystal",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Wait i have to do what?",
+      "description": "Craft your first infinity ingot!",
+      "x": 243,
+      "y": 31,
+      "icon": {
+        "id": "Avaritia:Resource",
+        "damage": 6
+      },
+      "prerequisites": [
+        "Now this is madness"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Resource",
+                "damage": 6
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Avaritia:Resource",
+          "damage": 1,
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "Maybe.....Just Maybe...",
+      "description": "Craft your first Neutronium Ingot",
+      "x": 192,
+      "y": 42,
+      "icon": {
+        "id": "Avaritia:Resource",
+        "damage": 4
+      },
+      "prerequisites": [
+        "What is this?"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Resource",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Avaritia:Resource",
+          "damage": 3,
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Wait a minute....",
+      "description": "Craft your first OP gear",
+      "x": 220,
+      "y": 68,
+      "icon": {
+        "id": "Avaritia:Skull_Sword"
+      },
+      "prerequisites": [
+        "Maybe.....Just Maybe...",
+        "Wait i have to do what?"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Skull_Sword"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Avaritia:Resource",
+          "damage": 1,
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "The Gods are Testing Me",
+      "description": "Craft an even stronger Sword!",
+      "x": 88,
+      "y": 105,
+      "icon": {
+        "id": "Avaritia:Infinity_Sword"
+      },
+      "prerequisites": [
+        "This Bow.......",
+        "They want to know",
+        "The Shovel of the World",
+        "Pickaxe of the World"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Infinity_Sword"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Avaritia:Resource",
+          "damage": 4,
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "They want to know",
+      "description": "The gods want to see how far your abilities in blood magic have become, prove to them you deserve your life back",
+      "x": 137,
+      "y": 90,
+      "icon": {
+        "id": "Avaritia:Orb_Armok"
+      },
+      "prerequisites": [
+        "This Tablet"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Orb_Armok"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Sanguimancy:BlockBloodTank",
+          "damage": 9
+        }
+      ]
+    },
+    {
+      "name": "The Axe of dreams",
+      "description": "Craft an Axe made of the purest materials",
+      "x": 203,
+      "y": 104,
+      "icon": {
+        "id": "Avaritia:Infinity_Axe"
+      },
+      "prerequisites": [
+        "This Tablet"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Infinity_Axe"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Avaritia:Resource",
+          "damage": 6,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "This Tablet",
+      "description": "The gods have a chore for you, it may be worth while                 :Note You will need to craft this tablet using thaumcraft Altar",
+      "x": 182,
+      "y": 88,
+      "icon": {
+        "id": "Avaritia:Akashic_Record"
+      },
+      "prerequisites": [
+        "I have a need for magic"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Akashic_Record"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:blockCustomPlant",
+          "damage": 4,
+          "amount": 64
+        },
+        {
+          "id": "Thaumcraft:ItemEssence",
+          "damage": 1,
+          "amount": 64,
+          "nbt": "{Aspects:[0:{amount:8,key:\"terminus\"}]}"
+        }
+      ]
+    },
+    {
+      "name": "I have a need for magic",
+      "description": "Craft the ultimate wand",
+      "x": 153,
+      "y": 66,
+      "icon": {
+        "id": "Thaumcraft:WandCasting",
+        "damage": 9000,
+        "nbt": "{aqua:999999900,terra:999999900,ignis:999999900,cap:\"matrix\",rod:\"infinity\",ordo:999999900,perditio:999999900,aer:999999900}"
+      },
+      "prerequisites": [
+        "Wait a minute...."
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:WandCasting",
+                "damage": 9000,
+                "nbt": "{aqua:999999900,terra:999999900,ignis:999999900,cap:\"matrix\",rod:\"infinity\",ordo:999999900,perditio:999999900,aer:999999900}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:blockAiry",
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "name": "Pickaxe of the World",
+      "description": "Craft the pickaxe of the gods",
+      "x": 183,
+      "y": 131,
+      "icon": {
+        "id": "Avaritia:Infinity_Pickaxe",
+        "nbt": "{ench:[0:{lvl:10s,id:35s}]}"
+      },
+      "prerequisites": [
+        "The Axe of dreams"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Infinity_Pickaxe",
+                "nbt": "{ench:[0:{lvl:10s,id:35s}]}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:mob_spawner",
+          "damage": 99,
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "The Shovel of the World",
+      "description": "The gods feel you are worthy to know how to make the ultimate digging tool",
+      "x": 156,
+      "y": 114,
+      "icon": {
+        "id": "Avaritia:Infinity_Shovel"
+      },
+      "prerequisites": [
+        "The Axe of dreams"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Infinity_Shovel"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:shovel",
+          "nbt": "{InfiTool:{BaseDurability:100000,Head:501,BaseAttack:52,Built:1b,HarvestLevel:5,Attack:52,RenderHead:501,ModDurability:0.0f,Handle:501,Broken:0b,Shoddy:0.0f,RenderHandle:501,MiningSpeed:6000,Unbreaking:10,Damage:0,BonusDurability:0,TotalDurability:100000,Modifiers:18},display:{Name:\"§fInfinity Shovel\"}}"
+        }
+      ]
+    },
+    {
+      "name": "The Protection of Gods",
+      "description": "The gods have seen your work and feel you are worthy to know how to make their armour",
+      "x": 116,
+      "y": 143,
+      "icon": {
+        "id": "Avaritia:Infinity_Chest"
+      },
+      "prerequisites": [
+        "Pickaxe of the World",
+        "The Shovel of the World",
+        "They want to know",
+        "This Bow......."
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Infinity_Helm"
+              }
+            },
+            {
+              "item": {
+                "id": "Avaritia:Infinity_Chest"
+              }
+            },
+            {
+              "item": {
+                "id": "Avaritia:Infinity_Pants"
+              }
+            },
+            {
+              "item": {
+                "id": "Avaritia:Infinity_Shoes"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:cleaver",
+          "nbt": "{InfiTool:{RenderExtra:501,MiningSpeed2:6000,BaseDurability:562500,Head:501,BaseAttack:56,Built:1b,HarvestLevel:5,Attack:56,RenderHead:501,ModDurability:0.0f,Handle:501,Broken:0b,Shoddy:0.0f,RenderHandle:501,Accessory:501,Extra:501,MiningSpeed:6000,RenderAccessory:501,Unbreaking:10,Damage:0,HarvestLevel2:5,BonusDurability:0,TotalDurability:562500,Modifiers:23},display:{Name:\"§fInfinity Cleaver\"}}"
+        },
+        {
+          "id": "Avaritia:infinitato"
+        },
+        {
+          "id": "Avaritia:Resource_Block",
+          "damage": 1,
+          "amount": 32
+        }
+      ]
+    },
+    {
+      "name": "This Bow.......",
+      "description": "This Bow came from the heavens",
+      "x": 112,
+      "y": 71,
+      "icon": {
+        "id": "Avaritia:Infinity_Bow"
+      },
+      "prerequisites": [
+        "I have a need for magic"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Avaritia:Infinity_Bow"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:creativeModifier",
+          "amount": 5,
+          "nbt": "{TargetLock:\"Crossbow\"}"
+        }
+      ]
+    },
+    {
+      "name": "The Final Flower",
+      "description": "The gods have seen your knowledge of Botany and have granted you sacred passage to know the ultimate flower for mana generation",
+      "x": 71,
+      "y": 143,
+      "icon": {
+        "id": "Botania:specialFlower",
+        "nbt": "{type:\"asgardandelion\"}"
+      },
+      "prerequisites": [
+        "The Gods are Testing Me",
+        "The Protection of Gods"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "Botania:specialFlower",
+                "nbt": "{type:\"asgardandelion\"}"
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Botania:spreader",
+          "damage": 3,
+          "amount": 10
+        },
+        {
+          "id": "Botania:pool",
+          "amount": 64
+        },
+        {
+          "id": "Botania:distributor",
+          "amount": 10
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

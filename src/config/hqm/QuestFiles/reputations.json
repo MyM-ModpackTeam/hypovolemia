@@ -1,0 +1,150 @@
+[
+  {
+    "name": "Clearing the Soul",
+    "neutral": "I Feel Guilty...",
+    "markers": [
+      {
+        "name": "Slightly Cleared",
+        "value": 75
+      },
+      {
+        "name": "Halfway There.......",
+        "value": 150
+      },
+      {
+        "name": "Almost There!",
+        "value": 225
+      },
+      {
+        "name": "Purified The Soul",
+        "value": 300
+      }
+    ]
+  },
+  {
+    "name": "Purifying The Mind",
+    "neutral": "I\u0027ve LOST MY MIND!!",
+    "markers": [
+      {
+        "name": "I\u0027m Unstable......",
+        "value": 50
+      },
+      {
+        "name": "Getting Better",
+        "value": 100
+      },
+      {
+        "name": "Becoming Stable",
+        "value": 150
+      },
+      {
+        "name": "Getting My Mind Back",
+        "value": 200
+      },
+      {
+        "name": "Becoming Pure Minded",
+        "value": 250
+      },
+      {
+        "name": "Pure Minded - Clean Mind",
+        "value": 300
+      }
+    ]
+  },
+  {
+    "name": "I Know Magic....",
+    "neutral": "Off to Hogwarts!",
+    "markers": [
+      {
+        "name": "Basic Magic",
+        "value": 150
+      },
+      {
+        "name": "Basic Magus",
+        "value": 300
+      },
+      {
+        "name": "Intermediate Magus",
+        "value": 450
+      },
+      {
+        "name": "Master Magus",
+        "value": 600
+      },
+      {
+        "name": "Grand Magus",
+        "value": 750
+      },
+      {
+        "name": "Basic Wizard",
+        "value": 900
+      },
+      {
+        "name": "Intermediate Wizard",
+        "value": 1050
+      },
+      {
+        "name": "Master Wizard",
+        "value": 1200
+      },
+      {
+        "name": "Grand Wizard",
+        "value": 1350
+      },
+      {
+        "name": "Grand Elder",
+        "value": 1500
+      },
+      {
+        "name": "Supreme Wizard!",
+        "value": 1750
+      }
+    ]
+  },
+  {
+    "name": "Technical McGiever!",
+    "neutral": "Neutral",
+    "markers": [
+      {
+        "name": "New Scientist",
+        "value": 25
+      },
+      {
+        "name": "Learning the Ropes",
+        "value": 50
+      },
+      {
+        "name": "Getting Better!",
+        "value": 100
+      },
+      {
+        "name": "Hmmmmm Its Science",
+        "value": 150
+      },
+      {
+        "name": "Time to Get Sciency",
+        "value": 200
+      },
+      {
+        "name": "Student Professor",
+        "value": 300
+      },
+      {
+        "name": "Doctor Science",
+        "value": 400
+      },
+      {
+        "name": "Becoming a Tech Wizard",
+        "value": 500
+      },
+      {
+        "name": "Tech Mage!",
+        "value": 600
+      },
+      {
+        "name": "Supreme Tech Wizard!",
+        "value": 750
+      }
+    ]
+  }
+]
