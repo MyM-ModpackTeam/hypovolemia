@@ -64,7 +64,6 @@ var chaostiny = <DraconicEvolution:chaosFragment:0>;
 var chaossmall = <DraconicEvolution:chaosFragment:1>;
 var chaoslarge = <DraconicEvolution:chaosFragment:2>;
 var neutronugget = <Avaritia:Resource:3>;
-var ichorscepter = <Thaumcraft:WandCasting:150>.withTag({aqua: 150000, terra: 150000, ignis: 150000, cap: "ICHOR", rod: "ICHORCLOTH", ordo: 150000, sceptre: 1 as byte, perditio: 150000, aer: 150000});
 
 
 #remove the shit
@@ -131,11 +130,11 @@ mods.avaritia.ExtremeCrafting.addShaped(infshoes, [[stew, stew, stew, stew, stew
 #add infinity wand																	
 mods.avaritia.ExtremeCrafting.addShaped(infwand, [[bigpearl, bigpearl, bigpearl, bigpearl, bigpearl, bigpearl, bigpearl, bigpearl, bigpearl],
 												[bigpearl, stew, stew, stew, stew, stew, infblock, infcatalyst, bigpearl],
-												[bigpearl, stew, records, records, ichorscepter, infblock, infcatalyst, infblock, bigpearl],
-												[bigpearl, stew, records, ichorscepter, infblock, infcatalyst, infblock, stew, bigpearl],
-												[bigpearl, stew, ichorscepter, infblock, infcatalyst, infblock, ichorscepter, stew, bigpearl],
-												[bigpearl, stew, infblock, infcatalyst, infblock, ichorscepter, records, stew, bigpearl],
-												[bigpearl, infblock, infcatalyst, infblock, ichorscepter, records, records, stew, bigpearl],
+												[bigpearl, stew, records, records, neutroingot, infblock, infcatalyst, infblock, bigpearl],
+												[bigpearl, stew, records, neutroingot, infblock, infcatalyst, infblock, stew, bigpearl],
+												[bigpearl, stew, neutroingot, infblock, infcatalyst, infblock, neutroingot, stew, bigpearl],
+												[bigpearl, stew, infblock, infcatalyst, infblock, neutroingot, records, stew, bigpearl],
+												[bigpearl, infblock, infcatalyst, infblock, neutroingot, records, records, stew, bigpearl],
 												[bigpearl, infcatalyst, infblock, stew, stew, stew, stew, stew, bigpearl],
 												[bigpearl, bigpearl, bigpearl, bigpearl, bigpearl, bigpearl, bigpearl, bigpearl, bigpearl]]);																	
 																	
