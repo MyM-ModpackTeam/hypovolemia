@@ -31,7 +31,7 @@
         },
         {
           "id": "LoreExp:page",
-          "nbt": "{ident:\"9 mobfarm mfr\",category:\"GLOBAL\"}"
+          "nbt": "{dimension:2147483647,page:9}"
         }
       ]
     },
@@ -169,7 +169,7 @@
         {
           "id": "Mekanism:MachineBlock2",
           "damage": 11,
-          "nbt": "{prevScale:1.0f,fluidTank:{FluidName:\"brine\",Amount:14000}}"
+          "nbt": "{fluidTank:{Amount:14000,FluidName:\"brine\"},prevScale:1.0f}"
         },
         {
           "id": "MineFactoryReloaded:portaspawner"
@@ -396,11 +396,7 @@
       "reward": [
         {
           "id": "LoreExp:page",
-          "nbt": "{ident:\"10 mfr laser drill\",category:\"GLOBAL\"}"
-        },
-        {
-          "id": "LoreExp:page",
-          "nbt": "{ident:\"2\",category:\"GLOBAL\"}"
+          "nbt": "{dimension:2147483647,page:10}"
         }
       ]
     },
@@ -534,5 +530,5 @@
       ]
     }
   ],
-  "reputationBar": []
+  "reputation": []
 }

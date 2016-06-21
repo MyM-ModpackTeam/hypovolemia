@@ -12,15 +12,15 @@
       },
       "tasks": [
         {
-          "type": "CRAFT",
-          "description": "Crafting Task",
+          "type": "DETECT",
           "longDescription": "Why would you dip your stick in your blood? Thats just wron... Oh would you look at that your blood gave your stick magic powers again.",
           "items": [
             {
               "item": {
                 "id": "Thaumcraft:WandCasting",
-                "nbt": "{cap:\"iron\",rod:\"wood\"}"
-              }
+                "nbt": "{rod:\"wood\",cap:\"iron\"}"
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -39,8 +39,8 @@
     {
       "name": "The \"Normal\" Way",
       "description": "[ONCE YOU PICK AN OPTION YOU CAN NOT CHANGE IT]                      Here I can take the normal way, No gods will mess with me untill I advance further into thaumcraft if I take this route.",
-      "x": 29,
-      "y": 42,
+      "x": 26,
+      "y": 48,
       "icon": {
         "id": "Thaumcraft:ItemThaumonomicon"
       },
@@ -48,7 +48,8 @@
         "Thaumcraft"
       ],
       "optionlinks": [
-        "The \"Simple\" Way"
+        "The \"Simple\" Way",
+        "The \"Cheaty\" Way"
       ],
       "tasks": [
         {
@@ -57,16 +58,6 @@
             {
               "item": {
                 "id": "Thaumcraft:ItemThaumonomicon"
-              }
-            }
-          ]
-        },
-        {
-          "type": "CRAFT",
-          "items": [
-            {
-              "item": {
-                "id": "Thaumcraft:blockTable"
               }
             }
           ]
@@ -85,20 +76,21 @@
     {
       "name": "The \"Simple\" Way",
       "description": "[ONCE YOU PICK AN OPTION YOU CAN NOT CHANGE IT]                      Here I can take the simple way, No gods will mess with me untill I advance further into thaumcraft if I take this route. I will be provided with a simple way to gain \"Aspects\"",
-      "x": 52,
-      "y": 13,
+      "x": 38,
+      "y": 29,
       "icon": {
         "id": "technom:advDeconTable",
-        "nbt": "{breakspeed:80,x:0,y:0,z:0,Items:[],id:\"techno:TileAdvDeconTable\"}"
+        "nbt": "{Items:[],id:\"techno:TileAdvDeconTable\",breakspeed:80,z:0,y:0,x:0}"
       },
       "prerequisites": [
         "Thaumcraft"
       ],
+      "optionlinks": [
+        "The \"Cheaty\" Way"
+      ],
       "tasks": [
         {
-          "type": "DETECT",
-          "description": "Detection Task",
-          "longDescription": "A task where the player can hand in items or fluids. One can also use the Quest Delivery System to submit items and fluids.",
+          "type": "CONSUME",
           "items": [
             {
               "item": {
@@ -115,21 +107,52 @@
         },
         {
           "id": "technom:advDeconTable",
-          "nbt": "{breakspeed:80,x:0,y:0,z:0,Items:[],id:\"techno:TileAdvDeconTable\"}"
+          "nbt": "{Items:[],id:\"techno:TileAdvDeconTable\",breakspeed:80,z:0,y:0,x:0}"
+        },
+        {
+          "id": "Thaumcraft:ItemThaumonomicon"
+        }
+      ]
+    },
+    {
+      "name": "The \"Cheaty\" Way",
+      "description": "[ONCE YOU PICK AN OPTION YOU CAN NOT CHANGE IT]                      Here I can take the cheaty route, Which will anger the gods. Doing so comes at its price. I shall be cast with a infection called warp. This will have many negative effects on me.",
+      "x": 50,
+      "y": 10,
+      "icon": {
+        "id": "Thaumcraft:ItemThaumonomicon",
+        "damage": 42
+      },
+      "prerequisites": [
+        "Thaumcraft"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "Thaumcraft:ItemThaumonomicon"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Thaumcraft:ItemThaumonomicon",
+          "damage": 42
         }
       ]
     },
     {
       "name": "Scribing",
       "description": "I remember it from school. What a chore.",
-      "x": 63,
-      "y": 44,
+      "x": 61,
+      "y": 54,
       "icon": {
         "id": "Thaumcraft:ItemInkwell"
       },
-      "prerequisites": [
-        "Thaumcraft"
-      ],
       "tasks": [
         {
           "type": "DETECT",
@@ -147,9 +170,6 @@
         {
           "id": "Thaumcraft:blockCustomPlant",
           "damage": 1
-        },
-        {
-          "id": "Thaumcraft:blockCustomPlant"
         }
       ]
     },
@@ -260,7 +280,7 @@
       "icon": {
         "id": "Thaumcraft:WandCasting",
         "damage": 9,
-        "nbt": "{aqua:5000,terra:5000,ignis:5000,cap:\"gold\",rod:\"greatwood\",ordo:5000,perditio:5000,aer:5000}"
+        "nbt": "{rod:\"greatwood\",perditio:5000,aer:5000,ignis:5000,cap:\"gold\",aqua:5000,ordo:5000,terra:5000}"
       },
       "prerequisites": [
         "Gods letters"
@@ -273,7 +293,7 @@
               "item": {
                 "id": "Thaumcraft:WandCasting",
                 "damage": 9,
-                "nbt": "{aqua:5000,terra:5000,ignis:5000,cap:\"gold\",rod:\"greatwood\",ordo:5000,perditio:5000,aer:5000}"
+                "nbt": "{rod:\"greatwood\",perditio:5000,aer:5000,ignis:5000,cap:\"gold\",aqua:5000,ordo:5000,terra:5000}"
               }
             }
           ]
@@ -295,7 +315,7 @@
       "icon": {
         "id": "Thaumcraft:WandCasting",
         "damage": 128,
-        "nbt": "{aqua:15000,terra:15000,ignis:15000,cap:\"thaumium\",rod:\"silverwood\",ordo:15000,sceptre:1b,perditio:15000,aer:15000}"
+        "nbt": "{rod:\"silverwood\",perditio:15000,aer:15000,ignis:15000,cap:\"thaumium\",sceptre:1b,aqua:15000,ordo:15000,terra:15000}"
       },
       "prerequisites": [
         "Growing vis",
@@ -311,7 +331,7 @@
               "item": {
                 "id": "Thaumcraft:WandCasting",
                 "damage": 128,
-                "nbt": "{aqua:15000,terra:15000,ignis:15000,cap:\"thaumium\",rod:\"silverwood\",ordo:15000,sceptre:1b,perditio:15000,aer:15000}"
+                "nbt": "{rod:\"silverwood\",perditio:15000,aer:15000,ignis:15000,cap:\"thaumium\",sceptre:1b,aqua:15000,ordo:15000,terra:15000}"
               }
             }
           ]
@@ -441,7 +461,7 @@
       "reward": [
         {
           "id": "AWWayofTime:blockCrystalBelljar",
-          "nbt": "{reagentTanks:[0:{amount:16000,Reagent:\"potentia\",capacity:16000}]}"
+          "nbt": "{reagentTanks:[0:{amount:16000,capacity:16000,Reagent:\"potentia\"}]}"
         }
       ]
     },
@@ -580,7 +600,7 @@
       "reward": [
         {
           "id": "AWWayofTime:blockCrystalBelljar",
-          "nbt": "{reagentTanks:[0:{amount:16000,Reagent:\"aquasalus\",capacity:16000}]}"
+          "nbt": "{reagentTanks:[0:{amount:16000,capacity:16000,Reagent:\"aquasalus\"}]}"
         },
         {
           "id": "minecraft:redstone_block"
@@ -613,7 +633,7 @@
       "reward": [
         {
           "id": "AWWayofTime:blockCrystalBelljar",
-          "nbt": "{reagentTanks:[0:{amount:16000,Reagent:\"terrae\",capacity:16000}]}"
+          "nbt": "{reagentTanks:[0:{amount:16000,capacity:16000,Reagent:\"terrae\"}]}"
         }
       ]
     },
@@ -680,15 +700,15 @@
       "reward": [
         {
           "id": "AWWayofTime:blockCrystalBelljar",
-          "nbt": "{reagentTanks:[0:{amount:16000,Reagent:\"tenebrae\",capacity:16000}]}"
+          "nbt": "{reagentTanks:[0:{amount:16000,capacity:16000,Reagent:\"tenebrae\"}]}"
         }
       ]
     },
     {
       "name": "Shards ",
       "description": "Remains of a shattered world. I can use my blood to tear them into this one.",
-      "x": 86,
-      "y": 16,
+      "x": 73,
+      "y": 33,
       "icon": {
         "id": "Thaumcraft:blockCrystal",
         "damage": 6
@@ -838,7 +858,7 @@
       "icon": {
         "id": "Thaumcraft:WandCasting",
         "damage": 84,
-        "nbt": "{aqua:200,terra:200,ignis:200,cap:\"alchemical\",ownerName:\"caithleen\",rod:\"blood\",ordo:200,perditio:200,aer:200}"
+        "nbt": "{ownerName:\"caithleen\",rod:\"blood\",perditio:200,aer:200,ignis:200,cap:\"alchemical\",aqua:200,ordo:200,terra:200}"
       },
       "prerequisites": [
         "Republic of afterlife"
@@ -851,7 +871,7 @@
               "item": {
                 "id": "Thaumcraft:WandCasting",
                 "damage": 84,
-                "nbt": "{aqua:400,terra:400,ignis:400,cap:\"alchemical\",ownerName:\"caithleen\",rod:\"blood\",ordo:400,perditio:400,aer:400}"
+                "nbt": "{ownerName:\"caithleen\",rod:\"blood\",perditio:400,aer:400,ignis:400,cap:\"alchemical\",aqua:400,ordo:400,terra:400}"
               },
               "precision": "FUZZY"
             }
@@ -898,5 +918,5 @@
       ]
     }
   ],
-  "reputationBar": []
+  "reputation": []
 }

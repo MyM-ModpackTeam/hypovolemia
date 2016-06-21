@@ -90,6 +90,39 @@
       ]
     },
     {
+      "name": "Fortune",
+      "description": "As fortune seems to shine down on me, I should channel it and use it on the ores I got. Seriously - use a fortune pick on the ores!",
+      "x": 63,
+      "y": 186,
+      "icon": {
+        "id": "minecraft:enchanting_table"
+      },
+      "prerequisites": [
+        "I made it"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.0",
+                "damage": 14
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Mekanism:MachineBlock2",
+          "damage": 11,
+          "amount": 3,
+          "nbt": "{fluidTank:{Amount:14000,FluidName:\"mobessence\"},prevScale:1.0f}"
+        }
+      ]
+    },
+    {
       "name": "Transforming dust",
       "description": "The dusts can be used for many recipes. But theres also many requiring that I smelt them into ingots.",
       "x": 36,
@@ -337,8 +370,8 @@
       "x": 291,
       "y": 190,
       "icon": {
-        "id": "TConstruct:pickaxe",
-        "nbt": "{InfiTool:{BaseDurability:100000,Head:501,BaseAttack:51,Built:1b,HarvestLevel:5,Attack:51,RenderHead:501,ModDurability:0.0f,Handle:501,Broken:0b,Shoddy:0.0f,RenderHandle:501,Accessory:501,MiningSpeed:6000,RenderAccessory:501,Unbreaking:10,Damage:0,BonusDurability:0,TotalDurability:100000,Modifiers:18},display:{Name:\"§fInfinity Pickaxe\"}}"
+        "id": "DraconicEvolution:draconicPickaxe",
+        "nbt": "{Energy:0}"
       },
       "prerequisites": [
         "A ritual, again."
@@ -1058,41 +1091,7 @@
           "id": "DraconicEvolution:teleporterMKI"
         }
       ]
-    },
-    {
-      "name": "You\u0027ll Need This In Time",
-      "description": "Your really gonna want this.......",
-      "x": 76,
-      "y": 182,
-      "icon": {
-        "id": "DraconicEvolution:upgradeModifier"
-      },
-      "prerequisites": [
-        "I made it"
-      ],
-      "tasks": [
-        {
-          "type": "CRAFT",
-          "items": [
-            {
-              "item": {
-                "id": "DraconicEvolution:upgradeModifier"
-              }
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "DraconicEvolution:draconiumOre",
-          "amount": 10
-        },
-        {
-          "id": "Thaumcraft:ItemResearchNotes",
-          "nbt": "{copies:0,color:4210752,complete:0b,hexgrid:[0:{hexq:0b,hexr:0b,type:0b},1:{hexq:0b,hexr:1b,type:0b},2:{hexq:1b,hexr:0b,type:0b},3:{hexq:-2b,hexr:2b,aspect:\"machina\",type:1b},4:{hexq:0b,hexr:2b,aspect:\"terminus\",type:1b},5:{hexq:1b,hexr:1b,type:0b},6:{hexq:2b,hexr:0b,aspect:\"fabrico\",type:1b},7:{hexq:-1b,hexr:2b,type:0b},8:{hexq:-2b,hexr:1b,type:0b},9:{hexq:-1b,hexr:-1b,type:0b},10:{hexq:-1b,hexr:1b,type:0b},11:{hexq:-2b,hexr:0b,aspect:\"blood\",type:1b},12:{hexq:-1b,hexr:0b,type:0b},13:{hexq:0b,hexr:-1b,type:0b},14:{hexq:1b,hexr:-2b,type:0b},15:{hexq:0b,hexr:-2b,aspect:\"potentia\",type:1b},16:{hexq:1b,hexr:-1b,type:0b},17:{hexq:2b,hexr:-2b,aspect:\"perditio\",type:1b},18:{hexq:2b,hexr:-1b,type:0b}],key:\"LARGECHAOSFRAGMENT\"}"
-        }
-      ]
     }
   ],
-  "reputationBar": []
+  "reputation": []
 }

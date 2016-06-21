@@ -303,7 +303,7 @@
       "icon": {
         "id": "Mekanism:MachineBlock2",
         "damage": 11,
-        "nbt": "{prevScale:1.0f,fluidTank:{FluidName:\"brine\",Amount:14000}}"
+        "nbt": "{fluidTank:{Amount:14000,FluidName:\"brine\"},prevScale:1.0f}"
       },
       "prerequisites": [
         "No end in sight"
@@ -391,7 +391,8 @@
               "item": {
                 "id": "Mekanism:MachineBlock2",
                 "damage": 4
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -465,7 +466,8 @@
               "item": {
                 "id": "Mekanism:MachineBlock2",
                 "damage": 8
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -497,7 +499,8 @@
               "item": {
                 "id": "Mekanism:MachineBlock2",
                 "damage": 7
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -530,7 +533,8 @@
               "item": {
                 "id": "Mekanism:MachineBlock2",
                 "damage": 6
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -596,7 +600,8 @@
               "item": {
                 "id": "Mekanism:MachineBlock2",
                 "damage": 1
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -605,7 +610,7 @@
         {
           "id": "Mekanism:MachineBlock2",
           "damage": 11,
-          "nbt": "{prevScale:1.0f,fluidTank:{FluidName:\"sulfurdioxidegas\",Amount:14000}}"
+          "nbt": "{fluidTank:{Amount:14000,FluidName:\"sulfurdioxidegas\"},prevScale:1.0f}"
         }
       ]
     },
@@ -627,7 +632,8 @@
             {
               "item": {
                 "id": "Mekanism:MachineBlock2"
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -640,7 +646,7 @@
         {
           "id": "Mekanism:MachineBlock2",
           "damage": 11,
-          "nbt": "{prevScale:1.0f,fluidTank:{FluidName:\"sulfuricacid\",Amount:14000}}"
+          "nbt": "{fluidTank:{Amount:14000,FluidName:\"sulfuricacid\"},prevScale:1.0f}"
         },
         {
           "id": "TConstruct:heartCanister",
@@ -671,7 +677,7 @@
                 "damage": 100,
                 "nbt": "{tier:\"Basic\"}"
               },
-              "precision": "FUZZY"
+              "precision": "NBT_FUZZY"
             }
           ]
         },
@@ -684,7 +690,7 @@
                 "damage": 100,
                 "nbt": "{tier:\"Advanced\"}"
               },
-              "precision": "FUZZY"
+              "precision": "NBT_FUZZY"
             }
           ]
         },
@@ -697,7 +703,7 @@
                 "damage": 100,
                 "nbt": "{tier:\"Elite\"}"
               },
-              "precision": "FUZZY"
+              "precision": "NBT_FUZZY"
             }
           ]
         },
@@ -710,7 +716,7 @@
                 "damage": 100,
                 "nbt": "{tier:\"Ultimate\"}"
               },
-              "precision": "FUZZY"
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -792,5 +798,5 @@
       ]
     }
   ],
-  "reputationBar": []
+  "reputation": []
 }

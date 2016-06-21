@@ -10,6 +10,9 @@
       "icon": {
         "id": "Botania:fertilizer"
       },
+      "prerequisites": [
+        "{Did i die? Where am I?}[It worked!]"
+      ],
       "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
@@ -336,7 +339,7 @@
       "y": 121,
       "icon": {
         "id": "Botania:twigWand",
-        "nbt": "{color1:0,color2:0}"
+        "nbt": "{color2:0,color1:0}"
       },
       "prerequisites": [
         "Flowah Powah"
@@ -394,7 +397,7 @@
             {
               "item": {
                 "id": "Botania:twigWand",
-                "nbt": "{color1:0,color2:0}"
+                "nbt": "{color2:0,color1:0}"
               },
               "precision": "FUZZY"
             }
@@ -452,13 +455,6 @@
               "required": 8
             }
           ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "Botania:specialFlower",
-          "amount": 4,
-          "nbt": "{type:\"daybloom\"}"
         }
       ],
       "rewardchoice": [
@@ -547,12 +543,12 @@
     },
     {
       "name": "Powering Up!",
-      "description": "Looking back at blood magic you seem to recall using blood to create RF... You wonder if you could do the same with the blue liquid called mana as well..   Note: this quest requires a FULL Mana tablet",
+      "description": "Looking back at blood magic you seem to recall using blood to create RF... You wonder if you could do the same with the blue liquid called mana as well..",
       "x": 136,
       "y": 102,
       "icon": {
         "id": "Botania:manaTablet",
-        "nbt": "{mana:500000,creative:1b}"
+        "nbt": "{creative:1b,mana:500000}"
       },
       "prerequisites": [
         "What is this sparkly stuff?"
@@ -568,12 +564,6 @@
               }
             }
           ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "Botania:manaTablet",
-          "nbt": "{mana:500000}"
         }
       ]
     },
@@ -794,7 +784,7 @@
       "y": 121,
       "icon": {
         "id": "technom:flowerDynamo",
-        "nbt": "{face:1b,Mana:0,Boost:0b,fuel:0,x:0,y:0,modified:0b,z:0,id:\"TileFlowerDynamo\",redstoneSettings:\"High\",energy:0}"
+        "nbt": "{Mana:0,id:\"TileFlowerDynamo\",face:1b,redstoneSettings:\"High\",fuel:0,Boost:0b,z:0,y:0,energy:0,x:0,modified:0b}"
       },
       "prerequisites": [
         "Powering Up!"
@@ -834,7 +824,7 @@
             {
               "item": {
                 "id": "technom:flowerDynamo",
-                "nbt": "{face:1b,Mana:0,Boost:0b,fuel:0,x:0,y:0,modified:0b,z:0,id:\"TileFlowerDynamo\",redstoneSettings:\"High\",energy:0}"
+                "nbt": "{Mana:0,id:\"TileFlowerDynamo\",face:1b,redstoneSettings:\"High\",fuel:0,Boost:0b,z:0,y:0,energy:0,x:0,modified:0b}"
               }
             }
           ]
@@ -1519,7 +1509,7 @@
             {
               "item": {
                 "id": "Botania:lexicon",
-                "nbt": "{knowledge.alfheim:1b,forcedMessage:\"elfMessage\"}"
+                "nbt": "{forcedMessage:\"elfMessage\",knowledge.alfheim:1b}"
               }
             }
           ]
@@ -2981,5 +2971,5 @@
       ]
     }
   ],
-  "reputationBar": []
+  "reputation": []
 }

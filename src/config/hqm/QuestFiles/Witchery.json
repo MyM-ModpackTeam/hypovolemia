@@ -5,12 +5,15 @@
     {
       "name": "Mutating into a Witch!",
       "description": "To start Witchery you will need seeds, but with the world being a bloody wasteland you can\u0027t obtain them naturally. Your way to obtain them will be seed mutation. Mutate Wheat seeds with Water seeds to create Belladonna seeds and use them on the next quest!",
-      "x": 21,
-      "y": 182,
-      "bigicon": true,
+      "x": 153,
+      "y": 87,
+      "bigIcon": true,
       "icon": {
         "id": "witchery:seedsmandrake"
       },
+      "prerequisites": [
+        "{Fertilisation}[Irrigation]"
+      ],
       "tasks": [
         {
           "type": "DETECT",
@@ -18,7 +21,8 @@
             {
               "item": {
                 "id": "witchery:seedsbelladonna"
-              }
+              },
+              "precision": "FUZZY"
             }
           ]
         }
@@ -45,8 +49,8 @@
     {
       "name": "Burning Time!",
       "description": "Now that you have obtained all the seeds, its time to make a witches oven.",
-      "x": 55,
-      "y": 162,
+      "x": 135,
+      "y": 71,
       "icon": {
         "id": "witchery:witchesovenidle"
       },
@@ -89,8 +93,8 @@
     {
       "name": "Sapling smelting!",
       "description": "Now that you have obtained yourself a witches oven its time to start throwing any spare sapling and logs into the oven. Doing this will give you multiple outputs depending on the sapling or wood type! Use nei to see the sapling needed for this quest.",
-      "x": 85,
-      "y": 139,
+      "x": 121,
+      "y": 92,
       "icon": {
         "id": "witchery:ingredient",
         "damage": 31
@@ -135,8 +139,8 @@
     {
       "name": "Stirring the cauldron!",
       "description": "The time has come to start brewing evel conjurations in your witches cauldron!",
-      "x": 110,
-      "y": 116,
+      "x": 96,
+      "y": 88,
       "icon": {
         "id": "witchery:cauldron"
       },
@@ -177,8 +181,8 @@
     {
       "name": "Tree harvesting",
       "description": "Your next mission is to use the mutandis obtained in the last quest on a piece of grass. Make sure to bring shears as some items you can obtain using this method need to be sheared to obtain!",
-      "x": 130,
-      "y": 89,
+      "x": 71,
+      "y": 88,
       "icon": {
         "id": "witchery:witchsapling"
       },
@@ -246,8 +250,8 @@
     {
       "name": "Ritual Power",
       "description": "Now is the time to make your first witchery altar that will power all of your evil spells....                    You can use the rewards provided to also boost the range and power your altar provides !",
-      "x": 61,
-      "y": 81,
+      "x": 45,
+      "y": 88,
       "icon": {
         "id": "witchery:altar"
       },
@@ -287,8 +291,8 @@
     {
       "name": "Circle Magic",
       "description": "I see you have chosen to delve into the circle magic side of witchery. Well you have made a great choice! To get started with circle magic you will need to make some ritual chalk.",
-      "x": 17,
-      "y": 68,
+      "x": 19,
+      "y": 57,
       "icon": {
         "id": "witchery:chalkheart"
       },
@@ -351,8 +355,8 @@
     {
       "name": "Books, books, books....",
       "description": "Before we go any further its time for you to get reading, create the witchery books and then bring them to me!",
-      "x": 31,
-      "y": 90,
+      "x": 18,
+      "y": 88,
       "icon": {
         "id": "Enchiridion:items",
         "damage": 1
@@ -481,8 +485,8 @@
     {
       "name": "Turn the kettle off dear.",
       "description": "A lot of the circle magic items require brews that get made in the kettle, while the kettle is how it is meant to be done we prefer it to be done the Bloodmagic way in this pack ;)",
-      "x": 16,
-      "y": 37,
+      "x": 19,
+      "y": 28,
       "icon": {
         "id": "witchery:kettle"
       },
@@ -522,8 +526,8 @@
     {
       "name": "Magic Wands",
       "description": "As with all magic mods you\u0027ll be needing a wand of sorts to do your magic with. Using an ent twig that will have dropped from the ents create a Mutating Sprig!",
-      "x": 40,
-      "y": 21,
+      "x": 44,
+      "y": 12,
       "icon": {
         "id": "witchery:mutator"
       },
@@ -564,8 +568,8 @@
     {
       "name": "Capturing Creatures",
       "description": "now that you have your newly created Sprig, its time to put it to use. Create some Critter Snares and then come back to me.",
-      "x": 68,
-      "y": 14,
+      "x": 71,
+      "y": 12,
       "icon": {
         "id": "witchery:crittersnare"
       },
@@ -606,8 +610,8 @@
     {
       "name": "Distilling",
       "description": "Before you can continue you\u0027ll need to start mixing ingredients together to make others. Craft a distellery to do this!",
-      "x": 97,
-      "y": 77,
+      "x": 58,
+      "y": 111,
       "icon": {
         "id": "witchery:distilleryidle"
       },
@@ -818,198 +822,93 @@
       ]
     },
     {
-      "name": "Werewolfs Are Scary!",
-      "description": "Now that you have a coven, make it more powerful and become a Mighty Werewolf of the Night!",
-      "x": 232,
-      "y": 13,
-      "icon": {
-        "id": "witchery:wolfhead"
-      },
+      "name": "Werewolf 1",
+      "x": 209,
+      "y": 11,
       "prerequisites": [
         "Creating a Coven"
-      ],
-      "tasks": [
-        {
-          "type": "CONSUME",
-          "items": [
-            {
-              "item": {
-                "id": "witchery:taglockkit"
-              }
-            },
-            {
-              "item": {
-                "id": "witchery:ingredient",
-                "damage": 31
-              }
-            },
-            {
-              "item": {
-                "id": "witchery:wolfhead",
-                "damage": 1
-              }
-            },
-            {
-              "item": {
-                "id": "witchery:ingredient",
-                "damage": 156
-              }
-            },
-            {
-              "item": {
-                "id": "minecraft:diamond"
-              }
-            },
-            {
-              "item": {
-                "id": "witchery:ingredient",
-                "damage": 71
-              }
-            }
-          ]
-        },
-        {
-          "type": "CRAFT",
-          "items": [
-            {
-              "item": {
-                "id": "witchery:wolfaltar"
-              }
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "witchery:poppet",
-          "damage": 6,
-          "nbt": "{WITCDamage:0}"
-        },
-        {
-          "id": "witchery:ingredient",
-          "damage": 10,
-          "amount": 2
-        }
-      ],
-      "reputationrewards": [
-        {
-          "reputation": 2,
-          "value": 100
-        }
       ]
     },
     {
-      "name": "Vampires!",
-      "description": "Summon Lilith and become her demon of rage",
-      "x": 204,
-      "y": 56,
-      "icon": {
-        "id": "witchery:witchhat"
-      },
+      "name": "Vampire 1",
+      "x": 194,
+      "y": 35,
       "prerequisites": [
         "Creating a Coven"
-      ],
-      "optionlinks": [
-        "Werewolfs Are Scary!"
-      ],
-      "tasks": [
-        {
-          "type": "KILL",
-          "mobs": [
-            {
-              "name": "New",
-              "icon": {
-                "id": "minecraft:spawn_egg",
-                "damage": 6425
-              },
-              "mob": "witchery.lilith",
-              "kills": 1,
-              "exact": false
-            }
-          ]
-        },
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "witchery:glassgoblet"
-              }
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "witchery:vampirebook"
-        }
-      ],
-      "reputationrewards": [
-        {
-          "reputation": 2,
-          "value": 100
-        }
       ]
     },
     {
-      "name": "Lets Learn Protection",
-      "description": "Now that you have done the rituals and covens lets learn Protections!",
-      "x": 251,
-      "y": 50,
-      "icon": {
-        "id": "witchery:poppetshelf"
-      },
+      "name": "Unnamed4",
+      "x": 238,
+      "y": 11,
       "prerequisites": [
-        "Creating a Coven"
-      ],
-      "tasks": [
-        {
-          "type": "CRAFT",
-          "items": [
-            {
-              "item": {
-                "id": "witchery:poppetshelf"
-              }
-            }
-          ]
-        },
-        {
-          "type": "CRAFT",
-          "items": [
-            {
-              "item": {
-                "id": "witchery:poppet",
-                "damage": 6,
-                "nbt": "{WITCDamage:0}"
-              }
-            }
-          ]
-        },
-        {
-          "type": "CRAFT",
-          "items": [
-            {
-              "item": {
-                "id": "witchery:poppet",
-                "damage": 4,
-                "nbt": "{WITCDamage:0}"
-              }
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "witchery:poppetshelf"
-        },
-        {
-          "id": "witchery:poppet",
-          "damage": 6,
-          "amount": 2,
-          "nbt": "{WITCDamage:0}"
-        }
+        "Werewolf 1"
+      ]
+    },
+    {
+      "name": "Unnamed5",
+      "x": 266,
+      "y": 11,
+      "prerequisites": [
+        "Unnamed4"
+      ]
+    },
+    {
+      "name": "Unnamed6",
+      "x": 293,
+      "y": 11,
+      "prerequisites": [
+        "Unnamed5"
+      ]
+    },
+    {
+      "name": "Unnamed7",
+      "x": 304,
+      "y": 35,
+      "prerequisites": [
+        "Unnamed6"
+      ]
+    },
+    {
+      "name": "Unnamed8",
+      "x": 304,
+      "y": 67,
+      "prerequisites": [
+        "Unnamed7"
+      ]
+    },
+    {
+      "name": "Unnamed8",
+      "x": 222,
+      "y": 35,
+      "prerequisites": [
+        "Vampire 1"
+      ]
+    },
+    {
+      "name": "Unnamed9",
+      "x": 250,
+      "y": 35,
+      "prerequisites": [
+        "Unnamed8"
+      ]
+    },
+    {
+      "name": "Unnamed10",
+      "x": 274,
+      "y": 48,
+      "prerequisites": [
+        "Unnamed9"
+      ]
+    },
+    {
+      "name": "Unnamed11",
+      "x": 274,
+      "y": 79,
+      "prerequisites": [
+        "Unnamed10"
       ]
     }
   ],
-  "reputationBar": []
+  "reputation": []
 }
