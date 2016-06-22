@@ -1,6 +1,3 @@
-if (FML.isModLoaded("Mekanism")) {
-    NEI.override("Mekanism:MachineBlock2", [11]);
-}
 if (FML.isModLoaded("foundry")) {
     NEI.override("foundry:foundryContainer", [0]);
 }
