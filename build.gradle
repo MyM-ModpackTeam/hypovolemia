@@ -71,7 +71,7 @@ task compileClient(type: Copy) {
         include '**/*.config'
         include '**/*.xml'
         include '**/*.recipes'
-        exclude '**/_SERVER/**'
+		exclude '**/_SERVER/**'
         filter(ReplaceTokens, tokens: project.properties.collectEntries { k, v -> [k, v ?: ''] })
     }
     into "$buildSources/client"
@@ -99,27 +99,27 @@ task compileCurse(type: Copy) {
         include '**/*.config'
         include '**/*.xml'
         include '**/*.recipes'
-        exclude '**/_SERVER/**'
-		exclude '**/saves/**'
-		exclude '**/minetweaker.log/**'
-		exclude '**/BotaniaVars.dat/**'
-		exclude '**/options.txt/**'
-		exclude '**/asm/**'
-		exclude '**/logs/**'
+		exclude '**/_SERVER/**'
+		exclude '**/_CURSE/**'
         filter(ReplaceTokens, tokens: project.properties.collectEntries { k, v -> [k, v ?: ''] })
     }
     into "$buildSources/Curse/override"
 	
     eachFile { details ->
-        details.path = details.path.replaceAll('_CURSECLIENT', '');
+        details.path = details.path.replaceAll('_CLIENT', '');
     }
     includeEmptyDirs = false
 }
+
+
+
 	task compileCurse1(type: Copy) {
     from('Misc') {
 		include '**/curse/**'
+		exclude '**/MultiMC/**'
     }
-    into "$buildSources/Curse"
+
+    into "$buildSources"
 }
 
 
@@ -142,13 +142,7 @@ task compileMultiMC(type: Copy) {
         include '**/*.config'
         include '**/*.xml'
         include '**/*.recipes'
-        exclude '**/_SERVER/**'
-		exclude '**/saves/**'
-		exclude '**/minetweaker.log/**'
-		exclude '**/BotaniaVars.dat/**'
-		exclude '**/options.txt/**'
-		exclude '**/asm/**'
-		exclude '**/logs/**'
+		exclude '**/_SERVER/**'
         filter(ReplaceTokens, tokens: project.properties.collectEntries { k, v -> [k, v ?: ''] })
     }
     into "$buildSources/MultiMC/minecraft"
@@ -186,10 +180,10 @@ task buildClient(type: Zip, dependsOn: ['compileClient']) {
 
 task buildCurse(type: Zip,  dependsOn: ['compileCurse','compileCurse1']) {
     from "$buildSources/curse"
-	baseName = "$buildDir/${project.name}_${project.version}_CURSECLIENT"
+	baseName = "$buildDir/${project.name}_CURSECLIENT"
 }
 
 task buildMultiMC(type: Zip,  dependsOn: ['compileMultiMC','compileMultiMC1']) {
     from "$buildSources/MultiMC"
-	baseName = "$buildDir/${project.name}_${project.version}_MultiMCCLIENT"
+	baseName = "$buildDir/${project.name}_MultiMCCLIENT"
 }
