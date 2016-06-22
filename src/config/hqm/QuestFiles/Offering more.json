@@ -473,8 +473,8 @@
     {
       "name": "Orbs of power T3",
       "description": "Simple gold is not enough anymore for the gods.",
-      "x": 250,
-      "y": 7,
+      "x": 243,
+      "y": 17,
       "icon": {
         "id": "AWWayofTime:magicianBloodOrb"
       },
@@ -546,8 +546,8 @@
     {
       "name": "Dancing for the god",
       "description": "It seems the gods are bored. They push it to a new level. They want to see me make rituals and dance for them.",
-      "x": 206,
-      "y": 102,
+      "x": 155,
+      "y": 133,
       "icon": {
         "id": "AWWayofTime:energySword"
       },
@@ -581,8 +581,8 @@
     {
       "name": "Activation",
       "description": "This item seems to be able to activate something. Im sure it will kill me. Or at least stress on my blood.",
-      "x": 228,
-      "y": 39,
+      "x": 201,
+      "y": 86,
       "icon": {
         "id": "AWWayofTime:activationCrystal"
       },
@@ -617,8 +617,8 @@
     {
       "name": "Setting the scenery",
       "description": "Looks i need to make a little scenery for the next thing the gods demand from me.",
-      "x": 214,
-      "y": 60,
+      "x": 176,
+      "y": 111,
       "icon": {
         "id": "AWWayofTime:ritualStone"
       },
@@ -654,8 +654,8 @@
     {
       "name": "Looks nice",
       "description": "The ritual stones I made do not look very impressive. Perhaps some color will help.",
-      "x": 201,
-      "y": 39,
+      "x": 165,
+      "y": 88,
       "icon": {
         "id": "AWWayofTime:waterScribeTool"
       },
@@ -704,8 +704,8 @@
     {
       "name": "Making it a bit easier",
       "description": "Either I place all of those blocks by hand or I ease my chores by using this item. I better make sure they do not see how I make my life easier.",
-      "x": 239,
-      "y": 62,
+      "x": 181,
+      "y": 140,
       "icon": {
         "id": "AWWayofTime:itemRitualDiviner"
       },
@@ -741,8 +741,8 @@
     {
       "name": "Payback!",
       "description": "This weapon looks powerfull. I found out i can activate it by sneak-right clicking and killing monsters with it can yield a strange artifact of their souls. I can even multiply them with alchemy!",
-      "x": 183,
-      "y": 85,
+      "x": 145,
+      "y": 108,
       "icon": {
         "id": "AWWayofTime:weakBloodShard"
       },
@@ -1286,8 +1286,8 @@
     {
       "name": "Reagents",
       "description": "A calciner can break down reagents. Simple provide it was an orb and the reagents you wish to breakdown. You can then fill a jar with it and the stored AR power can be transferred into master ritual stones to increase the ritual power.",
-      "x": 185,
-      "y": 134,
+      "x": 134,
+      "y": 155,
       "icon": {
         "id": "AWWayofTime:blockAlchemicCalcinator"
       },
@@ -1332,8 +1332,8 @@
     {
       "name": "Some help for whats ahead",
       "description": "More power, more orbs, more chore. This will aid you.",
-      "x": 215,
-      "y": 19,
+      "x": 211,
+      "y": 37,
       "icon": {
         "id": "AWWayofTime:AlchemicalWizardrybloodRune",
         "damage": 1
