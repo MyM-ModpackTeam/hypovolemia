@@ -106,7 +106,7 @@ mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_PigSeeds>  ,<minecraf
 mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_CowSeeds>  ,<TConstruct:jerky:5>  ,3,100000);
 mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_ChickenSeeds>  ,<TConstruct:jerky:4>  ,3,100000);
 mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_GhastSeeds>  ,<magicalcrops:magicalcrops_SkeletonSeeds>   ,3,100000);
-
+mods.bloodmagic.Altar.addRecipe(<ImmersiveEngineering:seed>, <TConstruct:MetalBlock:3>, 3, 30000);
 
 //ae2
 mods.bloodmagic.Altar.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:1> ,<appliedenergistics2:item.ItemMultiMaterial:10>,3,3000,5,5);
