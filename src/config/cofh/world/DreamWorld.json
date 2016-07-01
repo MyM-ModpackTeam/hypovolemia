@@ -1,7 +1,7 @@
 {
 	"Bones": {
 		"template": {
-			"type": "decoration", 
+			"type": "decoration",
 			"generator": "decoration",
 			"genSurface": "ExtrabiomesXL:terrain_blocks1",
 			"genSky": "true",
@@ -11,7 +11,7 @@
 			"zVariance": 8,
 			"yVariance": 4
 		},
-		"block": {"name": "Quadrum:Bones"},
+		"block": {"name": "Quadrum:bones"},
 		"material": [],
 		"clusterSize": 1,
 		"numClusters": 5,
@@ -20,7 +20,6 @@
         "biomes": [],
         "dimensionRestriction": "whitelist",
         "dimensions": [
-            0,
 			-37,
 			-38
         ]
@@ -44,7 +43,7 @@
 	},
 	"sapling": {
         "template": {
-			"type": "decoration", 
+			"type": "decoration",
 			"generator": "decoration",
 			"genSurface": ["minecraft:grass"],
 			"genSky": "true",
@@ -69,7 +68,7 @@
     },
 	"grass": {
         "template": {
-			"type": "decoration", 
+			"type": "decoration",
 			"generator": "decoration",
 			"genSurface": ["minecraft:grass"],
 			"genSky": "true",
