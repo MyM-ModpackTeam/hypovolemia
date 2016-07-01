@@ -1093,11 +1093,12 @@ Botania:livingwood:4, Pattern Framed Livingwood
 Botania:livingwood:5, Glimmering Livingwood
 Botania:specialFlower, tile.specialFlower.name
 Botania:spreader:0, Mana Spreader
-Botania:spreader:1, Redstone Mana Spreader
+Botania:spreader:1, Pulse Mana Spreader
 Botania:spreader:2, Elven Mana Spreader
 Botania:spreader:3, Gaia Mana Spreader
-Botania:pool:2, Diluted Mana Pool
 Botania:pool:0, Mana Pool
+Botania:pool:2, Diluted Mana Pool
+Botania:pool:3, Fabulous Mana Pool
 Botania:pool:1, The Everlasting Guilty Pool
 Botania:runeAltar, tile.runeAltar.name
 Botania:unstableBlock:0, White Unstable Cube
@@ -1330,6 +1331,19 @@ Botania:cacophoniumBlock, tile.cacophoniumBlock.name
 Botania:bellows, tile.bellows.name
 Botania:bifrostPerm, tile.bifrostPerm.name
 Botania:cellBlock, tile.cellBlock.name
+Botania:redStringInterceptor, tile.redStringInterceptor.name
+Botania:gaiaHeadBlock, tile.gaiaHeadBlock.name
+Botania:corporeaRetainer, tile.corporeaRetainer.name
+Botania:teruTeruBozu, tile.teruTeruBozu.name
+Botania:shimmerrock, tile.shimmerrock.name
+Botania:shimmerwoodPlanks, tile.shimmerwoodPlanks.name
+Botania:avatar, tile.avatar.name
+Botania:altGrass:0, Dry Grass
+Botania:altGrass:1, Golden Grass
+Botania:altGrass:2, Vivid Grass
+Botania:altGrass:3, Scorched Grass
+Botania:altGrass:4, Infused Grass
+Botania:altGrass:5, Mutated Grass
 Botania:livingwood0Stairs, tile.livingwood0Stairs.name
 Botania:livingwood0Wall, tile.livingwood0Wall.name
 Botania:livingwood1Stairs, tile.livingwood1Stairs.name
@@ -1402,6 +1416,8 @@ Botania:pavement:0, White Portuguese Pavement
 Botania:pavement:1, Black Portuguese Pavement
 Botania:pavement:2, Blue Portuguese Pavement
 Botania:pavement:3, Red Portuguese Pavement
+Botania:pavement:4, Yellow Portuguese Pavement
+Botania:pavement:5, Green Portuguese Pavement
 Botania:quartzTypeDark:0, Block of Smokey Quartz
 Botania:quartzTypeDark:1, Chiseled Smokey Quartz Block
 Botania:quartzTypeDark:2, Pillar Smokey Quartz Block
@@ -1478,8 +1494,15 @@ Botania:pavement0Stairs, tile.pavement0Stairs.name
 Botania:pavement1Stairs, tile.pavement1Stairs.name
 Botania:pavement2Stairs, tile.pavement2Stairs.name
 Botania:pavement3Stairs, tile.pavement3Stairs.name
+Botania:pavement4Stairs, tile.pavement4Stairs.name
+Botania:pavement5Stairs, tile.pavement5Stairs.name
 Botania:endStoneBrick0Stairs, tile.endStoneBrick0Stairs.name
 Botania:endStoneBrick2Stairs, tile.endStoneBrick2Stairs.name
+Botania:shimmerrock0Stairs, tile.shimmerrock0Stairs.name
+Botania:shimmerwoodPlanks0Stairs, tile.shimmerwoodPlanks0Stairs.name
+Botania:manaGlassPane, tile.manaGlassPane.name
+Botania:elfGlassPane, tile.elfGlassPane.name
+Botania:bifrostPermPane, tile.bifrostPermPane.name
 Botania:quartzSlabDarkHalf:0, Smokey Quartz Slab
 Botania:quartzSlabDarkFull:0, Smokey Quartz Slab
 Botania:quartzSlabManaHalf:0, Mana Quartz Slab
@@ -1530,6 +1553,10 @@ Botania:endStoneBrick0Slab:0, End Stone Brick Slab
 Botania:endStoneBrick0SlabFull:0, End Stone Brick Slab
 Botania:endStoneBrick2Slab:0, Ender Brick Slab
 Botania:endStoneBrick2SlabFull:0, Ender Brick Slab
+Botania:shimmerrock0Slab:0, Shimmerrock Slab
+Botania:shimmerrock0SlabFull:0, Shimmerrock Slab
+Botania:shimmerwoodPlanks0Slab:0, Shimmerwood Plank Slab
+Botania:shimmerwoodPlanks0SlabFull:0, Shimmerwood Plank Slab
 Botania:biomeStoneA0Slab:0, Metamorphic Forest Stone Slab
 Botania:biomeStoneA0SlabFull:0, Metamorphic Forest Stone Slab
 Botania:biomeStoneA1Slab:0, Metamorphic Plains Stone Slab
@@ -1602,6 +1629,10 @@ Botania:pavement2Slab:0, Blue Portuguese Pavement Slab
 Botania:pavement2SlabFull:0, Blue Portuguese Pavement Slab
 Botania:pavement3Slab:0, Red Portuguese Pavement Slab
 Botania:pavement3SlabFull:0, Red Portuguese Pavement Slab
+Botania:pavement4Slab:0, Yellow Portuguese Pavement Slab
+Botania:pavement4SlabFull:0, Yellow Portuguese Pavement Slab
+Botania:pavement5Slab:0, Green Portuguese Pavement Slab
+Botania:pavement5SlabFull:0, Green Portuguese Pavement Slab
 Avaritia:Double_Craft, Compressed Crafting Table
 Avaritia:Triple_Craft, Double Compressed Crafting Table
 Avaritia:Dire_Crafting, Dire Crafting Table
@@ -2964,6 +2995,10 @@ CarpentersBlocks:blockCarpentersSlope:3, Carpenter's Prism Slope
 CarpentersBlocks:blockCarpentersSlope:4, Carpenter's Prism Wedge Slope
 CarpentersBlocks:blockCarpentersStairs, Carpenter's Stairs
 CarpentersBlocks:blockCarpentersTorch, Carpenter's Torch
+ci:Bonerock, Bone Rock
+ci:Redrock, Red Rock
+ci:SlindWeed, Slindweed
+ci:WilliWeed, Williweed
 DraconicEvolution:xRayBlock, Distortion Flame
 DraconicEvolution:weatherController, Weather Controller
 DraconicEvolution:sunDial, Sun Dial
@@ -3169,38 +3204,38 @@ extracells:ecbaseblock:0, ME Fluid Interface
 extracells:ecbaseblock:1, ME Fluid Auto Filler
 extracells:hardmedrive, Blast resistant ME Drive [WIP]
 extracells:vibrantchamberfluid, Fluid Vibration Chamber
-ThaumicTinkerer:nitorGas, tile.nitorGas.name
-ThaumicTinkerer:fireOrder, Ordo Imbued Fire
-ThaumicTinkerer:fireWater, Aqua Imbued Fire
+ThaumicTinkerer:forcefield, Forcefield
 ThaumicTinkerer:magnet:0, Kinetic Attractor
 ThaumicTinkerer:magnet:1, Corporeal Attractor
-ThaumicTinkerer:spawner, Tablet of Necromancy
-ThaumicTinkerer:fireAir, Aer Imbued Fire
-ThaumicTinkerer:bedrockPortal, Bedrock Portal
-ThaumicTinkerer:dislocator, Transvector Dislocator
 ThaumicTinkerer:funnel, Essentia Funnel
-ThaumicTinkerer:forcefield, Forcefield
+ThaumicTinkerer:warpGate, Celestial Gateway
+ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
+ThaumicTinkerer:fireAir, Aer Imbued Fire
+ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
+ThaumicTinkerer:fireFire, Ignis Imbued Fire
+ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
+ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
 ThaumicTinkerer:fireEarth, Terra Imbued Fire
+ThaumicTinkerer:interface, Transvector Interface
+ThaumicTinkerer:repairer, Thaumic Restorer
+ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
+ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
+ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
+ThaumicTinkerer:fireOrder, Ordo Imbued Fire
+ThaumicTinkerer:dislocator, Transvector Dislocator
+ThaumicTinkerer:animationTablet, Dynamism Tablet
+ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
+ThaumicTinkerer:nitorGas, tile.nitorGas.name
+ThaumicTinkerer:bedrockPortal, Bedrock Portal
+ThaumicTinkerer:fireWater, Aqua Imbued Fire
+ThaumicTinkerer:enchanter, Osmotic Enchanter
 ThaumicTinkerer:darkQuartz:0, Block of Smokey Quartz
 ThaumicTinkerer:darkQuartz:1, Chiseled Smokey Quartz Block
 ThaumicTinkerer:darkQuartz:2, Pillar Smokey Quartz Block
-ThaumicTinkerer:interface, Transvector Interface
-ThaumicTinkerer:platform, Ethereal Platform
-ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
-ThaumicTinkerer:repairer, Thaumic Restorer
-ThaumicTinkerer:enchanter, Osmotic Enchanter
-ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
-ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
-ThaumicTinkerer:warpGate, Celestial Gateway
-ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
 ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
 ThaumicTinkerer:fireChaos, Perditio Imbued Fire
-ThaumicTinkerer:fireFire, Ignis Imbued Fire
-ThaumicTinkerer:animationTablet, Dynamism Tablet
-ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
-ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
-ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
-ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
+ThaumicTinkerer:spawner, Tablet of Necromancy
+ThaumicTinkerer:platform, Ethereal Platform
 ForbiddenMagic:ArcaneCake, Thaumic Cake
 ForbiddenMagic:WrathCage, Wrath Cage
 ForbiddenMagic:InkFlower, Umbral Rose
@@ -3969,17 +4004,20 @@ Mekanism:BasicBlock:2, Refined Obsidian
 Mekanism:BasicBlock:3, Charcoal Block
 Mekanism:BasicBlock:4, Refined Glowstone
 Mekanism:BasicBlock:5, Steel Block
-Mekanism:BasicBlock:6, Bin
+Mekanism:BasicBlock:6, Basic Bin
+Mekanism:BasicBlock:6, Advanced Bin
+Mekanism:BasicBlock:6, Elite Bin
+Mekanism:BasicBlock:6, Ultimate Bin
 Mekanism:BasicBlock:7, Teleporter Frame
 Mekanism:BasicBlock:8, Steel Casing
 Mekanism:BasicBlock:9, Dynamic Tank
-Mekanism:BasicBlock:10, Dynamic Glass
+Mekanism:BasicBlock:10, Structural Glass
 Mekanism:BasicBlock:11, Dynamic Valve
 Mekanism:BasicBlock:12, Copper Block
 Mekanism:BasicBlock:13, Tin Block
-Mekanism:BasicBlock:14, Solar Evaporation Controller
-Mekanism:BasicBlock:15, Solar Evaporation Valve
-Mekanism:BasicBlock2:0, Solar Evaporation Block
+Mekanism:BasicBlock:14, Thermal Evaporation Controller
+Mekanism:BasicBlock:15, Thermal Evaporation Valve
+Mekanism:BasicBlock2:0, Thermal Evaporation Block
 Mekanism:BasicBlock2:1, Induction Casing
 Mekanism:BasicBlock2:2, Induction Port
 Mekanism:BasicBlock2:3, Basic Induction Cell
@@ -3990,29 +4028,21 @@ Mekanism:BasicBlock2:4, Basic Induction Provider
 Mekanism:BasicBlock2:4, Advanced Induction Provider
 Mekanism:BasicBlock2:4, Elite Induction Provider
 Mekanism:BasicBlock2:4, Ultimate Induction Provider
+Mekanism:BasicBlock2:5, Superheating Element
+Mekanism:BasicBlock2:6, Pressure Disperser
+Mekanism:BasicBlock2:7, Boiler Casing
+Mekanism:BasicBlock2:8, Boiler Valve
+Mekanism:BasicBlock2:9, Security Desk
 Mekanism:OreBlock:0, Osmium Ore
 Mekanism:OreBlock:1, Copper Ore
 Mekanism:OreBlock:2, Tin Ore
 Mekanism:EnergyCube, tile.EnergyCube.name
 Mekanism:ObsidianTNT, Obsidian TNT
 Mekanism:BoundingBlock, Bounding Block
-Mekanism:GasTank:100, Gas Tank
-Mekanism:GasTank:1, Gas Tank
-Mekanism:GasTank:1, Gas Tank
-Mekanism:GasTank:1, Gas Tank
-Mekanism:GasTank:1, Gas Tank
-Mekanism:GasTank:1, Gas Tank
-Mekanism:GasTank:1, Gas Tank
-Mekanism:GasTank:1, Gas Tank
-Mekanism:GasTank:1, Gas Tank
-Mekanism:GasTank:1, Gas Tank
-Mekanism:GasTank:1, Gas Tank
-Mekanism:GasTank:1, Gas Tank
-Mekanism:GasTank:1, Gas Tank
-Mekanism:GasTank:1, Gas Tank
-Mekanism:GasTank:1, Gas Tank
-Mekanism:GasTank:1, Gas Tank
-Mekanism:GasTank:1, Gas Tank
+Mekanism:GasTank:0, Basic Gas Tank
+Mekanism:GasTank:0, Advanced Gas Tank
+Mekanism:GasTank:0, Elite Gas Tank
+Mekanism:GasTank:0, Ultimate Gas Tank
 Mekanism:CardboardBox, Cardboard Box
 Mekanism:PlasticBlock:0, §8Black Plastic Block
 Mekanism:PlasticBlock:1, §cRed Plastic Block
@@ -5460,6 +5490,8 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Blaze Lamp
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Living Root
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Fel Pumpkin
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Manastorm Charge
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Shimmerrock
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Shimmerwood Planks
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Metamorphic Forest Stone
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Metamorphic Plains Stone
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Metamorphic Mountain Stone
@@ -5512,6 +5544,8 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - White Portuguese Pavement
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Black Portuguese Pavement
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Blue Portuguese Pavement
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Portuguese Pavement
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Yellow Portuguese Pavement
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Green Portuguese Pavement
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Smokey Quartz
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Chiseled Smokey Quartz Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Pillar Smokey Quartz Block
@@ -5558,6 +5592,8 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Roof Tile Slab
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Trodden Dirt Slab
 appliedenergistics2:item.ItemFacade:0, Cable Facade - End Stone Brick Slab
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Ender Brick Slab
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Shimmerrock Slab
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Shimmerwood Plank Slab
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Metamorphic Forest Stone Slab
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Metamorphic Plains Stone Slab
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Metamorphic Mountain Stone Slab
@@ -5594,6 +5630,8 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - White Portuguese Pavement 
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Black Portuguese Pavement Slab
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Blue Portuguese Pavement Slab
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Portuguese Pavement Slab
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Yellow Portuguese Pavement Slab
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Green Portuguese Pavement Slab
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Compressed Crafting Table
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Double Compressed Crafting Table
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Crystal Matrix
@@ -6567,6 +6605,8 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Woolen Clay
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Woolen Clay
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Woolen Clay
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Woolen Clay
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Bone Rock
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Rock
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Distortion Flame
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Draconium Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Draconium Block
@@ -6604,10 +6644,10 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Rainbow Eucalyptus Wood Pl
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Autumn Wood Planks
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Bald Cypress Wood Planks
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Sakura Wood Planks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Smokey Quartz Slab
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Smokey Quartz
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Chiseled Smokey Quartz Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Pillar Smokey Quartz Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Smokey Quartz Slab
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Nether Star Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Tainted Log
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Tainted Planks
@@ -8189,6 +8229,7 @@ Botania:manaResource:19, Elementium Nugget
 Botania:manaResource:20, Living Root
 Botania:manaResource:21, Pebble
 Botania:manaResource:22, Manaweave Cloth
+Botania:manaResource:23, Mana Powder
 Botania:lens:0, Mana Lens
 Botania:lens:1, Mana Lens: Velocity
 Botania:lens:2, Mana Lens: Potency
@@ -8208,22 +8249,9 @@ Botania:lens:15, Mana Lens: Kindle
 Botania:lens:16, Mana Lens: Force
 Botania:lens:17, Mana Lens: Flash
 Botania:lens:18, Mana Lens: Warp
-Botania:manaPetal:0, White Mana Petal
-Botania:manaPetal:1, Orange Mana Petal
-Botania:manaPetal:2, Magenta Mana Petal
-Botania:manaPetal:3, Light Blue Mana Petal
-Botania:manaPetal:4, Yellow Mana Petal
-Botania:manaPetal:5, Lime Mana Petal
-Botania:manaPetal:6, Pink Mana Petal
-Botania:manaPetal:7, Gray Mana Petal
-Botania:manaPetal:8, Light Gray Mana Petal
-Botania:manaPetal:9, Cyan Mana Petal
-Botania:manaPetal:10, Purple Mana Petal
-Botania:manaPetal:11, Blue Mana Petal
-Botania:manaPetal:12, Brown Mana Petal
-Botania:manaPetal:13, Green Mana Petal
-Botania:manaPetal:14, Red Mana Petal
-Botania:manaPetal:15, Black Mana Petal
+Botania:lens:19, Mana Lens: Redirective
+Botania:lens:20, Mana Lens: Celebratory
+Botania:lens:21, Mana Lens: Flare
 Botania:rune:0, Rune of Water
 Botania:rune:1, Rune of Fire
 Botania:rune:2, Rune of Earth
@@ -8248,6 +8276,12 @@ Botania:fertilizer, item.fertilizer.name
 Botania:grassSeeds:0, Pasture Seeds
 Botania:grassSeeds:1, Boreal Seeds
 Botania:grassSeeds:2, Infestation Spores
+Botania:grassSeeds:3, Dry Pasture Seeds
+Botania:grassSeeds:4, Golden Pasture Seeds
+Botania:grassSeeds:5, Vivid Pasture Seeds
+Botania:grassSeeds:6, Scorched Pasture Seeds
+Botania:grassSeeds:7, Infused Pasture Seeds
+Botania:grassSeeds:8, Mutated Pasture Seeds
 Botania:dirtRod, item.dirtRod.name
 Botania:terraformRod, item.terraformRod.name
 Botania:grassHorn:0, Horn of the Wild
@@ -8449,6 +8483,10 @@ Botania:manaweaveLegs, item.manaweaveLegs.name
 Botania:manaweaveChest, item.manaweaveChest.name
 Botania:manaweaveBoots, item.manaweaveBoots.name
 Botania:autocraftingHalo, item.autocraftingHalo.name
+Botania:gaiaHead, item.gaiaHead.name
+Botania:sextant, item.sextant.name
+Botania:speedUpBelt, item.speedUpBelt.name
+Botania:baubleBox, item.baubleBox.name
 Avaritia:Resource:0, Diamond Lattice
 Avaritia:Resource:1, Crystal Matrix Ingot
 Avaritia:Resource:2, Pile of Neutrons
@@ -10039,6 +10077,10 @@ Mekanism:PartTransmitter:14, Elite Logistical Transporter
 Mekanism:PartTransmitter:15, Ultimate Logistical Transporter
 Mekanism:PartTransmitter:16, Restrictive Transporter
 Mekanism:PartTransmitter:17, Diversion Transporter
+Mekanism:PartTransmitter:18, Basic Thermodynamic Conductor
+Mekanism:PartTransmitter:19, Advanced Thermodynamic Conductor
+Mekanism:PartTransmitter:20, Elite Thermodynamic Conductor
+Mekanism:PartTransmitter:21, Ultimate Thermodynamic Conductor
 Mekanism:ElectricBow, Electric Bow
 Mekanism:Dust:0, Iron Dust
 Mekanism:Dust:1, Gold Dust
@@ -10058,6 +10100,7 @@ Mekanism:EnergyTablet, Energy Tablet
 Mekanism:SpeedUpgrade, Speed Upgrade
 Mekanism:EnergyUpgrade, Energy Upgrade
 Mekanism:FilterUpgrade, Filter Upgrade
+Mekanism:MufflingUpgrade, Muffling Upgrade
 Mekanism:GasUpgrade, Gas Upgrade
 Mekanism:Robit, Robit
 Mekanism:AtomicDisassembler, Atomic Disassembler
@@ -10135,7 +10178,8 @@ Mekanism:Crystal:5, Silver Crystal
 Mekanism:Crystal:6, Lead Crystal
 Mekanism:FreeRunners, Free Runners
 Mekanism:ArmoredJetpack, Armored Jetpack
-Mekanism:FilterCard, Filter Card
+Mekanism:ConfigurationCard, Configuration Card
+Mekanism:CraftingFormula, Crafting Formula
 Mekanism:SeismicReader, Seismic Reader
 Mekanism:Substrate, Substrate
 Mekanism:Polyethene:0, HDPE Pellet
@@ -10166,7 +10210,6 @@ Mekanism:FactoryInstaller:1, Advanced Factory Installer
 Mekanism:FactoryInstaller:2, Elite Factory Installer
 Mekanism:OtherDust:0, Diamond Dust
 Mekanism:OtherDust:1, Steel Dust
-Mekanism:OtherDust:2, Lead Dust
 Mekanism:OtherDust:3, Sulfur Dust
 Mekanism:OtherDust:4, Lithium Dust
 Mekanism:OtherDust:5, Refined Obsidian Dust
