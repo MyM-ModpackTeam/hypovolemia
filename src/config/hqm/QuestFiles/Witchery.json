@@ -17,8 +17,10 @@
           "items": [
             {
               "item": {
-                "id": "witchery:seedsbelladonna"
-              }
+                "id": "witchery:seedsbelladonna",
+                "nbt": "{strength:1s,analyzed:0b,growth:1s,gain:1s}"
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }

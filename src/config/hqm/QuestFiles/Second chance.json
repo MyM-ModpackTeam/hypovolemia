@@ -491,7 +491,7 @@
           "items": [
             {
               "fluid": "life essence",
-              "required": 500000
+              "required": 5000000
             }
           ]
         }
@@ -501,10 +501,6 @@
           "id": "AWWayofTime:AlchemicalWizardrybloodRune",
           "damage": 1,
           "amount": 32
-        },
-        {
-          "id": "AWWayofTime:blockCrystal",
-          "amount": 12
         },
         {
           "id": "Sanguimancy:BlockBloodTank",
@@ -639,8 +635,26 @@
       ],
       "tasks": [
         {
-          "type": "DEATH",
-          "deaths": 904
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "AWWayofTime:AlchemicalWizardrybloodRune",
+                "damage": 4
+              },
+              "required": 1000
+            },
+            {
+              "item": {
+                "id": "AWWayofTime:bloodSocket"
+              },
+              "required": 1000
+            },
+            {
+              "fluid": "life essence",
+              "required": 1000000000
+            }
+          ]
         }
       ],
       "reward": [

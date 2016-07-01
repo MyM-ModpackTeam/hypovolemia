@@ -540,8 +540,7 @@
       ],
       "reward": [
         {
-          "id": "Botania:manaTablet",
-          "damage": 1000
+          "id": "Botania:manaTablet"
         }
       ]
     },
