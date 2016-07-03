@@ -1,0 +1,11 @@
+{
+  "_name": "EnderDragon",
+  "drops": [
+  {
+  "function": "remove",
+  "id": "DraconicEvolution:draconiumDust"
+  }
+  ],
+  "pre_stats": [],
+  "stats": []
+}
