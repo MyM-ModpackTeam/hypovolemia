@@ -1,5 +1,5 @@
 val slab = <ore:slabCobblestone>;
-slab.add(<ExtrabiomesXL:slabRedRock);
+slab.add(<ExtrabiomesXL:slabRedRock>);
 
 recipes.removeShapeless(<foundry:foundryMold:7>, [<foundry:foundryComponent:4>,<minecraft:gold_block>]);
 recipes.addShaped(<ExtrabiomesXL:grass>, [[<ExtrabiomesXL:grass>, <ExtrabiomesXL:grass>, <ExtrabiomesXL:grass>], [<ExtrabiomesXL:grass>, <ExtrabiomesXL:grass>, <ExtrabiomesXL:grass>], [<ExtrabiomesXL:grass>, <ExtrabiomesXL:grass>, <ExtrabiomesXL:grass>]]);
@@ -13,7 +13,7 @@ recipes.addShapeless(<foundry:foundryIngot:9>, [<TConstruct:materials:16>]);
 
 mods.botania.ManaInfusion.addInfusion(<technom:itemBO>, <Botania:manaResource>, 3000);
 
-recipes.remove(<magicalcrops:magicalcrops_SeedBagAccio);
-recipes.remove(<magicalcrops:magicalcrops_SeedBagCrucio);
-recipes.remove(<magicalcrops:magicalcrops_SeedBagImperio);
-recipes.remove(<magicalcrops:magicalcrops_SeedBagZivicio);
+recipes.remove(<magicalcrops:magicalcrops_SeedBagAccio>);
+recipes.remove(<magicalcrops:magicalcrops_SeedBagCrucio>);
+recipes.remove(<magicalcrops:magicalcrops_SeedBagImperio>);
+recipes.remove(<magicalcrops:magicalcrops_SeedBagZivicio>);
