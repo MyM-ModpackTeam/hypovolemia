@@ -107,7 +107,11 @@ mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_CowSeeds>  ,<TConstru
 mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_ChickenSeeds>  ,<TConstruct:jerky:4>  ,3,100000);
 mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_GhastSeeds>  ,<magicalcrops:magicalcrops_SkeletonSeeds>   ,3,100000);
 mods.bloodmagic.Altar.addRecipe(<ImmersiveEngineering:seed>, <TConstruct:MetalBlock:3>, 3, 30000);
-
+mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_SilverSeeds>, <magicalcrops:magicalcrops_OsmiumSeeds>,3,100000);
+mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_NickelSeeds>, <magicalcrops:magicalcrops_SilverSeeds>,3,100000);
+mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_LeadSeeds>, <magicalcrops:magicalcrops_NickelSeeds>,3,100000);
+mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_PlatinumSeeds>, <magicalcrops:magicalcrops_LeadSeeds>,3,100000);
+mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_OsmiumSeeds>, <magicalcrops:magicalcrops_PlatinumSeeds>,3,100000);
 //ae2
 mods.bloodmagic.Altar.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:1> ,<appliedenergistics2:item.ItemMultiMaterial:10>,3,3000,5,5);
 mods.bloodmagic.Altar.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:12>,<appliedenergistics2:item.ItemMultiMaterial:7>,3,3000,5,5);
