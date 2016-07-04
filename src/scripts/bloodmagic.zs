@@ -195,4 +195,4 @@ mods.bloodmagic.Alchemy.addRecipe(<Thaumcraft:WandCap>,[<TConstruct:oreBerries>,
 mods.bloodmagic.Altar.addRecipe(<minecraft:spawn_egg:6404> * 1,<witchery:witchhat>,4,30000,5,5);
 
 //misc
-mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_OsmiumSeeds>,<minecraft:iron_block>, 2,50000,5,5);
+mods.bloodmagic.Alchemy.addRecipe(<magicalcrops:magicalcrops_OsmiumSeeds>,[<minecraft:iron_block> * 1,<minecraft:coal_block> * 1,<magicalcrops:magicalcrops_MinicioSeeds> * 1],1,25000);
