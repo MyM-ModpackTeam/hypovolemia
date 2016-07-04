@@ -107,7 +107,11 @@ mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_CowSeeds>  ,<TConstru
 mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_ChickenSeeds>  ,<TConstruct:jerky:4>  ,3,100000);
 mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_GhastSeeds>  ,<magicalcrops:magicalcrops_SkeletonSeeds>   ,3,100000);
 mods.bloodmagic.Altar.addRecipe(<ImmersiveEngineering:seed>, <TConstruct:MetalBlock:3>, 3, 30000);
-
+mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_SilverSeeds>, <magicalcrops:magicalcrops_OsmiumSeeds>,3,100000);
+mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_NickelSeeds>, <magicalcrops:magicalcrops_SilverSeeds>,3,100000);
+mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_LeadSeeds>, <magicalcrops:magicalcrops_NickelSeeds>,3,100000);
+mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_PlatinumSeeds>, <magicalcrops:magicalcrops_LeadSeeds>,3,100000);
+mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_OsmiumSeeds>, <magicalcrops:magicalcrops_PlatinumSeeds>,3,100000);
 //ae2
 mods.bloodmagic.Altar.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:1> ,<appliedenergistics2:item.ItemMultiMaterial:10>,3,3000,5,5);
 mods.bloodmagic.Altar.addRecipe(<appliedenergistics2:item.ItemMultiMaterial:12>,<appliedenergistics2:item.ItemMultiMaterial:7>,3,3000,5,5);
@@ -195,4 +199,5 @@ mods.bloodmagic.Alchemy.addRecipe(<Thaumcraft:WandCap>,[<TConstruct:oreBerries>,
 mods.bloodmagic.Altar.addRecipe(<minecraft:spawn_egg:6404> * 1,<witchery:witchhat>,4,30000,5,5);
 
 //misc
-mods.bloodmagic.Altar.addRecipe(<magicalcrops:magicalcrops_OsmiumSeeds>,<minecraft:iron_block>, 2,50000,5,5);
+mods.bloodmagic.Alchemy.addRecipe(<magicalcrops:magicalcrops_OsmiumSeeds>,[<minecraft:iron_block> * 1,<minecraft:coal_block> * 1,<magicalcrops:magicalcrops_MinicioSeeds> * 1],2,25000);
+mods.bloodmagic.Alchemy.addRecipe(<magicalcrops:magicalcrops_NatureEssence>,[<magicalcrops:magicalcrops_1MinicioEssence> * 2,<magicalcrops:magicalcrops_NatureEssence> * 2,<minecraft:dye:15> * 1],2,1000);

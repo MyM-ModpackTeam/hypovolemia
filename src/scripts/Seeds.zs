@@ -6,3 +6,4 @@ vanilla.seeds.removeSeed(<witchery:seedsmandrake>);
 vanilla.seeds.removeSeed(<witchery:seedssnowbell>);
 vanilla.seeds.removeSeed(<witchery:seedswolfsbane>);
 vanilla.seeds.removeSeed(<witchery:garlic>);
+vanilla.seeds.removeSeed(<ImmersiveEngineering:seed>);

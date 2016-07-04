@@ -1,3 +1,4 @@
 import mods.nei.NEI;
 
-<ExtrabiomesXL:grass>.displayName = "SirWill's Weed";
+game.setLocalization("tile.extrabiomes.tallgrass.1.name", "Slindweed");
+game.setLocalization("tile.extrabiomes.tallgrass.0.name", "Sirwill's Weed");

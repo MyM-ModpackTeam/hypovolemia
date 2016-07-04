@@ -778,7 +778,7 @@
                 "id": "Mekanism:AtomicDisassembler",
                 "damage": 100
               },
-              "precision": "NBT_FUZZY"
+              "precision": "FUZZY"
             }
           ]
         }
