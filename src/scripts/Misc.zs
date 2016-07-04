@@ -13,7 +13,7 @@ recipes.addShapeless(<foundry:foundryIngot:9>, [<TConstruct:materials:16>]);
 
 mods.botania.ManaInfusion.addInfusion(<technom:itemBO>, <Botania:manaResource>, 3000);
 
-recipes.remove(<magicalcrops:magicalcrops_SeedBagAccio)
-recipes.remove(<magicalcrops:magicalcrops_SeedBagCrucio)
-recipes.remove(<magicalcrops:magicalcrops_SeedBagImperio)
-recipes.remove(<magicalcrops:magicalcrops_SeedBagZivicio)
+recipes.remove(<magicalcrops:magicalcrops_SeedBagAccio);
+recipes.remove(<magicalcrops:magicalcrops_SeedBagCrucio);
+recipes.remove(<magicalcrops:magicalcrops_SeedBagImperio);
+recipes.remove(<magicalcrops:magicalcrops_SeedBagZivicio);
