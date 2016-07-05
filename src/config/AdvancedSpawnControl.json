@@ -1,0 +1,16 @@
+{
+  "Print All Registered Entities": true,
+  "Monster Max": 100,
+  "Creature Max": 10,
+  "Ambient Max": 15,
+  "Water Creature Max": 5,
+  "Remove All Mobs From All Biomes": false,
+  "Remove All Mobs From Biomes": [],
+  "Remove Mobs From All Biomes": [],
+  "Spawns": [],
+  "Blacklist All Entities": false,
+  "Blacklist All Types": false,
+  "Dimension Blacklist": {},
+  "All Dimension Blacklist": [],
+  "Dimension Whitelist": {}
+}
