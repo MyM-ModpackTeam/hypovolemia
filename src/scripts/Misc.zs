@@ -19,7 +19,8 @@ recipes.remove(<magicalcrops:magicalcrops_SeedBagImperio>);
 recipes.remove(<magicalcrops:magicalcrops_SeedBagZivicio>);
 
 //This changes the recipe in NEI, but not in the Lexicon.
-//I dont know how to change it in the Lexicon
-<technom:itemBO>.addTooltip("Lexicon recipe is Incorrect");
 mods.botania.ManaInfusion.removeRecipe(<technom:itemBO>);
 mods.botania.ManaInfusion.addAlchemy(<technom:itemBO>, <Botania:manaResource:23>, 1000);
+mods.botania.Lexicon.removePage("tc.research_name.TECHNOBASICS", 1);
+
+mods.botania.Lexicon.addAlchemyPage("techno:itemBO.0.name", "tc.research_name.TECHNOBASICS", 1, [<technom:itemBO>], [<Botania:manaResource:23>],[1000]);
