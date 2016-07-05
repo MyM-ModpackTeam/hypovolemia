@@ -18,7 +18,7 @@ recipes.remove(<magicalcrops:magicalcrops_SeedBagCrucio>);
 recipes.remove(<magicalcrops:magicalcrops_SeedBagImperio>);
 recipes.remove(<magicalcrops:magicalcrops_SeedBagZivicio>);
 
-//This changes the recipe in NEI, but not in the Lexicon.
+
 mods.botania.ManaInfusion.removeRecipe(<technom:itemBO>);
 mods.botania.ManaInfusion.addAlchemy(<technom:itemBO>, <Botania:manaResource:23>, 1000);
 mods.botania.Lexicon.removePage("tc.research_name.TECHNOBASICS", 1);
