@@ -222,7 +222,8 @@
             {
               "item": {
                 "id": "Mekanism:EnergyUpgrade"
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -251,7 +252,8 @@
             {
               "item": {
                 "id": "Mekanism:SpeedUpgrade"
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -315,7 +317,8 @@
             {
               "item": {
                 "id": "Mekanism:Salt"
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         },
@@ -325,7 +328,8 @@
             {
               "item": {
                 "id": "Mekanism:BrineBucket"
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -359,7 +363,8 @@
                 "id": "Mekanism:BasicBlock",
                 "damage": 9
               },
-              "required": 26
+              "required": 26,
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -391,7 +396,8 @@
               "item": {
                 "id": "Mekanism:MachineBlock2",
                 "damage": 4
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -428,7 +434,8 @@
               "item": {
                 "id": "Mekanism:MachineBlock2",
                 "damage": 2
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -465,7 +472,8 @@
               "item": {
                 "id": "Mekanism:MachineBlock2",
                 "damage": 8
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -497,7 +505,8 @@
               "item": {
                 "id": "Mekanism:MachineBlock2",
                 "damage": 7
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -530,7 +539,8 @@
               "item": {
                 "id": "Mekanism:MachineBlock2",
                 "damage": 6
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -563,7 +573,8 @@
               "item": {
                 "id": "Mekanism:OtherDust",
                 "damage": 3
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -596,7 +607,8 @@
               "item": {
                 "id": "Mekanism:MachineBlock2",
                 "damage": 1
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -627,7 +639,8 @@
             {
               "item": {
                 "id": "Mekanism:MachineBlock2"
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -674,45 +687,6 @@
               "precision": "FUZZY"
             }
           ]
-        },
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "Mekanism:EnergyCube",
-                "damage": 100,
-                "nbt": "{tier:\"Advanced\"}"
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        },
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "Mekanism:EnergyCube",
-                "damage": 100,
-                "nbt": "{tier:\"Elite\"}"
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        },
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "Mekanism:EnergyCube",
-                "damage": 100,
-                "nbt": "{tier:\"Ultimate\"}"
-              },
-              "precision": "FUZZY"
-            }
-          ]
         }
       ],
       "reward": [
@@ -744,7 +718,7 @@
                 "id": "Mekanism:Jetpack",
                 "damage": 100
               },
-              "precision": "NBT_FUZZY"
+              "precision": "FUZZY"
             }
           ]
         }
@@ -778,7 +752,7 @@
                 "id": "Mekanism:AtomicDisassembler",
                 "damage": 100
               },
-              "precision": "FUZZY"
+              "precision": "NBT_FUZZY"
             }
           ]
         }
