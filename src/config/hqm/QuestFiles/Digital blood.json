@@ -42,7 +42,7 @@
         "id": "minecraft:quartz"
       },
       "prerequisites": [
-        "Digital Storage Essentials#1"
+        "Digital Storage Essentials#2"
       ],
       "tasks": [
         {
@@ -65,15 +65,12 @@
     {
       "name": "Digital Storage Essentials#1",
       "description": "I need some basics to get this going.",
-      "x": 268,
-      "y": 30,
+      "x": 297,
+      "y": 10,
       "icon": {
         "id": "appliedenergistics2:item.ItemMultiMaterial",
         "damage": 1
       },
-      "prerequisites": [
-        "Digital Storage Essentials#2"
-      ],
       "tasks": [
         {
           "type": "DETECT",
@@ -98,11 +95,14 @@
     {
       "name": "Digital Storage Essentials#2",
       "description": "More basics",
-      "x": 290,
-      "y": 13,
+      "x": 269,
+      "y": 26,
       "icon": {
         "id": "appliedenergistics2:item.ItemMultiMaterial"
       },
+      "prerequisites": [
+        "Digital Storage Essentials#1"
+      ],
       "tasks": [
         {
           "type": "DETECT",
@@ -231,8 +231,8 @@
     {
       "name": "Securing supply",
       "description": "I fear i will need more of these in the near future. A way to produce more of them ...",
-      "x": 273,
-      "y": 70,
+      "x": 280,
+      "y": 66,
       "icon": {
         "id": "magicalcrops:magicalcrops_CertusQuartzSeeds"
       },
@@ -501,7 +501,8 @@
             {
               "item": {
                 "id": "appliedenergistics2:item.ToolWirelessTerminal"
-              }
+              },
+              "precision": "FUZZY"
             }
           ]
         },

@@ -1518,9 +1518,8 @@
             {
               "item": {
                 "id": "Botania:lexicon",
-                "nbt": "{knowledge.alfheim:1b,forcedMessage:\"botania.entry.elfMessage\"}"
-              },
-              "precision": "NBT_FUZZY"
+                "nbt": "{knowledge.alfheim:1b,forcedMessage:\"elfMessage\"}"
+              }
             }
           ]
         }
