@@ -7,3 +7,4 @@ magicalcrops:magicalcrops_ZivicioFarmland:0
 magicalcrops:magicalcrops_ImperioFarmland:0
 magicalcrops:magicalcrops_CrucioFarmland:0
 magicalcrops:magicalcrops_AccioFarmland:0
+Ztones:cleanDirt:0
