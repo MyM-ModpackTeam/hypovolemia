@@ -6,3 +6,6 @@ mods.thaumcraft.Infusion.addRecipe("NITOR", <Thaumcraft:ItemHoeThaumium>, [<Drac
 
 #Obsidian Totem
 recipes.addShapeless(<Thaumcraft:blockCosmeticSolid>, [<Thaumcraft:blockCosmeticSolid:1>, <Thaumcraft:blockCosmeticSolid:1>, <Thaumcraft:blockCosmeticSolid:1>, <Thaumcraft:blockCosmeticSolid:1>]);
+
+#Remove Wand Core of Animation due to Dupe Bug
+mods.thaumcraft.Infusion.removeRecipe(<ThaumicHorizons:focusAnimation>);
