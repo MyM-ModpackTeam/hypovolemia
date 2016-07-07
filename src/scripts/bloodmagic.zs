@@ -16,7 +16,7 @@ mods.bloodmagic.Alchemy.removeRecipe(<minecraft:grass>);
 mods.bloodmagic.Alchemy.addRecipe(<minecraft:grass>,[<minecraft:dirt>,<minecraft:dirt>,<Botania:fertilizer>,<Botania:fertilizer>,<Botania:fertilizer>],2,1000);
 recipes.remove(<minecraft:planks:*>);
 mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:weakBloodOrb>);
-mods.bloodmagic.Altar.addRecipe(<minecraft:planks>, <Quadrum:woodsplinter>, 1,100,20,20);
+mods.bloodmagic.Altar.addRecipe(<minecraft:planks>, <Quadrum:oakwoodsplinter>, 1,100,20,20);
 mods.bloodmagic.Altar.addRecipe(<minecraft:planks>, <minecraft:bone>, 1,100,1,1);
 mods.bloodmagic.Altar.addRecipe(<minecraft:planks>, <minecraft:bone:1>, 1,100,1,1);
 mods.bloodmagic.Altar.addRecipe(<minecraft:dirt>, <minecraft:skull>, 1,100,1,1);
