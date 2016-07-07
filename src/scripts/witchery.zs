@@ -18,9 +18,6 @@ mods.bloodmagic.Altar.addRecipe(<witchery:ingredient:16>,<witchery:ingredient:18
 mods.bloodmagic.Altar.addRecipe(<witchery:witchesovenidle>,<foundry:alloyFurnace>, 2,5000,50,50);
 mods.bloodmagic.Altar.addRecipe(<witchery:cauldron>,<minecraft:cauldron>, 2,7500,50,50);
 mods.bloodmagic.Altar.addRecipe(<minecraft:spawn_egg:6404>,<minecraft:spawn_egg:120>, 4,15000,100,100);
-mods.bloodmagic.Alchemy.addRecipe(<witchery:witchwood:0> *2, [<Quadrum:oakwoodsplinter> *2,<witchery:ingredient:63>] ,1,200);
-mods.bloodmagic.Alchemy.addRecipe(<witchery:witchwood:1> *2, [<Quadrum:oakwoodsplinter> *2,<witchery:ingredient:14>] ,1,200);
-mods.bloodmagic.Alchemy.addRecipe(<witchery:witchwood:2> *2, [<Quadrum:oakwoodsplinter> *2,<witchery:ingredient:18>] ,1,200);
 mods.bloodmagic.Altar.addRecipe(<witchery:witchhand>,<minecraft:tripwire_hook>, 2,7500,50,50);
 
 //Kettle Recipes

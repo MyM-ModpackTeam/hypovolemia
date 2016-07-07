@@ -11,12 +11,32 @@ recipes.remove(<AWWayofTime:Altar>);
 recipes.addShaped(<AWWayofTime:sacrificialKnife>, [[null, null, <minecraft:skull>], [null, <minecraft:bone:1>, null], [<minecraft:bone:1>, null, null]]);
 recipes.addShaped(<AWWayofTime:Altar>, [[<minecraft:bone:1>, <minecraft:bone:1>, <minecraft:bone:1>], [<minecraft:bone:1>, <minecraft:skull>, <minecraft:bone:1>], [<minecraft:bone:1>, <minecraft:bone:1>, <minecraft:bone:1>]]);
 
+//Splinter Into Wood Recipes
+mods.bloodmagic.Altar.addRecipe(<minecraft:planks:2>, <Quadrum:birchwoodsplinter>, 1,100,20,20);
+mods.bloodmagic.Altar.addRecipe(<ExtrabiomesXL:planks:3>, <Quadrum:cypresswoodsplinter>, 1,100,20,20);
+mods.bloodmagic.Altar.addRecipe(<ExtrabiomesXL:planks:5>, <Quadrum:eucalyptuswoodsplinter>, 1,100,20,20);
+mods.bloodmagic.Altar.addRecipe(<minecraft:planks:5>, <Quadrum:darkoakwoodsplinter>, 1,100,20,20);
+mods.bloodmagic.Altar.addRecipe(<ExtrabiomesXL:planks:8>, <Quadrum:sakurawoodsplinter>, 1,100,20,20);
+mods.bloodmagic.Altar.addRecipe(<witchery:witchwood:1>, <Quadrum:alderwoodsplinter>, 1,100,20,20);
+mods.bloodmagic.Altar.addRecipe(<ExtrabiomesXL:planks:6>, <Quadrum:autumnwoodsplinter>, 1,100,20,20);
+mods.bloodmagic.Altar.addRecipe(<minecraft:planks:3>, <Quadrum:junglewoodsplinter>, 1,100,20,20);
+mods.bloodmagic.Altar.addRecipe(<witchery:witchwood>, <Quadrum:rowanwoodsplinter>, 1,100,20,20);
+mods.bloodmagic.Altar.addRecipe(<Thaumcraft:blockWoodenDevice:7>, <Quadrum:silverwoodsplinter>, 1,100,20,20);
+mods.bloodmagic.Altar.addRecipe(<witchery:witchwood:2>, <Quadrum:hawthornwoodsplinter>, 1,100,20,20);
+mods.bloodmagic.Altar.addRecipe(<ExtrabiomesXL:planks>, <Quadrum:redwoodsplinter>, 1,100,20,20);
+mods.bloodmagic.Altar.addRecipe(<Thaumcraft:blockWoodenDevice:6>, <Quadrum:greatwoodsplinter>, 1,100,20,20);
+mods.bloodmagic.Altar.addRecipe(<minecraft:planks:1>, <Quadrum:sprucewoodsplinter>, 1,100,20,20);
+mods.bloodmagic.Altar.addRecipe(<minecraft:planks:4>, <Quadrum:acaciawoodsplinter>, 1,100,20,20);
+mods.bloodmagic.Altar.addRecipe(<minecraft:planks>, <Quadrum:oakwoodsplinter>, 1,100,20,20);
+mods.bloodmagic.Altar.addRecipe(<ExtrabiomesXL:planks:7>, <Quadrum:baldcypresswoodsplinter>, 1,100,20,20);
+mods.bloodmagic.Altar.addRecipe(<ExtrabiomesXL:planks:1>, <Quadrum:firwoodsplinter>, 1,100,20,20);
+mods.bloodmagic.Altar.addRecipe(<ForbiddenMagic:TaintPlank>, <Quadrum:taintwoodsplinter>, 1,100,20,20);
+
 // Basic resource recipes
 mods.bloodmagic.Alchemy.removeRecipe(<minecraft:grass>);
 mods.bloodmagic.Alchemy.addRecipe(<minecraft:grass>,[<minecraft:dirt>,<minecraft:dirt>,<Botania:fertilizer>,<Botania:fertilizer>,<Botania:fertilizer>],2,1000);
 recipes.remove(<minecraft:planks:*>);
 mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:weakBloodOrb>);
-mods.bloodmagic.Altar.addRecipe(<minecraft:planks>, <Quadrum:oakwoodsplinter>, 1,100,20,20);
 mods.bloodmagic.Altar.addRecipe(<minecraft:planks>, <minecraft:bone>, 1,100,1,1);
 mods.bloodmagic.Altar.addRecipe(<minecraft:planks>, <minecraft:bone:1>, 1,100,1,1);
 mods.bloodmagic.Altar.addRecipe(<minecraft:dirt>, <minecraft:skull>, 1,100,1,1);
