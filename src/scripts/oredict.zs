@@ -3,3 +3,24 @@
 <ore:nuggetTin>.remove(<TConstruct:oreBerries>);
 <ore:nuggetCopper>.remove(<TConstruct:oreBerries>);
 <ore:nuggetAluminum>.remove(<TConstruct:oreBerries>);
+
+val woodSplinter = <ore:woodSplinter>;
+woodSplinter.add(<Quadrum:birchwoodsplinter>);
+woodSplinter.add(<Quadrum:cypresswoodsplinter>);
+woodSplinter.add(<Quadrum:eucalyptuswoodsplinter>);
+woodSplinter.add(<Quadrum:darkoakwoodsplinter>);
+woodSplinter.add(<Quadrum:sakurawoodsplinter>);
+woodSplinter.add(<Quadrum:alderwoodsplinter>);
+woodSplinter.add(<Quadrum:autumnwoodsplinter>);
+woodSplinter.add(<Quadrum:junglewoodsplinter>);
+woodSplinter.add(<Quadrum:rowanwoodsplinter>);
+woodSplinter.add(<Quadrum:silverwoodsplinter>);
+woodSplinter.add(<Quadrum:hawthornwoodsplinter>);
+woodSplinter.add(<Quadrum:redwoodsplinter>);
+woodSplinter.add(<Quadrum:greatwoodsplinter>);
+woodSplinter.add(<Quadrum:sprucewoodsplinter>);
+woodSplinter.add(<Quadrum:acaciawoodsplinter>);
+woodSplinter.add(<Quadrum:oakwoodsplinter>);
+woodSplinter.add(<Quadrum:baldcypresswoodsplinter>);
+woodSplinter.add(<Quadrum:firwoodsplinter>);
+woodSplinter.add(<Quadrum:taintwoodsplinter>);
