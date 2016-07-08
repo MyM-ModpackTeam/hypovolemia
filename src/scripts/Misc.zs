@@ -27,3 +27,7 @@ mods.botania.ManaInfusion.addAlchemy(<technom:itemBO>, <Botania:manaResource:23>
 mods.botania.Lexicon.removePage("tc.research_name.TECHNOBASICS", 1);
 
 mods.botania.Lexicon.addAlchemyPage("techno:itemBO.0.name", "tc.research_name.TECHNOBASICS", 1, [<technom:itemBO>], [<Botania:manaResource:23>],[1000]);
+
+recipes.addShapeless(<ExtrabiomesXL:terrain_blocks1:1>, [<magicalcrops:magicalcrops_EarthEssence>,<magicalcrops:magicalcrops_EarthEssence> ,<magicalcrops:magicalcrops_EarthEssence> , <magicalcrops:magicalcrops_FireEssence>]);
+recipes.addShapeless(<chisel:limestone>, [<magicalcrops:magicalcrops_EarthEssence>,<magicalcrops:magicalcrops_EarthEssence> ,<magicalcrops:magicalcrops_EarthEssence> ,<magicalcrops:magicalcrops_WaterEssence> ]);
+recipes.addShapeless(<chisel:marble>, [<magicalcrops:magicalcrops_EarthEssence>,<magicalcrops:magicalcrops_EarthEssence> ,<magicalcrops:magicalcrops_EarthEssence> ,<magicalcrops:magicalcrops_AirEssence> ]);
