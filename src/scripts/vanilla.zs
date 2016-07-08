@@ -31,6 +31,7 @@ recipes.addShapeless(<Quadrum:acaciawoodsplinter> *4,[<minecraft:log2>]);
 recipes.addShapeless(<Quadrum:baldcypresswoodsplinter> *4,[<ExtrabiomesXL:log2:2>]);
 recipes.addShapeless(<Quadrum:firwoodsplinter> *4,[<ExtrabiomesXL:log1>]);
 recipes.addShapeless(<Quadrum:taintwoodsplinter> *4,[<ForbiddenMagic:TaintLog>]);
+recipes.addShapeless(<Quadrum:eacaciawoodsplinter> *4, [<ExtrabiomesXL:log1:1>]);
 
 //ztones ofanix removal
 recipes.remove(<Ztones:ofanix>);
