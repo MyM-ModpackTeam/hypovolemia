@@ -31,6 +31,7 @@ mods.bloodmagic.Altar.addRecipe(<minecraft:planks>, <Quadrum:oakwoodsplinter>, 1
 mods.bloodmagic.Altar.addRecipe(<ExtrabiomesXL:planks:7>, <Quadrum:baldcypresswoodsplinter>, 1,100,20,20);
 mods.bloodmagic.Altar.addRecipe(<ExtrabiomesXL:planks:1>, <Quadrum:firwoodsplinter>, 1,100,20,20);
 mods.bloodmagic.Altar.addRecipe(<ForbiddenMagic:TaintPlank>, <Quadrum:taintwoodsplinter>, 1,100,20,20);
+mods.bloodmagic.Altar.addRecipe(<ExtrabiomesXL:log1:1>, <Quadrum:eacaciawoodsplinter>, 1,100,20,20);
 
 // Basic resource recipes
 mods.bloodmagic.Alchemy.removeRecipe(<minecraft:grass>);
