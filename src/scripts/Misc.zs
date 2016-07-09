@@ -31,3 +31,10 @@ mods.botania.Lexicon.addAlchemyPage("techno:itemBO.0.name", "tc.research_name.TE
 recipes.addShapeless(<ExtrabiomesXL:terrain_blocks1:1>, [<magicalcrops:magicalcrops_EarthEssence>,<magicalcrops:magicalcrops_EarthEssence> ,<magicalcrops:magicalcrops_EarthEssence> , <magicalcrops:magicalcrops_FireEssence>]);
 recipes.addShapeless(<chisel:limestone>, [<magicalcrops:magicalcrops_EarthEssence>,<magicalcrops:magicalcrops_EarthEssence> ,<magicalcrops:magicalcrops_EarthEssence> ,<magicalcrops:magicalcrops_WaterEssence> ]);
 recipes.addShapeless(<chisel:marble>, [<magicalcrops:magicalcrops_EarthEssence>,<magicalcrops:magicalcrops_EarthEssence> ,<magicalcrops:magicalcrops_EarthEssence> ,<magicalcrops:magicalcrops_AirEssence> ]);
+
+recipes.remove(<Mekanism:BasicBlock2>);
+recipes.remove(<Mekanism:BasicBlock:14>);
+recipes.remove(<Mekanism:BasicBlock:15>);
+NEI.hide(<Mekanism:BasicBlock2>);
+NEI.hide(<Mekanism:BasicBlock:14>);
+NEI.hide(<Mekanism:BasicBlock:15>);
