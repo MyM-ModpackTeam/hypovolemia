@@ -1,0 +1,6 @@
+import minetweaker.item.IItemStack;
+import mods.nei.NEI.hide;
+
+hide(thermalEvap);
+hide(thermalEvapController);
+hide(thermalEvapValve);
