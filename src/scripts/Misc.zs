@@ -1,3 +1,5 @@
+import mods.nei.NEI;
+
 val slab = <ore:slabCobblestone>;
 slab.add(<ExtrabiomesXL:slabRedRock>);
 val cob = <ore:cobblestone>;
