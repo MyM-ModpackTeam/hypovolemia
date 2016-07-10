@@ -105,4 +105,4 @@ addRecipe(infusedBrewBase*1, [soupRedstone,frogToe,creeperHeart,brewFlowingSpiri
 
 
 addRecipe(osmiumSeeds, [ironBlock, coal, minicioSeeds], 2, 25000);
-addRecipe(natureEssence * 4, [minicioEssence * 2, natureEssence * 2, bonemeal], 2, 10000);
+addRecipe(natureSeeds, [minicioEssence * 2, natureEssence * 2, bonemeal], 2, 10000);
