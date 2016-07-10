@@ -40,6 +40,17 @@ addRecipe(castLargePlate,[patternBlank,ironBlock,ironBlock],3,5000);
 addRecipe(castBroadAxeHead,[patternBlank,ironaxe,ironaxe,ironaxe],3,5000);
 addRecipe(castExcahatorHead,[patternBlank,ironshov,ironshov,ironshov],3,5000);
 addRecipe(castHammerHead,[patternBlank,ironpick,ironpick,ironpick],3,5000);
+addRecipe(castToolRod,[patternBlank1,stick],2,1000);
+addRecipe(castPickHead,[patternBlank1,ironpick],2,1000);
+addRecipe(castShovelHead,[patternBlank1,ironshov],2,1000);
+addRecipe(castAxeHead,[patternBlank1,ironaxe],2,1000);
+addRecipe(castBinding,[patternBlank1,castHammerHead,ironToughRod],2,1000);
+addRecipe(castToughRod,[patternBlank1,PlaStick],2,1000);
+addRecipe(castToughBinding,[patternBlank1,steelToughRod,steelToughRod],3,5000);
+addRecipe(castLargePlate,[patternBlank1,ironBlock,ironBlock],3,5000);
+addRecipe(castBroadAxeHead,[patternBlank1,ironaxe,ironaxe,ironaxe],3,5000);
+addRecipe(castExcahatorHead,[patternBlank1,ironshov,ironshov,ironshov],3,5000);
+addRecipe(castHammerHead,[patternBlank1,ironpick,ironpick,ironpick],3,5000);
 addRecipe(airShard,[airEssence,airEssence,airEssence,ironIngot,ironIngot],2,5000);
 addRecipe(fireShard,[fireEssence,fireEssence,fireEssence,ironIngot,ironIngot],2,5000);
 addRecipe(waterShard,[waterEssence,waterEssence,waterEssence,ironIngot,ironIngot],2,5000);
@@ -54,11 +65,6 @@ addRecipe(upgradeT4, [upgradeT3, obby,obby,obby,obby], 2, 4000);
 addRecipe(upgradeT5, [upgradeT4, diagem,diagem,diagem,diagem], 3, 8000);
 addRecipe(upgradeT6, [upgradeT5, emeraldgem,emeraldgem,emeraldgem,emeraldgem], 4, 16000);
 
-
-//Note: Add ingredients as globals!-!
-addRecipe(rowanPlanks *2, [woodsplinter *2,rowanBerries] ,1,200);
-addRecipe(alderPlanks *2, [woodsplinter *2,mutandis] ,1,200);
-addRecipe(hawthornPlanks *2, [woodsplinter *2,woodAsh] ,1,200);
 
 addRecipe(brewSleeping*3, [whiffMagic,pureMilk,brewLove,waterArtichoke,iceNeedle], 3,10000);
 addRecipe(brewVines*3, [<minecraft:vine>,tongueDog,reekMisfortune,<minecraft:wheat>,<minecraft:brown_mushroom>], 3,5000);
@@ -96,3 +102,7 @@ addRecipe(worldSoul*2, [soupRedstone,attunedstone,<witchery:witchsapling:0>,<min
 addRecipe(otherwhereSpirit*2, [soupRedstone,luckDrop,woolBat,<minecraft:ender_eye>,<minecraft:potion:8258>], 3,5000);
 addRecipe(infernalAnimus*2, [soupRedstone,demonHeart,refinedEvil,<witchery:poppet:8>,<minecraft:potion:8236>], 3,5000);
 addRecipe(infusedBrewBase*1, [soupRedstone,frogToe,creeperHeart,brewFlowingSpirit,wingOwlet], 3,5000);
+
+
+addRecipe(osmiumSeeds, [ironBlock, coal, minicioSeeds], 2, 25000);
+addRecipe(natureEssence * 4, [minicioEssence * 2, natureEssence * 2, bonemeal], 2, 10000);

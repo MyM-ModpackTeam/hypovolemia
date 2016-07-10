@@ -126,3 +126,4 @@ recipes.remove(seedBagZivicio);
 recipes.remove(thermalEvap);
 recipes.remove(thermalEvapController);
 recipes.remove(thermalEvapValve);
+recipes.remove(orePlankWood);
