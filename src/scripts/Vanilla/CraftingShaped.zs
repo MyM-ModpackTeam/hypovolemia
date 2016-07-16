@@ -30,6 +30,9 @@ recipes.addShaped(growthSigil, [[null, endstone, null], [endstone, slateBlank, e
 
 
 
+recipes.addShaped(redcobble, [[fireEssence, fireEssence], [fireEssence, earthEssence]]);
+recipes.addShaped(limestone, [[waterEssence, waterEssence], [waterEssence, earthEssence]]);
+recipes.addShaped(marble, [[airEssence, airEssence], [airEssence, earthEssence]]);
 
 
 
