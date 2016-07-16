@@ -30,9 +30,9 @@ mods.botania.Lexicon.removePage("tc.research_name.TECHNOBASICS", 1);
 
 mods.botania.Lexicon.addAlchemyPage("techno:itemBO.0.name", "tc.research_name.TECHNOBASICS", 1, [<technom:itemBO>], [<Botania:manaResource:23>],[1000]);
 
-recipes.addShapeless(<ExtrabiomesXL:terrain_blocks1:1>, [<magicalcrops:magicalcrops_EarthEssence>,<magicalcrops:magicalcrops_EarthEssence> ,<magicalcrops:magicalcrops_EarthEssence> , <magicalcrops:magicalcrops_FireEssence>]);
-recipes.addShapeless(<chisel:limestone>, [<magicalcrops:magicalcrops_EarthEssence>,<magicalcrops:magicalcrops_EarthEssence> ,<magicalcrops:magicalcrops_EarthEssence> ,<magicalcrops:magicalcrops_WaterEssence> ]);
-recipes.addShapeless(<chisel:marble>, [<magicalcrops:magicalcrops_EarthEssence>,<magicalcrops:magicalcrops_EarthEssence> ,<magicalcrops:magicalcrops_EarthEssence> ,<magicalcrops:magicalcrops_AirEssence> ]);
+recipes.addShaped(<ExtrabiomesXL:terrain_blocks1:1>, [[<magicalcrops:magicalcrops_FireEssence>, <magicalcrops:magicalcrops_FireEssence>, ], [<magicalcrops:magicalcrops_FireEssence>, <magicalcrops:magicalcrops_EarthEssence>, ]]);
+recipes.addShaped(<chisel:limestone>, [[<magicalcrops:magicalcrops_WaterEssence>, <magicalcrops:magicalcrops_WaterEssence>, ], [<magicalcrops:magicalcrops_WaterEssence>, <magicalcrops:magicalcrops_EarthEssence>, ], ]);
+recipes.addShaped(<chisel:marble>, [[<magicalcrops:magicalcrops_AirEssence>, <magicalcrops:magicalcrops_AirEssence>, ], [<magicalcrops:magicalcrops_AirEssence>, <magicalcrops:magicalcrops_EarthEssence>, ], ]);
 
 recipes.remove(<Mekanism:BasicBlock2>);
 recipes.remove(<Mekanism:BasicBlock:14>);
