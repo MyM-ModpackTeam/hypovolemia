@@ -631,3 +631,4 @@ global logExtraAcacia = <ExtrabiomesXL:log1:1>;
 
 
 global nuggetGold = <minecraft:gold_nugget>;
+global clearGlass = <TConstruct:GlassBlock>;
