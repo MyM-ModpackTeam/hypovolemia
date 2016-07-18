@@ -30,3 +30,11 @@ recipes.addShapeless(splinterBaldCypress * 4,[logBaldCypress]);
 recipes.addShapeless(splinterFir * 4,[logFir]);
 recipes.addShapeless(splinterTaint * 4,[logTaint]);
 recipes.addShapeless(splinterExtraAcacia * 4,[logExtraAcacia]);
+
+
+//MagicalCrops blocks -> Essence
+recipes.addShapeless(minicioEssence * 9, [minicoBlock]);
+recipes.addShapeless(accioEssence * 9, [accioBlock]);
+recipes.addShapeless(crucioEssence * 9, [crucioBlock]);
+recipes.addShapeless(imperioEssence * 9, [imperioBlock]);
+recipes.addShapeless(zivicioEssence * 9, [zivicioBlock]);
