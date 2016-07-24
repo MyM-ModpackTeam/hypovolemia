@@ -643,3 +643,4 @@ global infEgg = <witchery:infinityegg>;
 global dragonEgg = <minecraft:dragon_egg>;
 global lifeShard = <foundry:foundryComponent:22>;
 global kobolditePick = <witchery:kobolditepickaxe>;
+global bagHungry = <WitchingGadgets:item.WG_Bag:3>;
