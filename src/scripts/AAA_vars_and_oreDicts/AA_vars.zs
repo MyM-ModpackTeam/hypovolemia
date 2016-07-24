@@ -632,3 +632,14 @@ global logExtraAcacia = <ExtrabiomesXL:log1:1>;
 
 global nuggetGold = <minecraft:gold_nugget>;
 global clearGlass = <TConstruct:GlassBlock>;
+
+global fluidGold = <liquid:liquidgold>;
+global fluidIron = <liquid:liquidiron>;
+global fluidCopper = <liquid:liquidcopper>;
+global fluidTin = <liquid:liquidtin>;
+global fluidAlu = <liquid:liquidaluminum>;
+
+global infEgg = <witchery:infinityegg>;
+global dragonEgg = <minecraft:dragon_egg>;
+global lifeShard = <foundry:foundryComponent:22>;
+global kobolditePick = <witchery:kobolditepickaxe>;

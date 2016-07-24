@@ -148,3 +148,15 @@ addShaped(chaosshard,
 [null, null, neutroblock, neutroblock, neutroblock, neutroblock, neutroblock, null, null],
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
+
+#add infinity egg
+addShaped(infEgg, [
+  [null, null, neutronugget, neutronugget, null, neutronugget, neutronugget, null, null],
+  [null, neutronugget, lifeShard, lifeShard, neutronugget, lifeShard, lifeShard, neutronugget, null],
+  [neutronugget, lifeShard, contractFlame, candelabra, lifeShard, candelabra, contractFireRes, lifeShard, neutronugget],
+  [neutronugget, lifeShard, contractEvaporation, chaliceFull, dragonEgg, Pentacle, contractMelting, lifeShard, neutronugget],
+  [neutronugget, lifeShard, demonContract, dragonEgg, infcatalyst, dragonEgg, contractFireTouch, lifeShard, neutronugget],
+  [null, neutronugget, lifeShard, witherskull, dragonEgg, kobolditePick, lifeShard, neutronugget, null],
+  [null, null, neutronugget, lifeShard, attunedstoneCharged, lifeShard, neutronugget, null, null],
+  [null, null, null, neutronugget, lifeShard, neutronugget, null, null, null],
+  [null, null, null, null, neutronugget, null, null, null, null]]);
