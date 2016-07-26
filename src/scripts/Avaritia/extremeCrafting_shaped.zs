@@ -161,8 +161,6 @@ addShaped(infEgg, [
   [null, null, null, neutronugget, lifeShard, neutronugget, null, null, null],
   [null, null, null, null, neutronugget, null, null, null, null]]);
 
-
-
   #Green Heart Canister
 addShaped(heartCanisterGreen,[
 [null, null, ironBlock, ironBlock, ironBlock, ironBlock, ironBlock, null, null],
@@ -174,3 +172,16 @@ addShaped(heartCanisterGreen,[
 [ironBlock, heartCanisterEmpty, heartCanisterEmpty, emeraldgem, emeraldgem, emeraldgem, heartCanisterEmpty, heartCanisterEmpty, ironBlock],
 [null, ironBlock, heartCanisterEmpty, heartCanisterEmpty, emeraldgem, heartCanisterEmpty, heartCanisterEmpty, ironBlock, null],
 [null, null, ironBlock, ironBlock, ironBlock, ironBlock, ironBlock, null, null]]);
+
+#Lillith Spawn egg
+addShaped(lillithEgg,[
+  [torch, stringitem, stringitem, stringitem, stringitem, stringitem, stringitem, stringitem, torch],
+  [stringitem, stringitem, stringitem, stringitem, stringitem, stringitem, stringitem, stringitem, stringitem],
+  [stringitem, stringitem, redstoneDust, redstoneDust, redstoneDust, redstoneDust, redstoneDust, stringitem, stringitem],
+  [stringitem, stringitem, redstoneDust, eggNormal, glassgoblet, eggNormal, redstoneDust, stringitem, stringitem],
+  [stringitem, stringitem, redstoneDust, eggNormal, skull, eggNormal, redstoneDust, stringitem, stringitem],
+  [stringitem, stringitem, redstoneDust, eggNormal, boline, eggNormal, redstoneDust, stringitem, stringitem],
+  [stringitem, stringitem, redstoneDust, redstoneDust, redstoneDust, redstoneDust, redstoneDust, stringitem, stringitem],
+  [stringitem, stringitem, stringitem, stringitem, stringitem, stringitem, stringitem, stringitem, stringitem],
+  [torch, stringitem, stringitem, stringitem, stringitem, stringitem, stringitem, stringitem, torch],
+  ]);
