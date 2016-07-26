@@ -177,3 +177,10 @@ recipes.remove(<technom:existencePylon>);
 recipes.remove(<technom:existenceBurner:1>);
 recipes.remove(<technom:existenceBurner>);
 recipes.remove(<technom:existenceFountain>);
+
+//Magical crops infusion stone
+recipes.remove(<magicalcrops:magicalcrops_InfusionStoneWeak>);
+recipes.remove(<magicalcrops:magicalcrops_InfusionStoneRegular>);
+recipes.remove(<magicalcrops:magicalcrops_InfusionStoneStrong>);
+recipes.remove(<magicalcrops:magicalcrops_InfusionStoneExtreme>);
+recipes.remove(<<magicalcrops:magicalcrops_InfusionStoneMaster>);
