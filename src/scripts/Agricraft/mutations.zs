@@ -1,7 +1,13 @@
-import mods.agricraft.SeedMutation;
+import mods.agricraft.SeedMutation.add;
 
 //witchery
-SeedMutation.add(belladonnaseeds, wheatseeds, waterseeds);
-SeedMutation.add(snowbellseeds, belladonnaseeds, waterseeds);
-SeedMutation.add(mandrakeseeds, belladonnaseeds, snowbellseeds);
-SeedMutation.add(artichokeseeds, snowbellseeds, waterseeds);
+add(belladonnaseeds, wheatseeds, waterseeds);
+add(snowbellseeds, belladonnaseeds, waterseeds);
+add(mandrakeseeds, belladonnaseeds, snowbellseeds);
+add(artichokeseeds, snowbellseeds, waterseeds);
+add(garlicSeeds, snowbellseeds, wolfsbaneSeeds);
+add(wolfsbaneSeeds, snowbellseeds, mandrakeseeds);
+
+
+//add(output, parent1, parent2);
+add(seedsAmber, seedsCinderpearl, seedsShimmerleaf);
