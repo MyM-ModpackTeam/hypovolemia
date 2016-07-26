@@ -160,3 +160,17 @@ addShaped(infEgg, [
   [null, null, neutronugget, lifeShard, attunedstoneCharged, lifeShard, neutronugget, null, null],
   [null, null, null, neutronugget, lifeShard, neutronugget, null, null, null],
   [null, null, null, null, neutronugget, null, null, null, null]]);
+
+
+
+  #Green Heart Canister
+addShaped(heartCanisterGreen,[
+[null, null, ironBlock, ironBlock, ironBlock, ironBlock, ironBlock, null, null],
+[null, ironBlock, heartCanisterEmpty, heartCanisterEmpty, dragonheart, heartCanisterEmpty, heartCanisterEmpty, ironBlock, null],
+[ironBlock, heartCanisterEmpty, emeraldgem, emeraldgem, heartCanisterEmpty, emeraldgem, emeraldgem, heartCanisterEmpty, ironBlock],
+[ironBlock, emeraldgem, emeraldgem, emeraldgem, emeraldgem, emeraldgem, emeraldgem, emeraldgem, ironBlock],
+[ironBlock, emeraldgem, emeraldgem, emeraldgem, emeraldgem, emeraldgem, emeraldgem, emeraldgem, ironBlock],
+[ironBlock, heartCanisterEmpty, emeraldgem, emeraldgem, heartCanisterYellow, emeraldgem, emeraldgem, heartCanisterEmpty, ironBlock],
+[ironBlock, heartCanisterEmpty, heartCanisterEmpty, emeraldgem, emeraldgem, emeraldgem, heartCanisterEmpty, heartCanisterEmpty, ironBlock],
+[null, ironBlock, heartCanisterEmpty, heartCanisterEmpty, emeraldgem, heartCanisterEmpty, heartCanisterEmpty, ironBlock, null],
+[null, null, ironBlock, ironBlock, ironBlock, ironBlock, ironBlock, null, null]]);
