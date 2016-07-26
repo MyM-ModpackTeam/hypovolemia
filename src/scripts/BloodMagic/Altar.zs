@@ -89,6 +89,7 @@ addRecipe(planksSilverwood, splinterSilver, 1,100,20,20);
 addRecipe(planksGreatwood, splinterGreat, 1,100,20,20);
 addRecipe(planksTaintwood, splinterTaint, 1,100,20,20);
 addRecipe(planksExtraAcaciawood, splinterExtraAcacia, 1,100,20,20);
+addRecipe(amberGem, electrum, 3, 30000);
 
 
 addRecipe(silverSeeds,osmiumSeeds,3,100000);
