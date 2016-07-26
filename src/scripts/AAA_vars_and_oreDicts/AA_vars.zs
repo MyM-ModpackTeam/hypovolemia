@@ -668,3 +668,7 @@ global auraNode = <Thaumcraft:blockAiry>;
 global seedsAmber = <AgriCraft:seedAmber>;
 global orechid = <Botania:specialFlower>.withTag({type: "orechid"});
 global electrum = <ImmersiveEngineering:storage:6>;
+global leadIngot = <ImmersiveEngineering:metal:2>;
+global silverIngot = <ImmersiveEngineering:metal:3>;
+global nickelIngot = <ImmersiveEngineering:metal:4>;
+global shardBalanced = <Thaumcraft:ItemShard:6>;
