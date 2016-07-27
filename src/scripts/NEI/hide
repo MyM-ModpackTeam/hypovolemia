@@ -4,3 +4,4 @@ import mods.nei.NEI.hide;
 hide(thermalEvap);
 hide(thermalEvapController);
 hide(thermalEvapValve);
+<Avaritia:Endest_Pearl>.addTooltip(format.red("WARNING, When thrown, it creates a black hole which breaks any block in its way"));
