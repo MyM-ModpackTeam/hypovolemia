@@ -672,3 +672,24 @@ global leadIngot = <ImmersiveEngineering:metal:2>;
 global silverIngot = <ImmersiveEngineering:metal:3>;
 global nickelIngot = <ImmersiveEngineering:metal:4>;
 global shardBalanced = <Thaumcraft:ItemShard:6>;
+global seedsCinderpearl = <AgriCraft:seedCinderpearl>;
+global seedsShimmerleaf = <AgriCraft:seedShimmerleaf>;
+global seedsWormwood = <witchery:seedswormwood>;
+
+
+global umberSapling = <ExtrabiomesXL:saplings_1>;
+global goldenRodSapling = <ExtrabiomesXL:saplings_1:1>;
+global vermillionSapling = <ExtrabiomesXL:saplings_1:2>;
+global citrineSapling = <ExtrabiomesXL:saplings_1:3>;
+global firSapling = <ExtrabiomesXL:saplings_1:4>;
+global redSapling = <ExtrabiomesXL:saplings_1:5>;
+global acaciaSapling = <ExtrabiomesXL:saplings_1:6>;
+global vAcaciaSapling = <minecraft:sapling:4>;
+global cypressSapling = <ExtrabiomesXL:saplings_1:7>;
+global baldcypressSapling = <ExtrabiomesXL:saplings_2>;
+global japaneseMapleSapling = <ExtrabiomesXL:saplings_2:1>;
+global japaneseMapleShrubSapling = <ExtrabiomesXL:saplings_2:2>;
+global rainbowEucalyptusSapling = <ExtrabiomesXL:saplings_2:3>;
+global sakuraSapling = <ExtrabiomesXL:saplings_2:4>;
+global slimeSapling = <TConstruct:slime.sapling>;
+global slimeBlock = <TConstruct:slime.gel:1>;
