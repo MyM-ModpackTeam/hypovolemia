@@ -693,3 +693,4 @@ global rainbowEucalyptusSapling = <ExtrabiomesXL:saplings_2:3>;
 global sakuraSapling = <ExtrabiomesXL:saplings_2:4>;
 global slimeSapling = <TConstruct:slime.sapling>;
 global slimeBlock = <TConstruct:slime.gel:1>;
+global DSU = <MineFactoryReloaded:machine.1:3>;

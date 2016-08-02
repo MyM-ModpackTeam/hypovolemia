@@ -34,7 +34,7 @@ recipes.addShaped(redcobble, [[fireEssence, fireEssence], [fireEssence, earthEss
 recipes.addShaped(limestone, [[waterEssence, waterEssence], [waterEssence, earthEssence]]);
 recipes.addShaped(marble, [[airEssence, airEssence], [airEssence, earthEssence]]);
 
-
+recipes.addShaped(DSU, [[neutroingot, neutroblock, neutroingot],[upgradeT6, upgradeT6, upgradeT6],[upgradeT6, MFRMachineblock, upgradeT6]]);
 
 
 //recipes.addShaped(<minecraft:skull:3>.withTag({SkullOwner: "Sirwill"}), [[sirWillWeed, sirWillWeed, sirWillWeed], [redrock,skull, redrock],[sirWillWeed, sirWillWeed, sirWillWeed]]);

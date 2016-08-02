@@ -129,3 +129,4 @@ recipes.remove(accioEssence);
 recipes.remove(crucioEssence);
 recipes.remove(imperioEssence);
 recipes.remove(zivicioEssence);
+recipes.remove(DSU);
