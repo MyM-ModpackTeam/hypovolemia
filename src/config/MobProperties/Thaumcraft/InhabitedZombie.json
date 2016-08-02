@@ -1,0 +1,15 @@
+{
+  "_name": "Thaumcraft.InhabitedZombie",
+  "drops": [
+    {
+      "function": "remove",
+      "id": "minecraft:potato"
+    },
+    {
+      "function": "remove",
+      "id": "minecraft:carrot"
+    }
+  ],
+  "pre_stats": [],
+  "stats": []
+}
