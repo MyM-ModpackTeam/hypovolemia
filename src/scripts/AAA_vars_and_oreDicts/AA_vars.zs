@@ -181,6 +181,7 @@ global orbApprentice = <AWWayofTime:apprenticeBloodOrb>;
 global orbWeak = <AWWayofTime:weakBloodOrb>;
 global redstone = <minecraft:redstone_block>;
 global redrock = <ExtrabiomesXL:terrain_blocks1>;
+global redrockQuadrum = <Quadrum:redrock>;
 global redcobble = <ExtrabiomesXL:terrain_blocks1:1>;
 global chargedCertus = <appliedenergistics2:item.ItemMultiMaterial:1>;
 global pureCertus = <appliedenergistics2:item.ItemMultiMaterial:10>;
