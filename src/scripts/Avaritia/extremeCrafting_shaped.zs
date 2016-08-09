@@ -164,13 +164,13 @@ addShaped(infEgg, [
   #Green Heart Canister
 addShaped(heartCanisterGreen,[
 [null, null, ironBlock, ironBlock, ironBlock, ironBlock, ironBlock, null, null],
-[null, ironBlock, heartCanisterEmpty, heartCanisterEmpty, dragonheart, heartCanisterEmpty, heartCanisterEmpty, ironBlock, null],
-[ironBlock, heartCanisterEmpty, emeraldgem, emeraldgem, heartCanisterEmpty, emeraldgem, emeraldgem, heartCanisterEmpty, ironBlock],
-[ironBlock, emeraldgem, emeraldgem, emeraldgem, emeraldgem, emeraldgem, emeraldgem, emeraldgem, ironBlock],
-[ironBlock, emeraldgem, emeraldgem, emeraldgem, emeraldgem, emeraldgem, emeraldgem, emeraldgem, ironBlock],
-[ironBlock, heartCanisterEmpty, emeraldgem, emeraldgem, heartCanisterYellow, emeraldgem, emeraldgem, heartCanisterEmpty, ironBlock],
-[ironBlock, heartCanisterEmpty, heartCanisterEmpty, emeraldgem, emeraldgem, emeraldgem, heartCanisterEmpty, heartCanisterEmpty, ironBlock],
-[null, ironBlock, heartCanisterEmpty, heartCanisterEmpty, emeraldgem, heartCanisterEmpty, heartCanisterEmpty, ironBlock, null],
+[null, ironBlock, heartCanisterEmpty, heartCanisterEmpty, heartMiniGreen, heartCanisterEmpty, heartCanisterEmpty, ironBlock, null],
+[ironBlock, heartCanisterEmpty, emerald, emerald, heartCanisterEmpty, emerald, emerald, heartCanisterEmpty, ironBlock],
+[ironBlock, emerald, emerald, emerald, emerald, emerald, emerald, emerald, ironBlock],
+[ironBlock, emerald, emerald, emerald, emerald, emerald, emerald, emerald, ironBlock],
+[ironBlock, heartCanisterEmpty, emerald, emerald, heartCanisterYellow, emerald, emerald, heartCanisterEmpty, ironBlock],
+[ironBlock, heartCanisterEmpty, heartCanisterEmpty, emerald, emerald, emerald, heartCanisterEmpty, heartCanisterEmpty, ironBlock],
+[null, ironBlock, heartCanisterEmpty, heartCanisterEmpty, emerald, heartCanisterEmpty, heartCanisterEmpty, ironBlock, null],
 [null, null, ironBlock, ironBlock, ironBlock, ironBlock, ironBlock, null, null]]);
 
 #Lillith Spawn egg
