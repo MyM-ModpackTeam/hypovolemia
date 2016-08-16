@@ -122,7 +122,6 @@ recipes.remove(thermalEvapController);
 recipes.remove(thermalEvapValve);
 recipes.remove(orePlankWood);
 recipes.remove(cluster);
-
 recipes.remove(minicioEssence);
 recipes.remove(accioEssence);
 recipes.remove(crucioEssence);
