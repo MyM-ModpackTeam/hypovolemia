@@ -75,7 +75,6 @@ recipes.remove(blockBreaker);
 recipes.remove(fluixSeed);
 recipes.remove(netherSeed);
 recipes.remove(certusSeed);
-recipes.removeShaped(steelCasing, [[ironGear, oreSteelIngot, ironGear], [oreSteelIngot, ironGear, oreSteelIngot], [ironGear, oreSteelIngot, ironGear]]);
 recipes.remove(superHeater);
 recipes.remove(scubaTank);
 recipes.remove(BMWoodAsh);
