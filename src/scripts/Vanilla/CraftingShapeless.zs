@@ -4,7 +4,6 @@ import minetweaker.item.IItemStack;
 
 recipes.addShapeless(obbyTotem, [obbyTile, obbyTile, obbyTile, obbyTile]);
 recipes.addShapeless(bonemeal * 3, [bone1]);
-recipes.addShapeless(woodsplinter * 4, [woodlog]);
 recipes.addShapeless(redstone, [lavabuck, sandOredict]);
 recipes.addShapeless(wool, [sheepEssence, sheepEssence, oreTierMinicoEssence, oreTierMinicoEssence, oreTierMinicoEssence,oreTierMinicoEssence, oreTierMinicoEssence, oreTierMinicoEssence, oreTierMinicoEssence]);
 
