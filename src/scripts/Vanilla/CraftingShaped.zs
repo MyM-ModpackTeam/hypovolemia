@@ -22,7 +22,7 @@ recipes.addShaped(enderDust*3, [[enderpearl]]);
 recipes.addShaped(calcCircuit, [[pureCertus, basicCircuit]]);
 recipes.addShaped(engiCircuit, [[diagem, basicCircuit]]);
 recipes.addShaped(logicCircuit, [[goldIngot, basicCircuit]]);
-recipes.addShaped(cardBox, [[paper,paper, paper], [paper, paper]]);
+recipes.addShaped(cardBox, [[paper, paper, paper], [paper, null, paper], [paper, paper, paper]]);
 recipes.addShaped(BMWoodAsh, [[goldIngot, goldIngot, goldIngot], [goldIngot, woodAsh, goldIngot], [goldIngot, goldIngot,goldIngot]]);
 recipes.addShaped(growthSigil, [[null, endstone, null], [endstone, slateBlank, endstone], [null, endstone, null]]);
 
