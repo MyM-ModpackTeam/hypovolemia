@@ -7,9 +7,9 @@
     "type": "block",
     "drops-self": "false",
     "drops": [
-        {"item": "ExtrabiomesXL:terrain_blocks1:1", "amount": "1"}
+        {"item": "ExtrabiomesXL:terrain_blocks1", "damage": "1", "amount": "1"}
     ],
-	"flammable": "false",
+    "flammable": "false",
     "mining-level": 1,
     "requires-tool": "false"
 }
