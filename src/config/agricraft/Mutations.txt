@@ -23,3 +23,12 @@ AgriCraft:seedCinderpearl=AgriCraft:seedCactus+AgriCraft:seedTulipRed
 AgriCraft:seedShimmerleaf=AgriCraft:seedTulipWhite+AgriCraft:seedCinderpearl
 AgriCraft:seedVishroom=AgriCraft:seedShroomBrown+AgriCraft:seedShimmerleaf
 AgriCraft:seedTaintedRoot=AgriCraft:seedVishroom+minecraft:nether_wart
+
+witchery:seedsbelladonna=minecraft:wheat_seeds+magicalcrops:magicalcrops_WaterSeeds
+witchery:seedssnowbell=witchery:seedsbelladonna+magicalcrops:magicalcrops_WaterSeeds
+witchery:seedsmandrake=witchery:seedsbelladonna+witchery:seedssnowbell
+witchery:seedsartichoke=witchery:seedssnowbell+magicalcrops:magicalcrops_WaterSeeds
+witchery:garlic=witchery:seedssnowbell+witchery:seedswolfsbane
+witchery:seedswolfsbane=witchery:seedssnowbell+witchery:seedsmandrake
+
+AgriCraft:seedAmber=AgriCraft:seedCinderpearl+AgriCraft:seedShimmerleaf
